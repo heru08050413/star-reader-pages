@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StarReader - Daily English Reading Adventure for Kids</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="StarReader">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌟</text></svg>">
+  <link rel="manifest" href="manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Confetti Canvas for celebration animations -->
+  <canvas id="confettiCanvas"></canvas>
+
+  <!-- Application Header -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="logo-section" onclick="navigateToTab('reader')">
+        <div class="logo-icon">🌟</div>
+        <div class="logo-text">
+          <h1>StarReader</h1>
+        </div>
+      </div>
+      <div class="header-stats">
+        <div class="stat-pill streak" title="Your daily reading streak">
+          <span>🔥</span> <span id="headerStreakCount">1</span> Day Streak
+        </div>
+        <div class="stat-pill stars" title="Total stars earned from quizzes">
+          <span>⭐</span> <span id="headerStarCount">0</span> Stars
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation Tabs -->
+  <nav class="app-nav">
+    <div class="nav-container">
+      <button class="nav-btn active" data-tab="reader" onclick="navigateToTab('reader')">
+        <span>📖</span> Today's Story
+      </button>
+      <button class="nav-btn" data-tab="library" onclick="navigateToTab('library')">
+        <span>📚</span> Story Library (60 Days)
+      </button>
+      <button class="nav-btn" data-tab="words" onclick="navigateToTab('words')">
+        <span>🗂️</span> My Word Bank (<span id="navWordCount">0</span>)
+      </button>
+      <button class="nav-btn" data-tab="achievements" onclick="navigateToTab('achievements')">
+        <span>🏆</span> Certificate & Stars
+      </button>
+      <button class="nav-btn" data-tab="parents" onclick="navigateToTab('parents')">
+        <span>👨‍👩‍👧</span> Parent Corner
+      </button>
+    </div>
+  </nav>
+
+  <!-- Main Content Wrapper -->
+  <main class="main-wrapper">
+
+    <!-- ==========================================
+         TAB 1: TODAY'S STORY / READER
+         ========================================== -->
+    <section id="tab-reader" class="tab-panel active">
+      <div class="reader-container">
+        
+        <!-- Story Top Header -->
+        <div class="story-header">
+          <div class="story-meta-tags">
+            <span class="tag tag-day" id="readerDayTag">Day 1</span>
+            <span class="tag tag-level" id="readerLevelTag">Level 1 • Starter</span>
+            <span class="tag tag-time" id="readerTimeTag">⏱️ 3 mins</span>
+            <span class="tag" style="background:#F3E8FF; color:#6B21A8;" id="readerWordCountTag">104 words</span>
+          </div>
+
+          <div class="story-title-row">
+            <div class="story-cover-emoji" id="readerCoverEmoji">🐿️</div>
+            <div>
+              <h2 class="story-title" id="readerTitle">Pip the Squirrel's Big Acorn</h2>
+            </div>
+          </div>
+        </div>
+
+        <!-- Audio & Reading Control Toolbar -->
+        <div class="reader-toolbar">
+          <div class="audio-controls">
+            <button class="btn btn-primary" id="btnPlayAudio" onclick="toggleReadAloud()">
+              <span id="audioPlayIcon">🔊</span> <span id="audioPlayText">Read to Me</span>
+            </button>
+            <button class="btn btn-outline btn-sm" id="btnStopAudio" onclick="stopSpeech()" style="display:none;">
+              ⏹️ Stop
+            </button>
+            
+            <!-- Speed Toggle for ESL (Slow / Normal) -->
+            <div class="speed-toggle" title="Reading audio speed">
+              <button class="speed-option active" id="speedSlow" onclick="setSpeed(0.8)">🐢 Slow (0.8x)</button>
+              <button class="speed-option" id="speedNormal" onclick="setSpeed(1.0)">🐇 Normal (1.0x)</button>
+            </div>
+            <!-- Test Sound Button for iPad -->
+            <button class="btn btn-outline btn-sm" onclick="testSoundOnDevice()" title="Test audio and voice on your device">
+              🔊 Test Sound
+            </button>
+          </div>
+
+          <div class="view-controls">
+            <!-- Text Size Options -->
+            <button class="font-size-btn" onclick="adjustFontSize(-1)" title="Smaller text">A-</button>
+            <button class="font-size-btn" onclick="adjustFontSize(1)" title="Larger text">A+</button>
+            
+            <!-- Reading Themes -->
+            <button class="theme-btn" onclick="setTheme('day')" title="Sunny Day Theme">☀️</button>
+            <button class="theme-btn" onclick="setTheme('warm')" title="Warm Paper Theme">📜</button>
+            <button class="theme-btn" onclick="setTheme('soft-night')" title="Soft Night Theme">🌙</button>
+            
+            <!-- Print Story -->
+            <button class="btn btn-outline btn-sm no-print" onclick="window.print()" title="Print this story onto paper">
+              🖨️ Print
+            </button>
+          </div>
+        </div>
+
+        <!-- Story Content (Injected by JS) -->
+        <article class="story-content" id="storyContentArea">
+          <!-- Story paragraphs populated by app.js -->
+        </article>
+
+        <!-- Story Action Footer & Quiz -->
+        <div class="story-footer">
+          <div class="finish-reading-card" id="finishCard">
+            <h3>Did you enjoy today's reading?</h3>
+            <p>Click below to complete today's reading and unlock your fun quiz stars!</p>
+            <button class="btn finish-btn" onclick="completeReading()">
+              🎉 I Finished Reading! (Start Quiz)
+            </button>
+          </div>
+
+          <!-- Interactive Quiz Section -->
+          <div class="quiz-section" id="quizSection">
+            <div class="quiz-header">
+              <h3>⭐ Story Comprehension Quiz</h3>
+              <span id="quizScoreDisplay" style="font-weight:700; color:var(--primary);">Answer the questions to earn stars!</span>
+            </div>
+            <div id="quizQuestionsContainer">
+              <!-- Questions generated by app.js -->
+            </div>
+          </div>
+
+          <!-- Story Navigation Prev / Next -->
+          <div class="story-nav-buttons">
+            <button class="btn btn-outline" id="btnPrevStory" onclick="navigateStory(-1)">
+              ⬅️ Previous Story
+            </button>
+            <button class="btn btn-primary" id="btnNextStory" onclick="navigateStory(1)">
+              Next Story ➡️
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==========================================
+         TAB 2: STORY LIBRARY (60+ DAYS)
+         ========================================== -->
+    <section id="tab-library" class="tab-panel">
+      <div class="library-header">
+        <div>
+          <h2 style="font-size: 1.8rem; font-weight:800;">Daily Reading Library (<span id="libraryTotalCount">60</span> Stories)</h2>
+          <p style="color:var(--text-muted); font-weight:600;">One story each day • Leveled English reading for 8-year-olds</p>
+        </div>
+        <div class="week-selector-bar" id="libraryFilterButtons">
+          <button class="week-tab-btn active" onclick="filterLibraryView('all')">All Stories</button>
+          <button class="week-tab-btn" onclick="filterLibraryView('month1')">Month 1 (Days 1–30)</button>
+          <button class="week-tab-btn" onclick="filterLibraryView('month2')">Month 2 (Days 31–60)</button>
+          <button class="week-tab-btn" onclick="filterLibraryView('custom')">Custom Stories</button>
+        </div>
+      </div>
+
+      <div class="stories-grid" id="storiesGridContainer">
+        <!-- Story cards dynamically generated by app.js -->
+      </div>
+    </section>
+
+
+    <!-- ==========================================
+         TAB 3: MY WORD BANK (FLASHCARDS)
+         ========================================== -->
+    <section id="tab-words" class="tab-panel">
+      <div class="word-bank-header">
+        <div>
+          <h2 style="font-size: 1.8rem; font-weight:800;">My English Word Bank</h2>
+          <p style="color:var(--text-muted); font-weight:600;">Words you collected from your stories! Click any card to hear pronunciation.</p>
+        </div>
+        <button class="btn btn-outline btn-sm" onclick="exportWordBank()">
+          💾 Save Words
+        </button>
+      </div>
+
+      <div class="flashcards-grid" id="flashcardsGrid">
+        <!-- Flashcards populated by app.js -->
+      </div>
+    </section>
+
+
+    <!-- ==========================================
+         TAB 4: ACHIEVEMENTS & CERTIFICATE
+         ========================================== -->
+    <section id="tab-achievements" class="tab-panel">
+      <div class="achievements-wrapper">
+        <h2 style="font-size: 1.8rem; font-weight:800; text-align:center;">🏆 Reading Badges & Milestones</h2>
+        
+        <div class="stats-overview-grid">
+          <div class="stat-card">
+            <div class="stat-card-icon">🔥</div>
+            <div class="stat-card-value" id="statsStreakVal">1</div>
+            <div class="stat-card-label">Day Streak</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card-icon">📖</div>
+            <div class="stat-card-value" id="statsStoriesReadVal">0 / 30</div>
+            <div class="stat-card-label">Stories Completed</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card-icon">⭐</div>
+            <div class="stat-card-value" id="statsTotalStarsVal">0</div>
+            <div class="stat-card-label">Quiz Stars Earned</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card-icon">🗂️</div>
+            <div class="stat-card-value" id="statsWordsLearnedVal">0</div>
+            <div class="stat-card-label">Words in Bank</div>
+          </div>
+        </div>
+
+        <!-- Printable Certificate Box -->
+        <div class="certificate-preview-box" id="certificateBox">
+          <div class="cert-stars">✨ ⭐ 🌟 ⭐ ✨</div>
+          <h1 class="cert-title">Certificate of Achievement</h1>
+          <p class="cert-subtitle">This certifies that superstar reader</p>
+          <div class="cert-name" id="certChildNameDisplay">Superstar Reader</div>
+          <p class="cert-desc">
+            has shown outstanding commitment, courage, and dedication in reading English every single day on the 30-Day StarReader Journey!
+          </p>
+          <div class="cert-badge-stamp">🎖️</div>
+          <div style="display:flex; justify-content:space-around; margin-top:1.5rem; font-weight:700; color:#78350F;">
+            <div>
+              <div style="border-bottom:2px solid #78350F; width:160px; margin-bottom:4px;" id="certDateDisplay">October 2026</div>
+              <small>Date Completed</small>
+            </div>
+            <div>
+              <div style="border-bottom:2px solid #78350F; width:160px; margin-bottom:4px;">StarReader Master</div>
+              <small>Reading Guide</small>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align:center; margin-top:1rem;">
+          <button class="btn btn-primary" onclick="window.print()">
+            🖨️ Print My Certificate
+          </button>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==========================================
+         TAB 5: PARENT CORNER & SETTINGS
+         ========================================== -->
+    <section id="tab-parents" class="tab-panel">
+      <div class="settings-card">
+        <h2 style="font-size: 1.6rem; font-weight:800; margin-bottom:1rem;">👨‍👩‍👧 Parent & Teacher Guide</h2>
+        <p style="color:var(--text-muted); font-weight:600; margin-bottom:1.5rem;">
+          Tailored specifically for an 8-year-old girl learning English as a second language.
+        </p>
+
+        <!-- Child Profile -->
+        <div class="form-group">
+          <label class="form-label" for="inputChildName">Child's Name (for Certificate & Greetings):</label>
+          <input type="text" id="inputChildName" class="form-control" placeholder="e.g. Sophie, Emma, Lily" onchange="saveChildName(this.value)">
+        </div>
+
+        <!-- 15-Minute Daily Routine Guide -->
+        <div style="background:var(--bg-page); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:1.25rem; margin-bottom:1.5rem;">
+          <h4 style="font-weight:800; margin-bottom:0.75rem; color:var(--primary);">🌟 The 15-Minute Daily ESL Routine</h4>
+          <ol style="margin-left:1.25rem; line-height:1.8; font-weight:600; font-size:0.95rem;">
+            <li><strong>Step 1: Listen First (3 mins):</strong> Click "Read to Me" on Turtle (0.8x) speed. Let her listen and look at the highlighted words.</li>
+            <li><strong>Step 2: Read Together (5 mins):</strong> Read the story out loud together. If she stumbles on a word, she can click it to hear the pronunciation!</li>
+            <li><strong>Step 3: Check Vocabulary (2 mins):</strong> Tap the highlighted pink words with ✨ to learn what they mean. Click "Add to My Word Bank".</li>
+            <li><strong>Step 4: Quiz & Talk Time (5 mins):</strong> Let her answer the 3 quiz questions and answer the daily speaking challenge prompt out loud.</li>
+          </ol>
+        </div>
+
+        <!-- iPad & Tablet Guide -->
+        <div style="background:#F0FDF4; border:1px solid #BBF7D0; border-radius:var(--radius-md); padding:1.25rem; margin-bottom:1.5rem;">
+          <h4 style="font-weight:800; margin-bottom:0.75rem; color:#15803D;">📱 How to Open on iPad or Tablet</h4>
+          <ol style="margin-left:1.25rem; line-height:1.8; font-weight:600; font-size:0.95rem; color:#166534;">
+            <li>Double-click <code>start_for_ipad.bat</code> on this computer.</li>
+            <li>Connect your iPad to the <strong>same home Wi-Fi</strong>.</li>
+            <li>Open Safari on iPad and enter: <code>http://192.168.3.24:8000</code></li>
+            <li>Tap Safari's <strong>Share</strong> button (arrow pointing up) ➡️ <strong>"Add to Home Screen"</strong> to install it full-screen like a real App!</li>
+          </ol>
+        </div>
+
+        <!-- Add Custom Story Section -->
+        <h3 style="font-size:1.3rem; font-weight:800; margin-top:2rem; margin-bottom:0.75rem;">✍️ Add a Single Custom Story</h3>
+        <p style="color:var(--text-muted); font-size:0.9rem; margin-bottom:1rem;">
+          Want to add school reading passages, bedtime stories, or personal adventures? You can add them here:
+        </p>
+
+        <form id="customStoryForm" onsubmit="handleCustomStorySubmit(event)">
+          <div class="form-group">
+            <label class="form-label">Story Title:</label>
+            <input type="text" id="customTitle" class="form-control" placeholder="e.g. The Butterfly in Grandma's Kitchen" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Story Emoji Icon:</label>
+            <input type="text" id="customEmoji" class="form-control" placeholder="e.g. 🦋 or 🦄" style="width:100px;" value="📖">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Story Content (separate paragraphs with blank lines):</label>
+            <textarea id="customContent" class="form-control" rows="5" placeholder="Write your story here..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            ➕ Add Story to Library
+          </button>
+        </form>
+
+        <!-- Batch Import / Story Packs -->
+        <div style="margin-top:2.5rem; padding:1.5rem; background:var(--bg-page); border:2px dashed var(--border-color); border-radius:var(--radius-lg);">
+          <h3 style="font-size:1.2rem; font-weight:800; margin-bottom:0.5rem; color:var(--primary);">📦 Import More Stories / Story Packs</h3>
+          <p style="color:var(--text-muted); font-size:0.9rem; margin-bottom:1rem;">
+            You can load batches of new stories (10, 30, or 60 stories) from a JSON file, or paste them directly:
+          </p>
+          <div style="display:flex; gap:0.75rem; flex-wrap:wrap; margin-bottom:1rem;">
+            <input type="file" id="storyPackFileInput" accept=".json" style="display:none;" onchange="handleStoryPackFileUpload(event)">
+            <button class="btn btn-primary btn-sm" onclick="document.getElementById('storyPackFileInput').click()">
+              📁 Upload Story Pack (.json)
+            </button>
+            <button class="btn btn-outline btn-sm" onclick="exportCustomStories()">
+              💾 Export My Custom Stories
+            </button>
+          </div>
+          <div>
+            <label class="form-label" style="font-size:0.85rem;">Or Paste Story Pack JSON:</label>
+            <textarea id="pasteStoryPackArea" class="form-control" rows="3" placeholder='Paste [{"title": "...", "paragraphs": [...]}] here...'></textarea>
+            <button class="btn btn-outline btn-sm" style="margin-top:0.5rem;" onclick="importPastedStoryPack()">
+              📥 Import Pasted Stories
+            </button>
+          </div>
+        </div>
+
+        <div style="margin-top:2.5rem; padding-top:1.5rem; border-top:1px solid var(--border-color); display:flex; justify-content:space-between; align-items:center;">
+          <button class="btn btn-outline btn-sm" onclick="resetProgressConfirm()" style="color:#EF4444; border-color:#FCA5A5;">
+            ⚠️ Reset All Progress
+          </button>
+          <span style="font-size:0.85rem; color:var(--text-muted);">StarReader v1.0 • All progress saved locally in browser</span>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================
+       VOCABULARY POPUP MODAL
+       ========================================== -->
+  <div class="modal-overlay" id="vocabModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-word-title">
+          <span class="modal-emoji" id="modalEmoji">✨</span>
+          <div>
+            <h3 id="modalWord">word</h3>
+            <span class="syllables-tag" id="modalSyllables">syl-la-ble</span>
+          </div>
+        </div>
+        <button class="modal-close-btn" onclick="closeVocabModal()" title="Close">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-pronunciation">
+          <button class="btn btn-outline btn-sm" onclick="speakCurrentModalWord()">
+            🗣️ Hear Pronunciation
+          </button>
+          <span class="phonetic-text" id="modalPhonetic">/fəˈnet.ɪk/</span>
+        </div>
+
+        <div class="modal-section">
+          <div class="modal-label">Meaning:</div>
+          <div class="modal-definition" id="modalDefinition">Definition of the word.</div>
+        </div>
+
+        <div class="modal-section">
+          <div class="modal-label">Example in a Sentence:</div>
+          <div class="modal-example" id="modalExample">"Example sentence goes here."</div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-outline btn-sm" onclick="closeVocabModal()">
+          Close
+        </button>
+        <button class="btn btn-primary btn-sm" id="btnAddToWordBank" onclick="toggleSaveModalWord()">
+          ❤️ Add to Word Bank
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Application Logic -->
+  <script src="stories.js"></script>
+  <script src="stories_month2.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

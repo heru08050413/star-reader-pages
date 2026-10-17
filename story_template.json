@@ -1,0 +1,50 @@
+[
+  {
+    "title": "The Golden Butterfly of the Enchanted Meadow",
+    "coverEmoji": "🦋",
+    "category": "Magic & Nature",
+    "level": "Growing",
+    "readingTime": "4 mins",
+    "intro": "A shimmering golden butterfly guides Lily to a secret field of musical wildflowers.",
+    "paragraphs": [
+      "One warm afternoon, Lily was reading under an apple tree when a butterfly with shimmering metallic gold wings fluttered past her nose.",
+      "'Follow me!' the butterfly seemed to whisper with each flutter of its wings.",
+      "Lily followed the golden spark through a gap in the stone wall into an enchanted meadow. Soft, tinkling music echoed in the breeze.",
+      "The wildflowers were not ordinary flowers at all—they were musical bell flowers that chimed whenever the wind blew!",
+      "Lily sat gently in the fragrant grass and listened to the peaceful song of the meadow, smiling with pure wonder."
+    ],
+    "vocabulary": [
+      {
+        "word": "metallic",
+        "syllables": "me-tal-lic",
+        "phonetic": "/məˈtæl.ɪk/",
+        "definition": "Shiny and bright like real metal or gold.",
+        "example": "The sports car had a shiny metallic blue finish.",
+        "emoji": "✨"
+      },
+      {
+        "word": "enchanted",
+        "syllables: ": "en-chant-ed",
+        "phonetic": "/ɪnˈtʃæn.tɪd/",
+        "definition": "Charming, magical, or filled with delightful wonder.",
+        "example": "The fairytale castle stood in an enchanted forest.",
+        "emoji": "🪄"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What color were the butterfly's wings?",
+        "options": ["Plain brown", "Shimmering metallic gold", "Jet black", "Bright green"],
+        "answerIndex": 1,
+        "explanation": "The butterfly had shimmering metallic gold wings."
+      },
+      {
+        question: "What made the tinkling music in the meadow?",
+        options: ["A radio", "Musical bell flowers that chimed in the breeze", "Singing birds", "A flute"],
+        answerIndex: 1,
+        explanation: "The wildflowers were musical bell flowers that chimed in the breeze."
+      }
+    ],
+    "funPrompt": "If flowers could make musical sounds, what would your favorite flower sound like?"
+  }
+]
