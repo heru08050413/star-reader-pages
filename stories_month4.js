@@ -2827,6 +2827,407 @@ const MONTH4_STORIES = [
       }
     ],
     "funPrompt": "If you made a picture for a school show, what would you draw and why?"
+  },
+  {
+    "id": 136,
+    "day": 136,
+    "title": "A Visit to a Historical Castle",
+    "coverEmoji": "🏰",
+    "category": "History & Culture",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "An eleventh-century castle: ramparts, dungeons and an eagle on a gloved hand.",
+    "wordCount": 273,
+    "paragraphs": [
+      "Exploring medieval castles gives students a real connection to history. Last Thursday, our history class went on a trip to historic Warwick Castle. The magnificent stone fortress was built in the eleventh century. Our guide, Dr Evans, met us at the main gate. He gave us printed maps showing the towers and royal courtyards.",
+      "We walked along the high stone ramparts, which gave us a wide view of the river. Dr Evans explained how thick walls protected the castle from enemy armies. Next, we went down spiral staircases to explore the dark dungeons. Iron bars, heavy doors and suits of armour lined the stone corridors. The guide said medieval knights wore heavy metal armour to defend themselves in battle.",
+      "In the grand banquet hall, a huge stone fireplace filled the north wall. Long oak tables were set with silver cups and ceramic plates. We imagined royal banquets with musicians playing harps and lutes.",
+      "Outside in the inner courtyard, a falconry team showed trained birds of prey. A magnificent golden eagle soared across the sky and landed on the falconer's glove. The audience clapped at the amazing display of hunting skills.",
+      "In the afternoon, we explored the beautiful Victorian rose gardens. Colourful flower beds and old weeping willow trees created a peaceful atmosphere. Tom took several high-definition photos for our class presentation.",
+      "Preserving old buildings needs money and public care. Learning about history deepens our appreciation of culture. Before catching the coach home, we bought postcards at the castle gift shop. On the way back, everyone talked about their favourite medieval weapons and stories. Our school plans another field trip in the autumn term."
+    ],
+    "vocabulary": [
+      {
+        "word": "fortress",
+        "syllables": "for-tress",
+        "phonetic": "/ˈfɔːtrəs/",
+        "definition": "A strong building or town built to protect people from attack.",
+        "example": "The magnificent stone fortress was built in the eleventh century.",
+        "emoji": "🏰"
+      },
+      {
+        "word": "ramparts",
+        "syllables": "ram-parts",
+        "phonetic": "/ˈræmpɑːts/",
+        "definition": "A wide wall around a castle with a walkway on top.",
+        "example": "We walked along the high stone ramparts, which gave us a wide view of the river.",
+        "emoji": "🧱"
+      },
+      {
+        "word": "falconry",
+        "syllables": "fal-con-ry",
+        "phonetic": "/ˈfɔːlkənri/",
+        "definition": "The skill of training birds to hunt.",
+        "example": "Outside in the inner courtyard, a falconry team showed trained birds of prey.",
+        "emoji": "🦅"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "When was the castle built?",
+        "options": [
+          "The ninth century",
+          "The eleventh century",
+          "The fourteenth century",
+          "The nineteenth century"
+        ],
+        "answerIndex": 1,
+        "explanation": "The magnificent stone fortress was built in the eleventh century."
+      },
+      {
+        "question": "Which bird did the falconry team show?",
+        "options": [
+          "A hawk",
+          "A golden eagle",
+          "An owl",
+          "A falcon"
+        ],
+        "answerIndex": 1,
+        "explanation": "A magnificent golden eagle soared across the sky and landed on the falconer's glove."
+      },
+      {
+        "question": "What did they buy at the gift shop?",
+        "options": [
+          "A sword",
+          "Postcards",
+          "A hat",
+          "A model castle"
+        ],
+        "answerIndex": 1,
+        "explanation": "Before catching the coach home, we bought postcards at the castle gift shop."
+      }
+    ],
+    "funPrompt": "If you could ask a medieval knight one question, what would it be?"
+  },
+  {
+    "id": 137,
+    "day": 137,
+    "title": "A Career in Journalism",
+    "coverEmoji": "📰",
+    "category": "Jobs & Media",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "A reporter's fifteen-year career: facts, deadlines and a microphone in the school hall.",
+    "wordCount": 275,
+    "paragraphs": [
+      "Professional journalism plays an important role in keeping society informed and democratic. Last Wednesday, our careers adviser invited a senior newspaper reporter to give a talk. Ms Rachel Vance walked into the school hall in a smart business suit. She shared stories from her fifteen-year reporting career. She explained that investigative journalism needs endless curiosity, honesty and integrity.",
+      "Reporters must check facts carefully through several reliable sources before publishing. Spreading unverified rumours or fake news damages public trust. Ms Vance described her typical day, which often starts early in the newsroom. The chief editor reviews top headlines and assigns breaking stories to the staff. Rachel was once asked to investigate a major public transport strike in the city centre.",
+      "She took her digital voice recorder, checked her notebook and went out into the street. She interviewed union representatives, government press secretaries and ordinary commuters. Back at her desk, she had to write a six-hundred-word article before the strict deadline. Modern journalists also produce podcasts and video reports, speaking clearly into studio microphones.",
+      "Tom asked which subjects future reporters should study at university. Ms Vance suggested English literature, modern history, political science and mass media. She advised students to practise writing every day, including diaries and school magazine articles. After the talk, several students looked at the professional recording equipment near the stage.",
+      "Tom tested a digital microphone and spoke a short pretend news broadcast. He found the experience exciting. The talk opened students' eyes to the impact of good journalism. Reporting important events gives citizens the knowledge they need to take part in public life. Our media club decided to start a weekly news blog."
+    ],
+    "vocabulary": [
+      {
+        "word": "integrity",
+        "syllables": "in-teg-ri-ty",
+        "phonetic": "/ɪnˈteɡrəti/",
+        "definition": "Being honest and having strong moral principles.",
+        "example": "She explained that investigative journalism needs endless curiosity, honesty and integrity.",
+        "emoji": "🛡️"
+      },
+      {
+        "word": "deadline",
+        "syllables": "dead-line",
+        "phonetic": "/ˈdedlaɪn/",
+        "definition": "The time by which work must be finished.",
+        "example": "Back at her desk, she had to write a six-hundred-word article before the strict deadline.",
+        "emoji": "⏰"
+      },
+      {
+        "word": "broadcast",
+        "syllables": "broad-cast",
+        "phonetic": "/ˈbrɔːdkɑːst/",
+        "definition": "A programme sent out on radio, TV or the internet.",
+        "example": "Tom tested a digital microphone and spoke a short pretend news broadcast.",
+        "emoji": "📡"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How long has Rachel been reporting?",
+        "options": [
+          "Five years",
+          "Ten years",
+          "Fifteen years",
+          "Twenty years"
+        ],
+        "answerIndex": 2,
+        "explanation": "She shared stories from her fifteen-year reporting career."
+      },
+      {
+        "question": "Which subjects did she recommend?",
+        "options": [
+          "Only English",
+          "English literature, modern history, political science and mass media",
+          "Maths and physics",
+          "Art and music"
+        ],
+        "answerIndex": 1,
+        "explanation": "Ms Vance suggested English literature, modern history, political science and mass media."
+      },
+      {
+        "question": "What did the media club decide to start?",
+        "options": [
+          "A radio station",
+          "A weekly news blog",
+          "A newspaper",
+          "A film club"
+        ],
+        "answerIndex": 1,
+        "explanation": "Our media club decided to start a weekly news blog."
+      }
+    ],
+    "funPrompt": "If you reported one school story this week, what would it be?"
+  },
+  {
+    "id": 138,
+    "day": 138,
+    "title": "A Weekend Camping Adventure",
+    "coverEmoji": "🏕️",
+    "category": "Nature & Adventure",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "A forest campsite by a lake: a tent, a campfire and a spotless clearing when they leave.",
+    "wordCount": 294,
+    "paragraphs": [
+      "Camping in the wilderness is an unbeatable way to escape city noise and enjoy nature. Last Friday, Mark and his older brother loaded their camping gear into the car. They packed a waterproof tent, warm sleeping bags and a camping stove. The forecast promised clear skies and gentle southwesterly breezes. After a two-hour drive, they reached an authorised forest campsite near a clear lake.",
+      "They paid the registration fee at the ranger station and chose a flat grassy pitch. Working together, they unpacked the tent poles and pushed the metal pegs deep into the ground. They pulled the nylon fabric tight and secured the guy lines against sudden wind. Inside, they laid out thick foam mats and warm fleece blankets.",
+      "Next, Mark collected dry twigs and fallen branches for a small campfire. His brother struck a waterproof match to light the dry kindling inside a stone ring. Bright orange flames crackled and cast a flickering glow over the nearby tents. They boiled a metal kettle of fresh spring water for hot chocolate and instant soup.",
+      "As dusk fell, millions of twinkling stars appeared. Sitting by the glowing embers, they shared funny stories and listened to distant owls. Around ten o'clock, they put out the fire with water to stay safe. They crawled into their warm sleeping bags and fell asleep to the soothing sound of silence.",
+      "At sunrise, they woke early to catch the sun rising over the misty water. A family of wild ducks glided near the calm shore. Mark took high-resolution photos with his digital camera. After a hearty breakfast of boiled eggs and toast, they packed their equipment away. They collected all their litter in rubbish bags to protect the wildlife. The ranger thanked them warmly for keeping the campsite spotless."
+    ],
+    "vocabulary": [
+      {
+        "word": "wilderness",
+        "syllables": "wil-der-ness",
+        "phonetic": "/ˈwɪldənəs/",
+        "definition": "A wild area of land where few people live.",
+        "example": "Camping in the wilderness is an unbeatable way to escape city noise and enjoy nature.",
+        "emoji": "🌲"
+      },
+      {
+        "word": "kindling",
+        "syllables": "kin-dling",
+        "phonetic": "/ˈkɪndlɪŋ/",
+        "definition": "Small dry pieces of wood used to start a fire.",
+        "example": "His brother struck a waterproof match to light the dry kindling inside a stone ring.",
+        "emoji": "🔥"
+      },
+      {
+        "word": "embers",
+        "syllables": "em-bers",
+        "phonetic": "/ˈembəz/",
+        "definition": "The hot pieces of a fire after the flames have gone.",
+        "example": "Sitting by the glowing embers, they shared funny stories and listened to distant owls.",
+        "emoji": "✨"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How long did they drive?",
+        "options": [
+          "One hour",
+          "Two hours",
+          "Three hours",
+          "Four hours"
+        ],
+        "answerIndex": 1,
+        "explanation": "After a two-hour drive, they reached an authorised forest campsite near a clear lake."
+      },
+      {
+        "question": "What did they use to light the fire?",
+        "options": [
+          "A lighter",
+          "A waterproof match",
+          "A torch",
+          "A candle"
+        ],
+        "answerIndex": 1,
+        "explanation": "His brother struck a waterproof match to light the dry kindling inside a stone ring."
+      },
+      {
+        "question": "What did the ranger thank them for?",
+        "options": [
+          "Helping other campers",
+          "Keeping the campsite spotless",
+          "Reporting a fire",
+          "Fixing the path"
+        ],
+        "answerIndex": 1,
+        "explanation": "The ranger thanked them warmly for keeping the campsite spotless."
+      }
+    ],
+    "funPrompt": "What would make a camping trip feel successful to you?"
+  },
+  {
+    "id": 139,
+    "day": 139,
+    "title": "Planning a Charity Concert Budget",
+    "coverEmoji": "🎶",
+    "category": "Money & Community",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "A student concert budget: sponsorship, an emergency reserve and three thousand pounds for charity.",
+    "wordCount": 300,
+    "paragraphs": [
+      "A successful charity event needs careful budgeting as well as enthusiasm and creative ideas. Our student council planned an evening concert to raise funds for a children's hospice. The school hall was free, but lighting, security, printing and insurance still cost money. Maya opened a project account and recorded every expected payment in a spreadsheet. The team estimated income from ticket sales, refreshments and local sponsorship.",
+      "A music shop offered free equipment in return for its name on the programme. The council accepted only after checking that the conditions suited a school event. Tom contacted three printing companies and asked for written prices for five hundred programmes. Comparing quotes stopped the team from accepting the first offer without question.",
+      "The organisers also set aside a small emergency reserve for unexpected repairs or fees. They agreed that unused money from the reserve would go back to the charity fund. Ticket payments were processed through the school's secure online system. Each transaction created a digital record that could be matched with the project account. A local business donated two hundred pounds but did not ask for control over the programme.",
+      "During rehearsals, a broken cable needed immediate replacement from the emergency reserve. Maya added a note beside the expense explaining why it had been necessary. On the concert night, volunteers checked tickets and counted cash in pairs. No student carried a large amount of money alone or took it home.",
+      "After the final performance, the team paid every invoice and calculated the remaining balance. The concert raised more than three thousand pounds after all expenses. The council transferred the money directly to the hospice's official bank account. A public summary listed income, costs and the final donation without revealing private details. This transparency protected trust among students, families, sponsors and the charity."
+    ],
+    "vocabulary": [
+      {
+        "word": "budgeting",
+        "syllables": "bud-get-ting",
+        "phonetic": "/ˈbʌdʒɪtɪŋ/",
+        "definition": "Planning how to spend and save money.",
+        "example": "A successful charity event needs careful budgeting as well as enthusiasm and creative ideas.",
+        "emoji": "📊"
+      },
+      {
+        "word": "reserve",
+        "syllables": "re-serve",
+        "phonetic": "/rɪˈzɜːv/",
+        "definition": "An amount of money kept for a special purpose.",
+        "example": "The organisers also set aside a small emergency reserve for unexpected repairs or fees.",
+        "emoji": "💰"
+      },
+      {
+        "word": "transparency",
+        "syllables": "trans-par-en-cy",
+        "phonetic": "/trænsˈpærənsi/",
+        "definition": "Being open and honest so people can see what is happening.",
+        "example": "This transparency protected trust among students, families, sponsors and the charity.",
+        "emoji": "🔍"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How much did the concert raise after expenses?",
+        "options": [
+          "Five hundred pounds",
+          "One thousand pounds",
+          "More than three thousand pounds",
+          "Ten thousand pounds"
+        ],
+        "answerIndex": 2,
+        "explanation": "The concert raised more than three thousand pounds after all expenses."
+      },
+      {
+        "question": "How much did a local business donate?",
+        "options": [
+          "Fifty pounds",
+          "One hundred pounds",
+          "Two hundred pounds",
+          "Five hundred pounds"
+        ],
+        "answerIndex": 2,
+        "explanation": "A local business donated two hundred pounds but did not ask for control over the programme."
+      },
+      {
+        "question": "What had to be paid for from the emergency reserve?",
+        "options": [
+          "Extra programmes",
+          "A broken cable",
+          "More tickets",
+          "New chairs"
+        ],
+        "answerIndex": 1,
+        "explanation": "During rehearsals, a broken cable needed immediate replacement from the emergency reserve."
+      }
+    ],
+    "funPrompt": "If your class organised a concert for charity, what would you spend money on first?"
+  },
+  {
+    "id": 140,
+    "day": 140,
+    "title": "Opening a School Makerspace",
+    "coverEmoji": "🛠️",
+    "category": "Design & Teamwork",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "An unused storeroom becomes a makerspace where failure is treated as useful evidence.",
+    "wordCount": 288,
+    "paragraphs": [
+      "A makerspace gives students a safe place to design, build, test and improve practical ideas. Our school converted an unused storeroom into a shared workshop for creative projects. We placed strong workbenches near the centre and kept clear routes to both exits. Lockable cabinets stored sharp tools, batteries, glue and delicate electronic parts.",
+      "Every tool received a label showing its purpose, safety rules and correct storage position. A coloured floor line marked the area where safety glasses were always required. The school installed a ventilation unit beside the soldering bench. Students completed a safety induction before booking time in the workshop. The first group designed a simple model bridge using card, wooden sticks and string.",
+      "They tested the model by adding small weights one at a time. When one joint failed, the team examined the break and strengthened the weak connection. Another group used a three-dimensional printer to make a replacement handle for a cupboard. The printer built the object in thin layers from a digital design file.",
+      "Maya created a tool board so missing equipment could be noticed immediately. Tom programmed a small sensor to switch off lights when the space was empty. This energy-saving device became the first permanent invention made in the room. Teachers from art, science and computing began to share the workshop for joint projects.",
+      "The makerspace also hosted a repair afternoon for broken toys and household objects. Volunteers fixed loose wires and replaced simple parts. Repairing existing products reduced waste and showed how objects are assembled. Students kept a project record with sketches, test results and design changes. The record helped later teams avoid repeating the same unsuccessful attempts. By treating failure as useful evidence, the makerspace encouraged curiosity, resilience and cooperation."
+    ],
+    "vocabulary": [
+      {
+        "word": "makerspace",
+        "syllables": "mak-er-space",
+        "phonetic": "/ˈmeɪkəspeɪs/",
+        "definition": "A place where people design and build things using tools.",
+        "example": "A makerspace gives students a safe place to design, build, test and improve practical ideas.",
+        "emoji": "🔧"
+      },
+      {
+        "word": "ventilation",
+        "syllables": "ven-ti-la-tion",
+        "phonetic": "/ˌventɪˈleɪʃn/",
+        "definition": "Allowing fresh air to flow into a room.",
+        "example": "The school installed a ventilation unit beside the soldering bench.",
+        "emoji": "🌀"
+      },
+      {
+        "word": "induction",
+        "syllables": "in-duc-tion",
+        "phonetic": "/ɪnˈdʌkʃn/",
+        "definition": "An introductory training session before starting something.",
+        "example": "Students completed a safety induction before booking time in the workshop.",
+        "emoji": "📋"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What was the unused storeroom turned into?",
+        "options": [
+          "A library",
+          "A shared workshop (makerspace)",
+          "A canteen",
+          "A music room"
+        ],
+        "answerIndex": 1,
+        "explanation": "Our school converted an unused storeroom into a shared workshop for creative projects."
+      },
+      {
+        "question": "What did Tom program the sensor to do?",
+        "options": [
+          "Open the door",
+          "Switch off lights when the space was empty",
+          "Count tools",
+          "Print labels"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tom programmed a small sensor to switch off lights when the space was empty."
+      },
+      {
+        "question": "What did the 3D printer make?",
+        "options": [
+          "A bridge model",
+          "A replacement handle for a cupboard",
+          "A toy car",
+          "A tool board"
+        ],
+        "answerIndex": 1,
+        "explanation": "Another group used a three-dimensional printer to make a replacement handle for a cupboard."
+      }
+    ],
+    "funPrompt": "What would you make first if your school had a makerspace?"
   }
 ];
 MONTH4_STORIES.forEach(story => { if (!STORIES_DATA.some(e => e.id === story.id)) STORIES_DATA.push(story); });
