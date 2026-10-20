@@ -407,6 +407,412 @@ const MONTH4_STORIES = [
       }
     ],
     "funPrompt": "If you could build one app to make life easier, what would it do?"
+  },
+  {
+    "id": 106,
+    "day": 106,
+    "title": "A Visit to the Local Post Office",
+    "coverEmoji": "📮",
+    "category": "City Life & Services",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "A parcel, a queue number and a book of stamps: one afternoon at the post office.",
+    "wordCount": 283,
+    "paragraphs": [
+      "Last Tuesday afternoon, Clara went to the central post office. She wanted to send a birthday parcel to her grandmother. The old building had a wide entrance and an electronic queue system. Clara walked to the ticket machine and pressed the button for parcel services. A small paper slip came out with her number.",
+      "A friendly clerk called number forty-eight over the loudspeaker. Clara went to counter three and put her wrapped cardboard box on the weighing scale. The clerk measured the exact weight and worked out the postage fee. She asked whether Clara wanted standard mail or express delivery.",
+      "Clara chose express delivery so the parcel would arrive before her grandmother's birthday. She paid by credit card and asked for an itemized receipt. The clerk stuck a printed barcode label on top of the parcel.",
+      "Next, Clara bought a book of first-class stamps for everyday letters. She also dropped two handwritten letters into the big red posting box outside. Paper letters carry a warmth that emails cannot replace.",
+      "The post office also offers useful financial services, like currency exchange and savings accounts. Many local people come here to collect pensions or pay utility bills. Clara left the building feeling pleased that her errands were done quickly.",
+      "Behind the scenes, sorting staff and drivers keep the postal network running. They start work early in the morning and use machines that read addresses at great speed. Even with digital communication, paper mail still matters for official papers.",
+      "At home, Clara checked her email and replied to a group project message from Tom. She likes to balance online messages with traditional tasks. That afternoon at the post office gave her a happy sense of achievement."
+    ],
+    "vocabulary": [
+      {
+        "word": "parcel",
+        "syllables": "par-cel",
+        "phonetic": "/ˈpɑːsl/",
+        "definition": "Something wrapped in paper or a box and sent by post.",
+        "example": "She wanted to send a birthday parcel to her grandmother.",
+        "emoji": "📦"
+      },
+      {
+        "word": "scale",
+        "syllables": "scale",
+        "phonetic": "/skeɪl/",
+        "definition": "A machine used for weighing things.",
+        "example": "Clara went to counter three and put her wrapped cardboard box on the weighing scale.",
+        "emoji": "⚖️"
+      },
+      {
+        "word": "barcode",
+        "syllables": "bar-code",
+        "phonetic": "/ˈbɑːkəʊd/",
+        "definition": "A pattern of black lines that a machine can read.",
+        "example": "The clerk stuck a printed barcode label on top of the parcel.",
+        "emoji": "🔖"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What was Clara sending?",
+        "options": [
+          "A letter",
+          "A birthday parcel for her grandmother",
+          "A book",
+          "A postcard"
+        ],
+        "answerIndex": 1,
+        "explanation": "She wanted to send a birthday parcel to her grandmother."
+      },
+      {
+        "question": "Which delivery did Clara choose?",
+        "options": [
+          "Standard mail",
+          "Express delivery",
+          "Same-day courier",
+          "Ship"
+        ],
+        "answerIndex": 1,
+        "explanation": "Clara chose express delivery so the parcel would arrive before her grandmother's birthday."
+      },
+      {
+        "question": "What other services does the post office offer?",
+        "options": [
+          "Only stamps",
+          "Currency exchange and savings accounts",
+          "Taxis",
+          "Cafés"
+        ],
+        "answerIndex": 1,
+        "explanation": "The post office also offers useful financial services, like currency exchange and savings accounts."
+      }
+    ],
+    "funPrompt": "Would you rather send a handwritten letter or an email, and why?"
+  },
+  {
+    "id": 107,
+    "day": 107,
+    "title": "The School Music Concert",
+    "coverEmoji": "🎼",
+    "category": "Arts & Performance",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "Eighty students, one conductor and a concert that ends with the audience on its feet.",
+    "wordCount": 276,
+    "paragraphs": [
+      "Every year, our school holds a spring music concert. Last month, the music department prepared a grand orchestra concert. More than eighty student musicians met in the school hall for weekly rehearsals. The orchestra had strings, woodwind, brass and percussion. Leo played the acoustic guitar, and Sam played the snare drum.",
+      "Their conductor, Mr Henderson, asked for full concentration at every rehearsal. He raised his wooden baton, called for silence and gave the downbeat. The orchestra practised a difficult classical symphony by a famous European composer. Blending all the instruments into one smooth melody took a lot of practice. If someone made a rhythmic mistake, Mr Henderson stopped the musicians to correct the bar.",
+      "Slowly, the group improved, and their playing became polished and smooth. On the night of the concert, the hall was full. The headteacher gave a warm speech praising the students' hard work. When the red curtains opened, bright spotlights lit the brass instruments.",
+      "The orchestra played a varied programme, from classical pieces to modern film music. Leo performed a perfect guitar solo that held everyone's attention. Sam kept a steady, energetic drum rhythm that drove the piece forward.",
+      "During the short interval, volunteers served cold juice and biscuits. Many parents praised the music and the students' confident stage presence. In the final part, the choir joined the orchestra for an inspiring song.",
+      "When the last chord sounded, the audience stood up and cheered. The young musicians bowed as applause filled the hall. Playing in an orchestra taught the students the value of teamwork and discipline. It also gave them a lifelong love of music. Everyone left the hall feeling proud and inspired."
+    ],
+    "vocabulary": [
+      {
+        "word": "conductor",
+        "syllables": "con-duc-tor",
+        "phonetic": "/kənˈdʌktə/",
+        "definition": "The person who directs an orchestra.",
+        "example": "Their conductor, Mr Henderson, asked for full concentration at every rehearsal.",
+        "emoji": "🎼"
+      },
+      {
+        "word": "baton",
+        "syllables": "bat-on",
+        "phonetic": "/ˈbætɒn/",
+        "definition": "A thin stick a conductor uses to direct musicians.",
+        "example": "He raised his wooden baton, called for silence and gave the downbeat.",
+        "emoji": "🪄"
+      },
+      {
+        "word": "interval",
+        "syllables": "in-ter-val",
+        "phonetic": "/ˈɪntəvl/",
+        "definition": "A short break between the parts of a concert.",
+        "example": "During the short interval, volunteers served cold juice and biscuits.",
+        "emoji": "⏸️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How many student musicians took part?",
+        "options": [
+          "About forty",
+          "More than eighty",
+          "One hundred",
+          "Twenty"
+        ],
+        "answerIndex": 1,
+        "explanation": "More than eighty student musicians met in the school hall for weekly rehearsals."
+      },
+      {
+        "question": "What did Leo perform?",
+        "options": [
+          "A violin solo",
+          "An acoustic guitar solo",
+          "A piano solo",
+          "A drum solo"
+        ],
+        "answerIndex": 1,
+        "explanation": "Leo performed a perfect guitar solo that held everyone's attention."
+      },
+      {
+        "question": "How did the audience respond at the end?",
+        "options": [
+          "They left quickly",
+          "They stood up and cheered",
+          "They asked for more snacks",
+          "They stayed silent"
+        ],
+        "answerIndex": 1,
+        "explanation": "When the last chord sounded, the audience stood up and cheered."
+      }
+    ],
+    "funPrompt": "Which instrument do you think sounds best in a big orchestra, and why?"
+  },
+  {
+    "id": 108,
+    "day": 108,
+    "title": "A Visit to the Dentist",
+    "coverEmoji": "🦷",
+    "category": "Health & Wellbeing",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "A six-month check-up, a painless polish and a new toothbrush on the way out.",
+    "wordCount": 270,
+    "paragraphs": [
+      "Good oral hygiene keeps teeth healthy and gives you a confident smile. Yesterday morning, Emma went to the community dental clinic for her six-month check-up. The receptionist checked her patient records and asked her to wait. A friendly dental nurse called Emma's name and took her to the surgery room. Emma sat in the adjustable chair and put her bag on the floor.",
+      "Dr Taylor greeted her warmly and moved the bright overhead lamp. He asked if she had any toothache or gum sensitivity. Emma said her teeth felt fine, but she wanted a professional clean anyway. The dentist used a small silver mirror and a thin metal probe to check her teeth. He looked carefully at each molar for hidden cavities or enamel damage.",
+      "Luckily, her teeth and gums were in excellent condition. There were no signs of decay. Dr Taylor praised Emma for brushing and flossing so diligently. He reminded her to brush twice a day with fluoride toothpaste.",
+      "Next, the dental hygienist polished Emma's teeth to remove surface stains. She used a soft rotating brush and a mint-flavoured paste. The cleaning was painless and took less than twenty minutes. Before she left, the receptionist gave her a free toothbrush and a small tube of toothpaste. Emma booked her next appointment for six months later.",
+      "Regular check-ups catch small problems before they become painful. In the evening, Emma ate a healthy dinner of vegetables, chicken and rice. Afterwards, she brushed her teeth for two full minutes with an electric toothbrush. She also flossed between her molars to remove tiny food pieces. Good habits protect her smile for life."
+    ],
+    "vocabulary": [
+      {
+        "word": "hygiene",
+        "syllables": "hy-giene",
+        "phonetic": "/ˈhaɪdʒiːn/",
+        "definition": "Keeping your body and teeth clean to stay healthy.",
+        "example": "Good oral hygiene keeps teeth healthy and gives you a confident smile.",
+        "emoji": "🪥"
+      },
+      {
+        "word": "probe",
+        "syllables": "probe",
+        "phonetic": "/prəʊb/",
+        "definition": "A thin tool a dentist uses to examine teeth.",
+        "example": "The dentist used a small silver mirror and a thin metal probe to check her teeth.",
+        "emoji": "🔧"
+      },
+      {
+        "word": "cavities",
+        "syllables": "cav-i-ties",
+        "phonetic": "/ˈkævətiz/",
+        "definition": "Holes in teeth caused by decay.",
+        "example": "He looked carefully at each molar for hidden cavities or enamel damage.",
+        "emoji": "🦷"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How often does Emma have a dental check-up?",
+        "options": [
+          "Every three months",
+          "Every six months",
+          "Once a year",
+          "Every two years"
+        ],
+        "answerIndex": 1,
+        "explanation": "Emma went to the community dental clinic for her six-month check-up."
+      },
+      {
+        "question": "What did the dentist check each molar for?",
+        "options": [
+          "Size",
+          "Hidden cavities or enamel damage",
+          "Colour",
+          "Braces"
+        ],
+        "answerIndex": 1,
+        "explanation": "He looked carefully at each molar for hidden cavities or enamel damage."
+      },
+      {
+        "question": "How long did the cleaning take?",
+        "options": [
+          "Ten minutes",
+          "Less than twenty minutes",
+          "One hour",
+          "Two hours"
+        ],
+        "answerIndex": 1,
+        "explanation": "The cleaning was painless and took less than twenty minutes."
+      }
+    ],
+    "funPrompt": "What would you tell a younger child about brushing their teeth?"
+  },
+  {
+    "id": 109,
+    "day": 109,
+    "title": "Financial Literacy for Teens",
+    "coverEmoji": "💰",
+    "category": "Money & Society",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "A bank manager explains saving, debt and the strange magic of compound interest.",
+    "wordCount": 271,
+    "paragraphs": [
+      "Learning about money when you are young prepares you for adult life. Last term, our economics department started a practical money module. A bank manager named Mr Dawson gave a talk. He explained why budgeting, saving and smart spending matter. He said many teenagers get pocket money from parents or part-time jobs.",
+      "But without a savings plan, money disappears quickly on things you do not need. Even a small monthly deposit into a savings account grows with interest over time.",
+      "Next, he compared debit cards, credit cards and digital payments. Using a credit card means borrowing money from a bank. You must pay it back with interest. Too much credit card debt causes stress later in life.",
+      "Students should learn the difference between needs and wants. Real needs include healthy food, education, clothes and a safe home.",
+      "During the question time, Tom asked how compound interest works. Mr Dawson praised the question and drew a clear diagram on the whiteboard. He explained that compound interest earns interest not only on your savings but also on the interest already added.",
+      "After the talk, students played a computer budgeting game. Each student got a virtual monthly salary and had to plan for rent, food and savings. Tom managed his budget well and kept a positive balance.",
+      "He learned that careful planning and self-discipline are needed for long-term goals. Many pupils opened their first youth savings accounts with the school's partner bank. Tom decided to save twenty percent of his weekly money for university. He wrote his income and spending in a small diary. Good money habits started early lead to a secure future."
+    ],
+    "vocabulary": [
+      {
+        "word": "budgeting",
+        "syllables": "bud-get-ting",
+        "phonetic": "/ˈbʌdʒɪtɪŋ/",
+        "definition": "Planning how to spend and save your money.",
+        "example": "He explained why budgeting, saving and smart spending matter.",
+        "emoji": "📊"
+      },
+      {
+        "word": "interest",
+        "syllables": "in-ter-est",
+        "phonetic": "/ˈɪntrəst/",
+        "definition": "Extra money a bank pays you for keeping your money there.",
+        "example": "Even a small monthly deposit into a savings account grows with interest over time.",
+        "emoji": "📈"
+      },
+      {
+        "word": "debt",
+        "syllables": "debt",
+        "phonetic": "/det/",
+        "definition": "Money that you owe to someone.",
+        "example": "Too much credit card debt causes stress later in life.",
+        "emoji": "💳"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What does using a credit card mean?",
+        "options": [
+          "Getting free money",
+          "Borrowing money from a bank",
+          "Saving money",
+          "Earning interest"
+        ],
+        "answerIndex": 1,
+        "explanation": "Using a credit card means borrowing money from a bank."
+      },
+      {
+        "question": "What did Tom ask about?",
+        "options": [
+          "How to open a shop",
+          "How compound interest works",
+          "How to save on food",
+          "How banks make coins"
+        ],
+        "answerIndex": 1,
+        "explanation": "During the question time, Tom asked how compound interest works."
+      },
+      {
+        "question": "How much did Tom decide to save?",
+        "options": [
+          "Five percent",
+          "Ten percent",
+          "Twenty percent",
+          "Half"
+        ],
+        "answerIndex": 2,
+        "explanation": "Tom decided to save twenty percent of his weekly money for university."
+      }
+    ],
+    "funPrompt": "If you received ten pounds today, how would you split it between saving and spending?"
+  },
+  {
+    "id": 110,
+    "day": 110,
+    "title": "The School Drama Club Production",
+    "coverEmoji": "🎭",
+    "category": "Arts & Performance",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "A mystery comedy, a ridiculous coat and a jewel hidden in an old clock.",
+    "wordCount": 290,
+    "paragraphs": [
+      "School drama productions help students build confidence and creativity. Every autumn, our drama club performs a full play. This year, the club chose a famous mystery comedy by a modern writer. Maya auditioned and won the female lead with a brilliant performance. Leo was cast as the strange detective who solves a palace theft.",
+      "Our English teacher directed the play and guided the actors through weekly rehearsals. The actors practised memorising long lines, projecting their voices and moving on stage. The backstage crew worked hard in the workshop to build the sets and costumes. They used recycled wooden boards, cardboard boxes and paint to make the walls. Lucy ran the lighting and changed the spotlights to create shadows full of suspense.",
+      "On opening night, a big audience of parents, teachers and pupils filled the hall. The headteacher gave a warm welcome before the thick red curtain rose. In the first scene, Maya walked onto the dim stage with an old leather suitcase. Her strong voice caught everyone's attention. When Leo entered in a silly oversized coat, the crowd burst into laughter.",
+      "The story took several exciting turns as the detective questioned the palace servants. During the short intermission, volunteers served drinks and snacks in the hall. People praised the decorations, the lighting and the acting.",
+      "In the final act, the detective found the hidden jewel inside an old clock. The audience gasped as the mystery was solved.",
+      "When the play ended, the crowd stood up and clapped. The young actors bowed again and again and received flowers. Taking part in drama taught the students teamwork, empathy and public speaking. Facing the stage also built confidence that helps in school life. Everyone looked forward to next year's even more ambitious play."
+    ],
+    "vocabulary": [
+      {
+        "word": "auditioned",
+        "syllables": "au-di-tioned",
+        "phonetic": "/ɔːˈdɪʃnd/",
+        "definition": "Tried out for a role in a play by performing for the director.",
+        "example": "Maya auditioned and won the female lead with a brilliant performance.",
+        "emoji": "🎬"
+      },
+      {
+        "word": "backstage",
+        "syllables": "back-stage",
+        "phonetic": "/ˌbækˈsteɪdʒ/",
+        "definition": "The area behind the stage that the audience cannot see.",
+        "example": "The backstage crew worked hard in the workshop to build the sets and costumes.",
+        "emoji": "🛠️"
+      },
+      {
+        "word": "intermission",
+        "syllables": "in-ter-mis-sion",
+        "phonetic": "/ˌɪntəˈmɪʃn/",
+        "definition": "A short break between the parts of a play.",
+        "example": "During the short intermission, volunteers served drinks and snacks in the hall.",
+        "emoji": "⏸️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Who won the female lead role?",
+        "options": [
+          "Lucy",
+          "Maya",
+          "Emma",
+          "Alice"
+        ],
+        "answerIndex": 1,
+        "explanation": "Maya auditioned and won the female lead with a brilliant performance."
+      },
+      {
+        "question": "What did Leo wear that made the audience laugh?",
+        "options": [
+          "A crown",
+          "An oversized coat",
+          "A pirate hat",
+          "A giant scarf"
+        ],
+        "answerIndex": 1,
+        "explanation": "When Leo entered in a silly oversized coat, the crowd burst into laughter."
+      },
+      {
+        "question": "Where was the hidden jewel found?",
+        "options": [
+          "Under the stage",
+          "Inside an old clock",
+          "In a suitcase",
+          "In the garden"
+        ],
+        "answerIndex": 1,
+        "explanation": "In the final act, the detective found the hidden jewel inside an old clock."
+      }
+    ],
+    "funPrompt": "If your class staged a mystery play, what would the detective be like?"
   }
 ];
 MONTH4_STORIES.forEach(story => { if (!STORIES_DATA.some(e => e.id === story.id)) STORIES_DATA.push(story); });
