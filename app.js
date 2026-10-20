@@ -793,11 +793,13 @@ function renderStoryLibrary() {
   } else if (currentFilterView === 'month2') {
     filtered = coreStories.filter(s => (s.day || s.id) >= 31 && (s.day || s.id) <= 60);
   } else if (currentFilterView === 'month3') {
-    filtered = coreStories.filter(s => (s.day || s.id) >= 61 && (s.day || s.id) <= 80);
+    filtered = coreStories.filter(s => (s.day || s.id) >= 61 && (s.day || s.id) <= 100);
+  } else if (currentFilterView === 'month4') {
+    filtered = coreStories.filter(s => (s.day || s.id) >= 101 && (s.day || s.id) <= 140);
   } else if (currentFilterView === 'advanced') {
     filtered = allStories.filter(s => s.track === 'advanced');
   } else if (currentFilterView === 'custom') {
-    filtered = allStories.filter(s => !s.track && (s.id > 100 || s.category === 'Custom Story'));
+    filtered = allStories.filter(s => !s.track && s.category === 'Custom Story');
   } else if (currentFilterWeek > 0) {
     filtered = coreStories.filter(s => s.week === currentFilterWeek);
   }
