@@ -1634,6 +1634,418 @@ const MONTH3_STORIES = [
       }
     ],
     "funPrompt": "Which museum would you most like to visit, and what would you look for first?"
+  },
+  {
+    "id": 81,
+    "day": 81,
+    "title": "Booking a Mountain Resort",
+    "coverEmoji": "🏔️",
+    "category": "Travel & Leisure",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "A family books a lakeside mountain resort and finds that small details make the stay.",
+    "wordCount": 249,
+    "paragraphs": [
+      "Last month, my father booked a five-day stay at a lakeside mountain resort. The receptionist said a double room with a bathroom was free.",
+      "The clerk said the resort also has free Wi-Fi, a gym and parking. To confirm the booking, my father paid a ten percent deposit by card. The hotel sent an email with the full plan and a receipt.",
+      "On Friday afternoon, we arrived at the resort. The front desk clerk smiled and gave us our key cards. He said breakfast was served in the dining room from seven to ten.",
+      "Our room was on the third floor. It had a wide view of the pine forest. The beds had clean cotton sheets, soft pillows and a warm blanket. In the corner stood a wooden wardrobe. My mother opened the glass door and stepped onto the balcony.",
+      "The mountain air felt cool, and the far peak was white with snow. My brother found a kettle. In the bathroom, the big bathtub had hot and cold taps. Clean towels and shampoo were arranged by the basin.",
+      "The concierge gave us a walking map and advised us to wear strong boots, because the paths were wet.",
+      "In the evening, we ate at the resort restaurant. The chef cooked roast chicken, baked potatoes and green beans. After dinner, we sat by the stone fireplace and played a board game. Before leaving, my father left a tip for the cleaning staff. Our mountain holiday was even better than we expected."
+    ],
+    "vocabulary": [
+      {
+        "word": "deposit",
+        "syllables": "de-pos-it",
+        "phonetic": "/dɪˈpɒzɪt/",
+        "definition": "A part of the money paid now so you can keep a room or service.",
+        "example": "To confirm the booking, my father paid a ten percent deposit by card.",
+        "emoji": "💳"
+      },
+      {
+        "word": "balcony",
+        "syllables": "bal-co-ny",
+        "phonetic": "/ˈbælkəni/",
+        "definition": "A small platform outside a window with a rail around it.",
+        "example": "My mother opened the glass door and stepped onto the balcony.",
+        "emoji": "🌄"
+      },
+      {
+        "word": "concierge",
+        "syllables": "con-cierge",
+        "phonetic": "/ˈkɒnsieəʒ/",
+        "definition": "A hotel worker who helps guests with maps, trips and information.",
+        "example": "The concierge gave us a walking map",
+        "emoji": "🛎️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How much deposit did the family pay?",
+        "options": [
+          "Five percent",
+          "Ten percent",
+          "Twenty percent",
+          "The full amount"
+        ],
+        "answerIndex": 1,
+        "explanation": "To confirm the booking, my father paid a ten percent deposit by card."
+      },
+      {
+        "question": "Which floor was their room on?",
+        "options": [
+          "The first floor",
+          "The second floor",
+          "The third floor",
+          "The top floor"
+        ],
+        "answerIndex": 2,
+        "explanation": "Our room was on the third floor."
+      },
+      {
+        "question": "What did the concierge advise them to wear?",
+        "options": [
+          "Sandals",
+          "Strong boots",
+          "Trainers",
+          "Raincoats"
+        ],
+        "answerIndex": 1,
+        "explanation": "The concierge gave us a walking map and advised us to wear strong boots, because the paths were wet."
+      }
+    ],
+    "funPrompt": "What would make a hotel stay feel special to you: the room, the food, or the view?"
+  },
+  {
+    "id": 82,
+    "day": 82,
+    "title": "The High School Science Fair",
+    "coverEmoji": "🔬",
+    "category": "Science & Technology",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "Two students build a sand-and-charcoal water filter and present it to a panel of judges.",
+    "wordCount": 245,
+    "paragraphs": [
+      "Every year, our school holds a science fair for young inventors. Leo and Sam made a team to design a cheap water filter. They spent three weeks on research and materials. In the chemistry lab, they tested how sand and charcoal clean dirty water.",
+      "Leo wrote every measurement in his project journal. Their teacher checked their plan and gave useful advice. She told them to control the variables so the results would be correct.",
+      "On the day of the fair, the school gym became a busy science hall. Dozens of stalls stood on the basketball court. Each stall had a board explaining the project.",
+      "At nine o'clock, a group of judges arrived. A university professor stopped at Leo and Sam's table. Leo greeted him politely and began the presentation. He said their filter was made for villages without clean water.",
+      "Sam showed how muddy river water became clear after passing through a plastic tube. The professor asked good questions about speed. Sam answered with confidence and used their test charts.",
+      "Across the hall, another group showed a small solar car. It moved along a track and drew a crowd.",
+      "Other projects looked at biofuels, plant growth and plastic recycling. The judges praised all students for their hard work.",
+      "In the afternoon, the principal announced the results. Leo and Sam were thrilled when their water filter won first prize. They walked up to receive a trophy and a certificate. They wanted to keep building new ideas."
+    ],
+    "vocabulary": [
+      {
+        "word": "filter",
+        "syllables": "fil-ter",
+        "phonetic": "/ˈfɪltə/",
+        "definition": "A device that removes dirt from water or air.",
+        "example": "Leo and Sam made a team to design a cheap water filter.",
+        "emoji": "💧"
+      },
+      {
+        "word": "variables",
+        "syllables": "var-i-a-bles",
+        "phonetic": "/ˈveəriəblz/",
+        "definition": "Things that can change in an experiment.",
+        "example": "She told them to control the variables so the results would be correct.",
+        "emoji": "⚗️"
+      },
+      {
+        "word": "judges",
+        "syllables": "judg-es",
+        "phonetic": "/ˈdʒʌdʒɪz/",
+        "definition": "People who decide which entry is best in a competition.",
+        "example": "At nine o'clock, a group of judges arrived.",
+        "emoji": "⚖️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What did Leo and Sam design?",
+        "options": [
+          "A solar car",
+          "A cheap water filter",
+          "A recycling machine",
+          "A model rocket"
+        ],
+        "answerIndex": 1,
+        "explanation": "Leo and Sam made a team to design a cheap water filter."
+      },
+      {
+        "question": "Which materials did their filter use?",
+        "options": [
+          "Metal and glass",
+          "Sand and charcoal",
+          "Cotton and paper",
+          "Plastic and stone"
+        ],
+        "answerIndex": 1,
+        "explanation": "In the chemistry lab, they tested how sand and charcoal clean dirty water."
+      },
+      {
+        "question": "What did their project win?",
+        "options": [
+          "A certificate only",
+          "First prize",
+          "Second prize",
+          "Nothing"
+        ],
+        "answerIndex": 1,
+        "explanation": "Leo and Sam were thrilled when their water filter won first prize."
+      }
+    ],
+    "funPrompt": "What everyday problem would you try to solve with a simple invention?"
+  },
+  {
+    "id": 83,
+    "day": 83,
+    "title": "A Day Out at the Theme Park",
+    "coverEmoji": "🎢",
+    "category": "Leisure & Adventure",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "A birthday trip with a fifty-metre coaster, a soaking flume and a giant stuffed bear.",
+    "wordCount": 243,
+    "paragraphs": [
+      "For David's fifteenth birthday, his parents took him and his friends to a theme park. They left early on Saturday and arrived at ten o'clock. David's mother bought four all-day tickets. Each visitor got a wristband and a pocket guide with a map.",
+      "The park had themed zones, like Adventure Island and Future World. They went first to the big roller coaster called 'Silver Thunder'. They joined the queue, which moved forward at a steady pace. While waiting, David read the safety sign. It told riders to secure loose items and fasten their belts.",
+      "When their turn came, they got into the cars and pulled down the shoulder bars. The train climbed slowly to fifty metres. Suddenly, the coaster dropped at great speed. The passengers screamed as the train went through sharp turns and loops.",
+      "After the ride, David felt dizzy but thrilled.",
+      "Next, they went on a water flume. Log boats drifted along a river and splashed down at the end. The splash soaked their shirts, and everyone laughed.",
+      "At noon, they ate at a diner. David ordered a cheeseburger, fries and cola. His friends had pizza and ice cream.",
+      "In the afternoon, they visited a haunted castle with spooky sounds. Then David tried a carnival game. He threw three rings onto bottles and won a giant stuffed bear. He gave it to his little sister, who was delighted.",
+      "Before leaving, they bought postcards. David thanked his parents for a great birthday."
+    ],
+    "vocabulary": [
+      {
+        "word": "coaster",
+        "syllables": "coast-er",
+        "phonetic": "/ˈkəʊstə/",
+        "definition": "A fast ride that runs on a track and goes up and down steeply.",
+        "example": "They went first to the big roller coaster called 'Silver Thunder'.",
+        "emoji": "🎢"
+      },
+      {
+        "word": "queue",
+        "syllables": "queue",
+        "phonetic": "/kjuː/",
+        "definition": "A line of people waiting for something.",
+        "example": "They joined the queue, which moved forward at a steady pace.",
+        "emoji": "👥"
+      },
+      {
+        "word": "flume",
+        "syllables": "flume",
+        "phonetic": "/fluːm/",
+        "definition": "A water ride where boats slide down a channel.",
+        "example": "Next, they went on a water flume.",
+        "emoji": "🌊"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How high did the coaster climb?",
+        "options": [
+          "Twenty metres",
+          "Thirty metres",
+          "Fifty metres",
+          "One hundred metres"
+        ],
+        "answerIndex": 2,
+        "explanation": "The train climbed slowly to fifty metres."
+      },
+      {
+        "question": "What happened at the end of the water flume?",
+        "options": [
+          "They got lost",
+          "A splash soaked their shirts",
+          "The boat stopped",
+          "They fell in the river"
+        ],
+        "answerIndex": 1,
+        "explanation": "The splash soaked their shirts, and everyone laughed."
+      },
+      {
+        "question": "What did David win at the carnival game?",
+        "options": [
+          "A keyring",
+          "A giant stuffed bear",
+          "A box of chocolates",
+          "A free ticket"
+        ],
+        "answerIndex": 1,
+        "explanation": "He threw three rings onto bottles and won a giant stuffed bear."
+      }
+    ],
+    "funPrompt": "Which ride would you go on first at a theme park: the fastest, the scariest, or the wettest?"
+  },
+  {
+    "id": 84,
+    "day": 84,
+    "title": "Sustainable Living and Recycling",
+    "coverEmoji": "♻️",
+    "category": "Nature & Environment",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "A school turns recycling bins, compost and motion sensors into a thirty-percent cut in waste charges.",
+    "wordCount": 248,
+    "paragraphs": [
+      "Protecting the environment is one of the most important jobs for our society. Every person can help by adopting green habits. Last term, our school started a green campus project. The aim was to cut energy waste and plastic litter. We put colour-coded recycling bins in every room and corridor.",
+      "Blue bins were for paper, green for glass and yellow for plastic. Student monitors checked the bins every day to make sure the sorting was correct. Putting food waste with paper was not allowed.",
+      "In the canteen, we replaced plastic forks and cups with metal ones. Students were asked to bring reusable water bottles instead of buying drinks in bottles. The canteen staff began composting fruit and vegetable peelings. The compost was later used in the school garden.",
+      "To save electricity, classrooms installed motion sensors. When a room was empty for ten minutes, the lights turned off. Teachers reminded students to switch off monitors before leaving.",
+      "The school also held a weekly 'Walk to School' challenge. Many pupils cycled or walked together. Leaving cars at home reduced traffic near the school gate.",
+      "In art class, students reused old boxes and cans. They made pencil holders and plant pots. A special show displayed these things in the library. Parents came to see the displays and learn tips.",
+      "The project cut the school's waste charges by thirty percent. It also helped students respect nature. Our school won a national green award. Living sustainably is a journey that shapes responsible citizens."
+    ],
+    "vocabulary": [
+      {
+        "word": "reusable",
+        "syllables": "re-us-a-ble",
+        "phonetic": "/ˌriːˈjuːzəbl/",
+        "definition": "Something you can use again instead of throwing away.",
+        "example": "Students were asked to bring reusable water bottles instead of buying drinks in bottles.",
+        "emoji": "🥤"
+      },
+      {
+        "word": "compost",
+        "syllables": "com-post",
+        "phonetic": "/ˈkɒmpɒst/",
+        "definition": "Rotted plants and food waste used to feed the soil.",
+        "example": "The canteen staff began composting fruit and vegetable peelings.",
+        "emoji": "🪱"
+      },
+      {
+        "word": "sensors",
+        "syllables": "sen-sors",
+        "phonetic": "/ˈsensəz/",
+        "definition": "Devices that notice changes such as movement or light.",
+        "example": "To save electricity, classrooms installed motion sensors.",
+        "emoji": "📡"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Which colour bin was for plastic?",
+        "options": [
+          "Blue",
+          "Green",
+          "Yellow",
+          "Red"
+        ],
+        "answerIndex": 2,
+        "explanation": "Blue bins were for paper, green for glass and yellow for plastic."
+      },
+      {
+        "question": "How did classrooms save electricity?",
+        "options": [
+          "With candles",
+          "With motion sensors",
+          "By closing windows",
+          "By turning off heating"
+        ],
+        "answerIndex": 1,
+        "explanation": "To save electricity, classrooms installed motion sensors."
+      },
+      {
+        "question": "By how much did the school's waste charges fall?",
+        "options": [
+          "Ten percent",
+          "Twenty percent",
+          "Thirty percent",
+          "Fifty percent"
+        ],
+        "answerIndex": 2,
+        "explanation": "The project cut the school's waste charges by thirty percent."
+      }
+    ],
+    "funPrompt": "What could your family sort or reuse this week instead of throwing away?"
+  },
+  {
+    "id": 85,
+    "day": 85,
+    "title": "A Traditional Farm Harvest Festival",
+    "coverEmoji": "🎃",
+    "category": "Culture & Festivals",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "A harvest festival of giant pumpkins, sheep shearing, folk dancing and a charity auction.",
+    "wordCount": 246,
+    "paragraphs": [
+      "Every autumn, after the crops are gathered, our county celebrates the Harvest Festival. Farmers and families come to the old market square. The square is decorated with golden wheat, orange pumpkins and paper streamers. In the centre, a wooden stage holds folk musicians and dancers. They play happy tunes on violins, flutes and accordions.",
+      "Around the square, stalls sell fresh produce. Visitors can taste sweet apples, wild honey and berry jam. Local bakers show crusty bread, fruit pies and ginger biscuits.",
+      "In the farm pavilion, judges look at giant vegetables entered in the contest. A retired farmer wins a blue ribbon for a huge pumpkin. It weighs over ninety kilograms. Children take photos beside the orange giant.",
+      "Nearby, a petting area lets younger children meet farm animals.",
+      "A sheep shearer gives a demonstration. He shows how wool is cut from the sheep with hand shears. He explains that wool is a natural and renewable material. In the craft tent, a woodcarver makes small animals from fallen branches. Visitors can buy wooden bowls, baskets and tablecloths.",
+      "At four o'clock, the mayor speaks. She thanks the farming families for their hard work. She says farmers provide the food that keeps society healthy.",
+      "Then a charity auction sells the prize-winning fruits and vegetables. The money goes to the village children's clinic. As evening comes, fairy lights glow over the stalls. A barn dance begins in the community hall. Families walk home under a full harvest moon, full of gratitude."
+    ],
+    "vocabulary": [
+      {
+        "word": "shearer",
+        "syllables": "shear-er",
+        "phonetic": "/ˈʃɪərə/",
+        "definition": "A person who cuts the wool off sheep.",
+        "example": "A sheep shearer gives a demonstration.",
+        "emoji": "🐑"
+      },
+      {
+        "word": "wool",
+        "syllables": "wool",
+        "phonetic": "/wʊl/",
+        "definition": "The soft thick hair of sheep, used to make clothes.",
+        "example": "He shows how wool is cut from the sheep with hand shears.",
+        "emoji": "🧶"
+      },
+      {
+        "word": "auction",
+        "syllables": "auc-tion",
+        "phonetic": "/ˈɔːkʃn/",
+        "definition": "An event where things are sold to the person who pays the most.",
+        "example": "Then a charity auction sells the prize-winning fruits and vegetables.",
+        "emoji": "🔨"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What won a blue ribbon in the vegetable contest?",
+        "options": [
+          "A giant cabbage",
+          "A huge pumpkin weighing over ninety kilograms",
+          "A long carrot",
+          "A huge tomato"
+        ],
+        "answerIndex": 1,
+        "explanation": "A retired farmer wins a blue ribbon for a huge pumpkin. It weighs over ninety kilograms."
+      },
+      {
+        "question": "What did the shearer demonstrate?",
+        "options": [
+          "How to feed sheep",
+          "How wool is cut from sheep",
+          "How to make jumpers",
+          "How to train sheepdogs"
+        ],
+        "answerIndex": 1,
+        "explanation": "A sheep shearer gives a demonstration. He shows how wool is cut from the sheep with hand shears."
+      },
+      {
+        "question": "Where did the auction money go?",
+        "options": [
+          "To the town hall",
+          "To the village children's clinic",
+          "To the farmers",
+          "To the school"
+        ],
+        "answerIndex": 1,
+        "explanation": "The money goes to the village children's clinic."
+      }
+    ],
+    "funPrompt": "Which food at a harvest festival would you most want to taste, and why?"
   }
 ];
 
