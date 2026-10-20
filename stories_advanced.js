@@ -1647,6 +1647,826 @@ const ADVANCED_STORIES = [
       }
     ],
     "funPrompt": "If you explored your own town with a historian, which building would you ask about first?"
+  },
+  {
+    "id": 521,
+    "day": 21,
+    "track": "advanced",
+    "title": "A Visit to the Local Medical Clinic",
+    "coverEmoji": "🏥",
+    "category": "Health & Wellbeing",
+    "level": "Advanced",
+    "readingTime": "8 mins",
+    "intro": "Leo has a fever and a sore throat, and learns why antibiotics are not always the answer.",
+    "wordCount": 451,
+    "paragraphs": [
+      "When Leo developed a high fever and a persistent dry cough, his mother made a doctor's appointment. They walked down the high street and entered the local community health clinic at nine o'clock. The receptionist at the reception desk verified Leo’s details and handed him a medical history form. Leo completed the questionnaire and sat down quietly on a soft armchair in the waiting room. A friendly nurse called his name and led him into the primary examination room.",
+      "First, she wrapped a blood pressure cuff around his arm to measure his vital signs. Then, she used an electronic digital thermometer to take his body temperature. The thermometer indicated that Leo had a mild fever of thirty-eight degrees Celsius. Dr Evans entered the office with a warm smile and asked Leo where he felt the most pain. Leo explained that he had a severe sore throat and a terrible throbbing headache.",
+      "He added that swallowing food or drinking cold water was extremely painful. The doctor used a wooden stick to inspect the back of Leo's throat and checked his swollen tonsils. She also used a stethoscope to listen to the airflow in his chest and lungs as he took a deep breath. Dr Evans assured Leo that his chest sounded clear and showed no signs of a lung infection. She diagnosed him with a common seasonal viral flu rather than a serious bacterial disease.",
+      "The doctor explained that antibiotics would not cure a viral illness and were unnecessary. Instead, she wrote a clear prescription for fever-reducing medicine and throat lozenges. She instructed Leo to take two tablets every eight hours after meals with plenty of warm water. She also advised him to rest in bed and drink hot herbal tea with natural honey. \"You should avoid strenuous physical exercise until your body makes a full recovery,\" she warned.",
+      "Leo promised to follow her medical instructions carefully throughout the coming week. On their way home, they stopped at the local pharmacy to collect the prescribed medication. The chemist explained the correct dosage once more and attached a printed label to the pill bottle. At home, Leo changed into comfortable cotton pyjamas and pulled the warm duvet over himself. His mother brought him a bowl of steaming chicken soup and a glass of fresh orange juice.",
+      "The warm meal soothed his aching throat and gave him a comforting sense of relief. Leo slept soundly for several hours without being disturbed by any loud noise. By the following afternoon, his temperature began to fall steadily toward normal levels. Following professional medical guidance helps patients recover quickly and prevents unwanted complications. Leo felt deeply grateful for the attentive care he received from the clinic staff."
+    ],
+    "vocabulary": [
+      {
+        "word": "cough",
+        "syllables": "cough",
+        "phonetic": "/kɒf/",
+        "definition": "To force air out of your throat with a sudden, harsh noise.",
+        "example": "When Leo developed a high fever and a persistent dry cough, his mother made a doctor's appointment.",
+        "emoji": "🤧"
+      },
+      {
+        "word": "cure",
+        "syllables": "cure",
+        "phonetic": "/kjʊə/",
+        "definition": "To make an illness or injury go away completely.",
+        "example": "The doctor explained that antibiotics would not cure a viral illness and were unnecessary.",
+        "emoji": "💊"
+      },
+      {
+        "word": "tablets",
+        "syllables": "tab-lets",
+        "phonetic": "/ˈtæblɪts/",
+        "definition": "Small hard round pieces of medicine that you swallow.",
+        "example": "She instructed Leo to take two tablets every eight hours after meals with plenty of warm water.",
+        "emoji": "🩹"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What temperature did Leo's thermometer show?",
+        "options": [
+          "Thirty-six degrees",
+          "Thirty-seven degrees",
+          "Thirty-eight degrees",
+          "Forty degrees"
+        ],
+        "answerIndex": 2,
+        "explanation": "The thermometer indicated that Leo had a mild fever of thirty-eight degrees Celsius."
+      },
+      {
+        "question": "What did the doctor say about antibiotics?",
+        "options": [
+          "They would cure the flu quickly",
+          "They would not cure a viral illness",
+          "They were too expensive",
+          "They should be taken every hour"
+        ],
+        "answerIndex": 1,
+        "explanation": "The doctor explained that antibiotics would not cure a viral illness and were unnecessary."
+      },
+      {
+        "question": "What did the chemist do at the pharmacy?",
+        "options": [
+          "Gave Leo an injection",
+          "Explained the dosage and attached a printed label",
+          "Sent Leo to hospital",
+          "Sold Leo some vitamins"
+        ],
+        "answerIndex": 1,
+        "explanation": "The chemist explained the correct dosage once more and attached a printed label to the pill bottle."
+      }
+    ],
+    "funPrompt": "When you are ill, what helps you feel better besides medicine?"
+  },
+  {
+    "id": 522,
+    "day": 22,
+    "track": "advanced",
+    "title": "Applying for a Summer Job",
+    "coverEmoji": "💼",
+    "category": "Jobs & Society",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "Maya writes a CV, sits an interview and lands her first summer job at a seaside hotel.",
+    "wordCount": 420,
+    "paragraphs": [
+      "With the long summer vacation approaching, Maya decided to seek a temporary part-time job. She wanted to gain practical workplace experience and earn some independent pocket money. She browsed a popular recruitment website that listed diverse vacancies for secondary school students. A local seaside hotel was advertising an opening for a weekend customer service assistant. The job required good interpersonal skills, basic computer literacy, and a fluent level of English.",
+      "Maya updated her CV, listing her academic achievements, language certificates, and extracurricular activities. She drafted a formal application letter explaining why she was suitable for the position. Before submitting the files, she asked her English teacher to check her spelling and grammar. Two days later, Maya received an official email inviting her for an in-person interview. On Friday morning, she wore a smart dark suit and polished her leather shoes neatly.",
+      "She arrived at the hotel reception fifteen minutes before her scheduled meeting. The human resources manager welcomed her into the executive office with a firm handshake. The manager asked Maya to describe a challenging situation she had successfully managed in the past. Maya described how she organised a school charity sale and managed cash transactions without errors. She answered each question in a clear, confident, and polite voice.",
+      "The interviewer was clearly impressed by her mature attitude and strong communication skills. He explained the essential duties of the role, which included answering phone calls and greeting hotel guests. The position offered a competitive hourly wage, flexible working hours, and free staff meals. He asked if Maya was willing to work on public holidays and occasional weekend shifts. Maya replied that she was eager to take on any responsibility assigned to her.",
+      "At the end of the meeting, the manager smiled and offered Maya the job on the spot. Maya was absolutely delighted and thanked him sincerely for the fantastic opportunity. She was asked to sign a standard employment contract on Monday morning. The hotel provided all new employees with a comprehensive two-day training programme. They learned how to operate the reservation database and handle customer enquiries professionally.",
+      "Having a real job helped Maya understand the true value of hard work and self-reliance. It gave her a taste of adult professional life beyond the structured classroom environment. Balancing work and leisure taught her how to manage her personal time with greater efficiency. Many young people discover their future career interests through early summer employment. Maya looked forward to starting her new role and making positive contributions to the hotel team."
+    ],
+    "vocabulary": [
+      {
+        "word": "suit",
+        "syllables": "suit",
+        "phonetic": "/suːt/",
+        "definition": "A jacket and trousers made of the same cloth, worn together.",
+        "example": "On Friday morning, she wore a smart dark suit and polished her leather shoes neatly.",
+        "emoji": "👔"
+      },
+      {
+        "word": "spot",
+        "syllables": "spot",
+        "phonetic": "/spɒt/",
+        "definition": "Immediately, without waiting.",
+        "example": "At the end of the meeting, the manager smiled and offered Maya the job on the spot.",
+        "emoji": "⚡"
+      },
+      {
+        "word": "sign",
+        "syllables": "sign",
+        "phonetic": "/saɪn/",
+        "definition": "To write your name on a document to show that you agree to it.",
+        "example": "She was asked to sign a standard employment contract on Monday morning.",
+        "emoji": "✍️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What job was the seaside hotel advertising?",
+        "options": [
+          "A chef",
+          "A weekend customer service assistant",
+          "A swimming teacher",
+          "A cleaner"
+        ],
+        "answerIndex": 1,
+        "explanation": "The hotel was advertising an opening for a weekend customer service assistant."
+      },
+      {
+        "question": "What did Maya describe in the interview?",
+        "options": [
+          "Her holiday plans",
+          "A school charity sale she organised",
+          "Her favourite teacher",
+          "A book she had read"
+        ],
+        "answerIndex": 1,
+        "explanation": "Maya described how she organised a school charity sale and managed cash transactions without errors."
+      },
+      {
+        "question": "When did the manager offer Maya the job?",
+        "options": [
+          "At the end of the meeting",
+          "Two weeks later",
+          "After the training programme",
+          "By email the next day"
+        ],
+        "answerIndex": 0,
+        "explanation": "At the end of the meeting, the manager smiled and offered Maya the job on the spot."
+      }
+    ],
+    "funPrompt": "What job would you like to try for one summer, and what would you want to learn from it?"
+  },
+  {
+    "id": 523,
+    "day": 23,
+    "track": "advanced",
+    "title": "The World of Musical Instruments",
+    "coverEmoji": "🎻",
+    "category": "Arts & Performance",
+    "level": "Advanced",
+    "readingTime": "8 mins",
+    "intro": "A school music project introduces strings, wind, brass and percussion — and one very patient conductor.",
+    "wordCount": 433,
+    "paragraphs": [
+      "Music is a universal language that has the unique power to evoke deep human emotions. Last term, our secondary school music department launched an instrumental starter project. The music tutor introduced the four main families of classical orchestral instruments. First, he demonstrated the string family, which includes the violin, viola, cello, and double bass. He explained that string instruments produce sound when a horsehair bow is drawn across the strings.",
+      "Leo chose to learn the acoustic guitar because he loved both folk music and classic rock. His instructor showed him how to press the metal frets firmly with the tips of his left fingers. At first, Leo's fingertips felt sore, but they soon developed protective skin calluses. He learned basic musical notation, reading notes on the five parallel lines of the staff. Practising daily for thirty minutes helped him master difficult chord transitions with great speed.",
+      "Next, the class explored wind instruments, such as the silver flute, clarinet, and saxophone. Playing a wind instrument requires precise control over one's breath and abdominal muscles. In the brass section, the bright tone of the trumpet resonated powerfully across the music hall. The percussion section attracted students who had a natural sense of rhythm and musical timing. Sam enjoyed playing the snare drum and learned how to keep a steady beat for the group.",
+      "He used wooden drumsticks to strike the drum membrane in rapid and synchronized patterns. Every Friday afternoon, all the young musicians gathered for a combined orchestra rehearsal. The conductor stood on the wooden podium, holding a thin white baton in his right hand. He raised his arms, called for silence, and gave the starting downbeat. Blending all the distinct instrumental voices into a single harmonious piece required intense concentration.",
+      "If any player made a rhythmic mistake, the conductor stopped the orchestra to correct the bar. Gradually, the ensemble improved, and their performance became remarkably polished and smooth. At the end of term, the orchestra gave a live public concert in the town hall. A large audience of local residents bought tickets to attend the evening event. When the final chord rang out, the hall erupted in tremendous applause and cheerful shouts.",
+      "Playing in an orchestra taught the students that individual brilliance must serve the collective whole. It nurtured mutual trust, strict discipline, and a lifelong appreciation for musical creativity. Scientific studies show that learning an instrument improves brain development and mathematical skills. It also provides young learners with a healthy and creative outlet to relieve academic stress. Leo packed his guitar case that night, feeling deeply inspired to continue his musical journey."
+    ],
+    "vocabulary": [
+      {
+        "word": "tips",
+        "syllables": "tips",
+        "phonetic": "/tɪps/",
+        "definition": "The pointed ends of your fingers.",
+        "example": "His instructor showed him how to press the metal frets firmly with the tips of his left fingers.",
+        "emoji": "🖐️"
+      },
+      {
+        "word": "lines",
+        "syllables": "lines",
+        "phonetic": "/laɪnz/",
+        "definition": "The five horizontal lines on which musical notes are written.",
+        "example": "He learned basic musical notation, reading notes on the five parallel lines of the staff.",
+        "emoji": "🎼"
+      },
+      {
+        "word": "strike",
+        "syllables": "strike",
+        "phonetic": "/straɪk/",
+        "definition": "To hit something with force.",
+        "example": "He used wooden drumsticks to strike the drum membrane in rapid and synchronized patterns.",
+        "emoji": "🥁"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How do string instruments produce sound?",
+        "options": [
+          "By blowing into them",
+          "When a horsehair bow is drawn across the strings",
+          "By pressing keys",
+          "By shaking them"
+        ],
+        "answerIndex": 1,
+        "explanation": "String instruments produce sound when a horsehair bow is drawn across the strings."
+      },
+      {
+        "question": "How long did Leo practise every day?",
+        "options": [
+          "Ten minutes",
+          "Twenty minutes",
+          "Thirty minutes",
+          "One hour"
+        ],
+        "answerIndex": 2,
+        "explanation": "Practising daily for thirty minutes helped him master difficult chord transitions."
+      },
+      {
+        "question": "What did the conductor hold in his right hand?",
+        "options": [
+          "A violin",
+          "A thin white baton",
+          "A sheet of music",
+          "A microphone"
+        ],
+        "answerIndex": 1,
+        "explanation": "The conductor stood on the wooden podium, holding a thin white baton in his right hand."
+      }
+    ],
+    "funPrompt": "Which instrument would you choose to learn, and what kind of music would you want to play first?"
+  },
+  {
+    "id": 524,
+    "day": 24,
+    "track": "advanced",
+    "title": "Digital Communication and Social Media",
+    "coverEmoji": "📱",
+    "category": "Science & Technology",
+    "level": "Advanced",
+    "readingTime": "8 mins",
+    "intro": "A computer science lesson on privacy, passwords and screen time changes how Tom spends his evenings.",
+    "wordCount": 428,
+    "paragraphs": [
+      "The internet and digital applications have revolutionized how modern teenagers communicate and connect. Today, almost every high school student owns a portable touchscreen smartphone. Social media platforms allow users to share photos, post updates, and chat with friends in real time. Emma created a personal digital blog to share her passion for landscape photography. She uploads high-resolution images of coastal wildlife and writes short descriptive captions.",
+      "Her classmates frequently visit the web page to leave supportive comments and \"like\" her creative posts. However, our computer science teacher reminded us about the crucial importance of online privacy. She explained that once information is published on the web, it is extremely difficult to delete. Students should never reveal sensitive personal details, such as home addresses or telephone numbers. Creating strong and complex account passwords is essential to prevent unauthorized access.",
+      "A robust password should contain a combination of capital letters, numbers, and special symbols. The teacher also warned the class about the rising danger of computer viruses and fraudulent links. Users should never download unknown email attachments or click on suspicious advertisement banners. In addition to cybersecurity, digital etiquette and kindness were discussed in detail during the lesson. Online cyberbullying and posting unkind remarks can cause severe emotional distress to victims.",
+      "Students were encouraged to treat others on the web with the exact same respect as in real life. Another critical issue related to digital media is the risk of screen addiction. Spending excessive hours scrolling through social feeds can lead to physical eye strain and poor sleep. Tom realised that he spent over four hours on gaming apps every single evening. He decided to set a strict daily screen time limit using a built-in phone monitoring tool.",
+      "When the alarm went off after sixty minutes, he switched off the screen and focused on his studies. Instead of messaging friends online, he invited them to play football in the open air. Balancing digital entertainment with active outdoor pursuits significantly improved his mood and fitness. The internet remains a remarkably powerful tool for acquiring knowledge and global information. Students can access online digital libraries, watch educational video podcasts, and take language courses.",
+      "Technology itself is neutral; its ultimate impact depends on how we use it. Using social networks responsibly allows young people to build healthy communities and broaden their minds. Developing critical digital literacy is an indispensable life skill for twenty-first-century citizens. Our school decided to establish an annual \"Digital Wellness Week\" to promote balanced tech habits. Emma and Tom volunteered to design the promotional posters, eager to inspire their peers."
+    ],
+    "vocabulary": [
+      {
+        "word": "posts",
+        "syllables": "posts",
+        "phonetic": "/pəʊsts/",
+        "definition": "Messages, photos or videos that someone puts on a website for others to see.",
+        "example": "Her classmates frequently visit the web page to leave supportive comments and \"like\" her creative posts.",
+        "emoji": "📝"
+      },
+      {
+        "word": "like",
+        "syllables": "like",
+        "phonetic": "/laɪk/",
+        "definition": "To click a button that shows you enjoy someone's post.",
+        "example": "Her classmates frequently visit the web page to leave supportive comments and \"like\" her creative posts.",
+        "emoji": "👍"
+      },
+      {
+        "word": "limit",
+        "syllables": "lim-it",
+        "phonetic": "/ˈlɪmɪt/",
+        "definition": "The greatest amount of something that is allowed.",
+        "example": "He decided to set a strict daily screen time limit using a built-in phone monitoring tool.",
+        "emoji": "⏱️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What did Emma create?",
+        "options": [
+          "A video game",
+          "A personal digital blog about landscape photography",
+          "A chat group",
+          "An online shop"
+        ],
+        "answerIndex": 1,
+        "explanation": "Emma created a personal digital blog to share her passion for landscape photography."
+      },
+      {
+        "question": "What should a strong password contain?",
+        "options": [
+          "Only lowercase letters",
+          "Your birthday",
+          "Capital letters, numbers and special symbols",
+          "Your pet's name"
+        ],
+        "answerIndex": 2,
+        "explanation": "A robust password should contain a combination of capital letters, numbers, and special symbols."
+      },
+      {
+        "question": "How long did Tom spend on gaming apps each evening?",
+        "options": [
+          "One hour",
+          "Two hours",
+          "Over four hours",
+          "Ten minutes"
+        ],
+        "answerIndex": 2,
+        "explanation": "Tom realised that he spent over four hours on gaming apps every single evening."
+      }
+    ],
+    "funPrompt": "What rule would you set for your own screen time, and what would you do instead?"
+  },
+  {
+    "id": 525,
+    "day": 25,
+    "track": "advanced",
+    "title": "A Trip to the Natural History Museum",
+    "coverEmoji": "🦕",
+    "category": "Science & History",
+    "level": "Advanced",
+    "readingTime": "8 mins",
+    "intro": "Dinosaurs, a meteorite you can touch, and a planetarium sky — a museum trip through deep time.",
+    "wordCount": 443,
+    "paragraphs": [
+      "Last Saturday, our school organised an educational excursion to the National Museum of Natural History. We boarded a chartered coach in the morning and arrived at the grand museum plaza by ten o'clock. The museum building was an imposing Victorian structure with massive stone arches and tall towers. At the main entrance, security guards checked our backpacks before allowing our group to enter. Our tour guide, Mr. Davies, handed each pupil an illustrated museum guidebook and an activity sheet.",
+      "We began our exploration in the famous dinosaur hall on the spacious ground floor. In the centre of the gallery stood the enormous fossilized skeleton of a Diplodocus dinosaur. Its gigantic neck and long tail stretched across almost the entire length of the exhibition hall. Mr. Davies explained that these majestic herbivores roamed the Earth millions of years ago. In a nearby glass cabinet, we saw the fossilized footprints of ancient reptiles preserved in solid rock.",
+      "Tom used his tablet to scan the QR code beside the display to watch an interactive 3D animation. The animation demonstrated how prehistoric predators hunted in dense swampy forests. Next, we visited the biodiversity gallery, which showcased thousands of preserved animal specimens. We saw colourful tropical birds, massive African mammals, and intricate displays of rare insects. A specialist researcher gave a brief talk about species extinction and current biodiversity loss.",
+      "She explained that human industrial activities and deforestation pose severe threats to fragile ecosystems. In the mineral hall, glittering cases displayed hundreds of precious gemstones, crystals, and gold nuggets. A massive meteorite that fell from outer space thousands of years ago caught everyone's attention. Visitors were allowed to touch the heavy dark stone, which felt surprisingly cool and metallic. At noon, the class gathered in the museum café on the lower level to eat our packed lunches.",
+      "We shared tuna sandwiches, sweet apples, and bottles of sparkling mineral water. In the afternoon, we attended an immersive presentation in the museum's digital planetarium. The domed ceiling turned into a vast night sky, displaying revolving galaxies, planets, and distant stars. The astronomer explained how our solar system formed over billions of years of cosmic evolution. The breathtaking visual effects made us feel as if we were travelling through infinite space.",
+      "Before leaving, we visited the museum souvenir shop near the main exit. Leo purchased an educational book about prehistoric fossils and a commemorative bronze keyring. The excursion provided our class with an unforgettable journey through time and natural science. It deepened our understanding of the planet's history and reinforced the need for environmental conservation. On the ride home, everyone chatted animatedly about the fascinating exhibits they had seen that day."
+    ],
+    "vocabulary": [
+      {
+        "word": "enter",
+        "syllables": "en-ter",
+        "phonetic": "/ˈentə/",
+        "definition": "To go into a building or room.",
+        "example": "At the main entrance, security guards checked our backpacks before allowing our group to enter.",
+        "emoji": "🚪"
+      },
+      {
+        "word": "sheet",
+        "syllables": "sheet",
+        "phonetic": "/ʃiːt/",
+        "definition": "A piece of paper with questions or information on it.",
+        "example": "Our tour guide, Mr. Davies, handed each pupil an illustrated museum guidebook and an activity sheet.",
+        "emoji": "📄"
+      },
+      {
+        "word": "exit",
+        "syllables": "ex-it",
+        "phonetic": "/ˈeksɪt/",
+        "definition": "The way out of a building.",
+        "example": "Before leaving, we visited the museum souvenir shop near the main exit.",
+        "emoji": "🚶"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Which dinosaur skeleton stood in the centre of the hall?",
+        "options": [
+          "A T-Rex",
+          "A Diplodocus",
+          "A Triceratops",
+          "A Stegosaurus"
+        ],
+        "answerIndex": 1,
+        "explanation": "In the centre of the gallery stood the enormous fossilized skeleton of a Diplodocus dinosaur."
+      },
+      {
+        "question": "What were visitors allowed to touch?",
+        "options": [
+          "A dinosaur bone",
+          "A large meteorite",
+          "A gold nugget",
+          "A live reptile"
+        ],
+        "answerIndex": 1,
+        "explanation": "Visitors were allowed to touch the heavy dark stone, which felt surprisingly cool and metallic."
+      },
+      {
+        "question": "What did the planetarium show?",
+        "options": [
+          "A film about dinosaurs",
+          "A vast night sky with galaxies and stars",
+          "A talk about insects",
+          "A model of the museum"
+        ],
+        "answerIndex": 1,
+        "explanation": "The domed ceiling turned into a vast night sky, displaying revolving galaxies, planets, and distant stars."
+      }
+    ],
+    "funPrompt": "If you could bring one thing back from a museum to your classroom, what would it be?"
+  },
+  {
+    "id": 526,
+    "day": 26,
+    "track": "advanced",
+    "title": "Booking a Mountain Resort",
+    "coverEmoji": "🏔️",
+    "category": "Travel & Leisure",
+    "level": "Advanced",
+    "readingTime": "8 mins",
+    "intro": "A family books a lakeside mountain resort and discovers that the small details make the stay.",
+    "wordCount": 433,
+    "paragraphs": [
+      "Planning a family holiday requires careful research to ensure the accommodation is suitable. Last month, my father decided to book a five-day stay at a lakeside mountain resort. He contacted the hotel's central booking office to enquire about room availability. The receptionist confirmed that a spacious double room with an en-suite bathroom was free. My father asked if the hotel had modern facilities, such as a heated indoor swimming pool.",
+      "The clerk replied that the resort provided complimentary Wi-Fi, a gym, and secure parking. To confirm the reservation, my father paid a ten percent deposit using his credit card. The hotel sent an electronic confirmation email containing the complete itinerary and receipt. When we arrived at the resort on Friday afternoon, a porter helped carry our heavy luggage. The front desk clerk welcomed us with a friendly smile and handed us our digital key cards.",
+      "He explained that breakfast was served in the main dining room from seven to ten every morning. Our room was situated on the third floor, offering a panoramic view of the pine forest. The beds were made with clean cotton sheets, soft pillows, and a thick woollen blanket. In the corner stood a polished wooden wardrobe with plenty of hangers for our jackets. My mother opened the sliding glass door to step out onto the private balcony.",
+      "The fresh alpine air felt cool, and the distant mountain peak was capped with white snow. My brother explored the room amenities, discovering a small kettle and complimentary tea bags. In the bathroom, the large bathtub had both hot and cold taps working perfectly. Clean bath towels and fragrant bottles of shampoo were arranged neatly beside the basin. After unpacking our suitcases, we took the glass lift down to the hotel lobby.",
+      "The concierge provided us with a local hiking map and recommended scenic walking routes. He advised us to wear sturdy boots because recent rainfall had made the paths slippery. In the evening, we dined at the resort's traditional restaurant on the ground level. The chef prepared roast chicken, baked potatoes, and freshly steamed green beans. The meal was absolutely delicious, and the service provided by the waiters was excellent.",
+      "After dinner, we sat in the cosy guest lounge near the open stone fireplace. We played a classic board game together while listening to the crackling wood fire. Spending quality time together in such a peaceful setting strengthened our family bond. Before checking out on Tuesday, my father left a generous tip for the hardworking cleaning staff. We all agreed that our relaxing mountain holiday had exceeded our highest expectations."
+    ],
+    "vocabulary": [
+      {
+        "word": "book",
+        "syllables": "book",
+        "phonetic": "/bʊk/",
+        "definition": "To arrange to have a room, seat or ticket for a future date.",
+        "example": "Last month, my father decided to book a five-day stay at a lakeside mountain resort.",
+        "emoji": "📅"
+      },
+      {
+        "word": "double",
+        "syllables": "dou-ble",
+        "phonetic": "/ˈdʌbl/",
+        "definition": "A double room is a room with a bed for two people.",
+        "example": "The receptionist confirmed that a spacious double room with an en-suite bathroom was free.",
+        "emoji": "🛏️"
+      },
+      {
+        "word": "tip",
+        "syllables": "tip",
+        "phonetic": "/tɪp/",
+        "definition": "Extra money you give to someone who has served you.",
+        "example": "Before checking out on Tuesday, my father left a generous tip for the hardworking cleaning staff.",
+        "emoji": "💵"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How much deposit did the family pay?",
+        "options": [
+          "Five percent",
+          "Ten percent",
+          "Twenty percent",
+          "The full amount"
+        ],
+        "answerIndex": 1,
+        "explanation": "My father paid a ten percent deposit using his credit card."
+      },
+      {
+        "question": "Which floor was their room on?",
+        "options": [
+          "The first floor",
+          "The second floor",
+          "The third floor",
+          "The top floor"
+        ],
+        "answerIndex": 2,
+        "explanation": "Our room was situated on the third floor, offering a panoramic view of the pine forest."
+      },
+      {
+        "question": "What did the concierge advise them to wear on the paths?",
+        "options": [
+          "Sandals",
+          "Sturdy boots",
+          "Trainers",
+          "Raincoats"
+        ],
+        "answerIndex": 1,
+        "explanation": "He advised us to wear sturdy boots because recent rainfall had made the paths slippery."
+      }
+    ],
+    "funPrompt": "What would make a hotel stay feel special to you: the room, the food, or the view?"
+  },
+  {
+    "id": 527,
+    "day": 27,
+    "track": "advanced",
+    "title": "The High School Science Fair",
+    "coverEmoji": "🔬",
+    "category": "Science & Technology",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "Two students build a sand-and-charcoal water filter and present it to a panel of judges.",
+    "wordCount": 396,
+    "paragraphs": [
+      "Every academic year, our school hosts an exciting science fair to encourage young inventors. Students from all grades were invited to enter their scientific projects in the contest. Leo and Sam decided to form a two-person team to design an eco-friendly water filtration device. They spent three weeks conducting background research and gathering suitable materials. In the chemistry laboratory, they tested how different layers of sand and charcoal filter dirty water.",
+      "Leo recorded every experimental measurement and numerical figure in his project journal. Their science teacher reviewed their experimental design and provided valuable advice. She reminded them to control experimental variables to make sure the results were accurate. On the day of the exhibition, the school gymnasium was transformed into a bustling science hall. Dozens of exhibition stalls lined the basketball court, displaying colourful project posters.",
+      "Each stall had a clear presentation board explaining the project's scientific aim. At nine o'clock, the panel of external judges arrived to evaluate each student exhibit. A senior university professor stopped at Leo and Sam's table to examine their invention. Leo greeted the judges politely and began the team's oral presentation. He explained that their portable filter was designed for rural villages lacking clean drinking water.",
+      "Sam demonstrated how muddy river water became crystal clear after passing through the plastic tube. The professor listened attentively and asked insightful questions about the filtration speed. Sam answered with confidence, citing data from their laboratory testing charts. Across the aisle, another group demonstrated a miniature model of a solar-powered car. The tiny vehicle moved smoothly along the track, drawing a large crowd of curious spectators.",
+      "Other projects explored renewable biofuels, plant growth under artificial light, and plastic recycling. The judging committee praised all participants for their creativity, diligence, and scientific rigour. In the afternoon, the principal announced the final competition results from the stage. Leo and Sam were thrilled when their water filter project won the prestigious first prize. They walked up to the podium to receive their commemorative trophy and certificate.",
+      "Winning the award rewarded their hard work and boosted their self-confidence. The local newspaper reporter took group photographs of all the winning contestants. He wrote an article highlighting how practical science education prepares students for future careers. Scientific exploration encourages young minds to solve pressing global problems. Leo and Sam felt inspired to continue developing innovative ideas for sustainable ecological technology."
+    ],
+    "vocabulary": [
+      {
+        "word": "fair",
+        "syllables": "fair",
+        "phonetic": "/feə/",
+        "definition": "An event where people show and sell goods or projects.",
+        "example": "Every academic year, our school hosts an exciting science fair to encourage young inventors.",
+        "emoji": "🎪"
+      },
+      {
+        "word": "figure",
+        "syllables": "fig-ure",
+        "phonetic": "/ˈfɪɡə/",
+        "definition": "A number, especially one shown in a report or table.",
+        "example": "Leo recorded every experimental measurement and numerical figure in his project journal.",
+        "emoji": "🔢"
+      },
+      {
+        "word": "aim",
+        "syllables": "aim",
+        "phonetic": "/eɪm/",
+        "definition": "The thing you are trying to achieve.",
+        "example": "Each stall had a clear presentation board explaining the project's scientific aim.",
+        "emoji": "🎯"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What did Leo and Sam design?",
+        "options": [
+          "A solar-powered car",
+          "An eco-friendly water filtration device",
+          "A recycling machine",
+          "A model rocket"
+        ],
+        "answerIndex": 1,
+        "explanation": "Leo and Sam decided to form a two-person team to design an eco-friendly water filtration device."
+      },
+      {
+        "question": "Which materials did their filter use?",
+        "options": [
+          "Metal and glass",
+          "Layers of sand and charcoal",
+          "Cotton and paper",
+          "Plastic and stone"
+        ],
+        "answerIndex": 1,
+        "explanation": "They tested how different layers of sand and charcoal filter dirty water."
+      },
+      {
+        "question": "What did their project win?",
+        "options": [
+          "A certificate only",
+          "The first prize",
+          "Second prize",
+          "Nothing"
+        ],
+        "answerIndex": 1,
+        "explanation": "Leo and Sam were thrilled when their water filter project won the prestigious first prize."
+      }
+    ],
+    "funPrompt": "What everyday problem would you try to solve with a simple invention?"
+  },
+  {
+    "id": 528,
+    "day": 28,
+    "track": "advanced",
+    "title": "A Day Out at the Theme Park",
+    "coverEmoji": "🎢",
+    "category": "Leisure & Adventure",
+    "level": "Advanced",
+    "readingTime": "8 mins",
+    "intro": "A birthday trip to a theme park: a fifty-metre coaster, a soaking flume and a giant stuffed bear.",
+    "wordCount": 423,
+    "paragraphs": [
+      "For David's fifteenth birthday, his parents treated him and his classmates to an exciting theme park. They set out early on Saturday morning by car and arrived at the amusement park by ten o'clock. The entrance plaza was filled with lively music, colourful balloons, and enthusiastic crowds. David's mother purchased four all-day admission tickets at the computerized ticket booth. Each visitor received a wristband and a printed pocket guide showing the park map.",
+      "The park was divided into themed zones, including Adventure Island, Pirate Cove, and Future World. Their first destination was the famous giant roller coaster known as the \"Silver Thunder.\" They joined the queue, which moved forward at a steady and orderly pace. While waiting, David read the safety instruction sign posted along the metal railings. The notice reminded riders to secure loose items and fasten their safety belts tightly.",
+      "When their turn came, they boarded the coaster cars and pulled down the padded shoulder bars. The train climbed the steep track slowly, reaching a dizzying height of fifty metres. At the top, the entire amusement park and surrounding green valleys were visible. Suddenly, the coaster plunged down a near-vertical drop at breath-taking speed. The passengers screamed with excitement as the train twisted through sharp turns and complete loops.",
+      "Getting off the ride, David felt dizzy but absolutely thrilled by the adrenaline rush. Next, they visited a water flume attraction where log boats drifted along an artificial river. The final splash at the bottom soaked their shirts, making everyone burst into hearty laughter. Fortunately, the midday sun was hot and warm, so their clothes dried in a short while. At noon, the group stopped at a Western-style diner to eat a fast-food lunch.",
+      "David ordered a grilled cheeseburger, a large portion of French fries, and a glass of cola. His friends enjoyed pepperoni pizza slices and refreshing strawberry ice cream. In the afternoon, they explored a mysterious haunted castle filled with spooky sound effects. Animated robotic monsters popped out from dark corners, causing playful shrieks of fright. Before departing, David tested his throwing skills at a carnival game stall.",
+      "He tossed three wooden rings onto glass bottles and won a giant stuffed bear. He proudly handed the soft toy to his younger sister, who beamed with pure delight. The family visited the gift shop near the exit to purchase commemorative postcards. Spending the day outdoors playing thrilling games provided a wonderful release from academic pressures. David thanked his parents warmly for giving him the most unforgettable birthday celebration of his life."
+    ],
+    "vocabulary": [
+      {
+        "word": "pace",
+        "syllables": "pace",
+        "phonetic": "/peɪs/",
+        "definition": "The speed at which something happens or moves.",
+        "example": "They joined the queue, which moved forward at a steady and orderly pace.",
+        "emoji": "🚶"
+      },
+      {
+        "word": "turns",
+        "syllables": "turns",
+        "phonetic": "/tɜːnz/",
+        "definition": "Changes of direction, especially on a road or track.",
+        "example": "The passengers screamed with excitement as the train twisted through sharp turns and complete loops.",
+        "emoji": "🌀"
+      },
+      {
+        "word": "stall",
+        "syllables": "stall",
+        "phonetic": "/stɔːl/",
+        "definition": "A small open shop or table where things are sold or games are played.",
+        "example": "Before departing, David tested his throwing skills at a carnival game stall.",
+        "emoji": "🎯"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How tall did the roller coaster climb?",
+        "options": [
+          "Twenty metres",
+          "Thirty metres",
+          "Fifty metres",
+          "One hundred metres"
+        ],
+        "answerIndex": 2,
+        "explanation": "The train climbed the steep track slowly, reaching a dizzying height of fifty metres."
+      },
+      {
+        "question": "What happened at the end of the water flume ride?",
+        "options": [
+          "They got lost",
+          "A splash soaked their shirts",
+          "The boat stopped",
+          "They fell into the river"
+        ],
+        "answerIndex": 1,
+        "explanation": "The final splash at the bottom soaked their shirts, making everyone burst into hearty laughter."
+      },
+      {
+        "question": "What did David win at the carnival game?",
+        "options": [
+          "A small keyring",
+          "A giant stuffed bear",
+          "A box of chocolates",
+          "A free ticket"
+        ],
+        "answerIndex": 1,
+        "explanation": "He tossed three wooden rings onto glass bottles and won a giant stuffed bear."
+      }
+    ],
+    "funPrompt": "Which ride would you go on first at a theme park: the fastest, the scariest, or the wettest?"
+  },
+  {
+    "id": 529,
+    "day": 29,
+    "track": "advanced",
+    "title": "Sustainable Living and Recycling",
+    "coverEmoji": "♻️",
+    "category": "Nature & Environment",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "A school turns recycling bins, compost and motion sensors into a thirty-percent cut in waste charges.",
+    "wordCount": 391,
+    "paragraphs": [
+      "Environmental degradation and resource depletion represent urgent global challenges for human society. Every individual has a personal moral responsibility to adopt sustainable habits. Last term, our secondary school launched a comprehensive green campus initiative. The primary objective was to reduce wasteful energy consumption and eliminate plastic litter. Colour-coded recycling bins were placed in every classroom, corridor, and school yard.",
+      "Blue bins were designated for waste paper, green for glass bottles, and yellow for plastic containers. Student environmental monitors checked the bins daily to ensure materials were sorted correctly. Mixing organic food scraps with dry paper waste is prohibited under the sorting guidelines. In the school canteen, single-use plastic cutlery and cups were replaced with durable metal utensils. Students were encouraged to bring reusable stainless-steel water bottles instead of buying bottled drinks.",
+      "The canteen staff began composting raw fruit and vegetable peelings in outdoor organic bins. The nutrient-rich compost was later used to fertilize vegetables in the school community garden. To save electrical energy, classrooms installed motion sensors that control ceiling lights. When rooms are empty for more than ten minutes, the fluorescent lamps turn off automatically. Teachers reminded students to switch off computer monitors and interactive boards before leaving.",
+      "The school also held a weekly \"Walk to School\" challenge to reduce private car emissions. Many pupils chose to cycle, ride scooters, or walk together along safe pedestrian paths. Leaving family cars at home helped ease morning traffic congestion around the school gate. In art class, students engaged in creative upcycling projects using recycled materials. They turned discarded cardboard boxes and tin cans into decorative pencil holders and plant pots.",
+      "A special exhibition showcased these handcrafted items in the main library hall. Local parents were invited to view the displays and learn practical waste reduction tips. The initiative demonstrated that small collective changes create a significant positive impact. It reduced the school's monthly municipal waste collection charges by thirty percent. Furthermore, active participation helped students develop a deep respect for natural ecosystems.",
+      "Protecting the environment requires ongoing commitment rather than temporary enthusiasm. By conserving resources today, young citizens help safeguard a viable planet for future generations. Our school received a prestigious national green award for its outstanding environmental leadership. The students felt proud of their meaningful contribution to community ecological progress. Living sustainably is an empowering journey that shapes responsible global citizens."
+    ],
+    "vocabulary": [
+      {
+        "word": "yard",
+        "syllables": "yard",
+        "phonetic": "/jɑːd/",
+        "definition": "An open area next to a building.",
+        "example": "Colour-coded recycling bins were placed in every classroom, corridor, and school yard.",
+        "emoji": "🏫"
+      },
+      {
+        "word": "pots",
+        "syllables": "pots",
+        "phonetic": "/pɒts/",
+        "definition": "Round containers used for plants or cooking.",
+        "example": "They turned discarded cardboard boxes and tin cans into decorative pencil holders and plant pots.",
+        "emoji": "🪴"
+      },
+      {
+        "word": "charges",
+        "syllables": "charg-es",
+        "phonetic": "/ˈtʃɑːdʒɪz/",
+        "definition": "The amount of money you must pay for a service.",
+        "example": "It reduced the school's monthly municipal waste collection charges by thirty percent.",
+        "emoji": "🧾"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Which colour bin was for plastic containers?",
+        "options": [
+          "Blue",
+          "Green",
+          "Yellow",
+          "Red"
+        ],
+        "answerIndex": 2,
+        "explanation": "Blue bins were designated for waste paper, green for glass bottles, and yellow for plastic containers."
+      },
+      {
+        "question": "How did classrooms save electricity?",
+        "options": [
+          "By using candles",
+          "With motion sensors that control the lights",
+          "By closing the windows",
+          "By turning off the heating"
+        ],
+        "answerIndex": 1,
+        "explanation": "To save electrical energy, classrooms installed motion sensors that control ceiling lights."
+      },
+      {
+        "question": "By how much did the school's waste charges fall?",
+        "options": [
+          "Ten percent",
+          "Twenty percent",
+          "Thirty percent",
+          "Fifty percent"
+        ],
+        "answerIndex": 2,
+        "explanation": "It reduced the school's monthly municipal waste collection charges by thirty percent."
+      }
+    ],
+    "funPrompt": "What could your family sort or reuse this week instead of throwing away?"
+  },
+  {
+    "id": 530,
+    "day": 30,
+    "track": "advanced",
+    "title": "A Traditional Farm Harvest Festival",
+    "coverEmoji": "🎃",
+    "category": "Culture & Festivals",
+    "level": "Advanced",
+    "readingTime": "8 mins",
+    "intro": "A harvest festival of giant pumpkins, sheep shearing, folk dancing and a charity auction.",
+    "wordCount": 429,
+    "paragraphs": [
+      "Every autumn, after crops are gathered from the fields, our rural county celebrates the Harvest Festival. Farmers, artisans, and families from surrounding villages gather in the historic market square. The open square was decorated with golden wheat sheaves, orange pumpkins, and colourful paper streamers. In the centre, a large wooden stage hosted traditional folk musicians and lively dancing troupes. Musicians played cheerful country jigs on acoustic violins, wooden flutes, and accordion keyboards.",
+      "Dancers dressed in historic rural costumes stamped their leather shoes in perfect rhythm. Market stalls surrounded the perimeter, offering an abundant variety of freshly harvested produce. Visitors could sample sweet crunchy apples, raw wildflower honey, and homemade berry jams. Local bakers displayed loaves of freshly baked crusty bread, fruit pies, and spiced ginger biscuits. The enticing scent of roasted sweet corn and spiced apple cider drifted through the autumn air.",
+      "In the agricultural pavilion, judges evaluated giant vegetables entered in the annual contest. A retired farmer won a blue ribbon for growing an enormous pumpkin weighing over ninety kilograms. Children marvelled at the size of the orange giant and took commemorative photos standing beside it. Nearby, an open-air petting enclosure allowed younger children to interact with friendly farm animals. They stroked soft woolly sheep, fed sweet carrots to gentle ponies, and watched fluffy yellow ducklings.",
+      "An experienced sheep shearer gave a live demonstration showing how fleece is harvested using hand shears. He explained that sheep’s wool is a natural, renewable, and breathable clothing material. In the craft tent, a skilled woodcarver carved intricate animal figurines from fallen oak branches. Visitors could purchase handcrafted wooden bowls, woven willow baskets, and embroidered tablecloths. At four o'clock, the town mayor delivered a speech thanking local farming families for their hard work.",
+      "She emphasized that agricultural workers provide the foundation for society's nourishment and food security. Following the ceremony, a charity auction was held to sell the prize-winning fruits and vegetables. The money raised during the bidding was donated to the village children's medical clinic. As evening fell, lanterns and strings of fairy lights illuminated the market stalls with a warm glow. A lively barn dance commenced inside the spacious wooden community hall.",
+      "Neighbours of all ages joined hands in lively circular dances, laughing and celebrating together happily. Traditional festivals reinforce community solidarity and preserve precious cultural heritage. They remind modern urban dwellers of the deep connection between human civilization and the land. Families walked home beneath a full harvest moon, their hearts filled with gratitude and contentment. The joyous autumn celebration marked a fitting conclusion to another fruitful agricultural year."
+    ],
+    "vocabulary": [
+      {
+        "word": "sample",
+        "syllables": "sam-ple",
+        "phonetic": "/ˈsɑːmpl/",
+        "definition": "To taste a small amount of food or drink to see what it is like.",
+        "example": "Visitors could sample sweet crunchy apples, raw wildflower honey, and homemade berry jams.",
+        "emoji": "🍎"
+      },
+      {
+        "word": "beside",
+        "syllables": "be-side",
+        "phonetic": "/bɪˈsaɪd/",
+        "definition": "Next to or at the side of something.",
+        "example": "Children marvelled at the size of the orange giant and took commemorative photos standing beside it.",
+        "emoji": "📸"
+      },
+      {
+        "word": "land",
+        "syllables": "land",
+        "phonetic": "/lænd/",
+        "definition": "The ground or soil used for farming or building.",
+        "example": "They remind modern urban dwellers of the deep connection between human civilization and the land.",
+        "emoji": "🌾"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What won a blue ribbon in the vegetable contest?",
+        "options": [
+          "A giant cabbage",
+          "An enormous pumpkin weighing over ninety kilograms",
+          "A long carrot",
+          "A huge tomato"
+        ],
+        "answerIndex": 1,
+        "explanation": "A retired farmer won a blue ribbon for growing an enormous pumpkin weighing over ninety kilograms."
+      },
+      {
+        "question": "What did the sheep shearer demonstrate?",
+        "options": [
+          "How to feed sheep",
+          "How fleece is harvested using hand shears",
+          "How to make wool jumpers",
+          "How to train sheepdogs"
+        ],
+        "answerIndex": 1,
+        "explanation": "An experienced sheep shearer gave a live demonstration showing how fleece is harvested using hand shears."
+      },
+      {
+        "question": "Where did the charity auction money go?",
+        "options": [
+          "To the town hall",
+          "To the village children's medical clinic",
+          "To the farmers",
+          "To the school"
+        ],
+        "answerIndex": 1,
+        "explanation": "The money raised during the bidding was donated to the village children's medical clinic."
+      }
+    ],
+    "funPrompt": "Which food at a harvest festival would you most want to taste, and why?"
   }
 ];
 
