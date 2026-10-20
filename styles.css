@@ -1628,3 +1628,69 @@ body.theme-soft-night .fullread-live {
   color: white !important;
   animation: shadowPulse 1.1s ease-in-out infinite;
 }
+
+/* Compact mode: while the child is reading aloud the panel shrinks to a bar at
+   the bottom so the article stays fully visible and scrollable. */
+.shadow-panel.compact {
+  align-items: flex-end;
+  background: transparent;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  padding: 0;
+  pointer-events: none;
+}
+
+.shadow-panel.compact .shadow-inner {
+  pointer-events: auto;
+  width: min(48rem, 100%);
+  max-height: none;
+  overflow: visible;
+  border-radius: 1.1rem 1.1rem 0 0;
+  padding: 0.6rem 0.9rem calc(0.7rem + env(safe-area-inset-bottom));
+  box-shadow: 0 -6px 24px rgba(15, 23, 42, 0.25);
+}
+
+.shadow-panel.compact .shadow-head,
+.shadow-panel.compact .shadow-target {
+  display: none;
+}
+
+.shadow-panel.compact .fullread-meta {
+  margin-bottom: 0.3rem;
+  font-size: 0.85rem;
+}
+
+.shadow-panel.compact .fullread-live {
+  min-height: 0;
+  max-height: 3rem;
+  padding: 0.45rem 0.6rem;
+  font-size: 0.88rem;
+  line-height: 1.35;
+  margin-bottom: 0.45rem;
+}
+
+.shadow-panel.compact .shadow-controls {
+  margin-bottom: 0.3rem;
+  gap: 0.4rem;
+}
+
+.shadow-panel.compact .shadow-controls .btn {
+  min-height: 2.5rem;
+  padding: 0.45rem 0.85rem;
+  font-size: 0.92rem;
+}
+
+.shadow-panel.compact .shadow-status {
+  font-size: 0.85rem;
+  min-height: 0;
+  margin-bottom: 0.1rem;
+}
+
+.shadow-panel.compact #fullReadTimer {
+  color: var(--primary);
+}
+
+/* Keep the last lines of the article above the floating bar */
+body.fullread-active {
+  padding-bottom: 12rem;
+}
