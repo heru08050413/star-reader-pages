@@ -2467,6 +2467,826 @@ const ADVANCED_STORIES = [
       }
     ],
     "funPrompt": "Which food at a harvest festival would you most want to taste, and why?"
+  },
+  {
+    "id": 531,
+    "day": 31,
+    "track": "advanced",
+    "title": "A Day at the Seaside Amusement Pier",
+    "coverEmoji": "🎡",
+    "category": "Leisure & Adventure",
+    "level": "Advanced",
+    "readingTime": "8 mins",
+    "intro": "An August day on a Victorian pier: air hockey, a magic trick and a lost pair of sunglasses.",
+    "wordCount": 446,
+    "paragraphs": [
+      "During the sweltering August heatwave, Oliver and his cousins spent Saturday at a seaside resort. The Victorian pleasure pier stretched several hundred metres out into the glistening blue sea. Brightly painted souvenir shops, food kiosks, and amusement arcades lined both sides of the wooden deck. Oliver bought a large strawberry ice cone and watched white seagulls glide across the clear sky. His cousin Emma wanted to play a competitive game of air hockey in the arcade hall.",
+      "They inserted shiny metal tokens into the slot, and the table surface blew a continuous cushion of air. Emma moved her plastic paddle with great speed to block Oliver's aggressive attacks. The tiny puck bounced off the rubber borders with sharp clicking sounds. After a thrilling contest, Emma scored the winning goal and cheered with genuine delight. Outside on the open pier, a street magician attracted a large crowd of curious spectators.",
+      "He asked Oliver to step forward and examine a plain wooden box to prove that it was empty. With a dramatic flick of his silk handkerchief, three white doves flew out into the air. The audience applauded enthusiastically, wondering how such an impossible trick was performed. Next, the cousins walked to the end of the pier where fishermen were casting their long lines. An elderly fisherman showed them a metal bucket containing two fresh mackerel and a sea bass.",
+      "He explained how ocean tides influence the feeding behaviour of different coastal fish species. While chatting with the fisherman, Emma accidentally dropped her sunglasses onto the lower ledge. Fortunately, a helpful pier worker used a long pole with a net to recover them safely. Emma thanked the worker sincerely and praised his swift action. At noon, the family gathered at an open-air café to eat traditional fish and chips.",
+      "The waiter served crispy fried cod wrapped in paper, accompanied by mushy peas and lemon slices. Oliver squeezed fresh lemon juice over the hot fish and sprinkled a pinch of salt. In the afternoon, they rented a bright yellow pedalo boat near the sandy beach. Oliver and Emma took turns pedalling across the gentle waves, keeping a safe distance from swimmers. The cool ocean spray splashed over their legs, providing immediate relief from the afternoon sun.",
+      "As the sun began to set, the pier was illuminated by hundreds of multicoloured fairy lights. The glowing lights reflected beautifully on the dark water, creating a truly romantic setting. Spending an active day outdoors by the ocean refreshed their spirits and created fond memories. Before driving home, Oliver purchased a box of peppermint rock candy for his grandparents. They left the coast feeling relaxed and looking forward to their next seaside adventure."
+    ],
+    "vocabulary": [
+      {
+        "word": "deck",
+        "syllables": "deck",
+        "phonetic": "/dek/",
+        "definition": "A flat floor on a ship, or a wooden walkway built outside.",
+        "example": "Brightly painted souvenir shops, food kiosks, and amusement arcades lined both sides of the wooden deck.",
+        "emoji": "🎠"
+      },
+      {
+        "word": "trick",
+        "syllables": "trick",
+        "phonetic": "/trɪk/",
+        "definition": "A clever action performed to entertain people, especially magic.",
+        "example": "The audience applauded enthusiastically, wondering how such an impossible trick was performed.",
+        "emoji": "🎩"
+      },
+      {
+        "word": "recover",
+        "syllables": "re-cov-er",
+        "phonetic": "/rɪˈkʌvə/",
+        "definition": "To get something back after losing it.",
+        "example": "Fortunately, a helpful pier worker used a long pole with a net to recover them safely.",
+        "emoji": "🔍"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What game did Emma want to play in the arcade?",
+        "options": [
+          "Table football",
+          "Air hockey",
+          "Pinball",
+          "Basketball"
+        ],
+        "answerIndex": 1,
+        "explanation": "His cousin Emma wanted to play a competitive game of air hockey in the arcade hall."
+      },
+      {
+        "question": "What flew out of the magician's wooden box?",
+        "options": [
+          "Three white doves",
+          "A rabbit",
+          "Coloured ribbons",
+          "A small dog"
+        ],
+        "answerIndex": 0,
+        "explanation": "With a dramatic flick of his silk handkerchief, three white doves flew out into the air."
+      },
+      {
+        "question": "How did the pier worker recover Emma's sunglasses?",
+        "options": [
+          "By diving into the sea",
+          "With a long pole and a net",
+          "By asking a fisherman",
+          "By climbing the railing"
+        ],
+        "answerIndex": 1,
+        "explanation": "A helpful pier worker used a long pole with a net to recover them safely."
+      }
+    ],
+    "funPrompt": "What would you most want to do first on a seaside pier: the games, the food, or the fishing?"
+  },
+  {
+    "id": 532,
+    "day": 32,
+    "track": "advanced",
+    "title": "The High School Debate Championship",
+    "coverEmoji": "🎙️",
+    "category": "School & Skills",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "A school debate team argues that AI should replace teachers — and wins by two points.",
+    "wordCount": 408,
+    "paragraphs": [
+      "Participating in academic debates is an effective way to sharpen public speaking and critical thinking skills. Last Friday, our secondary school hosted the annual inter-school debating championship. Eight prestigious school teams gathered in the central auditorium to compete for the trophy. The controversial topic for the final round was whether artificial intelligence should replace human teachers. Our school debate team was assigned the proposition side, meaning we had to support the motion.",
+      "Maya was chosen as the first speaker to deliver the opening statement. She stood behind the wooden podium, arranged her index cards, and took a deep breath. In a clear and persuasive tone, she argued that digital systems provide personalized learning pathways. She cited statistical data from recent educational studies to prove that AI increases study efficiency. The opposing team listened attentively, scribbling counter-arguments in their spiral notebooks.",
+      "When Maya concluded her speech, the timekeeper rang a brass bell to signal that time was up. The leader of the opposition then took the floor to challenge Maya's arguments. He claimed that automated algorithms lack genuine human empathy and moral guidance. He argued that emotional encouragement from real educators is essential for adolescent development. In the rebuttals that followed, both sides exchanged compelling arguments with remarkable fluency.",
+      "Leo stepped forward to point out a fundamental flaw in the opposition's statistical evidence. He maintained his composure under pressure, answering hostile questions with great politeness. The debate remained fierce yet respectful, adhering strictly to parliamentary rules. The audience of teachers and students followed every turn of the discussion in complete silence. At the conclusion of the speeches, the three adjudicators retired to a private room to deliberate.",
+      "They scored each team on matter, manner, team coordination, and logical coherence. After fifteen tense minutes, the chief judge returned to the stage to announce the verdict. She commended both sides for their extensive preparation and exceptional eloquence on stage. By a narrow margin of two points, our school was declared the tournament champion. Our team members hugged each other joyfully and walked up to accept the golden cup.",
+      "Maya also received an individual award for being named the best overall speaker. Debating complex issues teaches young people to examine problems from multiple perspectives. It trains students to express differing opinions constructively without causing personal offence. The experience gave everyone a tremendous sense of intellectual accomplishment. Our school celebrated the victory with a celebratory gathering in the school canteen on Monday morning."
+    ],
+    "vocabulary": [
+      {
+        "word": "support",
+        "syllables": "sup-port",
+        "phonetic": "/səˈpɔːt/",
+        "definition": "To agree with an idea or plan and try to help it succeed.",
+        "example": "Our school debate team was assigned the proposition side, meaning we had to support the motion.",
+        "emoji": "🙋"
+      },
+      {
+        "word": "floor",
+        "syllables": "floor",
+        "phonetic": "/flɔː/",
+        "definition": "The right to speak in a formal discussion.",
+        "example": "The leader of the opposition then took the floor to challenge Maya's arguments.",
+        "emoji": "🗣️"
+      },
+      {
+        "word": "cup",
+        "syllables": "cup",
+        "phonetic": "/kʌp/",
+        "definition": "A prize shaped like a cup, given to the winner of a competition.",
+        "example": "Our team members hugged each other joyfully and walked up to accept the golden cup.",
+        "emoji": "🏆"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What was the topic of the final round?",
+        "options": [
+          "Should school uniforms be banned?",
+          "Should artificial intelligence replace human teachers?",
+          "Should homework be abolished?",
+          "Should sport be compulsory?"
+        ],
+        "answerIndex": 1,
+        "explanation": "The controversial topic for the final round was whether artificial intelligence should replace human teachers."
+      },
+      {
+        "question": "What evidence did Maya cite?",
+        "options": [
+          "Her own test results",
+          "Statistical data from recent educational studies",
+          "A teacher's opinion",
+          "A newspaper story"
+        ],
+        "answerIndex": 1,
+        "explanation": "She cited statistical data from recent educational studies to prove that AI increases study efficiency."
+      },
+      {
+        "question": "By how many points did the school win?",
+        "options": [
+          "One point",
+          "Two points",
+          "Five points",
+          "Ten points"
+        ],
+        "answerIndex": 1,
+        "explanation": "By a narrow margin of two points, our school was declared the tournament champion."
+      }
+    ],
+    "funPrompt": "Which do you think matters more in a classroom: a teacher's empathy or a computer's efficiency?"
+  },
+  {
+    "id": 533,
+    "day": 33,
+    "track": "advanced",
+    "title": "A Journey by High-Speed Rail",
+    "coverEmoji": "🚄",
+    "category": "Travel & Transport",
+    "level": "Advanced",
+    "readingTime": "8 mins",
+    "intro": "Four hundred kilometres in two hours: a morning on a high-speed train.",
+    "wordCount": 442,
+    "paragraphs": [
+      "Travelling by modern high-speed electric trains is one of the most efficient forms of land transport. On Monday morning, Daniel arrived at the bustling central railway station to travel to the capital city. The modern glass station terminal was packed with business commuters and holiday travellers. Daniel checked the large electronic departures board to find his train number and platform gate. Train G104 to London was scheduled to depart on time from Platform Nine.",
+      "He tapped his electronic mobile ticket against the automated barrier to enter the boarding area. Walking along the clean concrete platform, he located carriage number four and stepped on board. The carriage was brightly lit, fully air-conditioned, and remarkably clean and quiet. Daniel found his reserved window seat and lifted his small carry-on suitcase onto the overhead rack. The upholstered seat was comfortable, offering generous legroom and an individual power socket.",
+      "Exactly at eight o'clock, the electric train glided away from the station with barely a whisper. Within five minutes, the train accelerated smoothly to its cruising speed of three hundred kilometres per hour. Looking out of the wide panoramic window, Daniel watched the city skyline fade into open green fields. The train sped across ancient rivers, dashed through mountain tunnels, and passed peaceful rural villages. Daniel plugged his laptop charger into the socket to complete some homework for his economics class.",
+      "The smooth ride allowed him to type on his keyboard without any disruptive shaking or vibration. Halfway through the two-hour journey, a train steward pushed a refreshment trolley down the aisle. Daniel bought a hot cup of black tea and a freshly baked blueberry muffin. The steward processed the payment swiftly using a wireless contactless card reader. A soothing automated voice announced approaching stops and advised passengers to look after their belongings.",
+      "Daniel packed his books, unplugged his computer, and put his coat on in good time. When the train pulled into the central terminal, it had covered four hundred kilometres in just two hours. High-speed rail networks dramatically cut travel duration between distant metropolitan centres. They produce far fewer carbon emissions per passenger compared to domestic air travel or private cars. Daniel stepped off the train onto the platform, feeling relaxed and entirely free of travel fatigue.",
+      "He followed clear overhead directional signs leading toward the connecting underground metro lines. Navigating the modern transit interchange was easy and straightforward, even for first-time visitors. Investment in high-speed rail infrastructure remains a vital element of sustainable urban development. It connects regional economies and provides citizens with a dependable public transport network. Daniel looked forward to making the return journey on the smooth express train later that evening."
+    ],
+    "vocabulary": [
+      {
+        "word": "board",
+        "syllables": "board",
+        "phonetic": "/bɔːd/",
+        "definition": "On a train, ship or plane.",
+        "example": "Walking along the clean concrete platform, he located carriage number four and stepped on board.",
+        "emoji": "🚆"
+      },
+      {
+        "word": "rack",
+        "syllables": "rack",
+        "phonetic": "/ræk/",
+        "definition": "A frame or shelf for holding things, especially luggage.",
+        "example": "Daniel found his reserved window seat and lifted his small carry-on suitcase onto the overhead rack.",
+        "emoji": "🧳"
+      },
+      {
+        "word": "express",
+        "syllables": "ex-press",
+        "phonetic": "/ɪkˈspres/",
+        "definition": "A fast train that stops at only a few stations.",
+        "example": "Daniel looked forward to making the return journey on the smooth express train later that evening.",
+        "emoji": "⚡"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What cruising speed did the train reach?",
+        "options": [
+          "One hundred kilometres per hour",
+          "Two hundred kilometres per hour",
+          "Three hundred kilometres per hour",
+          "Four hundred kilometres per hour"
+        ],
+        "answerIndex": 2,
+        "explanation": "The train accelerated smoothly to its cruising speed of three hundred kilometres per hour."
+      },
+      {
+        "question": "How long was the whole journey?",
+        "options": [
+          "One hour",
+          "Two hours",
+          "Three hours",
+          "Four hours"
+        ],
+        "answerIndex": 1,
+        "explanation": "When the train pulled into the central terminal, it had covered four hundred kilometres in just two hours."
+      },
+      {
+        "question": "What did Daniel buy from the refreshment trolley?",
+        "options": [
+          "Coffee and a sandwich",
+          "Black tea and a blueberry muffin",
+          "Orange juice and a cake",
+          "Water and biscuits"
+        ],
+        "answerIndex": 1,
+        "explanation": "Daniel bought a hot cup of black tea and a freshly baked blueberry muffin."
+      }
+    ],
+    "funPrompt": "Would you rather travel by high-speed train or by plane, and why?"
+  },
+  {
+    "id": 534,
+    "day": 34,
+    "track": "advanced",
+    "title": "Wildlife Conservation in the National Park",
+    "coverEmoji": "🦌",
+    "category": "Nature & Environment",
+    "level": "Advanced",
+    "readingTime": "8 mins",
+    "intro": "Binoculars, camera traps and a diving osprey — a biology trip into a wildlife reserve.",
+    "wordCount": 447,
+    "paragraphs": [
+      "National parks play an indispensable role in preserving biodiversity and protecting fragile habitats. Last autumn, a group of secondary school biology students visited the Northern Highlands Wildlife Reserve. The reserve covers thousands of hectares of ancient pine forests, mountain streams, and peat bogs. An experienced park ranger named Sarah greeted our school bus at the visitor information centre. She distributed pair sets of binoculars and field identification books to every pupil.",
+      "Sarah explained that the primary mission of the park is to protect endangered native mammals. We hiked quietly along a designated gravel trail, taking care not to disturb the surrounding wildlife. The crisp mountain air carried the rich earthy scent of pine needles and damp moss. Sarah asked the group to stop and pointed her finger toward the edge of a pine clearing. Through our binoculars, we spotted a majestic red deer stag grazing peacefully among the ferns.",
+      "Its impressive set of branched antlers stood out sharply against the golden autumn leaves. The students watched the animal in awe, taking notes on its feeding habits in their pocket diaries. Further up the valley, Sarah demonstrated how park rangers use camera traps to monitor wildlife. Motion-sensitive cameras strapped to tree trunks automatically take photos when an animal walks past. These digital recordings allow scientists to track population numbers without causing stress to the creatures.",
+      "Sarah showed us recent footage of a rare European wildcat hunting for mice in the undergrowth. She explained that habitat fragmentation caused by roads and urban expansion is their greatest threat. In addition to mammals, the national park provides a safe sanctuary for dozens of migratory bird species. We sat quietly inside a wooden bird hide beside a tranquil mountain lake. We observed an osprey dive down from the sky at incredible speed to catch a fish in its sharp talons.",
+      "The dramatic hunting manoeuvre created a circular burst of water on the calm surface. Sarah emphasized that every predator plays a vital role in keeping prey populations healthy. Before leaving, our class assisted the rangers in planting native birch saplings along a bare slope. Reforestation helps prevent soil erosion caused by heavy seasonal rain. We dug small holes with metal spades, planted the delicate roots, and secured them with wooden stakes.",
+      "Getting our hands dirty in the soil gave us a direct and satisfying connection to nature conservation. Sarah thanked our class warmly for our practical contribution to the reserve's forest restoration. Experiencing wildlife in its natural habitat deepens our understanding of ecological balance. It reinforces the moral duty humans have to coexist harmoniously with the natural world. We boarded our bus with a renewed determination to support local environmental conservation projects."
+    ],
+    "vocabulary": [
+      {
+        "word": "reserve",
+        "syllables": "re-serve",
+        "phonetic": "/rɪˈzɜːv/",
+        "definition": "An area of land where animals and plants are protected.",
+        "example": "Last autumn, a group of secondary school biology students visited the Northern Highlands Wildlife Reserve.",
+        "emoji": "🌲"
+      },
+      {
+        "word": "trail",
+        "syllables": "trail",
+        "phonetic": "/treɪl/",
+        "definition": "A path through the countryside.",
+        "example": "We hiked quietly along a designated gravel trail, taking care not to disturb the surrounding wildlife.",
+        "emoji": "🥾"
+      },
+      {
+        "word": "hide",
+        "syllables": "hide",
+        "phonetic": "/haɪd/",
+        "definition": "A small building from which you can watch wild animals without being seen.",
+        "example": "We sat quietly inside a wooden bird hide beside a tranquil mountain lake.",
+        "emoji": "🛖"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Which animal did the students see through binoculars?",
+        "options": [
+          "A wild boar",
+          "A red deer stag",
+          "A fox",
+          "A mountain goat"
+        ],
+        "answerIndex": 1,
+        "explanation": "Through our binoculars, we spotted a majestic red deer stag grazing peacefully among the ferns."
+      },
+      {
+        "question": "How do park rangers monitor wildlife without disturbing it?",
+        "options": [
+          "By chasing the animals",
+          "With motion-sensitive camera traps",
+          "By counting footprints",
+          "By asking visitors"
+        ],
+        "answerIndex": 1,
+        "explanation": "Motion-sensitive cameras strapped to tree trunks automatically take photos when an animal walks past."
+      },
+      {
+        "question": "What did the osprey do?",
+        "options": [
+          "Built a nest",
+          "Dived to catch a fish",
+          "Chased a deer",
+          "Flew away with a camera"
+        ],
+        "answerIndex": 1,
+        "explanation": "We observed an osprey dive down from the sky at incredible speed to catch a fish in its sharp talons."
+      }
+    ],
+    "funPrompt": "If you visited a wildlife reserve, which animal would you most hope to see?"
+  },
+  {
+    "id": 535,
+    "day": 35,
+    "track": "advanced",
+    "title": "A Weekend Volunteer Charity Fair",
+    "coverEmoji": "🎪",
+    "category": "Community & Kindness",
+    "level": "Advanced",
+    "readingTime": "8 mins",
+    "intro": "A charity fair of books, cakes and a raffle raises more than three thousand pounds for a hospital ward.",
+    "wordCount": 448,
+    "paragraphs": [
+      "Organising voluntary community projects fosters social solidarity and supports disadvantaged families. Last Saturday, our local neighbourhood association held an open-air charity fair in the town park. The principal purpose was to raise funds to renovate the children's ward at the municipal hospital. Student volunteers arrived at eight o'clock in the morning to set up wooden stalls and canvas gazebos. Tom and Leo were assigned to manage the second-hand book and jigsaw puzzle booth.",
+      "Generous local residents had donated hundreds of paperback novels, textbooks, and children's picture books. The boys sorted the books into clear categories, arranging fiction, biographies, and science on separate tables. They priced every book fairly, charging between one and three pounds per item. Across the central grass lawn, another group organised a homemade cake and bakery stand. Delicious aromas of warm cinnamon buns, chocolate brownies, and apple tarts filled the morning air.",
+      "By ten o'clock, hundreds of local families entered the park gates to support the charitable cause. Shoppers browsed through the stalls, eager to find unique handcrafted gifts and bargains. A local amateur brass band performed lively pop tunes, creating a cheerful and festive atmosphere. Children enjoyed taking part in face-painting, balloon modelling, and a sack-racing contest. The sack race caused continuous laughter as participants hopped across the grass trying not to fall.",
+      "At the bookstall, Tom helped an elderly lady find a rare historical book about the town's founding history. She was delighted with the discovery and placed an extra five-pound donation in the collection tin. Leo kept an accurate written log of all cash payments and made sure change was calculated correctly. At noon, the volunteer team served hot tea, coffee, and light sandwiches to the busy stall helpers. In the afternoon, a charity raffle draw was conducted from the wooden park bandstand.",
+      "The town mayor drew winning ticket numbers from a large revolving wire drum. Lucky winners received generous prizes donated by local businesses, including restaurant vouchers and food hampers. When the fair concluded at four o'clock, all volunteers helped pack up tables and clear away litter. The organising committee counted the donations and announced that over three thousand pounds had been raised. Everyone cheered loudly upon hearing the final figure, knowing their collective efforts had succeeded brilliantly.",
+      "The hospital director thanked the community warmly for their exceptional generosity and community spirit. Volunteering time and energy for charitable causes enriches personal character and deepens civic responsibility. It brings neighbours of different generations together in pursuit of a meaningful shared goal. Tom and Leo felt exhausted after eight hours on their feet, but their hearts were filled with genuine joy. They promised to return next year to continue supporting community volunteer initiatives."
+    ],
+    "vocabulary": [
+      {
+        "word": "fair",
+        "syllables": "fair",
+        "phonetic": "/feə/",
+        "definition": "An event where people sell things or show goods, often to raise money.",
+        "example": "Last Saturday, our local neighbourhood association held an open-air charity fair in the town park.",
+        "emoji": "🎪"
+      },
+      {
+        "word": "cause",
+        "syllables": "cause",
+        "phonetic": "/kɔːz/",
+        "definition": "An aim or principle that people support, especially by giving money.",
+        "example": "By ten o'clock, hundreds of local families entered the park gates to support the charitable cause.",
+        "emoji": "❤️"
+      },
+      {
+        "word": "tin",
+        "syllables": "tin",
+        "phonetic": "/tɪn/",
+        "definition": "A metal container, often used for collecting money.",
+        "example": "She was delighted with the discovery and placed an extra five-pound donation in the collection tin.",
+        "emoji": "🥫"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What was the fair raising money for?",
+        "options": [
+          "A new school library",
+          "The children's ward at the municipal hospital",
+          "A sports club",
+          "A village hall"
+        ],
+        "answerIndex": 1,
+        "explanation": "The principal purpose was to raise funds to renovate the children's ward at the municipal hospital."
+      },
+      {
+        "question": "How much did the fair raise in total?",
+        "options": [
+          "Over five hundred pounds",
+          "Over one thousand pounds",
+          "Over three thousand pounds",
+          "Over ten thousand pounds"
+        ],
+        "answerIndex": 2,
+        "explanation": "The organising committee announced that over three thousand pounds had been raised."
+      },
+      {
+        "question": "What extra donation did the elderly lady give?",
+        "options": [
+          "One pound",
+          "Five pounds",
+          "Ten pounds",
+          "A book"
+        ],
+        "answerIndex": 1,
+        "explanation": "She was delighted with the discovery and placed an extra five-pound donation in the collection tin."
+      }
+    ],
+    "funPrompt": "If your class ran a charity stall, what would you sell and who would you help?"
+  },
+  {
+    "id": 536,
+    "day": 36,
+    "track": "advanced",
+    "title": "A Visit to the Local Art Gallery",
+    "coverEmoji": "🖼️",
+    "category": "Arts & Culture",
+    "level": "Advanced",
+    "readingTime": "8 mins",
+    "intro": "A gallery visit from a stormy oil painting to a charcoal portrait workshop.",
+    "wordCount": 440,
+    "paragraphs": [
+      "Exploring local art galleries is an inspiring way to appreciate diverse cultural expressions. Last Tuesday, our secondary school art class organised an educational excursion to the municipal gallery. The museum building featured a striking contemporary design with high glass ceilings and white stone walls. Our guide, a professional art critic named Mr. Vance, welcomed our group at the main entrance. He distributed printed gallery brochures showing the layout of the permanent and temporary exhibitions.",
+      "We began our tour in the modern painting hall on the spacious ground floor. A large oil painting depicting a dramatic coastal storm immediately caught everyone’s attention. The artist used bold brushstrokes and dark blue shades to convey the raw power of the sea. Mr. Vance explained how the painter used contrasting light and shadow to create a sense of deep emotion. Next, the students walked into a quiet gallery dedicated entirely to twentieth-century abstract art.",
+      "Some paintings featured complex geometric patterns, while others consisted of bold splashes of vivid colour. Emma leaned forward to examine the textured surface of a large canvas painted by a famous local artist. She noticed that the artist had mixed coarse sand with oil paint to create a unique effect. In the sculpture section, we admired delicate marble figures carved with incredible skill and precision. A bronze statue of a soaring eagle stood proudly on a heavy oak pedestal.",
+      "The guide reminded everyone not to touch the delicate sculptures, as natural skin oils can damage them. In the afternoon, the class participated in a hands-on portrait drawing workshop. Each student was provided with a drawing board, charcoal pencils, and a thick sketch pad. We were instructed to sketch our classmate sitting opposite us in a natural pose. Tom focused carefully on getting the facial proportions correct before adding shadow details.",
+      "Mr. Vance walked around the room, offering constructive advice and encouraging individual creativity. He praised Tom's work for its expressive lines and accurate sense of perspective. Before leaving, we visited the gallery gift shop to purchase souvenir postcards and art magazines. Reviewing the beautiful artworks made our textbook art history lessons far more vivid and meaningful. Engaging with creative visual arts broadens young minds and nurtures a lifelong appreciation for beauty.",
+      "Preserving cultural treasures requires substantial public support and ongoing financial investment. Our school art trip concluded successfully as we boarded the coach parked outside the building. On the journey back, students chatted animatedly about their favourite paintings and sculptural pieces. Everyone felt inspired to experiment with new techniques during our next school drawing class. Visiting exhibitions regularly helps students develop a more profound understanding of global culture and history."
+    ],
+    "vocabulary": [
+      {
+        "word": "critic",
+        "syllables": "crit-ic",
+        "phonetic": "/ˈkrɪtɪk/",
+        "definition": "Someone who writes about art, books or films and gives their opinion.",
+        "example": "Our guide, a professional art critic named Mr. Vance, welcomed our group at the main entrance.",
+        "emoji": "🖋️"
+      },
+      {
+        "word": "board",
+        "syllables": "board",
+        "phonetic": "/bɔːd/",
+        "definition": "A flat piece of wood or other material used for drawing on.",
+        "example": "Each student was provided with a drawing board, charcoal pencils, and a thick sketch pad.",
+        "emoji": "🪵"
+      },
+      {
+        "word": "pose",
+        "syllables": "pose",
+        "phonetic": "/pəʊz/",
+        "definition": "A position in which someone stands or sits, especially for a photo or drawing.",
+        "example": "We were instructed to sketch our classmate sitting opposite us in a natural pose.",
+        "emoji": "🧍"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What did the large oil painting show?",
+        "options": [
+          "A calm harbour",
+          "A dramatic coastal storm",
+          "A mountain village",
+          "A city street"
+        ],
+        "answerIndex": 1,
+        "explanation": "A large oil painting depicting a dramatic coastal storm immediately caught everyone's attention."
+      },
+      {
+        "question": "What unusual material did the artist mix with the oil paint?",
+        "options": [
+          "Sand",
+          "Salt",
+          "Sugar",
+          "Leaves"
+        ],
+        "answerIndex": 0,
+        "explanation": "She noticed that the artist had mixed coarse sand with oil paint to create a unique effect."
+      },
+      {
+        "question": "What did the students do in the afternoon workshop?",
+        "options": [
+          "Paint a landscape",
+          "Draw a portrait of a classmate",
+          "Make a sculpture",
+          "Print a poster"
+        ],
+        "answerIndex": 1,
+        "explanation": "In the afternoon, the class participated in a hands-on portrait drawing workshop."
+      }
+    ],
+    "funPrompt": "If you could put one picture on your bedroom wall from a gallery, what would it show?"
+  },
+  {
+    "id": 537,
+    "day": 37,
+    "track": "advanced",
+    "title": "A Healthy Lifestyle and Fitness",
+    "coverEmoji": "🏃",
+    "category": "Health & Wellbeing",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "A school wellness campaign gets Tom running at six, sleeping by ten and leaving his phone alone.",
+    "wordCount": 417,
+    "paragraphs": [
+      "Maintaining a balanced diet and regular physical fitness is essential for adolescent health. Last term, our school launched a comprehensive wellness campaign to promote active lifestyles. The school nurse delivered an informative lecture explaining the biological effects of junk food. She pointed out that consuming excessive sugar and processed fats can cause serious long-term illnesses. Instead, teenagers should eat plenty of fresh fruit, vegetables, and lean protein sources.",
+      "In addition to nutrition, regular physical exercise plays a vital role in daily well-being. The physical education department organised diverse sports activities for all year groups. Tom decided to join the school athletics club and started running twice a week. He set his alarm clock for six o'clock every morning to complete a brisk three-kilometre jog. Jogging in the fresh morning air improved his cardiovascular endurance and breathing rhythm.",
+      "Initially, running long distances felt quite tiring and put a heavy strain on his leg muscles. However, with consistent practice, his stamina increased significantly and his speed improved. His coach reminded him to warm up thoroughly before every workout to avoid injuring his joints. Wearing supportive running shoes with cushioned soles is also crucial to protect the ankles. Alongside running, Tom enjoyed playing competitive badminton with his classmates in the gymnasium.",
+      "Badminton requires sharp reflexes, fast footwork, and precise hand-eye coordination. During weekend breaks, he often went cycling along the quiet countryside paths with his parents. Cycling is a low-impact exercise that strengthens leg muscles without placing undue stress on knees. Furthermore, getting enough quality sleep is just as important as physical training. The human body requires eight hours of deep sleep to repair tissues and restore energy.",
+      "Staying up late browsing social media apps disrupts natural sleep cycles and causes daytime fatigue. Tom learned to put his mobile phone away one hour before going to bed. Reading a printed adventure novel helped his active mind calm down after a demanding day. Developing healthy daily habits requires strong self-discipline and consistent personal effort. Taking proper care of one's physical and mental health lays a solid foundation for academic success.",
+      "Healthy teenagers are generally more optimistic, focused, and capable of handling daily stress. Our school wellness campaign successfully inspired many pupils to adopt healthier lifestyle choices. Tom felt much stronger, healthier, and more energetic than he had ever felt in the past. He encouraged his friends to participate in outdoor sports rather than sitting indoors all day. Embracing health and fitness as a lifelong habit guarantees a vibrant and fulfilling future."
+    ],
+    "vocabulary": [
+      {
+        "word": "campaign",
+        "syllables": "cam-paign",
+        "phonetic": "/kæmˈpeɪn/",
+        "definition": "A series of planned actions intended to achieve a particular result.",
+        "example": "Last term, our school launched a comprehensive wellness campaign to promote active lifestyles.",
+        "emoji": "📣"
+      },
+      {
+        "word": "strain",
+        "syllables": "strain",
+        "phonetic": "/streɪn/",
+        "definition": "Pressure or worry caused by something difficult.",
+        "example": "Initially, running long distances felt quite tiring and put a heavy strain on his leg muscles.",
+        "emoji": "😣"
+      },
+      {
+        "word": "bed",
+        "syllables": "bed",
+        "phonetic": "/bed/",
+        "definition": "The piece of furniture you sleep on.",
+        "example": "Tom learned to put his mobile phone away one hour before going to bed.",
+        "emoji": "🛏️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How far did Tom jog each morning?",
+        "options": [
+          "One kilometre",
+          "Two kilometres",
+          "Three kilometres",
+          "Five kilometres"
+        ],
+        "answerIndex": 2,
+        "explanation": "He set his alarm clock for six o'clock every morning to complete a brisk three-kilometre jog."
+      },
+      {
+        "question": "How much deep sleep does the body need?",
+        "options": [
+          "Four hours",
+          "Six hours",
+          "Eight hours",
+          "Ten hours"
+        ],
+        "answerIndex": 2,
+        "explanation": "The human body requires eight hours of deep sleep to repair tissues and restore energy."
+      },
+      {
+        "question": "What did Tom do one hour before bed?",
+        "options": [
+          "Went running",
+          "Put his mobile phone away",
+          "Watched a film",
+          "Ate a snack"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tom learned to put his mobile phone away one hour before going to bed."
+      }
+    ],
+    "funPrompt": "Which healthy habit would be hardest for you to start, and which would be easiest?"
+  },
+  {
+    "id": 538,
+    "day": 38,
+    "track": "advanced",
+    "title": "The School Environmental Club",
+    "coverEmoji": "🌍",
+    "category": "Nature & Environment",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "A student green club bans plastic cutlery, plants fifty saplings and cuts the power bill by a fifth.",
+    "wordCount": 412,
+    "paragraphs": [
+      "Environmental protection has become one of the most critical global issues of our era. Last semester, a group of passionate students established the school's first green club. The primary aim of the club was to raise environmental awareness among students and teachers. Maya was elected as the club chairperson because of her exceptional organizational talents. She held an introductory meeting in the school library to outline their upcoming projects.",
+      "Over fifty pupils attended the session, eager to contribute to local conservation efforts. Their first major campaign focused on reducing plastic waste across the entire school campus. The students designed colourful posters explaining how single-use plastics damage marine ecosystems. They placed clearly labelled recycling bins for paper, glass, and plastic containers in every corridor. To minimize canteen waste, the club successfully petitioned the headteacher to ban plastic cutlery.",
+      "Instead, students were encouraged to bring reusable metal forks and spoons from home. In addition to waste reduction, the club launched an organic tree-planting initiative. The local council donated fifty native saplings to be planted along the northern school boundary. On a sunny Saturday morning, club members gathered with spades, watering cans, and protective gloves. They dug deep circular holes in the fertile soil, carefully placing the delicate roots inside.",
+      "Tom and Leo carried heavy buckets of water from the tap to water each newly planted sapling. Planting trees helps absorb carbon dioxide, prevent soil erosion, and support local birdlife. The environmental club also organised a campus energy-saving competition between classes. Classrooms that successfully reduced their monthly electricity consumption won a special green trophy. Students were reminded to switch off overhead lights and computer monitors before leaving.",
+      "These practical actions resulted in a twenty percent drop in the school's monthly power bill. The local town council noticed the school's outstanding achievements and awarded them a special certificate. A regional newspaper reporter visited the school to interview Maya for a feature article. She explained that protecting the environment is a shared moral responsibility for all citizens. Participating in community green projects gave the students a profound sense of shared accomplishment.",
+      "They realised that even small individual actions can have a meaningful positive impact. The environmental club proved that young people can become effective leaders in sustainability matters. Maya encouraged younger pupils to continue supporting green initiatives in the coming years. Everyone felt immensely proud of what their dedicated team had accomplished through hard work. Building a sustainable future requires continuous education, dedication, and active global participation."
+    ],
+    "vocabulary": [
+      {
+        "word": "aim",
+        "syllables": "aim",
+        "phonetic": "/eɪm/",
+        "definition": "The thing you are trying to achieve.",
+        "example": "The primary aim of the club was to raise environmental awareness among students and teachers.",
+        "emoji": "🎯"
+      },
+      {
+        "word": "session",
+        "syllables": "ses-sion",
+        "phonetic": "/ˈseʃn/",
+        "definition": "A period of time used for a particular activity or meeting.",
+        "example": "Over fifty pupils attended the session, eager to contribute to local conservation efforts.",
+        "emoji": "👥"
+      },
+      {
+        "word": "bill",
+        "syllables": "bill",
+        "phonetic": "/bɪl/",
+        "definition": "A written statement showing how much you must pay for something.",
+        "example": "These practical actions resulted in a twenty percent drop in the school's monthly power bill.",
+        "emoji": "🧾"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Who was elected chairperson of the green club?",
+        "options": [
+          "Tom",
+          "Leo",
+          "Maya",
+          "Emma"
+        ],
+        "answerIndex": 2,
+        "explanation": "Maya was elected as the club chairperson because of her exceptional organizational talents."
+      },
+      {
+        "question": "How many saplings did the local council donate?",
+        "options": [
+          "Twenty",
+          "Thirty",
+          "Fifty",
+          "One hundred"
+        ],
+        "answerIndex": 2,
+        "explanation": "The local council donated fifty native saplings to be planted along the northern school boundary."
+      },
+      {
+        "question": "By how much did the school's power bill fall?",
+        "options": [
+          "Ten percent",
+          "Twenty percent",
+          "Thirty percent",
+          "Forty percent"
+        ],
+        "answerIndex": 1,
+        "explanation": "These practical actions resulted in a twenty percent drop in the school's monthly power bill."
+      }
+    ],
+    "funPrompt": "Which single change would save the most energy in your school or home?"
+  },
+  {
+    "id": 539,
+    "day": 39,
+    "track": "advanced",
+    "title": "A Career in Aviation",
+    "coverEmoji": "✈️",
+    "category": "Jobs & Technology",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "An airline captain explains the training, the English and the pre-flight checks behind every flight.",
+    "wordCount": 420,
+    "paragraphs": [
+      "Modern aviation connects distant continents, facilitating global trade, tourism, and cultural exchange. Last Wednesday, our school careers advisor invited an experienced airline pilot to give a lecture. Captain Roberts walked into the crowded school hall wearing his formal navy-blue uniform. He began his presentation by sharing fascinating stories from his twenty-year international career. He explained that becoming a commercial airline pilot requires rigorous training and strict medical fitness.",
+      "Candidates must possess exceptional spatial awareness, quick decision-making skills, and fluent English. English serves as the universal language of global aviation, ensuring safe communication with controllers. Captain Roberts described his typical working day, which often begins before sunrise at the airport. Before boarding the aircraft, the flight crew conducts a thorough pre-flight safety check. They review meteorological weather forecasts, calculate fuel requirements, and inspect flight plans.",
+      "Once passengers are seated on board, the co-pilot contacts air traffic control for clearance to depart. The massive jet taxies smoothly along the runway before accelerating to take-off speed. Rising steeply into the blue sky, the aircraft pierces through thick cloud layers into bright sunshine. Cruising at an altitude of thirty thousand feet, the autopilot maintains a steady course. Cabin attendants serve hot meals and refreshments while passengers relax, read, or watch movies.",
+      "Approaching the destination, the captain initiates a gradual descent toward the arrival airport. Touching down smoothly on the tarmac, the plane taxies to the terminal gate without any delay. In addition to pilots, the aviation industry offers diverse professional career opportunities. These include aeronautical engineers, air traffic controllers, ground operations staff, and flight attendants. Emma asked Captain Roberts whether women face any barriers working in modern commercial aviation.",
+      "The captain smiled and answered that airlines select candidates purely based on professional merit. He noted with encouragement that the number of female pilots has grown rapidly in recent years. Following the lecture, several students visited the display area to examine aviation instruments and models. Tom tried out a computerized flight simulation program set up near the exhibition stage. He manipulated the digital control yoke to steer a virtual aircraft through a simulated storm.",
+      "Although he crashed twice during landing, he found the interactive experience exhilarating and fun. Captain Roberts encouraged interested students to study mathematics, physics, and computer science at university. He reminded the audience that pursuing a challenging dream requires unwavering dedication and perseverance. The inspiring talk broadened students' career horizons and sparked genuine interest in aerospace technology. Everyone left the hall feeling motivated to aim high and pursue their future professional ambitions."
+    ],
+    "vocabulary": [
+      {
+        "word": "uniform",
+        "syllables": "uni-form",
+        "phonetic": "/ˈjuːnɪfɔːm/",
+        "definition": "Special clothes worn by all members of a group, such as a pilot or a nurse.",
+        "example": "Captain Roberts walked into the crowded school hall wearing his formal navy-blue uniform.",
+        "emoji": "👨‍✈️"
+      },
+      {
+        "word": "course",
+        "syllables": "course",
+        "phonetic": "/kɔːs/",
+        "definition": "The direction in which a ship or plane is travelling.",
+        "example": "Cruising at an altitude of thirty thousand feet, the autopilot maintains a steady course.",
+        "emoji": "🧭"
+      },
+      {
+        "word": "high",
+        "syllables": "high",
+        "phonetic": "/haɪ/",
+        "definition": "At or to a great level or height.",
+        "example": "Everyone left the hall feeling motivated to aim high and pursue their future professional ambitions.",
+        "emoji": "⬆️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Which language is used in international aviation?",
+        "options": [
+          "French",
+          "English",
+          "Spanish",
+          "German"
+        ],
+        "answerIndex": 1,
+        "explanation": "English serves as the universal language of global aviation, ensuring safe communication with controllers."
+      },
+      {
+        "question": "At what altitude does the plane cruise?",
+        "options": [
+          "Ten thousand feet",
+          "Twenty thousand feet",
+          "Thirty thousand feet",
+          "Forty thousand feet"
+        ],
+        "answerIndex": 2,
+        "explanation": "Cruising at an altitude of thirty thousand feet, the autopilot maintains a steady course."
+      },
+      {
+        "question": "How many times did Tom crash in the flight simulator?",
+        "options": [
+          "Once",
+          "Twice",
+          "Three times",
+          "He did not crash"
+        ],
+        "answerIndex": 1,
+        "explanation": "Although he crashed twice during landing, he found the interactive experience exhilarating and fun."
+      }
+    ],
+    "funPrompt": "If you could fly a plane for one day, where would you fly and what would you want to see from the cockpit?"
+  },
+  {
+    "id": 540,
+    "day": 40,
+    "track": "advanced",
+    "title": "Exploring Digital Photography",
+    "coverEmoji": "📷",
+    "category": "Arts & Technology",
+    "level": "Advanced",
+    "readingTime": "8 mins",
+    "intro": "Aperture, shutter speed and ISO: a photography workshop in a botanical garden.",
+    "wordCount": 425,
+    "paragraphs": [
+      "Digital photography has transformed how people capture, edit, and share visual memories. Last month, our school media club organised a beginners' photography workshop for all students. A professional photojournalist named Arthur introduced the fundamental principles of camera operation. He explained that mastering photography requires understanding three core elements: aperture, shutter speed, and ISO. Arthur demonstrated how adjusting the lens aperture controls the amount of light entering the camera.",
+      "A wide aperture creates a blurry background, which is ideal for artistic portrait shots. Conversely, a narrow aperture keeps the entire landscape sharp from the foreground to the horizon. Next, he explained how shutter speed determines whether fast-moving subjects appear sharp or blurred. Using a fast shutter speed freezes a splashing water droplet in mid-air with incredible clarity. On Saturday morning, the club members took their digital cameras outdoors for a practical excursion.",
+      "They walked along the winding paths of the botanical gardens to photograph diverse plant species. Emma crouched low on the grass to take a close-up macro shot of a colourful butterfly. She adjusted her focus ring carefully to ensure the insect's delicate wings were crystal clear. Tom preferred landscape photography, capturing panoramic views of the lake and distant mountain peaks. He mounted his camera on a sturdy metal tripod to prevent any blurry camera shake.",
+      "Arthur walked among the students, offering individual guidance and praising creative compositions. He reminded everyone to pay close attention to natural lighting conditions and background details. In the afternoon, the students returned to the computer lab to edit their digital images. They used professional photo-editing software to crop unnecessary edges and adjust brightness levels. Arthur showed them how to enhance contrast and saturation without making the photos look unnatural.",
+      "The club selected the best fifty photographs for a special exhibition in the school library. Printed on high-gloss photo paper, the images looked remarkably professional and stunning. Parents and teachers attended the evening opening event, admiring the students' impressive artistic talent. A local arts magazine published an article featuring several award-winning student photographs. Participating in the photography workshop taught the students how to observe the world with greater attention.",
+      "Photography is not merely about pressing a button, but about telling compelling visual stories. It encourages young people to appreciate everyday beauty and document significant moments in time. The successful workshop inspired the school to establish photography as a permanent extracurricular club. Emma and Tom were appointed as student editors for the club's upcoming digital blog. They looked forward to sharing their photographic adventures with fellow students throughout the coming year."
+    ],
+    "vocabulary": [
+      {
+        "word": "shots",
+        "syllables": "shots",
+        "phonetic": "/ʃɒts/",
+        "definition": "Photographs or the act of taking them.",
+        "example": "A wide aperture creates a blurry background, which is ideal for artistic portrait shots.",
+        "emoji": "📸"
+      },
+      {
+        "word": "shake",
+        "syllables": "shake",
+        "phonetic": "/ʃeɪk/",
+        "definition": "A shaking movement, especially of a camera that blurs the picture.",
+        "example": "He mounted his camera on a sturdy metal tripod to prevent any blurry camera shake.",
+        "emoji": "🎞️"
+      },
+      {
+        "word": "levels",
+        "syllables": "lev-els",
+        "phonetic": "/ˈlevlz/",
+        "definition": "Amounts of something, such as light or sound.",
+        "example": "They used professional photo-editing software to crop unnecessary edges and adjust brightness levels.",
+        "emoji": "🔆"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Which three elements did Arthur say photography depends on?",
+        "options": [
+          "Lens, tripod and flash",
+          "Aperture, shutter speed and ISO",
+          "Zoom, focus and flash",
+          "Colour, light and paper"
+        ],
+        "answerIndex": 1,
+        "explanation": "He explained that mastering photography requires understanding three core elements: aperture, shutter speed, and ISO."
+      },
+      {
+        "question": "What did Emma photograph close-up in the garden?",
+        "options": [
+          "A lake",
+          "A butterfly",
+          "A mountain",
+          "A tree"
+        ],
+        "answerIndex": 1,
+        "explanation": "Emma crouched low on the grass to take a close-up macro shot of a colourful butterfly."
+      },
+      {
+        "question": "How many photographs were chosen for the exhibition?",
+        "options": [
+          "Fifteen",
+          "Thirty",
+          "Fifty",
+          "One hundred"
+        ],
+        "answerIndex": 2,
+        "explanation": "The club selected the best fifty photographs for a special exhibition in the school library."
+      }
+    ],
+    "funPrompt": "If you had one photograph to capture today, what would you point the camera at?"
   }
 ];
 
