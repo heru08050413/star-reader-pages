@@ -1160,7 +1160,7 @@ const MONTH3_STORIES = [
     "wordCount": 247,
     "paragraphs": [
       "Our history class took a walking tour of York. A historian named Dr Evans met us at the city walls. These stone walls were built in Roman times. Dr Evans gave us maps of the old streets.",
-      "We walked along the high walls. They gave us a wide view of the city. Dr Evans explained how the walls protected people from enemies. Then we went down stone steps to a narrow lane called the Shambles. The old wooden houses lean toward each other. In the Middle Ages, butchers sold meat there.",
+      "We walked along the high walls. They gave us a wide view of the city. Dr Evans explained how the walls protected people from enemies. Then we went down stone steps to a narrow lane called the Shambles. The old wooden houses lean towards each other. In the Middle Ages, butchers sold meat there.",
       "Today, the old shops sell books, tea and gifts. Next, we visited York Minster, a huge Gothic cathedral. Inside, the tall stone pillars left us speechless. Sunlight came through tall stained-glass windows. The guide said craftsmen spent years making them.",
       "In the crypt below, we saw old Roman army remains. Archaeologists found weapons, coins and pottery. Dr Evans told us not to touch them, because skin oils can damage old things. Outside, we rested in the museum gardens. Next to us stood the ruins of an old abbey.",
       "In the afternoon, we visited a Viking museum. We sat in moving capsules that carried us through a rebuilt Viking village. The figures, sounds and smells made the past feel real.",
@@ -1484,7 +1484,7 @@ const MONTH3_STORIES = [
     "intro": "A computer science lesson on privacy, passwords and screen time changes Tom's evenings.",
     "wordCount": 241,
     "paragraphs": [
-      "The internet has changed how teenagers talk and connect. Today almost every student has a smartphone. Social media lets people share photos and chat in real time. Emma made a blog about her landscape photography. She uploads photos of the coast and writes short captions. Her classmates leave comments and 'like' her posts.",
+      "The internet has changed how teenagers talk and connect. Today almost every student has a smartphone. Social media lets people share photos and chat in real time. Emma has a blog about her landscape photography. She uploads photos of the coast and writes short captions. Her classmates leave comments and 'like' her posts.",
       "But our computer science teacher warned us about privacy. She said that once something is online, it is hard to delete. Students should never share their home address or phone number. Strong passwords are important to stop other people using your account.",
       "A good password should have capital letters, numbers and symbols. The teacher also warned about viruses and fake links. We should never open unknown email attachments. She also talked about online kindness. Cyberbullying and unkind posts can hurt people badly. We should treat others online with the same respect as in real life.",
       "Another problem is screen addiction. Too many hours on a phone can hurt your eyes and sleep. Tom realised he spent over four hours on games every evening. He set a strict screen time limit on his phone. When the alarm rang after sixty minutes, he turned off the screen. Instead of chatting online, he invited friends to play football outside. He felt happier and fitter.",
@@ -1526,7 +1526,7 @@ const MONTH3_STORIES = [
           "An online shop"
         ],
         "answerIndex": 1,
-        "explanation": "Emma made a blog about her landscape photography."
+        "explanation": "Emma has a blog about her landscape photography."
       },
       {
         "question": "What should a strong password contain?",
