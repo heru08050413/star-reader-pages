@@ -414,6 +414,413 @@ const MONTH3_STORIES = [
       }
     ],
     "funPrompt": "What would you take in your hand luggage for a long flight, and why?"
+  },
+  {
+    "id": 66,
+    "day": 66,
+    "title": "The Community Sports Day",
+    "coverEmoji": "🏅",
+    "category": "Sports & Teamwork",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "A town sports day of sprints, football and a relay team that sets a new record.",
+    "wordCount": 248,
+    "paragraphs": [
+      "Every summer, our town holds a sports day on the public field. Hundreds of people come early to warm up. The sports club has clean changing rooms and lockers. Tom entered the hundred-metre sprint and the high jump. His coach gave him advice on how to jump well.",
+      "In the sprint, the runners waited for the gun. When it fired, they ran very fast. Tom tried his best and finished second. He was a little sad not to win, but his parents were proud.",
+      "On the next field, two schools played football. The other team had a very good goalkeeper. In the second half, the home captain got a yellow card. The referee blew his whistle to stop the game. Both teams played fairly and showed respect. Near them, younger children played table tennis under a tent.",
+      "A teacher showed them how to hold the bat. He said a gentle spin makes the ball hard to return.",
+      "At noon, a light rain stopped the games. People waited under trees and ate sandwiches. Soon the sun came back.",
+      "The games continued with a relay race. Tom's team passed the baton smoothly and finished first. They set a new town record!",
+      "At the end, the mayor gave medals and cups. Everyone got a certificate. Tom felt that training had made him stronger and more confident. Sport teaches young people how to win and how to lose. It also builds friendship. Before going home, the volunteers helped clean up the field."
+    ],
+    "vocabulary": [
+      {
+        "word": "sprint",
+        "syllables": "sprint",
+        "phonetic": "/sprɪnt/",
+        "definition": "A short race run at top speed.",
+        "example": "Tom entered the hundred-metre sprint and the high jump.",
+        "emoji": "🏃"
+      },
+      {
+        "word": "referee",
+        "syllables": "ref-er-ee",
+        "phonetic": "/ˌrefəˈriː/",
+        "definition": "The person who makes sure players follow the rules in a game.",
+        "example": "The referee blew his whistle to stop the game.",
+        "emoji": "🟨"
+      },
+      {
+        "word": "baton",
+        "syllables": "bat-on",
+        "phonetic": "/ˈbætɒn/",
+        "definition": "A short stick passed between runners in a relay race.",
+        "example": "Tom's team passed the baton smoothly and finished first.",
+        "emoji": "🏆"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Which two events did Tom enter?",
+        "options": [
+          "The relay and the long jump",
+          "The hundred-metre sprint and the high jump",
+          "The football match and table tennis",
+          "The marathon and the sprint"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tom entered the hundred-metre sprint and the high jump."
+      },
+      {
+        "question": "What place did Tom finish in the sprint?",
+        "options": [
+          "First",
+          "Second",
+          "Third",
+          "He did not finish"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tom tried his best and finished second."
+      },
+      {
+        "question": "What did the relay team do?",
+        "options": [
+          "Dropped the baton",
+          "Set a new town record",
+          "Came last",
+          "Stopped for rain"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tom's team passed the baton smoothly and finished first. They set a new town record!"
+      }
+    ],
+    "funPrompt": "Which sport would you like to try at a town sports day, and why?"
+  },
+  {
+    "id": 67,
+    "day": 67,
+    "title": "A Coastal Holiday and Marine Ecology",
+    "coverEmoji": "🌊",
+    "category": "Nature & Environment",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "A seaside holiday with seals, rock pools and a lesson about plastic waste.",
+    "wordCount": 246,
+    "paragraphs": [
+      "Last summer, our family rented a small wooden house by the sea. It stood on a high cliff above a wide sandy bay. From the balcony, we could see the ocean and faraway islands. Every morning, my sister and I got up early to watch the sunrise.",
+      "After breakfast, we put on our swimsuits and walked down the rocky path. The weather was warm with a gentle breeze. We hired a double kayak from a sports centre near the harbour. The instructor helped us put on bright orange life jackets. He warned us to stay near the shore because the currents were strong.",
+      "In a quiet cove, we stopped to watch a family of grey seals resting on stones. My sister used her waterproof camera to take close-up photos.",
+      "In the afternoon, the sea became rough, so we returned the kayak. We spent the rest of the day exploring the rock pools left by the low tide. We found tiny green crabs, purple sea anemones and empty shells.",
+      "A local fisherman told us that plastic waste was harming the coast. He said bottles and fishing lines often hurt seabirds. My sister and I decided to collect rubbish on the beach. We filled two big bags with glass, cans and wrappers.",
+      "In the evening, we ate at a small seafood restaurant. The grilled fish was very fresh. We watched the sunset paint the sky red and gold. That holiday was one of the best of our childhood."
+    ],
+    "vocabulary": [
+      {
+        "word": "kayak",
+        "syllables": "kay-ak",
+        "phonetic": "/ˈkaɪæk/",
+        "definition": "A light narrow boat moved with a double paddle.",
+        "example": "We hired a double kayak from a sports centre near the harbour.",
+        "emoji": "🛶"
+      },
+      {
+        "word": "seals",
+        "syllables": "seals",
+        "phonetic": "/siːlz/",
+        "definition": "Sea animals with smooth fur that swim and rest on rocks.",
+        "example": "we stopped to watch a family of grey seals resting on stones.",
+        "emoji": "🦭"
+      },
+      {
+        "word": "tide",
+        "syllables": "tide",
+        "phonetic": "/taɪd/",
+        "definition": "The regular rise and fall of the sea.",
+        "example": "We spent the rest of the day exploring the rock pools left by the low tide.",
+        "emoji": "🌊"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Where was the family's house?",
+        "options": [
+          "In a fishing village",
+          "On a high cliff above a sandy bay",
+          "Next to the harbour",
+          "On a busy street"
+        ],
+        "answerIndex": 1,
+        "explanation": "It stood on a high cliff above a wide sandy bay."
+      },
+      {
+        "question": "Why did they return the kayak early?",
+        "options": [
+          "They were tired",
+          "The sea became rough",
+          "The kayak was broken",
+          "It started to rain"
+        ],
+        "answerIndex": 1,
+        "explanation": "In the afternoon, the sea became rough, so we returned the kayak."
+      },
+      {
+        "question": "What did the fisherman say was harming the coast?",
+        "options": [
+          "Too many seals",
+          "Plastic waste",
+          "Oil from ships",
+          "Strong winds"
+        ],
+        "answerIndex": 1,
+        "explanation": "A local fisherman told us that plastic waste was harming the coast."
+      }
+    ],
+    "funPrompt": "What is one thing you could do at the beach to help animals?"
+  },
+  {
+    "id": 68,
+    "day": 68,
+    "title": "The High-Tech Smart Home",
+    "coverEmoji": "🏠",
+    "category": "Science & Technology",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "Uncle Jack fills his house with smart devices, and even grandfather learns to use them.",
+    "wordCount": 242,
+    "paragraphs": [
+      "Last month, my uncle decided to upgrade his house with a smart system. The main control box connects to the family Wi-Fi.",
+      "Now every family member can use the machines with a phone app. The living room lights can be turned on or off by voice. The smart thermostat changes the indoor temperature when the weather changes. When winter is cold, the heating turns on by itself. At sunset, the window blinds close to keep the room private.",
+      "In the kitchen, the fridge watches the food dates. If milk or vegetables run low, it makes a shopping list. The microwave can read a barcode and choose the right cooking mode. A robot vacuum moves across the wooden floor to collect dust.",
+      "When its battery drops below twenty percent, the robot goes back to its dock by itself. The house also has a new security system. Cameras near the door can recognise visitors by their faces. If a stranger tries to force the door, a loud alarm sounds.",
+      "The system makes my family feel safe and comfortable. It also uses very little electricity. By turning off unused machines, it lowers the monthly bill. Uncle Jack said the first cost was high. But he believes the long-term savings make it worthwhile.",
+      "Some older relatives found the screens confusing at first. But with clear instructions, even my grandfather learned to switch TV channels. Used responsibly, technology helps us build a cleaner and more sustainable future."
+    ],
+    "vocabulary": [
+      {
+        "word": "thermostat",
+        "syllables": "ther-mo-stat",
+        "phonetic": "/ˈθɜːməstæt/",
+        "definition": "A device that controls the temperature in a room or building.",
+        "example": "The smart thermostat changes the indoor temperature when the weather changes.",
+        "emoji": "🌡️"
+      },
+      {
+        "word": "vacuum",
+        "syllables": "vac-u-um",
+        "phonetic": "/ˈvækjuːm/",
+        "definition": "A machine that cleans floors by sucking up dirt.",
+        "example": "A robot vacuum moves across the wooden floor to collect dust.",
+        "emoji": "🧹"
+      },
+      {
+        "word": "savings",
+        "syllables": "sav-ings",
+        "phonetic": "/ˈseɪvɪŋz/",
+        "definition": "Money you keep or do not need to spend.",
+        "example": "But he believes the long-term savings make it worthwhile.",
+        "emoji": "💰"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What does the smart thermostat change?",
+        "options": [
+          "The lights",
+          "The indoor temperature",
+          "The cameras",
+          "The vacuum"
+        ],
+        "answerIndex": 1,
+        "explanation": "The smart thermostat changes the indoor temperature when the weather changes."
+      },
+      {
+        "question": "When does the robot vacuum return to its dock?",
+        "options": [
+          "Every hour",
+          "When its battery drops below twenty percent",
+          "At sunset",
+          "When the door opens"
+        ],
+        "answerIndex": 1,
+        "explanation": "When its battery drops below twenty percent, the robot goes back to its dock by itself."
+      },
+      {
+        "question": "Why does Uncle Jack think the system is worth the cost?",
+        "options": [
+          "It looks modern",
+          "The long-term savings",
+          "It was free",
+          "It is easy to install"
+        ],
+        "answerIndex": 1,
+        "explanation": "But he believes the long-term savings make it worthwhile."
+      }
+    ],
+    "funPrompt": "If one job in your home could be done by a robot, which job would you choose?"
+  },
+  {
+    "id": 69,
+    "day": 69,
+    "title": "A Day in the Life of a City Journalist",
+    "coverEmoji": "📰",
+    "category": "Jobs & Media",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "A reporter follows a transport strike from the picket line to the front page.",
+    "wordCount": 226,
+    "paragraphs": [
+      "Rachel is a reporter for a city newspaper. Her day often begins at eight o'clock with a meeting in the newsroom. The chief editor chooses the top stories and gives the staff their jobs. Rachel was asked to write about a transport strike on Friday.",
+      "She took her voice recorder and went out. First, she visited the trade union office to interview the workers' leader. He said the staff wanted better safety and fair pay. Rachel listened carefully and took notes in her notebook.",
+      "Next, she went to the city council building for the government's answer. The mayor's press secretary read a short statement about budget talks. Rachel asked for a printed report so she could study the numbers.",
+      "Rachel returned to the office by two o'clock. She had to write a six-hundred-word article before the deadline. She wrote carefully, with clear topic sentences and facts.",
+      "After she checked the spelling and grammar, she gave the draft to the editor. He liked her clear style and approved it with no big changes. The designer put the story on the front page. Rachel also recorded a two-minute podcast for the website.",
+      "By seven in the evening, her work was done. She packed her laptop, tired but happy. Journalism helps people understand the world and keeps power honest. It needs curiosity, honesty and a search for the truth."
+    ],
+    "vocabulary": [
+      {
+        "word": "strike",
+        "syllables": "strike",
+        "phonetic": "/straɪk/",
+        "definition": "A time when workers stop working to ask for better pay or conditions.",
+        "example": "Rachel was asked to write about a transport strike on Friday.",
+        "emoji": "✊"
+      },
+      {
+        "word": "draft",
+        "syllables": "draft",
+        "phonetic": "/drɑːft/",
+        "definition": "A first version of a piece of writing.",
+        "example": "She gave the draft to the editor.",
+        "emoji": "✍️"
+      },
+      {
+        "word": "deadline",
+        "syllables": "dead-line",
+        "phonetic": "/ˈdedlaɪn/",
+        "definition": "The time by which work must be finished.",
+        "example": "She had to write a six-hundred-word article before the deadline.",
+        "emoji": "⏰"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What was Rachel asked to write about?",
+        "options": [
+          "A new museum",
+          "A transport strike",
+          "A school event",
+          "A football match"
+        ],
+        "answerIndex": 1,
+        "explanation": "Rachel was asked to write about a transport strike on Friday."
+      },
+      {
+        "question": "How long was her article?",
+        "options": [
+          "Two hundred words",
+          "Four hundred words",
+          "Six hundred words",
+          "One thousand words"
+        ],
+        "answerIndex": 2,
+        "explanation": "She had to write a six-hundred-word article before the deadline."
+      },
+      {
+        "question": "Where did the story appear?",
+        "options": [
+          "On the sports page",
+          "On the front page",
+          "In a magazine",
+          "On the radio"
+        ],
+        "answerIndex": 1,
+        "explanation": "The designer put the story on the front page."
+      }
+    ],
+    "funPrompt": "If you were a reporter for one day, which story would you want to cover?"
+  },
+  {
+    "id": 70,
+    "day": 70,
+    "title": "Volunteering at the Animal Shelter",
+    "coverEmoji": "🐶",
+    "category": "Animals & Kindness",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "A school volunteer group spends a Saturday caring for animals that need a home.",
+    "wordCount": 239,
+    "paragraphs": [
+      "Last Saturday, our school volunteer group spent the day at a local animal shelter. The manager welcomed us and explained the safety rules. Our first job was to clean the dog kennels and put down fresh blankets.",
+      "Tom and David carried warm soapy water and brushes to wash the floors. Emma and I prepared meals for more than forty dogs. We measured dry food and mixed it with canned meat. When we put the food inside, the hungry dogs wagged their tails.",
+      "When we put the food inside, the hungry dogs wagged their tails.",
+      "After lunch, the vet invited us into the clinic to watch some check-ups. She examined a golden retriever puppy with a small leg injury. She cleaned the cut and put on a protective cream.",
+      "In the afternoon, the sun came out, so we took some dogs for a walk. We attached strong leather leads to their collars and walked along a country path. The dogs were very happy to run on the grass.",
+      "Later, the shelter opened its doors to people who wanted to adopt a pet. Emma showed a young couple a gentle white kitten found on a busy street. They loved it at once and filled in the adoption form.",
+      "Seeing a lost animal find a loving home was a touching moment. She said adopting a pet is a long and serious promise. We learned that small acts of kindness can change lives."
+    ],
+    "vocabulary": [
+      {
+        "word": "shelter",
+        "syllables": "shel-ter",
+        "phonetic": "/ˈʃeltə/",
+        "definition": "A place that gives food and a home to animals or people in need.",
+        "example": "Last Saturday, our school volunteer group spent the day at a local animal shelter.",
+        "emoji": "🏠"
+      },
+      {
+        "word": "kennels",
+        "syllables": "ken-nels",
+        "phonetic": "/ˈkenlz/",
+        "definition": "Small buildings or boxes where dogs are kept.",
+        "example": "Our first job was to clean the dog kennels and put down fresh blankets.",
+        "emoji": "🐕"
+      },
+      {
+        "word": "adopt",
+        "syllables": "a-dopt",
+        "phonetic": "/əˈdɒpt/",
+        "definition": "To take an animal into your home and care for it.",
+        "example": "Later, the shelter opened its doors to people who wanted to adopt a pet.",
+        "emoji": "❤️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What was the volunteers' first job?",
+        "options": [
+          "Walking the dogs",
+          "Cleaning the dog kennels",
+          "Feeding the cats",
+          "Painting the clinic"
+        ],
+        "answerIndex": 1,
+        "explanation": "Our first job was to clean the dog kennels and put down fresh blankets."
+      },
+      {
+        "question": "Which animal did the vet examine?",
+        "options": [
+          "A white kitten",
+          "A golden retriever puppy with a leg injury",
+          "A rabbit",
+          "A parrot"
+        ],
+        "answerIndex": 1,
+        "explanation": "She examined a golden retriever puppy with a small leg injury."
+      },
+      {
+        "question": "Who adopted the white kitten?",
+        "options": [
+          "An old man",
+          "A young married couple",
+          "A teacher",
+          "The vet"
+        ],
+        "answerIndex": 1,
+        "explanation": "A young married couple came to look for a friendly cat."
+      }
+    ],
+    "funPrompt": "What would a pet need from you every single day?"
   }
 ];
 
