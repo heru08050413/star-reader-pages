@@ -413,6 +413,22 @@ function renderStoryContent(story) {
       };
       sentEl.appendChild(playBtn);
 
+      // Microphone badge: read this sentence aloud and get feedback
+      if (shadowSupported()) {
+        const micBtn = document.createElement("button");
+        micBtn.type = "button";
+        micBtn.className = "sentence-mic-btn";
+        micBtn.textContent = "🎤";
+        micBtn.title = "Read this sentence aloud";
+        micBtn.setAttribute("aria-label", "Read this sentence aloud");
+        micBtn.onclick = (e) => {
+          e.stopPropagation();
+          playClickPop();
+          openShadowPanel(pIndex, sIndex);
+        };
+        sentEl.appendChild(micBtn);
+      }
+
       // Split the sentence into words while keeping punctuation intact
       sentText.split(/(\s+)/).forEach((token, tIndex) => {
         if (/^\s+$/.test(token)) {
@@ -1481,4 +1497,441 @@ function launchConfetti() {
   }
 
   updateConfetti();
+}
+
+// ==========================================
+// SHADOWING: read a sentence aloud, get word-level feedback
+// ==========================================
+const SHADOW_KEY = STORAGE_PREFIX + "shadow_scores";
+const SHADOW_STOPWORDS = new Set(("a an the and or but if so of to in on at for with from by as " +
+  "is are was were be been am do does did have has had will would can could should may might must " +
+  "this that these those it its he she they we you i not no yes very just also than then there here").split(" "));
+const SHADOW_EXPAND = {
+  "don't": "do not", "doesn't": "does not", "didn't": "did not", "isn't": "is not",
+  "aren't": "are not", "wasn't": "was not", "weren't": "were not", "won't": "will not",
+  "can't": "cannot", "couldn't": "could not", "shouldn't": "should not", "wouldn't": "would not",
+  "it's": "it is", "i'm": "i am", "we're": "we are", "they're": "they are", "you're": "you are",
+  "he's": "he is", "she's": "she is", "that's": "that is", "there's": "there is", "let's": "let us",
+  "i've": "i have", "we've": "we have", "they've": "they have", "you've": "you have"
+};
+
+let shadowState = {
+  p: 0, s: 0, target: "",
+  recording: false,
+  mediaRecorder: null,
+  chunks: [],
+  stream: null,
+  audioEl: null,
+  audioUrl: null,
+  recognition: null,
+  finalTranscript: "",
+  interimTranscript: "",
+  hardTimer: null
+};
+
+function shadowSupported() {
+  return !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia && window.MediaRecorder);
+}
+
+function shadowRecognitionSupported() {
+  return !!(window.SpeechRecognition || window.webkitSpeechRecognition);
+}
+
+function shadowEscape(t) {
+  return String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+function shadowKey(p, s) {
+  return currentStoryId + ":" + p + ":" + s;
+}
+
+function shadowScores() {
+  try { return JSON.parse(localStorage.getItem(SHADOW_KEY) || "{}"); } catch (err) { return {}; }
+}
+
+function saveShadowScore(stars) {
+  const all = shadowScores();
+  const k = shadowKey(shadowState.p, shadowState.s);
+  if (!all[k] || all[k] < stars) {
+    all[k] = stars;
+    try { localStorage.setItem(SHADOW_KEY, JSON.stringify(all)); } catch (err) {}
+  }
+}
+
+function setShadowStatus(msg) {
+  const el = document.getElementById("shadowStatus");
+  if (el) el.textContent = msg;
+}
+
+function openShadowPanel(pIdx, sIdx) {
+  const story = getStoryById(currentStoryId);
+  if (!story) return;
+  const sentences = splitSentences(story.paragraphs[pIdx] || "");
+  const text = sentences[sIdx];
+  if (!text) return;
+
+  shadowState.p = pIdx;
+  shadowState.s = sIdx;
+  shadowState.target = text;
+  shadowState.finalTranscript = "";
+  shadowState.interimTranscript = "";
+
+  stopSpeech();
+  cleanupShadowAudio();
+
+  const panel = document.getElementById("shadowPanel");
+  document.getElementById("shadowTarget").textContent = text;
+  document.getElementById("shadowResult").innerHTML = "";
+  document.getElementById("shadowReplayBtn").style.display = "none";
+  panel.classList.add("open");
+
+  const best = shadowScores()[shadowKey(pIdx, sIdx)] || 0;
+  if (!shadowSupported()) {
+    setShadowStatus("这个浏览器不能录音，换 Safari 或 Chrome 试试。");
+  } else if (!shadowRecognitionSupported()) {
+    setShadowStatus("可以录音，但这台设备不支持语音识别——只能自己回听对比。");
+  } else {
+    setShadowStatus(best ? "最好成绩 " + "⭐".repeat(best) + " · 再读一次挑战更高" : "先听一遍标准音，然后点「开始跟读」");
+  }
+
+  setTimeout(() => {
+    if (document.getElementById("shadowPanel").classList.contains("open")) {
+      speakSentence(pIdx, sIdx);
+    }
+  }, 150);
+}
+
+function closeShadowPanel() {
+  if (shadowState.recording) stopShadowRecording();
+  cleanupShadowAudio();
+  const panel = document.getElementById("shadowPanel");
+  if (panel) panel.classList.remove("open");
+}
+
+function shadowPlayTarget() {
+  if (shadowState.recording) stopShadowRecording();
+  speakSentence(shadowState.p, shadowState.s);
+}
+
+function shadowReset() {
+  if (shadowState.recording) stopShadowRecording();
+  cleanupShadowAudio();
+  shadowState.finalTranscript = "";
+  shadowState.interimTranscript = "";
+  document.getElementById("shadowResult").innerHTML = "";
+  document.getElementById("shadowReplayBtn").style.display = "none";
+  setShadowStatus("再试一次吧：先听，再读。");
+}
+
+function cleanupShadowAudio() {
+  if (shadowState.audioEl) {
+    try { shadowState.audioEl.pause(); } catch (err) {}
+    shadowState.audioEl = null;
+  }
+  if (shadowState.audioUrl) {
+    try { URL.revokeObjectURL(shadowState.audioUrl); } catch (err) {}
+    shadowState.audioUrl = null;
+  }
+  if (shadowState.stream) {
+    try { shadowState.stream.getTracks().forEach(t => t.stop()); } catch (err) {}
+    shadowState.stream = null;
+  }
+  shadowState.chunks = [];
+}
+
+function shadowPickMime() {
+  if (!window.MediaRecorder) return "";
+  const candidates = ["audio/mp4", "audio/webm", "audio/ogg"];
+  for (const m of candidates) {
+    try { if (MediaRecorder.isTypeSupported(m)) return m; } catch (err) {}
+  }
+  return "";
+}
+
+async function shadowToggleRecord() {
+  if (shadowState.recording) { stopShadowRecording(); return; }
+  if (!shadowSupported()) { setShadowStatus("这个浏览器不能录音。"); return; }
+
+  // Stop the model voice first, otherwise it gets recorded too.
+  try { window.speechSynthesis.cancel(); } catch (err) {}
+  await new Promise(r => setTimeout(r, 320));
+
+  let stream;
+  try {
+    stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+  } catch (err) {
+    setShadowStatus("没有拿到麦克风权限。请在 Safari 里允许本网站使用麦克风后重试。");
+    return;
+  }
+
+  shadowState.stream = stream;
+  shadowState.chunks = [];
+  shadowState.finalTranscript = "";
+  shadowState.interimTranscript = "";
+
+  const mime = shadowPickMime();
+  try {
+    shadowState.mediaRecorder = mime
+      ? new MediaRecorder(stream, { mimeType: mime })
+      : new MediaRecorder(stream);
+  } catch (err) {
+    setShadowStatus("录音启动失败，请重试。");
+    cleanupShadowAudio();
+    return;
+  }
+
+  shadowState.mediaRecorder.ondataavailable = (e) => {
+    if (e.data && e.data.size) shadowState.chunks.push(e.data);
+  };
+  shadowState.mediaRecorder.onstop = finalizeShadowRecording;
+  shadowState.mediaRecorder.start();
+
+  shadowState.recording = true;
+  const micBtn = document.getElementById("shadowMicBtn");
+  micBtn.textContent = "⏹ 停止";
+  micBtn.classList.add("recording");
+  setShadowStatus("正在听… 请大声读这句话");
+
+  startShadowRecognition();
+  shadowState.hardTimer = setTimeout(() => { if (shadowState.recording) stopShadowRecording(); }, 15000);
+}
+
+function startShadowRecognition() {
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SR) return;
+  try {
+    const rec = new SR();
+    rec.lang = "en-US";
+    rec.continuous = false;
+    rec.interimResults = true;
+    rec.maxAlternatives = 1;
+
+    rec.onresult = (ev) => {
+      let interim = "";
+      for (let i = ev.resultIndex; i < ev.results.length; i++) {
+        const r = ev.results[i];
+        if (r.isFinal) shadowState.finalTranscript += r[0].transcript + " ";
+        else interim += r[0].transcript;
+      }
+      shadowState.interimTranscript = interim;
+      const shown = (shadowState.finalTranscript + interim).trim();
+      if (shown) setShadowStatus("听到：" + shown);
+    };
+
+    rec.onerror = (e) => {
+      if (e.error === "no-speech") setShadowStatus("没有听到声音，靠近一点再读一次？");
+      else if (e.error === "not-allowed" || e.error === "service-not-allowed") setShadowStatus("语音识别被拒绝，请在设置里允许麦克风与语音识别。");
+      else setShadowStatus("识别出错：" + e.error);
+    };
+
+    rec.onend = () => {
+      if (shadowState.recording) {
+        setTimeout(() => { if (shadowState.recording) stopShadowRecording(); }, 400);
+      }
+    };
+
+    shadowState.recognition = rec;
+    rec.start();
+  } catch (err) {
+    shadowState.recognition = null;
+  }
+}
+
+function stopShadowRecording() {
+  if (!shadowState.recording) return;
+  shadowState.recording = false;
+  clearTimeout(shadowState.hardTimer);
+
+  if (shadowState.recognition) {
+    try { shadowState.recognition.stop(); } catch (err) {}
+    shadowState.recognition = null;
+  }
+  if (shadowState.mediaRecorder && shadowState.mediaRecorder.state !== "inactive") {
+    try { shadowState.mediaRecorder.stop(); } catch (err) {}
+  }
+  if (shadowState.stream) {
+    try { shadowState.stream.getTracks().forEach(t => t.stop()); } catch (err) {}
+    shadowState.stream = null;
+  }
+
+  const micBtn = document.getElementById("shadowMicBtn");
+  micBtn.textContent = "🎤 开始跟读";
+  micBtn.classList.remove("recording");
+}
+
+function finalizeShadowRecording() {
+  if (shadowState.chunks.length) {
+    const type = shadowState.chunks[0].type || "audio/mp4";
+    const blob = new Blob(shadowState.chunks, { type: type });
+    if (shadowState.audioUrl) { try { URL.revokeObjectURL(shadowState.audioUrl); } catch (err) {} }
+    shadowState.audioUrl = URL.createObjectURL(blob);
+    document.getElementById("shadowReplayBtn").style.display = "inline-flex";
+  }
+
+  const heard = (shadowState.finalTranscript || shadowState.interimTranscript || "").trim();
+  if (!heard) {
+    setShadowStatus("没有识别到内容。先点「听标准音」，再大声读一遍。");
+    return;
+  }
+  evaluateShadow(heard);
+}
+
+function shadowNormalize(text) {
+  return String(text || "")
+    .toLowerCase()
+    .replace(/[\u2018\u2019]/g, "'")
+    .replace(/[\u201c\u201d]/g, " ")
+    .replace(/[^a-z0-9'\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .split(" ")
+    .filter(Boolean)
+    .reduce((acc, w) => acc.concat(SHADOW_EXPAND[w] ? SHADOW_EXPAND[w].split(" ") : [w]), []);
+}
+
+function shadowLev(a, b) {
+  if (a === b) return 0;
+  if (Math.abs(a.length - b.length) > 2) return 9;
+  const m = a.length, n = b.length;
+  const prev = new Array(n + 1);
+  const cur = new Array(n + 1);
+  for (let j = 0; j <= n; j++) prev[j] = j;
+  for (let i = 1; i <= m; i++) {
+    cur[0] = i;
+    for (let j = 1; j <= n; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + cost);
+    }
+    for (let j = 0; j <= n; j++) prev[j] = cur[j];
+  }
+  return prev[n];
+}
+
+// Strip common English inflections so "walked / walking / walks" all count as
+// "walk", while genuinely different words (quiet / quite) stay different.
+function shadowStem(w) {
+  let x = String(w || "");
+  if (x.length > 4 && /ies$/.test(x)) return x.slice(0, -3) + "y";
+  if (x.length > 4 && /ied$/.test(x)) return x.slice(0, -3) + "y";
+  if (x.length > 4 && /ing$/.test(x)) {
+    x = x.slice(0, -3);
+    if (x.length > 2 && x[x.length - 1] === x[x.length - 2]) x = x.slice(0, -1);
+    return x;
+  }
+  if (x.length > 3 && /ed$/.test(x)) {
+    x = x.slice(0, -2);
+    if (x.length > 2 && x[x.length - 1] === x[x.length - 2]) x = x.slice(0, -1);
+    return x;
+  }
+  if (x.length > 3 && /es$/.test(x)) return x.slice(0, -2);
+  if (x.length > 3 && /s$/.test(x) && !/ss$/.test(x)) return x.slice(0, -1);
+  return x;
+}
+
+function shadowSameWord(a, b) {
+  if (!a || !b) return false;
+  if (a === b) return true;
+  if (Math.min(a.length, b.length) < 3) return false;
+  return shadowStem(a) === shadowStem(b);
+}
+
+function alignShadowWords(target, heard) {
+  const n = target.length, m = heard.length;
+  const dp = [];
+  for (let i = 0; i <= n; i++) { dp[i] = new Array(m + 1).fill(0); dp[i][0] = i; }
+  for (let j = 0; j <= m; j++) dp[0][j] = j;
+  for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= m; j++) {
+      const cost = target[i - 1] === heard[j - 1] ? 0 : 1;
+      dp[i][j] = Math.min(dp[i - 1][j] + 1, dp[i][j - 1] + 1, dp[i - 1][j - 1] + cost);
+    }
+  }
+  const ops = [];
+  let i = n, j = m;
+  while (i > 0 && j > 0) {
+    const cost = target[i - 1] === heard[j - 1] ? 0 : 1;
+    if (dp[i][j] === dp[i - 1][j - 1] + cost) {
+      ops.push({ type: cost ? "sub" : "match", target: target[i - 1], heard: heard[j - 1] });
+      i--; j--;
+    } else if (dp[i][j] === dp[i - 1][j] + 1) {
+      ops.push({ type: "miss", target: target[i - 1] });
+      i--;
+    } else {
+      ops.push({ type: "extra", heard: heard[j - 1] });
+      j--;
+    }
+  }
+  while (i > 0) { ops.push({ type: "miss", target: target[i - 1] }); i--; }
+  while (j > 0) { ops.push({ type: "extra", heard: heard[j - 1] }); j--; }
+  return ops.reverse();
+}
+
+function evaluateShadow(heard) {
+  const targetWords = shadowNormalize(shadowState.target);
+  const heardWords = shadowNormalize(heard);
+  if (!targetWords.length) return;
+
+  const ops = alignShadowWords(targetWords, heardWords);
+  let contentMatched = 0, contentTotal = 0, minor = 0, miss = 0, wrong = 0;
+
+  const decorated = ops.map((o) => {
+    if (o.type === "extra") return null;
+
+    const isStop = SHADOW_STOPWORDS.has(o.target);
+    if (!isStop) contentTotal++;
+
+    // A word counts as correct when it matches exactly, or when the recogniser
+    // simply heard an inflected form of it (walked / walk, carried / carry).
+    const isMatch = o.type === "match" ||
+      (o.type === "sub" && shadowSameWord(o.target, o.heard));
+
+    if (isMatch) {
+      if (!isStop) contentMatched++;
+      return { level: "ok", target: o.target };
+    }
+
+    // Function words are shown in yellow as a hint, but never cost a star.
+    if (isStop) {
+      minor++;
+      return { level: "minor", target: o.target };
+    }
+    if (o.type === "miss") {
+      miss++;
+      return { level: "miss", target: o.target };
+    }
+    wrong++;
+    return { level: "wrong", target: o.target, heard: o.heard };
+  }).filter(Boolean);
+
+  const total = Math.max(1, decorated.length);
+  const ratio = contentTotal ? contentMatched / contentTotal : 1;
+  const stars = ratio >= 0.85 ? 3 : ratio >= 0.6 ? 2 : ratio >= 0.3 ? 1 : 0;
+
+  const words = decorated.map((d) => {
+    const title = d.level === "wrong" ? " 读成了「" + d.heard + "」" : (d.level === "miss" ? " 漏读了" : "");
+    return '<span class="shadow-word shadow-' + d.level + '" title="' + shadowEscape(title) + '">' +
+      shadowEscape(d.target) + "</span>";
+  }).join(" ");
+
+  const hint = stars === 3 ? "Perfect! 读得很清楚。"
+    : stars === 2 ? "Good! 黄色的词再读清楚一点。"
+    : stars === 1 ? "差不多，先听一遍标准音再读。"
+    : "别急，跟着标准音慢慢读。";
+
+  document.getElementById("shadowResult").innerHTML =
+    '<div class="shadow-stars">' + (stars ? "⭐".repeat(stars) : "·") + "</div>" +
+    '<div class="shadow-words">' + words + "</div>" +
+    '<div class="shadow-hint">' + hint + "</div>";
+
+  setShadowStatus("实词读对 " + contentMatched + " / " + Math.max(1, contentTotal) + " 个" + (miss + wrong ? "，标出的词再试一次" : ""));
+  if (stars) saveShadowScore(stars);
+}
+
+function shadowPlayMine() {
+  if (!shadowState.audioUrl) return;
+  if (shadowState.audioEl) { try { shadowState.audioEl.pause(); } catch (err) {} }
+  const a = new Audio(shadowState.audioUrl);
+  shadowState.audioEl = a;
+  const p = a.play();
+  if (p && p.catch) p.catch(() => setShadowStatus("回放失败，可能是录音为空。"));
 }
