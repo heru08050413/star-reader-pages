@@ -15,7 +15,7 @@ const MONTH4_STORIES = [
     "paragraphs": [
       "Public libraries give everyone a quiet place to study and read. The town library was built more than a hundred years ago. Last Saturday morning, Leo went to the town library to borrow some books. The old building had a wide stone entrance and tall pillars. At the desk, the librarian scanned his card and checked his account. She told him that all books must be returned within three weeks.",
       "Leo walked into the main reading hall. Rows of wooden desks stood under warm ceiling lights. He needed information about ancient Roman buildings for a history project. He used a computer near the corner to search. The screen showed a list of encyclopedias and journals. He also found old maps of the city.",
-      "Leo wrote down the shelf numbers and walked to the third aisle. He found a heavy leather book with pictures, maps and diagrams. The book had beautiful photographs of Roman baths and theatres. He carried it to an empty desk by the big window. Daylight came through the glass, so it was easy to read.",
+      "Leo wrote down the shelf numbers and walked to the third aisle. He found a heavy leather book with pictures, maps and diagrams. The book had beautiful photographs of Roman baths and theaters. He carried it to an empty desk by the big window. Daylight came through the glass, so it was easy to read.",
       "Next to him, a student typed an essay on a laptop. The hall stayed quiet.",
       "After taking notes, Leo went to the automatic checkout. He scanned his card and put the book on the sensor pad. The machine printed a receipt with the due date.",
       "Before leaving, he looked at the notice board by the door. The library was holding a creative writing workshop next weekend. Leo signed up using his phone app. He felt happy as he walked out into the fresh air. Libraries are valuable places that give free access to knowledge."
@@ -91,14 +91,14 @@ const MONTH4_STORIES = [
     "category": "Science & Technology",
     "level": "Explorer",
     "readingTime": "6 mins",
-    "intro": "Zinc, acid and a lot of bubbles: a first chemistry experiment with safety goggles on.",
-    "wordCount": 260,
+    "intro": "Zinc, acid and a lot of bubbles: a first pharmacistry experiment with safety goggles on.",
+    "wordCount": 261,
     "paragraphs": [
-      "Lab experiments help students understand science. On Wednesday morning, our class had a chemistry lesson. The teacher, Mr Harrison, welcomed us into the lab. The room smelled of acid and clean glass. He told us to follow the safety rules. Everyone had to wear goggles, a white coat and rubber gloves.",
-      "The aim was to see how different metals react with acid. Mr Harrison gave each group glass tubes, metal strips and a Bunsen burner. Tom and Sam set up their tripod and wire net on the bench. Sam measured twenty millilitres of acid with a cylinder. He poured it carefully into a tube.",
+      "Lab experiments help students understand science. On Wednesday morning, our class had a pharmacistry lesson. The teacher, Mr Harrison, welcomed us into the lab. The room smelled of acid and clean glass. He told us to follow the safety rules. Everyone had to wear goggles, a white coat and rubber gloves.",
+      "The aim was to see how different metals react with acid. Mr Harrison gave each group glass tubes, metal strips and a Bunsen burner. Tom and Sam set up their tripod and wire net on the bench. Sam measured twenty milliliters of acid with a cylinder. He poured it carefully into a tube.",
       "Using tongs, Leo dropped a small piece of zinc into the acid. The flame of the Bunsen burner turned blue. Bubbles rose at once as hydrogen gas formed. A sharp hiss came from the tube. Mr Harrison walked around and gave advice. He asked Tom why the bubbles appeared so fast.",
       "Tom answered that zinc reacts with acid to make hydrogen. Sam recorded the time in seconds. The teacher praised the boys for their careful work.",
-      "Next, they tested copper and iron strips. They wrote down every change in colour and temperature in their journals. When the experiment ended, they washed the equipment in the sink. They cleaned the benches and put the waste in the right bin. Mr Harrison collected the written reports the next week.",
+      "Next, they tested copper and iron strips. They wrote down every change in color and temperature in their journals. When the experiment ended, they washed the equipment in the sink. They cleaned the benches and put the waste in the right trash can. Mr Harrison collected the written reports the next week.",
       "He said practical experiments build analytical and problem-solving skills. Science needs curiosity, patience and accuracy. Tom felt proud of his notes. Hands-on lessons make textbook chapters easier to understand."
     ],
     "vocabulary": [
@@ -122,7 +122,7 @@ const MONTH4_STORIES = [
         "word": "hydrogen",
         "syllables": "hy-dro-gen",
         "phonetic": "/ˈhaɪdrədʒən/",
-        "definition": "A light gas with no colour or smell.",
+        "definition": "A light gas with no color or smell.",
         "example": "Bubbles rose at once as hydrogen gas formed.",
         "emoji": "🫧"
       }
@@ -156,7 +156,7 @@ const MONTH4_STORIES = [
           "Gold and silver",
           "Copper and iron",
           "Zinc and lead",
-          "Aluminium and tin"
+          "Aluminum and tin"
         ],
         "answerIndex": 1,
         "explanation": "Next, they tested copper and iron strips."
@@ -225,7 +225,7 @@ const MONTH4_STORIES = [
         "options": [
           "A lighter",
           "A match",
-          "A torch",
+          "A flashlight",
           "A candle"
         ],
         "answerIndex": 1,
@@ -256,9 +256,9 @@ const MONTH4_STORIES = [
     "intro": "A Japanese exchange student folds origami cranes and learns to bake British scones.",
     "wordCount": 251,
     "paragraphs": [
-      "School exchange programmes give students a window into other cultures. Last month, our school welcomed twelve visiting students from Japan. They arrived at a special assembly, where our headteacher gave a warm speech about friendship. Each local student was asked to host and guide one visitor.",
-      "Maya hosted Yuki, a cheerful fifteen-year-old from Tokyo. On Monday, Maya showed her around the school and introduced her to teachers and friends. Yuki joined maths, art and English lessons. She said our classrooms felt friendly and interactive. In the art lesson, Yuki showed the class origami, the Japanese art of paper folding.",
-      "She taught them to fold paper into animals and flowers. The students loved it and made colourful paper cranes.",
+      "School exchange programs give students a window into other cultures. Last month, our school welcomed twelve visiting students from Japan. They arrived at a special assembly, where our principal gave a warm speech about friendship. Each local student was asked to host and guide one visitor.",
+      "Maya hosted Yuki, a cheerful fifteen-year-old from Tokyo. On Monday, Maya showed her around the school and introduced her to teachers and friends. Yuki joined math, art and English lessons. She said our classrooms felt friendly and interactive. In the art lesson, Yuki showed the class origami, the Japanese art of paper folding.",
+      "She taught them to fold paper into animals and flowers. The students loved it and made colorful paper cranes.",
       "In return, Maya took Yuki to a cooking lesson. They baked British scones with jam and cream. Yuki loved the sweet taste and said she would bake them for her family.",
       "At the weekend, Maya's family took Yuki to see local sights. They visited the cathedral, walked on the old city walls and explored a museum. Yuki took many photos. Speaking English every day helped her fluency. Maya also learned some Japanese greetings, customs and everyday words.",
       "On the last evening, the school held a farewell party. The visiting students played music on a Japanese stringed instrument. Local students acted in a funny play about cultural misunderstandings.",
@@ -270,7 +270,7 @@ const MONTH4_STORIES = [
         "syllables": "as-sem-bly",
         "phonetic": "/əˈsembli/",
         "definition": "A meeting of all the students and teachers in a school.",
-        "example": "They arrived at a special assembly, where our headteacher gave a warm speech about friendship.",
+        "example": "They arrived at a special assembly, where our principal gave a warm speech about friendship.",
         "emoji": "🏫"
       },
       {
@@ -338,10 +338,10 @@ const MONTH4_STORIES = [
     "intro": "A software engineer explains why code needs patience, teamwork and clear thinking.",
     "wordCount": 252,
     "paragraphs": [
-      "Software now runs almost everything we use, from phones to hospitals. Last Thursday, our computer club invited a software engineer to speak. Mr Turner walked into the lab with a laptop. The projector showed colourful examples. He explained what software engineers do. He said they design, test and maintain computer programs.",
+      "Software now runs almost everything we use, from phones to hospitals. Last Thursday, our computer club invited a software engineer to speak. Mr Turner walked into the lab with a laptop. The projector showed colorful examples. He explained what software engineers do. He said they design, test and maintain computer programs.",
       "Almost every electronic device depends on code. Smartphone apps, traffic systems and medical machines all need software. Mr Turner said building reliable software needs strong logical thinking. Programmers must write clear, efficient instructions. When a program fails, engineers study the system to find the fault.",
       "Fixing bugs takes patience and attention to detail. Engineers also work with designers, managers and testers. Good teamwork and clear communication are vital for big projects.",
-      "Tom asked which language beginners should learn first. Everyone wrote their questions on cards. Mr Turner suggested Python or JavaScript because their rules are clear and they are widely used. He told students to practise writing small programs and building simple projects.",
+      "Tom asked which language beginners should learn first. Everyone wrote their questions on cards. Mr Turner suggested Python or JavaScript because their rules are clear and they are widely used. He told students to practice writing small programs and building simple projects.",
       "After the talk, students tried a coding puzzle on the computers. Tom moved code blocks in a visual editor to guide a robot through a maze. His first try failed because of a loop error. He fixed the sequence and succeeded.",
       "Mr Turner praised the students' curiosity. He answered every question patiently. He said the tech industry offers many jobs, like web design, security and artificial intelligence. The talk showed students the huge potential of digital skills. Learning to code helps young people become creators, not just users."
     ],
@@ -416,12 +416,12 @@ const MONTH4_STORIES = [
     "category": "City Life & Services",
     "level": "Explorer",
     "readingTime": "6 mins",
-    "intro": "A parcel, a queue number and a book of stamps: one afternoon at the post office.",
+    "intro": "A parcel, a line number and a book of stamps: one afternoon at the post office.",
     "wordCount": 283,
     "paragraphs": [
-      "Last Tuesday afternoon, Clara went to the central post office. She wanted to send a birthday parcel to her grandmother. The old building had a wide entrance and an electronic queue system. Clara walked to the ticket machine and pressed the button for parcel services. A small paper slip came out with her number.",
+      "Last Tuesday afternoon, Clara went to the central post office. She wanted to send a birthday parcel to her grandmother. The old building had a wide entrance and an electronic ticketing system. Clara walked to the ticket machine and pressed the button for parcel services. A small paper slip came out with her number.",
       "A friendly clerk called number forty-eight over the loudspeaker. Clara went to counter three and put her wrapped cardboard box on the weighing scale. The clerk measured the exact weight and worked out the postage fee. She asked whether Clara wanted standard mail or express delivery.",
-      "Clara chose express delivery so the parcel would arrive before her grandmother's birthday. She paid by credit card and asked for an itemised receipt. The clerk stuck a printed barcode label on top of the parcel.",
+      "Clara chose express delivery so the parcel would arrive before her grandmother's birthday. She paid by credit card and asked for an itemized receipt. The clerk stuck a printed barcode label on top of the parcel.",
       "Next, Clara bought a book of first-class stamps for everyday letters. She also dropped two handwritten letters into the big red posting box outside. Paper letters carry a warmth that emails cannot replace.",
       "The post office also offers useful financial services, like currency exchange and savings accounts. Many local people come here to collect pensions or pay utility bills. Clara left the building feeling pleased that her errands were done quickly.",
       "Behind the scenes, sorting staff and drivers keep the postal network running. They start work early in the morning and use machines that read addresses at great speed. Even with digital communication, paper mail still matters for official papers.",
@@ -502,10 +502,10 @@ const MONTH4_STORIES = [
     "wordCount": 276,
     "paragraphs": [
       "Every year, our school holds a spring music concert. Last month, the music department prepared a grand orchestra concert. More than eighty student musicians met in the school hall for weekly rehearsals. The orchestra had strings, woodwind, brass and percussion. Leo played the acoustic guitar, and Sam played the snare drum.",
-      "Their conductor, Mr Henderson, asked for full concentration at every rehearsal. He raised his wooden baton, called for silence and gave the downbeat. The orchestra practised a difficult classical symphony by a famous European composer. Blending all the instruments into one smooth melody took a lot of practice. If someone made a rhythmic mistake, Mr Henderson stopped the musicians to correct the bar.",
-      "Slowly, the group improved, and their playing became polished and smooth. On the night of the concert, the hall was full. The headteacher gave a warm speech praising the students' hard work. When the red curtains opened, bright spotlights lit the brass instruments.",
-      "The orchestra played a varied programme, from classical pieces to modern film music. Leo performed a perfect guitar solo that held everyone's attention. Sam kept a steady, energetic drum rhythm that drove the piece forward.",
-      "During the short interval, volunteers served cold juice and biscuits. Many parents praised the music and the students' confident stage presence. In the final part, the choir joined the orchestra for an inspiring song.",
+      "Their conductor, Mr Henderson, asked for full concentration at every rehearsal. He raised his wooden baton, called for silence and gave the downbeat. The orchestra practiced a difficult classical symphony by a famous European composer. Blending all the instruments into one smooth melody took a lot of practice. If someone made a rhythmic mistake, Mr Henderson stopped the musicians to correct the bar.",
+      "Slowly, the group improved, and their playing became polished and smooth. On the night of the concert, the hall was full. The principal gave a warm speech praising the students' hard work. When the red curtains opened, bright spotlights lit the brass instruments.",
+      "The orchestra played a varied program, from classical pieces to modern film music. Leo performed a perfect guitar solo that held everyone's attention. Sam kept a steady, energetic drum rhythm that drove the piece forward.",
+      "During the short interval, volunteers served cold juice and cookies. Many parents praised the music and the students' confident stage presence. In the final part, the choir joined the orchestra for an inspiring song.",
       "When the last chord sounded, the audience stood up and cheered. The young musicians bowed as applause filled the hall. Playing in an orchestra taught the students the value of teamwork and discipline. It also gave them a lifelong love of music. Everyone left the hall feeling proud and inspired."
     ],
     "vocabulary": [
@@ -530,7 +530,7 @@ const MONTH4_STORIES = [
         "syllables": "in-ter-val",
         "phonetic": "/ˈɪntəvl/",
         "definition": "A short break between the parts of a concert.",
-        "example": "During the short interval, volunteers served cold juice and biscuits.",
+        "example": "During the short interval, volunteers served cold juice and cookies.",
         "emoji": "⏸️"
       }
     ],
@@ -585,7 +585,7 @@ const MONTH4_STORIES = [
       "Good oral hygiene keeps teeth healthy and gives you a confident smile. Yesterday morning, Emma went to the community dental clinic for her six-month check-up. The receptionist checked her patient records and asked her to wait. A friendly dental nurse called Emma's name and took her to the surgery room. Emma sat in the adjustable chair and put her bag on the floor.",
       "Dr Taylor greeted her warmly and moved the bright overhead lamp. He asked if she had any toothache or gum sensitivity. Emma said her teeth felt fine, but she wanted a professional clean anyway. The dentist used a small silver mirror and a thin metal probe to check her teeth. He looked carefully at each molar for hidden cavities or enamel damage.",
       "Luckily, her teeth and gums were in excellent condition. There were no signs of decay. Dr Taylor praised Emma for brushing and flossing so diligently. He reminded her to brush twice a day with fluoride toothpaste.",
-      "Next, the dental hygienist polished Emma's teeth to remove surface stains. She used a soft rotating brush and a mint-flavoured paste. The cleaning was painless and took less than twenty minutes. Before she left, the receptionist gave her a free toothbrush and a small tube of toothpaste. Emma booked her next appointment for six months later.",
+      "Next, the dental hygienist polished Emma's teeth to remove surface stains. She used a soft rotating brush and a mint-flavored paste. The cleaning was painless and took less than twenty minutes. Before she left, the receptionist gave her a free toothbrush and a small tube of toothpaste. Emma booked her next appointment for six months later.",
       "Regular check-ups catch small problems before they become painful. In the evening, Emma ate a healthy dinner of vegetables, chicken and rice. Afterwards, she brushed her teeth for two full minutes with an electric toothbrush. She also flossed between her molars to remove tiny food pieces. Good habits protect her smile for life."
     ],
     "vocabulary": [
@@ -631,7 +631,7 @@ const MONTH4_STORIES = [
         "options": [
           "Size",
           "Hidden cavities or enamel damage",
-          "Colour",
+          "Color",
           "Braces"
         ],
         "answerIndex": 1,
@@ -744,9 +744,9 @@ const MONTH4_STORIES = [
     "intro": "A mystery comedy, a ridiculous coat and a jewel hidden in an old clock.",
     "wordCount": 290,
     "paragraphs": [
-      "School drama productions help students build confidence and creativity. Every autumn, our drama club performs a full play. This year, the club chose a famous mystery comedy by a modern writer. Maya auditioned and won the female lead with a brilliant performance. Leo was cast as the strange detective who solves a palace theft.",
-      "Our English teacher directed the play and guided the actors through weekly rehearsals. The actors practised memorising long lines, projecting their voices and moving on stage. The backstage crew worked hard in the workshop to build the sets and costumes. They used recycled wooden boards, cardboard boxes and paint to make the walls. Lucy ran the lighting and changed the spotlights to create shadows full of suspense.",
-      "On opening night, a big audience of parents, teachers and pupils filled the hall. The headteacher gave a warm welcome before the thick red curtain rose. In the first scene, Maya walked onto the dim stage with an old leather suitcase. Her strong voice caught everyone's attention. When Leo entered in a silly oversized coat, the crowd burst into laughter.",
+      "School drama productions help students build confidence and creativity. Every fall, our drama club performs a full play. This year, the club chose a famous mystery comedy by a modern writer. Maya auditioned and won the female lead with a brilliant performance. Leo was cast as the strange detective who solves a palace theft.",
+      "Our English teacher directed the play and guided the actors through weekly rehearsals. The actors practiced memorizing long lines, projecting their voices and moving on stage. The backstage crew worked hard in the workshop to build the sets and costumes. They used recycled wooden boards, cardboard boxes and paint to make the walls. Lucy ran the lighting and changed the spotlights to create shadows full of suspense.",
+      "On opening night, a big audience of parents, teachers and pupils filled the hall. The principal gave a warm welcome before the thick red curtain rose. In the first scene, Maya walked onto the dim stage with an old leather suitcase. Her strong voice caught everyone's attention. When Leo entered in a silly oversized coat, the crowd burst into laughter.",
       "The story took several exciting turns as the detective questioned the palace servants. During the short intermission, volunteers served drinks and snacks in the hall. People praised the decorations, the lighting and the acting.",
       "In the final act, the detective found the hidden jewel inside an old clock. The audience gasped as the mystery was solved.",
       "When the play ended, the crowd stood up and clapped. The young actors bowed again and again and received flowers. Taking part in drama taught the students teamwork, empathy and public speaking. Facing the stage also built confidence that helps in school life. Everyone looked forward to next year's even more ambitious play."
@@ -825,11 +825,11 @@ const MONTH4_STORIES = [
     "intro": "A class adopts a forgotten plot and turns weeds, glass and hard soil back into a garden.",
     "wordCount": 294,
     "paragraphs": [
-      "A neglected garden can become a valuable shared space when neighbours work together. Last spring, our class adopted a small plot behind the local health centre. Ms Patel, the volunteer coordinator, explained our plan. We divided into teams to clear rubbish and prepare the beds.",
+      "A neglected garden can become a valuable shared space when neighbors work together. Last spring, our class adopted a small plot behind the local health center. Ms Patel, the volunteer coordinator, explained our plan. We divided into teams to clear garbage and prepare the beds.",
       "Everyone wore thick gloves because broken glass was hidden in the long grass. Tom used a sturdy rake to gather dry leaves into compost bags. Maya loosened the hard soil with a fork so rainwater could drain away. We hoped to raise money for seeds by holding a weekend plant sale.",
-      "A local carpenter donated wood and showed us how to repair the broken benches. By lunchtime, the main path was clear and the garden already looked welcoming. In the afternoon, we marked out a vegetable plot for tomatoes, beans and courgettes. We pulled out every deep root so the weeds would not return quickly. Ms Patel showed us how to mix compost into the soil without harming the earthworms.",
+      "A local carpenter donated wood and showed us how to repair the broken benches. By lunchtime, the main path was clear and the garden already looked welcoming. In the afternoon, we marked out a vegetable plot for tomatoes, beans and zucchini. We pulled out every deep root so the weeds would not return quickly. Ms Patel showed us how to mix compost into the soil without harming the earthworms.",
       "Younger pupils planted lavender beside the sunny wall. We also put a water butt under the hall roof to collect rain. Using stored rainwater saves water and helps plants in dry weather.",
-      "Before we left, we labelled each row so future helpers would know what was planted. The next Saturday, families came to paint signs and spread wood chips. By July, the garden was growing fresh vegetables for the local food bank. The project gave older residents a quiet place to meet and share advice.",
+      "Before we left, we labeled each row so future helpers would know what was planted. The next Saturday, families came to paint signs and spread wood chips. By July, the garden was growing fresh vegetables for the local food bank. The project gave older residents a quiet place to meet and share advice.",
       "Our plant sale raised more than four hundred pounds. Working with the soil helped us understand how strong community relationships grow. The garden now produces food, friendship and pride. Restoring the plot showed that patient teamwork can change a forgotten corner of a town."
     ],
     "vocabulary": [
@@ -838,7 +838,7 @@ const MONTH4_STORIES = [
         "syllables": "plot",
         "phonetic": "/plɒt/",
         "definition": "A small area of ground used for growing things.",
-        "example": "Last spring, our class adopted a small plot behind the local health centre.",
+        "example": "Last spring, our class adopted a small plot behind the local health center.",
         "emoji": "🌱"
       },
       {
@@ -908,11 +908,11 @@ const MONTH4_STORIES = [
     "paragraphs": [
       "Basic first-aid knowledge can help students act calmly when an accident happens. Last Friday, a qualified paramedic named Ms Green visited our school gym.",
       "First, she told us to check for danger before we approach an injured person. Ms Green showed us how to speak clearly and give an accurate location by phone.",
-      "Then we practised supporting a pretend injured arm without moving it. Maya learned to tie a clean bandage without making it too tight. The paramedic said small cuts should be treated with clean hands and sterile materials. Gentle pressure can help stop bleeding while professional help is on the way.",
+      "Then we practiced supporting a pretend injured arm without moving it. Maya learned to tie a clean bandage without making it too tight. The paramedic said small cuts should be treated with clean hands and sterile materials. Gentle pressure can help stop bleeding while professional help is on the way.",
       "Next, we talked about burns from hot water, flames or electricity. A fresh burn should be cooled under clean running water as soon as possible. Ms Green warned that a frightening accident can leave a person in shock. Keeping the injured person warm and calm is important while help arrives.",
       "After the demonstration, we worked in pairs on short emergency scenarios. One card described a cyclist who had fallen and might have a broken wrist. Tom remembered not to give the cyclist food or drink before medical assessment. Another card described a pupil who felt faint in a crowded hall. We learned to make space, loosen tight clothing and watch the person carefully.",
       "By the end, everyone could recall the main steps. Ms Green stressed that first aid does not replace treatment by trained medical staff. But correct action can help a small problem and stop it getting worse.",
-      "Our class made safety posters for labs, kitchens and sports areas. The school nurse put our posters by the main reception desk. The workshop proved that practical knowledge can make a school safer."
+      "Our class made safety posters for labs, kitchens and sports areas. The school nurse put our posters by the main front desk. The workshop proved that practical knowledge can make a school safer."
     ],
     "vocabulary": [
       {
@@ -988,8 +988,8 @@ const MONTH4_STORIES = [
     "intro": "Pottery, a bronze coin and burnt grain: how archaeologists read the ground layer by layer.",
     "wordCount": 283,
     "paragraphs": [
-      "Archaeology lets students study history through real objects, not just stories. During the summer holiday, our history club visited an excavation site beside the River Avon. Dr Lewis, a field archaeologist, welcomed us and described the Roman past of the area.",
-      "Each square was photographed before any soil was removed. We scraped the earth gently because careless digging could destroy fragile evidence. A darker layer of soil showed where people had once lit fires or stored waste. Maya found several pieces of pottery near the corner of her square. She put them in a labelled tray instead of washing them straight away.",
+      "Archaeology lets students study history through real objects, not just stories. During the summer vacation, our history club visited an excavation site beside the River Avon. Dr Lewis, a field archaeologist, welcomed us and described the Roman past of the area.",
+      "Each square was photographed before any soil was removed. We scraped the earth gently because careless digging could destroy fragile evidence. A darker layer of soil showed where people had once lit fires or stored waste. Maya found several pieces of pottery near the corner of her square. She put them in a labeled tray instead of washing them straight away.",
       "Dr Lewis explained that the shape and pattern could show how a pot was used. A specialist would later date the pieces by comparing them with known examples. Nearby, Tom uncovered a small bronze coin covered with green corrosion. Finding the coin was exciting, but its context made it scientifically useful.",
       "After lunch, we wrote measurements and observations in the official site record. Accurate notes let future researchers check conclusions long after a dig has ended.",
       "One soil sample held burnt grain, which suggested that food was prepared nearby. Another square showed the outline of a wooden post from a riverside building. The evidence did not prove every detail, so the archaeologists avoided dramatic claims. Instead, they compared several clues and explained the limits of each idea.",
@@ -1001,7 +1001,7 @@ const MONTH4_STORIES = [
         "syllables": "ex-ca-va-tion",
         "phonetic": "/ˌekskəˈveɪʃn/",
         "definition": "The careful digging of a site to find old objects.",
-        "example": "During the summer holiday, our history club visited an excavation site beside the River Avon.",
+        "example": "During the summer vacation, our history club visited an excavation site beside the River Avon.",
         "emoji": "⛏️"
       },
       {
@@ -1061,7 +1061,7 @@ const MONTH4_STORIES = [
   {
     "id": 114,
     "day": 114,
-    "title": "The Neighbourhood Food Festival",
+    "title": "The Neighborhood Food Festival",
     "coverEmoji": "🍲",
     "category": "Culture & Community",
     "level": "Explorer",
@@ -1069,12 +1069,12 @@ const MONTH4_STORIES = [
     "intro": "Twelve families, one courtyard and a tasting card: a food festival that builds respect.",
     "wordCount": 291,
     "paragraphs": [
-      "Food festivals can introduce neighbours to new traditions in a friendly way. Our community centre organised an international food fair on the first Saturday in June. Families from twelve cultural backgrounds volunteered to cook dishes. The organisers set up each stand around the central courtyard and gave out reusable plates.",
+      "Food festivals can introduce neighbors to new traditions in a friendly way. Our community center organized an international food fair on the first Saturday in June. Families from twelve cultural backgrounds volunteered to cook dishes. The organisers set up each stand around the central courtyard and gave out reusable plates.",
       "They planned to serve vegetable curry, coconut rice and small pandan cakes. Across the courtyard, an Italian family rolled fresh pasta for the main course. Visitors got a tasting card that encouraged them to try six different foods. Before the gates opened, volunteers checked allergy labels and food temperatures carefully.",
-      "At midday, the mayor welcomed everyone and thanked residents for sharing their skills. Tom helped at the drinks stand, serving mint tea and homemade lemonade. He found that careful service mattered as much as speed when the queue grew long.",
+      "At midday, the mayor welcomed everyone and thanked residents for sharing their skills. Tom helped at the drinks stand, serving mint tea and homemade lemonade. He found that careful service mattered as much as speed when the line grew long.",
       "Maya invited an elderly visitor to try a mild version of the curry. The visitor praised the balanced spices and asked for the family recipe. During the afternoon, cooks showed how to fold dumplings and shape bread dough. A chef explained how one dish can change when ingredients move between countries.",
-      "This exchange showed that food traditions are living practices, not fixed museum pieces. Judges later chose one savoury dish and one dessert for community awards. When rain started, volunteers quickly moved the tables under covered walkways. No food was wasted because unopened portions went to a local shelter.",
-      "The event raised money for free cooking classes at the community centre. Several visitors offered to teach a future course on healthy family meals. By evening, every stand had sold out and the courtyard was full of talk. Sharing a meal proved to be a simple but powerful way to build respect."
+      "This exchange showed that food traditions are living practices, not fixed museum pieces. Judges later chose one savory dish and one dessert for community awards. When rain started, volunteers quickly moved the tables under covered walkways. No food was wasted because unopened portions went to a local shelter.",
+      "The event raised money for free cooking classes at the community center. Several visitors offered to teach a future course on healthy family meals. By evening, every stand had sold out and the courtyard was full of talk. Sharing a meal proved to be a simple but powerful way to build respect."
     ],
     "vocabulary": [
       {
@@ -1151,9 +1151,9 @@ const MONTH4_STORIES = [
     "wordCount": 263,
     "paragraphs": [
       "Accessible technology helps people with different abilities take part in daily life. Our computing class decided to design a mobile app for the town's bus network. The project began with interviews rather than coding. Many users said that small text and confusing menus made travel information hard to use.",
-      "Others needed clear audio announcements when they could not read a screen outdoors. Our team made a simple home page with large buttons and strong colour contrast. A voice option could read departure times and directions aloud through headphones.",
+      "Others needed clear audio announcements when they could not read a screen outdoors. Our team made a simple home page with large buttons and strong color contrast. A voice option could read departure times and directions aloud through headphones.",
       "Maya wrote short, clear labels so every command was easy to understand. Tom built a prototype that worked on both older and newer phones. Another problem appeared when the voice reader said street names incorrectly.",
-      "The team recorded local pronunciations and fixed the audio database. We also tested the app without colour to make sure meaning did not depend on red or green alone. All personal location data was stored only with the user's permission.",
+      "The team recorded local pronunciations and fixed the audio database. We also tested the app without color to make sure meaning did not depend on red or green alone. All personal location data was stored only with the user's permission.",
       "After each test, we sorted comments into urgent fixes and future improvements. The second prototype let users make text bigger without breaking the page. A local accessibility adviser praised our willingness to listen and improve. She reminded us that one design cannot remove every barrier for every person. The bus company agreed to test the app on three busy routes.",
       "Our class published the source code so other schools could study the project. The experience showed that inclusive design improves products for many users, not just a small group. Good access begins when designers treat users as partners, not problems."
     ],
@@ -1170,8 +1170,8 @@ const MONTH4_STORIES = [
         "word": "contrast",
         "syllables": "con-trast",
         "phonetic": "/ˈkɒntrɑːst/",
-        "definition": "A clear difference between light and dark colours.",
-        "example": "Our team made a simple home page with large buttons and strong colour contrast.",
+        "definition": "A clear difference between light and dark colors.",
+        "example": "Our team made a simple home page with large buttons and strong color contrast.",
         "emoji": "🌓"
       },
       {
@@ -1207,7 +1207,7 @@ const MONTH4_STORIES = [
         "explanation": "A voice option could read departure times and directions aloud through headphones."
       },
       {
-        "question": "Why did they test the app without colour?",
+        "question": "Why did they test the app without color?",
         "options": [
           "To save battery",
           "To make sure meaning did not depend on red or green alone",
@@ -1215,7 +1215,7 @@ const MONTH4_STORIES = [
           "To reduce cost"
         ],
         "answerIndex": 1,
-        "explanation": "We also tested the app without colour to make sure meaning did not depend on red or green alone."
+        "explanation": "We also tested the app without color to make sure meaning did not depend on red or green alone."
       }
     ],
     "funPrompt": "What small design change would make a phone app easier for an older person to use?"
@@ -1234,7 +1234,7 @@ const MONTH4_STORIES = [
       "Firefighters protect communities through prevention, training and fast emergency response. Last Tuesday, our class visited the central fire station. Watch Manager Harris welcomed us beside three red engines in the vehicle bay.",
       "The crew invited us to look at a thermal camera used to find heat through smoke. Next, a firefighter unrolled a hose and connected it to the water supply. The team then performed a drill with a pretend kitchen fire.",
       "When the alarm sounded, each crew member moved quickly to an assigned position. One firefighter took charge of the hose while another checked the building plan. The station officer stayed outside to track the crew and assess changing risks. Mr Harris stressed that no one should enter a burning building to save possessions. People should leave by the safest route, close doors and call the emergency services.",
-      "We practised crawling under harmless stage smoke in a training room. Staying low reduces exposure to the hottest air and thickest smoke. After the drill, the crew showed how a ladder is secured on uneven ground. They also showed us a cutting tool used after serious road crashes.",
+      "We practiced crawling under harmless stage smoke in a training room. Staying low reduces exposure to the hottest air and thickest smoke. After the drill, the crew showed how a ladder is secured on uneven ground. They also showed us a cutting tool used after serious road crashes.",
       "At lunchtime, we met the operator who watches several live screens. She said accurate details help controllers send the right resources without delay. A sudden test call made the crew put on their equipment and board an engine.",
       "Before leaving, we checked smoke alarms and planned escape routes for our own homes. The firefighters advised families to test alarms regularly and replace weak batteries. Our class later designed a safety leaflet for elderly residents living alone. The visit showed us that fire safety begins long before anyone has to make an emergency call."
     ],
@@ -1312,10 +1312,10 @@ const MONTH4_STORIES = [
     "intro": "A school podcast goes from a clear question and three guests to five hundred plays in a week.",
     "wordCount": 291,
     "paragraphs": [
-      "Podcasting gives students a flexible way to research ideas and share voices from their community. Our media club started a monthly audio programme about school life and local events. Maya volunteered to host the first episode, which looked at teenage reading habits. The team began by choosing a clear question and finding suitable guests. We invited a librarian, two pupils and a children's author to join the discussion.",
+      "Podcasting gives students a flexible way to research ideas and share voices from their community. Our media club started a monthly audio program about school life and local events. Maya volunteered to host the first episode, which looked at teenage reading habits. The team began by choosing a clear question and finding suitable guests. We invited a librarian, two pupils and a children's author to join the discussion.",
       "Before recording, Tom tested each microphone and reduced background noise in the room. Soft furnishings helped stop the speakers' voices from making a hollow echo. Maya prepared open questions that encouraged detailed answers rather than simple yes or no replies. She introduced each guest and explained the purpose of the episode to listeners. During the interview, the author described how childhood memories inspired her latest novel.",
       "One pupil argued that graphic novels should get more attention in English lessons. Maya kept the conversation balanced and invited quieter guests to speak. After the interview, the team recorded a short review of three new library books.",
-      "Tom used editing software to cut long pauses, repeated phrases and accidental noises. He added a short musical theme that the school orchestra had composed. The final programme lasted twenty minutes and included a written transcript for accessibility. Our teacher checked the episode for factual accuracy, respectful language and copyright. The team got permission before using any music or personal story.",
+      "Tom used editing software to cut long pauses, repeated phrases and accidental noises. He added a short musical theme that the school orchestra had composed. The final program lasted twenty minutes and included a written transcript for accessibility. Our teacher checked the episode for factual accuracy, respectful language and copyright. The team got permission before using any music or personal story.",
       "On Friday, we posted the episode on the secure school website. Listeners could follow the channel and send ideas for future topics. Within a week, the first episode had more than five hundred plays. Several parents praised the clear sound and the range of opinions. A student with hearing loss helped us make the transcript easier to navigate."
     ],
     "vocabulary": [
@@ -1323,7 +1323,7 @@ const MONTH4_STORIES = [
         "word": "episode",
         "syllables": "ep-i-sode",
         "phonetic": "/ˈepɪsəʊd/",
-        "definition": "One part of a series of programmes.",
+        "definition": "One part of a series of programs.",
         "example": "Maya volunteered to host the first episode, which looked at teenage reading habits.",
         "emoji": "🎧"
       },
@@ -1340,7 +1340,7 @@ const MONTH4_STORIES = [
         "syllables": "tran-script",
         "phonetic": "/ˈtrænskrɪpt/",
         "definition": "A written copy of spoken words.",
-        "example": "The final programme lasted twenty minutes and included a written transcript for accessibility.",
+        "example": "The final program lasted twenty minutes and included a written transcript for accessibility.",
         "emoji": "📝"
       }
     ],
@@ -1357,7 +1357,7 @@ const MONTH4_STORIES = [
         "explanation": "Maya volunteered to host the first episode, which looked at teenage reading habits."
       },
       {
-        "question": "How long was the final programme?",
+        "question": "How long was the final program?",
         "options": [
           "Ten minutes",
           "Twenty minutes",
@@ -1365,7 +1365,7 @@ const MONTH4_STORIES = [
           "One hour"
         ],
         "answerIndex": 1,
-        "explanation": "The final programme lasted twenty minutes and included a written transcript."
+        "explanation": "The final program lasted twenty minutes and included a written transcript."
       },
       {
         "question": "How many plays did the episode get in its first week?",
@@ -1393,10 +1393,10 @@ const MONTH4_STORIES = [
     "wordCount": 288,
     "paragraphs": [
       "Exams can create pressure, but healthy preparation helps students stay focused and confident. Two months before the final tests, our school counsellor held a workshop on managing stress. She explained that a moderate level of concern can motivate useful action. Problems start when worry stops sleep, concentration or normal daily activities. Students listed common warning signs, including headaches, irritability and constant tiredness.",
-      "The counsellor asked us to compare these signs with our usual behaviour rather than diagnose ourselves. Each pupil made a realistic revision plan with short sessions and specific goals. Tom decided to take a five-minute break after every forty minutes of concentrated study.",
-      "Maya uses a simple breathing exercise to calm her mind before difficult practice papers. She also keeps her phone outside the room to reduce interruptions. Regular meals provide steady energy and protect students from sudden mood changes. Physical activity can improve sleep and give the brain a rest from revision.",
-      "A balanced timetable should include schoolwork, exercise, meals and time with friends. Students were encouraged to support one another without comparing every test score. Helpful support means listening calmly, not dismissing another person's feelings. The workshop also challenged the belief that one exam decides an entire future. Results matter, but they are only one part of a student's wider development.",
-      "When pressure becomes overwhelming, pupils should speak to a trusted adult or health professional. Asking for help is a responsible response, not a sign of weakness. In the following weeks, Tom followed his plan and adjusted it when tasks took longer. Maya kept one evening free each week so her mind could recover fully. Both noticed that steady revision created more confidence than last-minute panic. Learning to manage stress is a lifelong skill."
+      "The counsellor asked us to compare these signs with our usual behavior rather than diagnose ourselves. Each pupil made a realistic review plan with short sessions and specific goals. Tom decided to take a five-minute break after every forty minutes of concentrated study.",
+      "Maya uses a simple breathing exercise to calm her mind before difficult practice papers. She also keeps her phone outside the room to reduce interruptions. Regular meals provide steady energy and protect students from sudden mood changes. Physical activity can improve sleep and give the brain a rest from review.",
+      "A balanced schedule should include schoolwork, exercise, meals and time with friends. Students were encouraged to support one another without comparing every test score. Helpful support means listening calmly, not dismissing another person's feelings. The workshop also challenged the belief that one exam decides an entire future. Results matter, but they are only one part of a student's wider development.",
+      "When pressure becomes overwhelming, pupils should speak to a trusted adult or health professional. Asking for help is a responsible response, not a sign of weakness. In the following weeks, Tom followed his plan and adjusted it when tasks took longer. Maya kept one evening free each week so her mind could recover fully. Both noticed that steady review created more confidence than last-minute panic. Learning to manage stress is a lifelong skill."
     ],
     "vocabulary": [
       {
@@ -1408,11 +1408,11 @@ const MONTH4_STORIES = [
         "emoji": "😤"
       },
       {
-        "word": "revision",
+        "word": "review",
         "syllables": "re-vi-sion",
         "phonetic": "/rɪˈvɪʒn/",
         "definition": "Studying again what you have learned, especially before an exam.",
-        "example": "Each pupil made a realistic revision plan with short sessions and specific goals.",
+        "example": "Each pupil made a realistic review plan with short sessions and specific goals.",
         "emoji": "📚"
       },
       {
@@ -1472,9 +1472,9 @@ const MONTH4_STORIES = [
     "intro": "A class turns unwanted fabric into lunch bags, reuses the profit and gives eight hundred pounds away.",
     "wordCount": 287,
     "paragraphs": [
-      "A social enterprise uses business methods to address a community or environmental need. Our economics class decided to make reusable lunch bags from unwanted fabric. Before investing any capital, we surveyed pupils about size, colour and price preferences. The survey showed a clear market for durable bags costing less than ten pounds.",
+      "A social enterprise uses business methods to address a community or environmental need. Our economics class decided to make reusable lunch bags from unwanted fabric. Before investing any capital, we surveyed pupils about size, color and price preferences. The survey showed a clear market for durable bags costing less than ten pounds.",
       "Maya prepared a budget covering fabric, thread, labels and online payment fees. A local tailor donated offcuts and taught volunteers how to cut material safely. Students worked in teams responsible for design, production, marketing and finance. Each bag carried a label explaining that part of the profit would support the food bank. Our first production run made fifty bags in four simple designs.",
-      "Tom photographed the products and opened a secure sales account on the school website. The launch attracted strong interest because the bags were useful and reasonably priced. Within three days, every item had sold and several customers asked for new colours. The finance team recorded each sale and checked the account balance every afternoon.",
+      "Tom photographed the products and opened a secure sales account on the school website. The launch attracted strong interest because the bags were useful and reasonably priced. Within three days, every item had sold and several customers asked for new colors. The finance team recorded each sale and checked the account balance every afternoon.",
       "We calculated that the first batch made a modest return after all costs were paid. Half of the profit was reinvested, while the rest went to the food bank. The class agreed to share responsibility rather than give one student complete control. When a supplier raised its prices, Maya compared three other sources.",
       "The group rejected cheaper fabric that was likely to tear after repeated use. Protecting quality was essential for keeping customer trust. We later introduced a repair service that extended the life of damaged bags. At the end of term, the enterprise had donated eight hundred pounds to local families. Our return was measured not only in money but also in skills, confidence and community benefit."
     ],
@@ -1484,7 +1484,7 @@ const MONTH4_STORIES = [
         "syllables": "cap-i-tal",
         "phonetic": "/ˈkæpɪtl/",
         "definition": "Money used to start or run a business.",
-        "example": "Before investing any capital, we surveyed pupils about size, colour and price preferences.",
+        "example": "Before investing any capital, we surveyed pupils about size, color and price preferences.",
         "emoji": "💵"
       },
       {
@@ -1552,11 +1552,11 @@ const MONTH4_STORIES = [
     "intro": "A one-day Model UN on clean water: amendments, abstentions and a resolution that passes by twenty-two votes.",
     "wordCount": 292,
     "paragraphs": [
-      "Model United Nations conferences help students practise diplomacy, research and formal public speaking. This year, our school hosted a one-day conference on access to clean water. Each participant represented a country and researched its geography, economy and water challenges. Maya served as the chair and opened the meeting with a reminder about respectful debate. Delegates raised their country cards when they wished to take the floor.",
+      "Model United Nations conferences help students practice diplomacy, research and formal public speaking. This year, our school hosted a one-day conference on access to clean water. Each participant represented a country and researched its geography, economy and water challenges. Maya served as the chair and opened the meeting with a reminder about respectful debate. Delegates raised their country cards when they wished to take the floor.",
       "The first speaker described how drought threatened farming communities in her region. Another delegate explained that damaged pipes wasted water in fast-growing cities. Participants had to separate reliable evidence from unsupported online claims. Tom made a point about the need for affordable technology in rural areas. The chair asked him to connect his point more directly to the proposed solution.",
       "During a short break, delegates formed groups with countries sharing similar concerns. They began to draft a resolution calling for training, investment and transparent monitoring. Some countries wanted firm targets, while others feared unrealistic financial demands. The groups revised the draft until its language was both ambitious and practical. After lunch, Maya introduced a formal motion to begin discussion of amendments.",
       "One amendment added support for communities affected by floods as well as drought. Another proposed an independent review of how international funds were spent. The debate stayed energetic, but personal criticism was ruled out of order. Maya used the gavel only when several speakers tried to interrupt at once.",
-      "The final resolution passed with twenty-two votes in favour and four abstentions. Students realised that compromise requires careful listening as well as persuasive speech. A visiting diplomat praised the delegates for asking precise questions about implementation. At the closing ceremony, awards recognised research, cooperation and improvement. Tom received a commendation for responding constructively to opposing points."
+      "The final resolution passed with twenty-two votes in favor and four abstentions. Students realized that compromise requires careful listening as well as persuasive speech. A visiting diplomat praised the delegates for asking precise questions about implementation. At the closing ceremony, awards recognized research, cooperation and improvement. Tom received a commendation for responding constructively to opposing points."
     ],
     "vocabulary": [
       {
@@ -1580,13 +1580,13 @@ const MONTH4_STORIES = [
         "syllables": "ab-sten-tions",
         "phonetic": "/əbˈstenʃnz/",
         "definition": "Choices not to vote for or against something.",
-        "example": "The final resolution passed with twenty-two votes in favour and four abstentions.",
+        "example": "The final resolution passed with twenty-two votes in favor and four abstentions.",
         "emoji": "🤐"
       }
     ],
     "quiz": [
       {
-        "question": "How many votes were in favour of the final resolution?",
+        "question": "How many votes were in favor of the final resolution?",
         "options": [
           "Twelve",
           "Twenty-two",
@@ -1594,7 +1594,7 @@ const MONTH4_STORIES = [
           "Four"
         ],
         "answerIndex": 1,
-        "explanation": "The final resolution passed with twenty-two votes in favour and four abstentions."
+        "explanation": "The final resolution passed with twenty-two votes in favor and four abstentions."
       },
       {
         "question": "How many countries abstained?",
@@ -1605,7 +1605,7 @@ const MONTH4_STORIES = [
           "Ten"
         ],
         "answerIndex": 1,
-        "explanation": "The final resolution passed with twenty-two votes in favour and four abstentions."
+        "explanation": "The final resolution passed with twenty-two votes in favor and four abstentions."
       },
       {
         "question": "What did Tom receive at the closing ceremony?",
@@ -1633,10 +1633,10 @@ const MONTH4_STORIES = [
     "wordCount": 290,
     "paragraphs": [
       "Last week, David decided to book a two-week summer trip to a historic European capital. He opened his laptop and looked at a travel agency website to compare flight fares. He chose a direct morning flight that would arrive by lunchtime.",
-      "After entering his passport details, he paid the full fare with his credit card. Within minutes, the airline sent an email with his booking reference and digital ticket. Next, David needed a place to stay near the city centre. He found a traditional hotel with comfortable rooms and free breakfast.",
+      "After entering his passport details, he paid the full fare with his credit card. Within minutes, the airline sent an email with his booking reference and digital ticket. Next, David needed a place to stay near the city center. He found a traditional hotel with comfortable rooms and free breakfast.",
       "He reserved a quiet double room and paid a ten percent deposit. Two days before departure, he packed his suitcase and checked the weather forecast.",
       "On the morning of the journey, he took an early express train to the airport. He arrived at Terminal 2 two hours before his flight and pushed his trolley to the check-in desk. The ground staff checked his passport, weighed his suitcase and gave him a boarding pass. Everything was fine, so he entered the departure lounge.",
-      "While he waited near Gate 14, an announcement asked passengers to prepare for boarding. David joined the queue, showed his passport and stepped on board. He found his window seat, put his bag in the overhead locker and fastened his seat belt.",
+      "While he waited near Gate 14, an announcement asked passengers to prepare for boarding. David joined the line, showed his passport and stepped on board. He found his window seat, put his bag in the overhead locker and fastened his seat belt.",
       "The captain gave details about the route. Soon the plane raced down the runway and rose into the blue sky. Once it reached cruising height, the crew served hot drinks and meals. David watched a funny film while he ate. Later, the captain announced the descent, and the plane landed smoothly. David passed through customs and met his smiling host in the arrivals hall. He felt excited to begin his adventure in a new country."
     ],
     "vocabulary": [
@@ -1700,7 +1700,7 @@ const MONTH4_STORIES = [
         "explanation": "David passed through customs and met his smiling host in the arrivals hall."
       }
     ],
-    "funPrompt": "If you planned a two-week holiday abroad, what would you book first and why?"
+    "funPrompt": "If you planned a two-week vacation abroad, what would you book first and why?"
   },
   {
     "id": 122,
@@ -1714,19 +1714,19 @@ const MONTH4_STORIES = [
     "wordCount": 288,
     "paragraphs": [
       "Visiting public art galleries helps students experience different cultures. Last Thursday, our art class took a trip to the municipal gallery. The modern building had glass walls and steel frames. Our guide, Mr Vance, was an experienced art critic. He gave us brochures showing the permanent and temporary exhibitions.",
-      "We began in the contemporary painting hall on the ground floor. A large oil painting of a dramatic mountain landscape caught everyone's attention. The artist used bold brushstrokes and bright colours to show the energy of nature. Mr Vance explained how the painter used light and shadow to create deep emotion.",
+      "We began in the contemporary painting hall on the ground floor. A large oil painting of a dramatic mountain landscape caught everyone's attention. The artist used bold brushstrokes and bright colors to show the energy of nature. Mr Vance explained how the painter used light and shadow to create deep emotion.",
       "Next, we walked into a quiet room full of twentieth-century abstract art. Emma leaned forward to look at a large sculpture by a famous artist. She noticed that the creator had combined polished bronze with rough stone. This produced a unique effect.",
       "In the sculpture section, we admired marble figures carved with great skill. A bronze eagle stood proudly on a heavy oak pedestal. The guide reminded us not to touch the exhibits, because skin oils can damage them.",
       "In the afternoon, we joined a portrait drawing workshop. Each student got a drawing board, charcoal pencils and a thick sketch pad. We drew the classmate sitting opposite us in a relaxed pose. Tom worked carefully to get the facial proportions right before adding shadows.",
       "Mr Vance walked around and gave helpful advice. He praised Tom's expressive lines and accurate perspective.",
-      "Before leaving, we visited the gift shop and bought postcards and art magazines. Seeing real artworks made our art history lessons more vivid. Engaging with art broadens young minds and builds a lifelong love of beauty. On the way back, students talked about their favourite paintings and sculptures."
+      "Before leaving, we visited the gift shop and bought postcards and art magazines. Seeing real artworks made our art history lessons more vivid. Engaging with art broadens young minds and builds a lifelong love of beauty. On the way back, students talked about their favorite paintings and sculptures."
     ],
     "vocabulary": [
       {
         "word": "abstract",
         "syllables": "ab-stract",
         "phonetic": "/ˈæbstrækt/",
-        "definition": "Art that uses shapes and colours rather than real things.",
+        "definition": "Art that uses shapes and colors rather than real things.",
         "example": "Next, we walked into a quiet room full of twentieth-century abstract art.",
         "emoji": "🎨"
       },
@@ -1751,7 +1751,7 @@ const MONTH4_STORIES = [
       {
         "question": "What did the large oil painting show?",
         "options": [
-          "A quiet harbour",
+          "A quiet harbor",
           "A dramatic mountain landscape",
           "A family portrait",
           "A city street"
@@ -1764,7 +1764,7 @@ const MONTH4_STORIES = [
         "options": [
           "It was very small",
           "It combined polished bronze with rough stone",
-          "It had no colour",
+          "It had no color",
           "It was broken"
         ],
         "answerIndex": 1,
@@ -1876,11 +1876,11 @@ const MONTH4_STORIES = [
     "intro": "Satellite data, a cold front and a barometer: how scientists predict the weather.",
     "wordCount": 268,
     "paragraphs": [
-      "Understanding weather patterns helps scientists predict climate change and severe storms. Last Wednesday, our geography class visited the national weather forecasting centre. A senior meteorologist named Dr Green welcomed us into the computer room. He explained that modern forecasts rely on huge amounts of satellite data. Supercomputers process information about air pressure, wind speed and humidity from around the world.",
+      "Understanding weather patterns helps scientists predict climate change and severe storms. Last Wednesday, our geography class visited the national weather forecasting center. A senior meteorologist named Dr Green welcomed us into the computer room. He explained that modern forecasts rely on huge amounts of satellite data. Supercomputers process information about air pressure, wind speed and humidity from around the world.",
       "On the large wall screen, swirling satellite images showed developing storms. Dr Green pointed out a cold front moving quickly across the Atlantic Ocean. When cold polar air meets warm tropical air, it often causes heavy rain and thunderstorms. He showed how barometers measure air pressure to predict coming gales. A sudden drop in pressure usually means stormy weather is on the way.",
-      "Students were invited to use a simulated weather station on a touchscreen. Tom tested a digital anemometer to measure wind speed in an artificial tunnel. The screen recorded a peak speed of forty-five kilometres per hour.",
+      "Students were invited to use a simulated weather station on a touchscreen. Tom tested a digital anemometer to measure wind speed in an artificial tunnel. The screen recorded a peak speed of forty-five kilometers per hour.",
       "Dr Green then discussed the serious impact of global warming on extreme weather. Rising temperatures melt polar ice caps and change rainfall patterns. As a result, coastal areas face more floods and droughts. Fighting climate change needs international cooperation and lower carbon emissions. Individuals can also help by saving electricity and reducing plastic waste.",
-      "After the tour, we attended a short lecture in the hall. Dr Green encouraged interested pupils to study physics, maths and environmental science. Before leaving, each student got an illustrated booklet about cloud formations. We thanked Dr Green for his talk and guidance. Weather forecasts keep people safe by giving early warnings before dangerous storms."
+      "After the tour, we attended a short lecture in the hall. Dr Green encouraged interested pupils to study physics, math and environmental science. Before leaving, each student got an illustrated booklet about cloud formations. We thanked Dr Green for his talk and guidance. Weather forecasts keep people safe by giving early warnings before dangerous storms."
     ],
     "vocabulary": [
       {
@@ -1923,13 +1923,13 @@ const MONTH4_STORIES = [
       {
         "question": "What peak wind speed did Tom record?",
         "options": [
-          "Fifteen kilometres per hour",
-          "Thirty kilometres per hour",
-          "Forty-five kilometres per hour",
-          "Sixty kilometres per hour"
+          "Fifteen kilometers per hour",
+          "Thirty kilometers per hour",
+          "Forty-five kilometers per hour",
+          "Sixty kilometers per hour"
         ],
         "answerIndex": 2,
-        "explanation": "The screen recorded a peak speed of forty-five kilometres per hour."
+        "explanation": "The screen recorded a peak speed of forty-five kilometers per hour."
       },
       {
         "question": "What happens when cold polar air meets warm tropical air?",
@@ -1956,12 +1956,12 @@ const MONTH4_STORIES = [
     "intro": "A school sports day of sprints, a winning goal and a relay team that sets a new record.",
     "wordCount": 292,
     "paragraphs": [
-      "Annual school sports days build school spirit, fitness and friendly competition. Last Friday, bright spring sunshine filled our school sports ground. Hundreds of eager competitors arrived early to warm up along the running track. The PE department provided excellent facilities and professional timing equipment. Tom decided to enter the hundred-metre sprint and the senior high jump.",
+      "Annual school sports days build school spirit, fitness and friendly competition. Last Friday, bright spring sunshine filled our school sports ground. Hundreds of eager competitors arrived early to warm up along the running track. The PE department provided excellent facilities and professional timing equipment. Tom decided to enter the hundred-meter sprint and the senior high jump.",
       "His coach gave him advice on starting techniques and breathing rhythm. In the first race, the sprinters waited at the starting line for the signal gun. When the official fired the pistol, the runners raced forward at great speed. Tom pushed himself to the limit and crossed the line in second place. Although he missed gold by a fraction of a second, his parents were very proud.",
-      "On the next field, two school teams played a thrilling football match. The visiting team had a brilliant goalkeeper who saved several powerful shots. In the second half, the home captain scored a magnificent winning goal. The referee blew his whistle to end the match. Spectators cheered and waved coloured banners in the air.",
+      "On the next field, two school teams played a thrilling soccer match. The visiting team had a brilliant goalkeeper who saved several powerful shots. In the second half, the home captain scored a magnificent winning goal. The referee blew his whistle to end the match. Spectators cheered and waved colored banners in the air.",
       "Nearby, younger pupils enjoyed table tennis under a canvas tent. A sports instructor showed beginners how to hold the racket properly.",
       "At noon, a short shower of rain made the organisers pause the outdoor events. Students took shelter under the grandstand roof and shared sandwiches and cold drinks. Luckily, the clouds cleared quickly and the warm sun returned.",
-      "The games continued with the four-hundred-metre relay. Tom's team passed the baton smoothly and finished first. They set a new school record for their age group. At the awards ceremony, the headteacher gave out shiny medals and trophies. Each participant also received a certificate. Taking part in sport teaches young people how to handle winning and losing."
+      "The games continued with the four-hundred-meter relay. Tom's team passed the baton smoothly and finished first. They set a new school record for their age group. At the awards ceremony, the principal gave out shiny medals and trophies. Each participant also received a certificate. Taking part in sport teaches young people how to handle winning and losing."
     ],
     "vocabulary": [
       {
@@ -1969,7 +1969,7 @@ const MONTH4_STORIES = [
         "syllables": "re-lay",
         "phonetic": "/ˈriːleɪ/",
         "definition": "A race in which each team member runs part of the distance.",
-        "example": "The games continued with the four-hundred-metre relay.",
+        "example": "The games continued with the four-hundred-meter relay.",
         "emoji": "🏃"
       },
       {
@@ -2037,7 +2037,7 @@ const MONTH4_STORIES = [
     "intro": "A library card, a leather-bound volume and a writing workshop: one quiet Saturday.",
     "wordCount": 287,
     "paragraphs": [
-      "Local public libraries are vital cultural centres that give free access to knowledge. Last Saturday morning, Clara went to her neighbourhood library to borrow some books. The elegant brick building had a welcoming entrance and an automated check-in terminal. At the front desk, the librarian scanned Clara's membership card and checked her account. She reminded Clara that all borrowed items must be returned within three weeks.",
+      "Local public libraries are vital cultural centers that give free access to knowledge. Last Saturday morning, Clara went to her neighborhood library to borrow some books. The elegant brick building had a welcoming entrance and an automated check-in terminal. At the front desk, the librarian scanned Clara's membership card and checked her account. She reminded Clara that all borrowed items must be returned within three weeks.",
       "Clara walked into the spacious main reading hall. Rows of study desks stood under warm overhead lamps. She needed materials about medieval European architecture for her history project. She used an electronic cataloguing terminal near the corner. The screen showed a list of encyclopedias and academic journals.",
       "Clara wrote down the book codes and walked quietly to the second aisle. She checked the shelf labels until she found the heavy leather-bound volume. The book contained fascinating illustrations, detailed maps and chronological diagrams. She carried it to an empty desk near the large arched window. Natural daylight streamed through the glass, making it pleasant to read for hours.",
       "After taking notes, Clara went to the automated checkout. She scanned her card and placed the book on the digital sensor pad. The machine printed a small receipt with the official due date.",
@@ -2237,7 +2237,7 @@ const MONTH4_STORIES = [
           "Oxygen and nitrogen",
           "Greenhouse gases",
           "Hydrogen and helium",
-          "Water vapour only"
+          "Water vapor only"
         ],
         "answerIndex": 1,
         "explanation": "Greenhouse gases trap solar heat, causing global temperatures and sea levels to rise."
@@ -2278,10 +2278,10 @@ const MONTH4_STORIES = [
     "intro": "A garden photography trip: wide apertures, fast shutters and fifty pictures on a gallery wall.",
     "wordCount": 293,
     "paragraphs": [
-      "Digital photography combines technical skill with creative visual expression. Last Saturday, our media club organised a photography trip to the botanical gardens. A professional photojournalist named Arthur came with our group to give expert guidance. He reminded everyone that stunning images need an understanding of aperture, shutter speed and ISO. Arthur showed how the lens aperture controls the amount of light entering the camera.",
+      "Digital photography combines technical skill with creative visual expression. Last Saturday, our media club organized a photography trip to the botanical gardens. A professional photojournalist named Arthur came with our group to give expert guidance. He reminded everyone that stunning images need an understanding of aperture, shutter speed and ISO. Arthur showed how the lens aperture controls the amount of light entering the camera.",
       "A wide aperture creates a soft, blurry background, which is perfect for portrait shots. A narrow aperture keeps wide landscapes sharp from the foreground to the horizon. Next, he explained how shutter speed decides whether fast subjects look sharp or blurred. A fast shutter freezes a splashing water drop in mid-air with amazing clarity. With their cameras ready, club members walked along the winding garden paths.",
       "Emma crouched low on the grass to take a close-up macro shot of a butterfly. She adjusted her focus ring carefully so the delicate wings were crystal clear. Tom preferred landscapes, so he captured panoramic views of the lake and distant peaks. He mounted his camera on a sturdy metal tripod to prevent blurry camera shake.",
-      "In the afternoon, the group returned to the media lab to edit their images. They used professional software to crop unnecessary edges and adjust brightness. Arthur showed them how to add contrast and colour without making photos look unnatural. The club chose the best fifty photographs for a public exhibition in the school library.",
+      "In the afternoon, the group returned to the media lab to edit their images. They used professional software to crop unnecessary edges and adjust brightness. Arthur showed them how to add contrast and color without making photos look unnatural. The club chose the best fifty photographs for a public exhibition in the school library.",
       "Printed on glossy paper, the images looked remarkably professional. Parents and teachers came to the evening opening. A local arts magazine published an article about several award-winning student photos. The workshop taught students to observe everyday surroundings with greater attention. Photography is not just pressing a button; it is telling a visual story."
     ],
     "vocabulary": [
@@ -2306,7 +2306,7 @@ const MONTH4_STORIES = [
         "syllables": "con-trast",
         "phonetic": "/ˈkɒntrɑːst/",
         "definition": "The difference between light and dark in a picture.",
-        "example": "Arthur showed them how to add contrast and colour without making photos look unnatural.",
+        "example": "Arthur showed them how to add contrast and color without making photos look unnatural.",
         "emoji": "🌓"
       }
     ],
@@ -2316,7 +2316,7 @@ const MONTH4_STORIES = [
         "options": [
           "Lens, flash and tripod",
           "Aperture, shutter speed and ISO",
-          "Zoom, colour and paper",
+          "Zoom, color and paper",
           "Focus, light and filter"
         ],
         "answerIndex": 1,
@@ -2359,9 +2359,9 @@ const MONTH4_STORIES = [
     "wordCount": 268,
     "paragraphs": [
       "Observatories give students a chance to study distant objects under a truly dark sky. Last November, our science club attended an evening session at the Hillcrest Observatory. The telescope stands under a dome that can rotate to follow different parts of the sky.",
-      "Before observing, we covered our phone screens so bright light would not spoil our night vision. As the first stars appeared, we found north using the shape of the Plough.",
+      "Before observing, we covered our phone screens so bright light would not spoil our night vision. As the first stars appeared, we found north using the shape of the Plow.",
       "Our first target was Jupiter, a large planet surrounded by faint bands of cloud. Four of its moons appeared as tiny points of light in a nearly straight line. We recorded their positions so we could compare them with the next night. Next, the telescope moved to a star cluster in Taurus. Careful focus revealed far more stars than we could see with the naked eye.",
-      "Dr Ahmed explained how astronomers measure colour, brightness and movement to study a star's life. We then observed the Moon, whose craters cast long shadows near the light-dark boundary. Tom sketched the outline of three craters in his notebook. Maya asked why satellites stay in orbit instead of falling to Earth. The guide used a curved track model to explain the balance between speed and gravity.",
+      "Dr Ahmed explained how astronomers measure color, brightness and movement to study a star's life. We then observed the Moon, whose craters cast long shadows near the light-dark boundary. Tom sketched the outline of three craters in his notebook. Maya asked why satellites stay in orbit instead of falling to Earth. The guide used a curved track model to explain the balance between speed and gravity.",
       "Clouds briefly crossed the sky, so we visited the control room. When the clouds moved away, we photographed a faint galaxy beyond our Milky Way. The image needed a long exposure because so little light reached the camera. At midnight, we gathered outside for a final view of the winter sky. The visit showed that patient observation turns faint light into reliable evidence."
     ],
     "vocabulary": [
@@ -2408,7 +2408,7 @@ const MONTH4_STORIES = [
           "A galaxy",
           "Three craters",
           "A star cluster",
-          "The Plough"
+          "The Plow"
         ],
         "answerIndex": 1,
         "explanation": "Tom sketched the outline of three craters in his notebook."
@@ -2435,22 +2435,22 @@ const MONTH4_STORIES = [
     "category": "School & Study",
     "level": "Explorer",
     "readingTime": "6 mins",
-    "intro": "A revision timetable, a study group and a deep breath before the exam booklet opens.",
+    "intro": "A review schedule, a study group and a deep breath before the exam booklet opens.",
     "wordCount": 289,
     "paragraphs": [
-      "Preparing for important exams needs discipline and a well-structured study plan. Last month, our headteacher announced that final exams would begin soon. Tom realised he needed to revise several difficult maths and science subjects. He opened his diary and made a realistic revision timetable. Every evening after dinner, he spent two hours reviewing chapters and notes.",
+      "Preparing for important exams needs discipline and a well-structured study plan. Last month, our principal announced that final exams would begin soon. Tom realized he needed to review several difficult math and science subjects. He opened his diary and made a realistic review schedule. Every evening after dinner, he spent two hours reviewing chapters and notes.",
       "He sat at his wooden desk, turned on his lamp and pushed his phone away. When he met a difficult physics formula, he asked his teacher for help. Tom wrote the extra explanations in his notebook for later.",
-      "At weekends, he formed a study group with classmates at the library. They quizzed each other on vocabulary, grammar rules and historical events. Practising past exam papers helped them get used to the question formats. They learned to divide their time wisely in exams so they would not run out of time. Alongside study, staying healthy is important for a sharp mind.",
-      "Tom made sure to get eight hours of sleep each night instead of staying up late. Eating well and drinking water kept his mind sharp and full of energy. On the morning of the maths exam, he arrived at the hall early. The chief invigilator gave out question papers and told students to check their details. Tom took a deep breath to calm his nerves before opening the booklet.",
+      "At weekends, he formed a study group with classmates at the library. They quizzed each other on vocabulary, grammar rules and historical events. Practicing past exam papers helped them get used to the question formats. They learned to divide their time wisely in exams so they would not run out of time. Alongside study, staying healthy is important for a sharp mind.",
+      "Tom made sure to get eight hours of sleep each night instead of staying up late. Eating well and drinking water kept his mind sharp and full of energy. On the morning of the math exam, he arrived at the hall early. The chief invigilator gave out question papers and told students to check their details. Tom took a deep breath to calm his nerves before opening the booklet.",
       "He read every question carefully before writing his answers in black ink. He managed his time well and finished the difficult calculus section with minutes to spare. After checking for careless errors, he handed his paper to the invigilator. Outside in the bright sun, he felt a huge wave of relief. Good results are the direct reward of steady hard work and careful preparation."
     ],
     "vocabulary": [
       {
-        "word": "revise",
+        "word": "review",
         "syllables": "re-vise",
         "phonetic": "/rɪˈvaɪz/",
         "definition": "To study again what you have learned, especially before an exam.",
-        "example": "Tom realised he needed to revise several difficult maths and science subjects.",
+        "example": "Tom realized he needed to review several difficult math and science subjects.",
         "emoji": "📚"
       },
       {
@@ -2518,10 +2518,10 @@ const MONTH4_STORIES = [
     "intro": "A routine dental visit: a check-up, a polish and a new toothbrush on the way out.",
     "wordCount": 275,
     "paragraphs": [
-      "Maintaining good oral hygiene is essential for dental health and a confident smile. Last Tuesday morning, Emma went to the community dental clinic for her routine check-up. The receptionist checked her patient records and asked her to sit in the waiting room. A friendly dental nurse called her name and took her into the sanitised examination room. Emma sat in the adjustable chair and put her bag on the floor.",
+      "Maintaining good oral hygiene is essential for dental health and a confident smile. Last Tuesday morning, Emma went to the community dental clinic for her routine check-up. The receptionist checked her patient records and asked her to sit in the waiting room. A friendly dental nurse called her name and took her into the sanitized examination room. Emma sat in the adjustable chair and put her bag on the floor.",
       "Dr Taylor greeted her warmly and adjusted the bright overhead lamp. He asked whether she had felt any toothache or gum sensitivity recently. Emma said her teeth felt comfortable, but she wanted a professional clean anyway. The dentist used a small silver mirror and a pointed metal probe to check her teeth. He looked carefully at each molar for hidden cavities or enamel damage.",
       "Luckily, her teeth and gums were in excellent condition with no signs of decay. Dr Taylor praised Emma for keeping up her daily brushing and flossing. He reminded her that brushing twice a day with fluoride toothpaste protects against oral disease.",
-      "Next, the dental hygienist polished Emma's teeth to remove surface stains. She used a rotating soft brush and a mint-flavoured paste. The cleaning was completely painless and lasted less than thirty minutes. Before leaving, the receptionist gave Emma a free toothbrush and a sample tube of toothpaste. Emma also booked her next six-month appointment.",
+      "Next, the dental hygienist polished Emma's teeth to remove surface stains. She used a rotating soft brush and a mint-flavored paste. The cleaning was completely painless and lasted less than thirty minutes. Before leaving, the receptionist gave Emma a free toothbrush and a sample tube of toothpaste. Emma also booked her next six-month appointment.",
       "Regular check-ups catch minor problems before they become painful. In the evening, she ate a healthy dinner of vegetables, chicken and rice. Afterwards, she brushed her teeth for two full minutes with an electric toothbrush. She also flossed between her molars to remove tiny food particles."
     ],
     "vocabulary": [
@@ -2567,7 +2567,7 @@ const MONTH4_STORIES = [
         "options": [
           "Size",
           "Hidden cavities or enamel damage",
-          "Colour",
+          "Color",
           "Braces"
         ],
         "answerIndex": 1,
@@ -2679,11 +2679,11 @@ const MONTH4_STORIES = [
     "intro": "After three days of rain a river bursts its banks, and volunteers learn that accuracy saves lives.",
     "wordCount": 300,
     "paragraphs": [
-      "Severe flooding can cut off communities and stop essential services within hours. After three days of heavy rain, the River Lark burst its banks near a small village. Emergency teams closed unsafe roads and moved residents from low-lying homes. Our youth volunteer group offered to help organise relief supplies at the town hall. The coordinator divided the hall into areas for drinking water, food, blankets and hygiene products.",
-      "Every donated item was checked, counted and entered on a digital supply list. Volunteers rejected opened food and damaged electrical equipment for safety reasons. Maya packed family boxes with bottled water, cereal, soap and clean towels. Tom labelled each box with its contents, weight and destination. A map showed which routes were still open and which bridges were closed.",
+      "Severe flooding can cut off communities and stop essential services within hours. After three days of heavy rain, the River Lark burst its banks near a small village. Emergency teams closed unsafe roads and moved residents from low-lying homes. Our youth volunteer group offered to help organize relief supplies at the town hall. The coordinator divided the hall into areas for drinking water, food, blankets and hygiene products.",
+      "Every donated item was checked, counted and entered on a digital supply list. Volunteers rejected opened food and damaged electrical equipment for safety reasons. Maya packed family boxes with bottled water, cereal, soap and clean towels. Tom labeled each box with its contents, weight and destination. A map showed which routes were still open and which bridges were closed.",
       "The fastest route was not always the safest because strong currents crossed several roads. From the edge of the flooded area, trained crews carried lighter packages by boat. A temporary distribution point was set up on the dry bank beside the village church. Residents signed for medicines so staff could keep an accurate record.",
       "The local pharmacy supplied replacement prescriptions after checking patient details. Mobile phone charging stations helped families contact relatives and get official updates. A volunteer electrician checked each station before public use. By evening, the first delivery had reached every household cut off by water. The next morning, volunteers prepared cleaning kits for homes that were becoming accessible.",
-      "Health officers warned residents not to touch floodwater without protective clothing. Dirty water may carry harmful bacteria, chemicals or sharp hidden objects. The relief centre also offered a quiet space for children and older residents. As the river level fell, engineers inspected roads, power lines and the damaged bank. Clear records let the coordinator send resources where they were most urgently needed."
+      "Health officers warned residents not to touch floodwater without protective clothing. Dirty water may carry harmful bacteria, chemicals or sharp hidden objects. The relief center also offered a quiet space for children and older residents. As the river level fell, engineers inspected roads, power lines and the damaged bank. Clear records let the coordinator send resources where they were most urgently needed."
     ],
     "vocabulary": [
       {
@@ -2691,7 +2691,7 @@ const MONTH4_STORIES = [
         "syllables": "re-lief",
         "phonetic": "/rɪˈliːf/",
         "definition": "Help given to people in a difficult situation.",
-        "example": "Our youth volunteer group offered to help organise relief supplies at the town hall.",
+        "example": "Our youth volunteer group offered to help organize relief supplies at the town hall.",
         "emoji": "🎁"
       },
       {
@@ -2756,12 +2756,12 @@ const MONTH4_STORIES = [
     "category": "Arts & Culture",
     "level": "Explorer",
     "readingTime": "6 mins",
-    "intro": "A spring art show: a colourful sunset canvas, a charcoal portrait and a crowd at the doors.",
+    "intro": "A spring art show: a colorful sunset canvas, a charcoal portrait and a crowd at the doors.",
     "wordCount": 288,
     "paragraphs": [
-      "Annual school art exhibitions give talented students a platform to show their creativity. Last month, our art department hosted a grand spring painting show. More than fifty student artists gathered in the school exhibition hall to arrange their framed works. The gallery showed different media, including oil paintings, watercolours, charcoal sketches and sculptures. Maya displayed a vibrant landscape canvas of a colourful sunset over a coastal village.",
+      "Annual school art exhibitions give talented students a platform to show their creativity. Last month, our art department hosted a grand spring painting show. More than fifty student artists gathered in the school exhibition hall to arrange their framed works. The gallery showed different media, including oil paintings, watercolours, charcoal sketches and sculptures. Maya displayed a vibrant landscape canvas of a colorful sunset over a coastal village.",
       "Leo presented a detailed charcoal portrait of an ancient literary hero. Their strict art teacher, Mr Vance, walked around the hall giving helpful criticism and praise. He reminded students that artistic expression needs patience, observation and emotional depth. On opening night, a large crowd of parents, teachers and pupils filled the hall.",
-      "As the doors opened, visitors stepped inside to admire the displays. Soft spotlights highlighted the rich textures and bold brushstrokes of each painting. Maya answered questions from curious visitors about her choice of warm colours. She explained that warm shades create a feeling of joy and calm. During the evening, student volunteers served fruit punch and biscuits in the hall.",
+      "As the doors opened, visitors stepped inside to admire the displays. Soft spotlights highlighted the rich textures and bold brushstrokes of each painting. Maya answered questions from curious visitors about her choice of warm colors. She explained that warm shades create a feeling of joy and calm. During the evening, student volunteers served fruit punch and cookies in the hall.",
       "Many parents praised the professional layout of the gallery and the impressive talent. A local newspaper reporter took photos and interviewed several students. He published an article calling the exhibition a triumph for youth arts education. Taking part in public art shows teaches students self-confidence and communication.",
       "They packed their unsold artwork carefully after the show. Our school celebrated the exhibition's success with a gathering in the canteen on Monday. Tom felt inspired to join an advanced digital design workshop next term. Learning new creative skills opens students' horizons and prepares them for future design careers. Visual arts help young people express complex ideas without relying only on words."
     ],
@@ -2812,7 +2812,7 @@ const MONTH4_STORIES = [
           "A photograph"
         ],
         "answerIndex": 1,
-        "explanation": "Maya displayed a vibrant landscape canvas of a colourful sunset over a coastal village."
+        "explanation": "Maya displayed a vibrant landscape canvas of a colorful sunset over a coastal village."
       },
       {
         "question": "What did the local reporter do?",
@@ -2840,11 +2840,11 @@ const MONTH4_STORIES = [
     "wordCount": 273,
     "paragraphs": [
       "Exploring medieval castles gives students a real connection to history. Last Thursday, our history class went on a trip to historic Warwick Castle. The magnificent stone fortress was built in the eleventh century. Our guide, Dr Evans, met us at the main gate. He gave us printed maps showing the towers and royal courtyards.",
-      "We walked along the high stone ramparts, which gave us a wide view of the river. Dr Evans explained how thick walls protected the castle from enemy armies. Next, we went down spiral staircases to explore the dark dungeons. Iron bars, heavy doors and suits of armour lined the stone corridors. The guide said medieval knights wore heavy metal armour to defend themselves in battle.",
+      "We walked along the high stone ramparts, which gave us a wide view of the river. Dr Evans explained how thick walls protected the castle from enemy armies. Next, we went down spiral staircases to explore the dark dungeons. Iron bars, heavy doors and suits of armor lined the stone corridors. The guide said medieval knights wore heavy metal armor to defend themselves in battle.",
       "In the grand banquet hall, a huge stone fireplace filled the north wall. Long oak tables were set with silver cups and ceramic plates. We imagined royal banquets with musicians playing harps and lutes.",
       "Outside in the inner courtyard, a falconry team showed trained birds of prey. A magnificent golden eagle soared across the sky and landed on the falconer's glove. The audience clapped at the amazing display of hunting skills.",
-      "In the afternoon, we explored the beautiful Victorian rose gardens. Colourful flower beds and old weeping willow trees created a peaceful atmosphere. Tom took several high-definition photos for our class presentation.",
-      "Preserving old buildings needs money and public care. Learning about history deepens our appreciation of culture. Before catching the coach home, we bought postcards at the castle gift shop. On the way back, everyone talked about their favourite medieval weapons and stories. Our school plans another field trip in the autumn term."
+      "In the afternoon, we explored the beautiful Victorian rose gardens. Colorful flower beds and old weeping willow trees created a peaceful atmosphere. Tom took several high-definition photos for our class presentation.",
+      "Preserving old buildings needs money and public care. Learning about history deepens our appreciation of culture. Before catching the coach home, we bought postcards at the castle gift shop. On the way back, everyone talked about their favorite medieval weapons and stories. Our school plans another field trip in the fall term."
     ],
     "vocabulary": [
       {
@@ -2921,9 +2921,9 @@ const MONTH4_STORIES = [
     "wordCount": 275,
     "paragraphs": [
       "Professional journalism plays an important role in keeping society informed and democratic. Last Wednesday, our careers adviser invited a senior newspaper reporter to give a talk. Ms Rachel Vance walked into the school hall in a smart business suit. She shared stories from her fifteen-year reporting career. She explained that investigative journalism needs endless curiosity, honesty and integrity.",
-      "Reporters must check facts carefully through several reliable sources before publishing. Spreading unverified rumours or fake news damages public trust. Ms Vance described her typical day, which often starts early in the newsroom. The chief editor reviews top headlines and assigns breaking stories to the staff. Rachel was once asked to investigate a major public transport strike in the city centre.",
+      "Reporters must check facts carefully through several reliable sources before publishing. Spreading unverified rumors or fake news damages public trust. Ms Vance described her typical day, which often starts early in the newsroom. The chief editor reviews top headlines and assigns breaking stories to the staff. Rachel was once asked to investigate a major public transport strike in the city center.",
       "She took her digital voice recorder, checked her notebook and went out into the street. She interviewed union representatives, government press secretaries and ordinary commuters. Back at her desk, she had to write a six-hundred-word article before the strict deadline. Modern journalists also produce podcasts and video reports, speaking clearly into studio microphones.",
-      "Tom asked which subjects future reporters should study at university. Ms Vance suggested English literature, modern history, political science and mass media. She advised students to practise writing every day, including diaries and school magazine articles. After the talk, several students looked at the professional recording equipment near the stage.",
+      "Tom asked which subjects future reporters should study at university. Ms Vance suggested English literature, modern history, political science and mass media. She advised students to practice writing every day, including diaries and school magazine articles. After the talk, several students looked at the professional recording equipment near the stage.",
       "Tom tested a digital microphone and spoke a short pretend news broadcast. He found the experience exciting. The talk opened students' eyes to the impact of good journalism. Reporting important events gives citizens the knowledge they need to take part in public life. Our media club decided to start a weekly news blog."
     ],
     "vocabulary": [
@@ -2947,7 +2947,7 @@ const MONTH4_STORIES = [
         "word": "broadcast",
         "syllables": "broad-cast",
         "phonetic": "/ˈbrɔːdkɑːst/",
-        "definition": "A programme sent out on radio, TV or the internet.",
+        "definition": "A program sent out on radio, TV or the internet.",
         "example": "Tom tested a digital microphone and spoke a short pretend news broadcast.",
         "emoji": "📡"
       }
@@ -2969,7 +2969,7 @@ const MONTH4_STORIES = [
         "options": [
           "Only English",
           "English literature, modern history, political science and mass media",
-          "Maths and physics",
+          "Math and physics",
           "Art and music"
         ],
         "answerIndex": 1,
@@ -3000,11 +3000,11 @@ const MONTH4_STORIES = [
     "intro": "A forest campsite by a lake: a tent, a campfire and a spotless clearing when they leave.",
     "wordCount": 294,
     "paragraphs": [
-      "Camping in the wilderness is an unbeatable way to escape city noise and enjoy nature. Last Friday, Mark and his older brother loaded their camping gear into the car. They packed a waterproof tent, warm sleeping bags and a camping stove. The forecast promised clear skies and gentle southwesterly breezes. After a two-hour drive, they reached an authorised forest campsite near a clear lake.",
+      "Camping in the wilderness is an unbeatable way to escape city noise and enjoy nature. Last Friday, Mark and his older brother loaded their camping gear into the car. They packed a waterproof tent, warm sleeping bags and a camping stove. The forecast promised clear skies and gentle southwesterly breezes. After a two-hour drive, they reached an authorized forest campsite near a clear lake.",
       "They paid the registration fee at the ranger station and chose a flat grassy pitch. Working together, they unpacked the tent poles and pushed the metal pegs deep into the ground. They pulled the nylon fabric tight and secured the guy lines against sudden wind. Inside, they laid out thick foam mats and warm fleece blankets.",
       "Next, Mark collected dry twigs and fallen branches for a small campfire. His brother struck a waterproof match to light the dry kindling inside a stone ring. Bright orange flames crackled and cast a flickering glow over the nearby tents. They boiled a metal kettle of fresh spring water for hot chocolate and instant soup.",
       "As dusk fell, millions of twinkling stars appeared. Sitting by the glowing embers, they shared funny stories and listened to distant owls. Around ten o'clock, they put out the fire with water to stay safe. They crawled into their warm sleeping bags and fell asleep to the soothing sound of silence.",
-      "At sunrise, they woke early to catch the sun rising over the misty water. A family of wild ducks glided near the calm shore. Mark took high-resolution photos with his digital camera. After a hearty breakfast of boiled eggs and toast, they packed their equipment away. They collected all their litter in rubbish bags to protect the wildlife. The ranger thanked them warmly for keeping the campsite spotless."
+      "At sunrise, they woke early to catch the sun rising over the misty water. A family of wild ducks glided near the calm shore. Mark took high-resolution photos with his digital camera. After a hearty breakfast of boiled eggs and toast, they packed their equipment away. They collected all their litter in garbage bags to protect the wildlife. The ranger thanked them warmly for keeping the campsite spotless."
     ],
     "vocabulary": [
       {
@@ -3042,14 +3042,14 @@ const MONTH4_STORIES = [
           "Four hours"
         ],
         "answerIndex": 1,
-        "explanation": "After a two-hour drive, they reached an authorised forest campsite near a clear lake."
+        "explanation": "After a two-hour drive, they reached an authorized forest campsite near a clear lake."
       },
       {
         "question": "What did they use to light the fire?",
         "options": [
           "A lighter",
           "A waterproof match",
-          "A torch",
+          "A flashlight",
           "A candle"
         ],
         "answerIndex": 1,
@@ -3081,8 +3081,8 @@ const MONTH4_STORIES = [
     "wordCount": 300,
     "paragraphs": [
       "A successful charity event needs careful budgeting as well as enthusiasm and creative ideas. Our student council planned an evening concert to raise funds for a children's hospice. The school hall was free, but lighting, security, printing and insurance still cost money. Maya opened a project account and recorded every expected payment in a spreadsheet. The team estimated income from ticket sales, refreshments and local sponsorship.",
-      "A music shop offered free equipment in return for its name on the programme. The council accepted only after checking that the conditions suited a school event. Tom contacted three printing companies and asked for written prices for five hundred programmes. Comparing quotes stopped the team from accepting the first offer without question.",
-      "The organisers also set aside a small emergency reserve for unexpected repairs or fees. They agreed that unused money from the reserve would go back to the charity fund. Ticket payments were processed through the school's secure online system. Each transaction created a digital record that could be matched with the project account. A local business donated two hundred pounds but did not ask for control over the programme.",
+      "A music shop offered free equipment in return for its name on the program. The council accepted only after checking that the conditions suited a school event. Tom contacted three printing companies and asked for written prices for five hundred programs. Comparing quotes stopped the team from accepting the first offer without question.",
+      "The organisers also set aside a small emergency reserve for unexpected repairs or fees. They agreed that unused money from the reserve would go back to the charity fund. Ticket payments were processed through the school's secure online system. Each transaction created a digital record that could be matched with the project account. A local business donated two hundred pounds but did not ask for control over the program.",
       "During rehearsals, a broken cable needed immediate replacement from the emergency reserve. Maya added a note beside the expense explaining why it had been necessary. On the concert night, volunteers checked tickets and counted cash in pairs. No student carried a large amount of money alone or took it home.",
       "After the final performance, the team paid every invoice and calculated the remaining balance. The concert raised more than three thousand pounds after all expenses. The council transferred the money directly to the hospice's official bank account. A public summary listed income, costs and the final donation without revealing private details. This transparency protected trust among students, families, sponsors and the charity."
     ],
@@ -3133,12 +3133,12 @@ const MONTH4_STORIES = [
           "Five hundred pounds"
         ],
         "answerIndex": 2,
-        "explanation": "A local business donated two hundred pounds but did not ask for control over the programme."
+        "explanation": "A local business donated two hundred pounds but did not ask for control over the program."
       },
       {
         "question": "What had to be paid for from the emergency reserve?",
         "options": [
-          "Extra programmes",
+          "Extra programs",
           "A broken cable",
           "More tickets",
           "New chairs"
@@ -3147,7 +3147,7 @@ const MONTH4_STORIES = [
         "explanation": "During rehearsals, a broken cable needed immediate replacement from the emergency reserve."
       }
     ],
-    "funPrompt": "If your class organised a concert for charity, what would you spend money on first?"
+    "funPrompt": "If your class organized a concert for charity, what would you spend money on first?"
   },
   {
     "id": 140,
@@ -3160,8 +3160,8 @@ const MONTH4_STORIES = [
     "intro": "An unused storeroom becomes a makerspace where failure is treated as useful evidence.",
     "wordCount": 288,
     "paragraphs": [
-      "A makerspace gives students a safe place to design, build, test and improve practical ideas. Our school converted an unused storeroom into a shared workshop for creative projects. We placed strong workbenches near the centre and kept clear routes to both exits. Lockable cabinets stored sharp tools, batteries, glue and delicate electronic parts.",
-      "Every tool received a label showing its purpose, safety rules and correct storage position. A coloured floor line marked the area where safety glasses were always required. The school installed a ventilation unit beside the soldering bench. Students completed a safety induction before booking time in the workshop. The first group designed a simple model bridge using card, wooden sticks and string.",
+      "A makerspace gives students a safe place to design, build, test and improve practical ideas. Our school converted an unused storeroom into a shared workshop for creative projects. We placed strong workbenches near the center and kept clear routes to both exits. Lockable cabinets stored sharp tools, batteries, glue and delicate electronic parts.",
+      "Every tool received a label showing its purpose, safety rules and correct storage position. A colored floor line marked the area where safety glasses were always required. The school installed a ventilation unit beside the soldering bench. Students completed a safety induction before booking time in the workshop. The first group designed a simple model bridge using card, wooden sticks and string.",
       "They tested the model by adding small weights one at a time. When one joint failed, the team examined the break and strengthened the weak connection. Another group used a three-dimensional printer to make a replacement handle for a cupboard. The printer built the object in thin layers from a digital design file.",
       "Maya created a tool board so missing equipment could be noticed immediately. Tom programmed a small sensor to switch off lights when the space was empty. This energy-saving device became the first permanent invention made in the room. Teachers from art, science and computing began to share the workshop for joint projects.",
       "The makerspace also hosted a repair afternoon for broken toys and household objects. Volunteers fixed loose wires and replaced simple parts. Repairing existing products reduced waste and showed how objects are assembled. Students kept a project record with sketches, test results and design changes. The record helped later teams avoid repeating the same unsuccessful attempts. By treating failure as useful evidence, the makerspace encouraged curiosity, resilience and cooperation."
