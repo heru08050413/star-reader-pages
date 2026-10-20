@@ -1308,13 +1308,13 @@ const MONTH4_STORIES = [
     "coverEmoji": "🎙️",
     "category": "Media & Communication",
     "level": "Explorer",
-    "readingTime": "7 mins",
+    "readingTime": "6 mins",
     "intro": "A school podcast goes from a clear question and three guests to five hundred plays in a week.",
-    "wordCount": 305,
+    "wordCount": 291,
     "paragraphs": [
       "Podcasting gives students a flexible way to research ideas and share voices from their community. Our media club started a monthly audio programme about school life and local events. Maya volunteered to host the first episode, which looked at teenage reading habits. The team began by choosing a clear question and finding suitable guests. We invited a librarian, two pupils and a children's author to join the discussion.",
       "Before recording, Tom tested each microphone and reduced background noise in the room. Soft furnishings helped stop the speakers' voices from making a hollow echo. Maya prepared open questions that encouraged detailed answers rather than simple yes or no replies. She introduced each guest and explained the purpose of the episode to listeners. During the interview, the author described how childhood memories inspired her latest novel.",
-      "One pupil argued that graphic novels should get more attention in English lessons. Maya kept the conversation balanced and invited quieter guests to speak. After the interview, the team recorded a short review of three new library books. We saved every sound file with a clear name so nothing important was lost.",
+      "One pupil argued that graphic novels should get more attention in English lessons. Maya kept the conversation balanced and invited quieter guests to speak. After the interview, the team recorded a short review of three new library books.",
       "Tom used editing software to cut long pauses, repeated phrases and accidental noises. He added a short musical theme that the school orchestra had composed. The final programme lasted twenty minutes and included a written transcript for accessibility. Our teacher checked the episode for factual accuracy, respectful language and copyright. The team got permission before using any music or personal story.",
       "On Friday, we posted the episode on the secure school website. Listeners could follow the channel and send ideas for future topics. Within a week, the first episode had more than five hundred plays. Several parents praised the clear sound and the range of opinions. A student with hearing loss helped us make the transcript easier to navigate."
     ],
@@ -1390,10 +1390,10 @@ const MONTH4_STORIES = [
     "level": "Explorer",
     "readingTime": "6 mins",
     "intro": "A school counsellor explains why short sessions, real breaks and asking for help beat last-minute panic.",
-    "wordCount": 300,
+    "wordCount": 288,
     "paragraphs": [
       "Exams can create pressure, but healthy preparation helps students stay focused and confident. Two months before the final tests, our school counsellor held a workshop on managing stress. She explained that a moderate level of concern can motivate useful action. Problems start when worry stops sleep, concentration or normal daily activities. Students listed common warning signs, including headaches, irritability and constant tiredness.",
-      "The counsellor asked us to compare these signs with our usual behaviour rather than diagnose ourselves. Each pupil made a realistic revision plan with short sessions and specific goals. Dividing a large subject into smaller tasks makes progress easier to see. Tom decided to take a five-minute break after every forty minutes of concentrated study.",
+      "The counsellor asked us to compare these signs with our usual behaviour rather than diagnose ourselves. Each pupil made a realistic revision plan with short sessions and specific goals. Tom decided to take a five-minute break after every forty minutes of concentrated study.",
       "Maya uses a simple breathing exercise to calm her mind before difficult practice papers. She also keeps her phone outside the room to reduce interruptions. Regular meals provide steady energy and protect students from sudden mood changes. Physical activity can improve sleep and give the brain a rest from revision.",
       "A balanced timetable should include schoolwork, exercise, meals and time with friends. Students were encouraged to support one another without comparing every test score. Helpful support means listening calmly, not dismissing another person's feelings. The workshop also challenged the belief that one exam decides an entire future. Results matter, but they are only one part of a student's wider development.",
       "When pressure becomes overwhelming, pupils should speak to a trusted adult or health professional. Asking for help is a responsible response, not a sign of weakness. In the following weeks, Tom followed his plan and adjusted it when tasks took longer. Maya kept one evening free each week so her mind could recover fully. Both noticed that steady revision created more confidence than last-minute panic. Learning to manage stress is a lifelong skill."
@@ -1620,6 +1620,411 @@ const MONTH4_STORIES = [
       }
     ],
     "funPrompt": "If you represented a country in a Model UN debate, which global problem would you speak about first?"
+  },
+  {
+    "id": 121,
+    "day": 121,
+    "title": "Planning an International Vacation",
+    "coverEmoji": "🌍",
+    "category": "Travel & Planning",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "Fares, a deposit and a boarding pass: how one student plans a two-week trip abroad.",
+    "wordCount": 290,
+    "paragraphs": [
+      "Last week, David decided to book a two-week summer trip to a historic European capital. He opened his laptop and looked at a travel agency website to compare flight fares. He chose a direct morning flight that would arrive by lunchtime.",
+      "After entering his passport details, he paid the full fare with his credit card. Within minutes, the airline sent an email with his booking reference and digital ticket. Next, David needed a place to stay near the city centre. He found a traditional hotel with comfortable rooms and free breakfast.",
+      "He reserved a quiet double room and paid a ten percent deposit. Two days before departure, he packed his suitcase and checked the weather forecast.",
+      "On the morning of the journey, he took an early express train to the airport. He arrived at Terminal 2 two hours before his flight and pushed his trolley to the check-in desk. The ground staff checked his passport, weighed his suitcase and gave him a boarding pass. Everything was fine, so he entered the departure lounge.",
+      "While he waited near Gate 14, an announcement asked passengers to prepare for boarding. David joined the queue, showed his passport and stepped on board. He found his window seat, put his bag in the overhead locker and fastened his seat belt.",
+      "The captain gave details about the route. Soon the plane raced down the runway and rose into the blue sky. Once it reached cruising height, the crew served hot drinks and meals. David watched a funny film while he ate. Later, the captain announced the descent, and the plane landed smoothly. David passed through customs and met his smiling host in the arrivals hall. He felt excited to begin his adventure in a new country."
+    ],
+    "vocabulary": [
+      {
+        "word": "fare",
+        "syllables": "fare",
+        "phonetic": "/feə/",
+        "definition": "The money you pay to travel on a plane, train or bus.",
+        "example": "He opened his laptop and looked at a travel agency website to compare flight fares.",
+        "emoji": "🎫"
+      },
+      {
+        "word": "boarding pass",
+        "syllables": "board-ing pass",
+        "phonetic": "/ˈbɔːdɪŋ pɑːs/",
+        "definition": "A card that lets you get on a plane.",
+        "example": "The ground staff checked his passport, weighed his suitcase and gave him a boarding pass.",
+        "emoji": "🛫"
+      },
+      {
+        "word": "customs",
+        "syllables": "cus-toms",
+        "phonetic": "/ˈkʌstəmz/",
+        "definition": "The place at an airport where officials check what you bring into a country.",
+        "example": "David passed through customs and met his smiling host in the arrivals hall.",
+        "emoji": "🛂"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How long was David's trip?",
+        "options": [
+          "One week",
+          "Two weeks",
+          "One month",
+          "Three days"
+        ],
+        "answerIndex": 1,
+        "explanation": "David decided to book a two-week summer trip to a historic European capital."
+      },
+      {
+        "question": "How early did David arrive at the airport?",
+        "options": [
+          "Thirty minutes",
+          "One hour",
+          "Two hours",
+          "Three hours"
+        ],
+        "answerIndex": 2,
+        "explanation": "He arrived at Terminal 2 two hours before his flight."
+      },
+      {
+        "question": "Where did David meet his host?",
+        "options": [
+          "At the check-in desk",
+          "In the arrivals hall",
+          "At the gate",
+          "On the plane"
+        ],
+        "answerIndex": 1,
+        "explanation": "David passed through customs and met his smiling host in the arrivals hall."
+      }
+    ],
+    "funPrompt": "If you planned a two-week holiday abroad, what would you book first and why?"
+  },
+  {
+    "id": 122,
+    "day": 122,
+    "title": "A Visit to a Modern Art Museum",
+    "coverEmoji": "🎨",
+    "category": "Arts & Culture",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "A modern gallery visit from a mountain landscape to a charcoal portrait workshop.",
+    "wordCount": 288,
+    "paragraphs": [
+      "Visiting public art galleries helps students experience different cultures. Last Thursday, our art class took a trip to the municipal gallery. The modern building had glass walls and steel frames. Our guide, Mr Vance, was an experienced art critic. He gave us brochures showing the permanent and temporary exhibitions.",
+      "We began in the contemporary painting hall on the ground floor. A large oil painting of a dramatic mountain landscape caught everyone's attention. The artist used bold brushstrokes and bright colours to show the energy of nature. Mr Vance explained how the painter used light and shadow to create deep emotion.",
+      "Next, we walked into a quiet room full of twentieth-century abstract art. Emma leaned forward to look at a large sculpture by a famous artist. She noticed that the creator had combined polished bronze with rough stone. This produced a unique effect.",
+      "In the sculpture section, we admired marble figures carved with great skill. A bronze eagle stood proudly on a heavy oak pedestal. The guide reminded us not to touch the exhibits, because skin oils can damage them.",
+      "In the afternoon, we joined a portrait drawing workshop. Each student got a drawing board, charcoal pencils and a thick sketch pad. We drew the classmate sitting opposite us in a relaxed pose. Tom worked carefully to get the facial proportions right before adding shadows.",
+      "Mr Vance walked around and gave helpful advice. He praised Tom's expressive lines and accurate perspective.",
+      "Before leaving, we visited the gift shop and bought postcards and art magazines. Seeing real artworks made our art history lessons more vivid. Engaging with art broadens young minds and builds a lifelong love of beauty. On the way back, students talked about their favourite paintings and sculptures."
+    ],
+    "vocabulary": [
+      {
+        "word": "abstract",
+        "syllables": "ab-stract",
+        "phonetic": "/ˈæbstrækt/",
+        "definition": "Art that uses shapes and colours rather than real things.",
+        "example": "Next, we walked into a quiet room full of twentieth-century abstract art.",
+        "emoji": "🎨"
+      },
+      {
+        "word": "sculpture",
+        "syllables": "sculp-ture",
+        "phonetic": "/ˈskʌlptʃə/",
+        "definition": "A work of art made by shaping stone, wood or metal.",
+        "example": "Emma leaned forward to look at a large sculpture by a famous artist.",
+        "emoji": "🗿"
+      },
+      {
+        "word": "perspective",
+        "syllables": "per-spec-tive",
+        "phonetic": "/pəˈspektɪv/",
+        "definition": "The way objects appear to be smaller when they are further away.",
+        "example": "He praised Tom's expressive lines and accurate perspective.",
+        "emoji": "📐"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What did the large oil painting show?",
+        "options": [
+          "A quiet harbour",
+          "A dramatic mountain landscape",
+          "A family portrait",
+          "A city street"
+        ],
+        "answerIndex": 1,
+        "explanation": "A large oil painting of a dramatic mountain landscape caught everyone's attention."
+      },
+      {
+        "question": "What did Emma notice about the sculpture?",
+        "options": [
+          "It was very small",
+          "It combined polished bronze with rough stone",
+          "It had no colour",
+          "It was broken"
+        ],
+        "answerIndex": 1,
+        "explanation": "She noticed that the creator had combined polished bronze with rough stone."
+      },
+      {
+        "question": "What did the students draw in the workshop?",
+        "options": [
+          "A landscape",
+          "A classmate",
+          "A sculpture",
+          "A flower"
+        ],
+        "answerIndex": 1,
+        "explanation": "We drew the classmate sitting opposite us in a relaxed pose."
+      }
+    ],
+    "funPrompt": "Which would you rather make: a painting, a sculpture, or a charcoal drawing?"
+  },
+  {
+    "id": 123,
+    "day": 123,
+    "title": "A Day in a Professional Office",
+    "coverEmoji": "🏢",
+    "category": "Jobs & Society",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "A two-week internship of emails, photocopiers and a client presentation.",
+    "wordCount": 269,
+    "paragraphs": [
+      "Working in a modern office requires strong organisational skills and professional discipline. Last month, Sarah completed a two-week internship at a busy international trading firm. Her day usually began at eight-thirty with a team meeting in the boardroom. The department manager reviewed daily targets and gave staff their tasks. Sarah was asked to help the senior administrator with filing and records.",
+      "She opened her computer, logged into the secure company network and checked her inbox. She wrote polite emails about client questions and booked appointments. Before sending each message, she checked the text for spelling mistakes. At ten o'clock, she went to the printing room to copy fifty financial reports.",
+      "The high-speed photocopier jammed halfway through the job, causing a short delay. Sarah calmly opened the machine, removed the trapped paper and started printing again. Her quick problem-solving earned praise from the office supervisor.",
+      "At noon, the staff met in the staff room for a well-deserved lunch break. Sarah shared a sandwich and an apple with her friendly colleague Mark.",
+      "In the afternoon, Sarah went to a client presentation in the main conference hall. She ran the digital projector and handed out information leaflets. A guest speaker gave an inspiring talk on international market trends. Sarah took detailed notes in her notebook for future use.",
+      "By five o'clock, all her tasks were finished. She packed her case. The office manager thanked her sincerely for her hard work. The internship gave Sarah useful insights into professional life. Working in a team teaches young people the value of teamwork. Punctuality, clear communication and flexibility are key skills for any office job."
+    ],
+    "vocabulary": [
+      {
+        "word": "internship",
+        "syllables": "in-tern-ship",
+        "phonetic": "/ˈɪntɜːnʃɪp/",
+        "definition": "A period of work experience in a company.",
+        "example": "Last month, Sarah completed a two-week internship at a busy international trading firm.",
+        "emoji": "💼"
+      },
+      {
+        "word": "photocopier",
+        "syllables": "pho-to-cop-i-er",
+        "phonetic": "/ˈfəʊtəʊkɒpiə/",
+        "definition": "A machine that makes paper copies of documents.",
+        "example": "The high-speed photocopier jammed halfway through the job, causing a short delay.",
+        "emoji": "🖨️"
+      },
+      {
+        "word": "punctuality",
+        "syllables": "punc-tu-al-i-ty",
+        "phonetic": "/ˌpʌŋktʃuˈæləti/",
+        "definition": "The habit of being on time.",
+        "example": "Punctuality, clear communication and flexibility are key skills for any office job.",
+        "emoji": "⏰"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What time did Sarah's day begin?",
+        "options": [
+          "Seven o'clock",
+          "Eight o'clock",
+          "Eight-thirty",
+          "Nine o'clock"
+        ],
+        "answerIndex": 2,
+        "explanation": "Her day usually began at eight-thirty with a team meeting in the boardroom."
+      },
+      {
+        "question": "How many reports did she copy?",
+        "options": [
+          "Twenty",
+          "Thirty",
+          "Fifty",
+          "One hundred"
+        ],
+        "answerIndex": 2,
+        "explanation": "At ten o'clock, she went to the printing room to copy fifty financial reports."
+      },
+      {
+        "question": "What did she run at the presentation?",
+        "options": [
+          "The microphone",
+          "The digital projector",
+          "The lights",
+          "The computer network"
+        ],
+        "answerIndex": 1,
+        "explanation": "She ran the digital projector and handed out information leaflets."
+      }
+    ],
+    "funPrompt": "What do you imagine a real office day is like, and what part would you enjoy?"
+  },
+  {
+    "id": 124,
+    "day": 124,
+    "title": "Weather Forecasting and Meteorology",
+    "coverEmoji": "🌦️",
+    "category": "Science & Environment",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "Satellite data, a cold front and a barometer: how scientists predict the weather.",
+    "wordCount": 268,
+    "paragraphs": [
+      "Understanding weather patterns helps scientists predict climate change and severe storms. Last Wednesday, our geography class visited the national weather forecasting centre. A senior meteorologist named Dr Green welcomed us into the computer room. He explained that modern forecasts rely on huge amounts of satellite data. Supercomputers process information about air pressure, wind speed and humidity from around the world.",
+      "On the large wall screen, swirling satellite images showed developing storms. Dr Green pointed out a cold front moving quickly across the Atlantic Ocean. When cold polar air meets warm tropical air, it often causes heavy rain and thunderstorms. He showed how barometers measure air pressure to predict coming gales. A sudden drop in pressure usually means stormy weather is on the way.",
+      "Students were invited to use a simulated weather station on a touchscreen. Tom tested a digital anemometer to measure wind speed in an artificial tunnel. The screen recorded a peak speed of forty-five kilometres per hour.",
+      "Dr Green then discussed the serious impact of global warming on extreme weather. Rising temperatures melt polar ice caps and change rainfall patterns. As a result, coastal areas face more floods and droughts. Fighting climate change needs international cooperation and lower carbon emissions. Individuals can also help by saving electricity and reducing plastic waste.",
+      "After the tour, we attended a short lecture in the hall. Dr Green encouraged interested pupils to study physics, maths and environmental science. Before leaving, each student got an illustrated booklet about cloud formations. We thanked Dr Green for his talk and guidance. Weather forecasts keep people safe by giving early warnings before dangerous storms."
+    ],
+    "vocabulary": [
+      {
+        "word": "humidity",
+        "syllables": "hu-mid-i-ty",
+        "phonetic": "/hjuːˈmɪdəti/",
+        "definition": "The amount of water in the air.",
+        "example": "Supercomputers process information about air pressure, wind speed and humidity from around the world.",
+        "emoji": "💧"
+      },
+      {
+        "word": "barometers",
+        "syllables": "ba-rom-e-ters",
+        "phonetic": "/bəˈrɒmɪtəz/",
+        "definition": "Instruments that measure air pressure.",
+        "example": "He showed how barometers measure air pressure to predict coming gales.",
+        "emoji": "🌡️"
+      },
+      {
+        "word": "anemometer",
+        "syllables": "an-e-mom-e-ter",
+        "phonetic": "/ˌænɪˈmɒmɪtə/",
+        "definition": "An instrument that measures wind speed.",
+        "example": "Tom tested a digital anemometer to measure wind speed in an artificial tunnel.",
+        "emoji": "🌬️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What do barometers measure?",
+        "options": [
+          "Wind speed",
+          "Air pressure",
+          "Humidity",
+          "Temperature"
+        ],
+        "answerIndex": 1,
+        "explanation": "He showed how barometers measure air pressure to predict coming gales."
+      },
+      {
+        "question": "What peak wind speed did Tom record?",
+        "options": [
+          "Fifteen kilometres per hour",
+          "Thirty kilometres per hour",
+          "Forty-five kilometres per hour",
+          "Sixty kilometres per hour"
+        ],
+        "answerIndex": 2,
+        "explanation": "The screen recorded a peak speed of forty-five kilometres per hour."
+      },
+      {
+        "question": "What happens when cold polar air meets warm tropical air?",
+        "options": [
+          "Nothing happens",
+          "It often causes heavy rain and thunderstorms",
+          "The air becomes calm",
+          "Snow always falls"
+        ],
+        "answerIndex": 1,
+        "explanation": "When cold polar air meets warm tropical air, it often causes heavy rain and thunderstorms."
+      }
+    ],
+    "funPrompt": "Why do you think weather forecasts sometimes get it wrong?"
+  },
+  {
+    "id": 125,
+    "day": 125,
+    "title": "The School Sports Day Championship",
+    "coverEmoji": "🥇",
+    "category": "Sports & Teamwork",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "A school sports day of sprints, a winning goal and a relay team that sets a new record.",
+    "wordCount": 292,
+    "paragraphs": [
+      "Annual school sports days build school spirit, fitness and friendly competition. Last Friday, bright spring sunshine filled our school sports ground. Hundreds of eager competitors arrived early to warm up along the running track. The PE department provided excellent facilities and professional timing equipment. Tom decided to enter the hundred-metre sprint and the senior high jump.",
+      "His coach gave him advice on starting techniques and breathing rhythm. In the first race, the sprinters waited at the starting line for the signal gun. When the official fired the pistol, the runners raced forward at great speed. Tom pushed himself to the limit and crossed the line in second place. Although he missed gold by a fraction of a second, his parents were very proud.",
+      "On the next field, two school teams played a thrilling football match. The visiting team had a brilliant goalkeeper who saved several powerful shots. In the second half, the home captain scored a magnificent winning goal. The referee blew his whistle to end the match. Spectators cheered and waved coloured banners in the air.",
+      "Nearby, younger pupils enjoyed table tennis under a canvas tent. A sports instructor showed beginners how to hold the racket properly.",
+      "At noon, a short shower of rain made the organisers pause the outdoor events. Students took shelter under the grandstand roof and shared sandwiches and cold drinks. Luckily, the clouds cleared quickly and the warm sun returned.",
+      "The games continued with the four-hundred-metre relay. Tom's team passed the baton smoothly and finished first. They set a new school record for their age group. At the awards ceremony, the headteacher gave out shiny medals and trophies. Each participant also received a certificate. Taking part in sport teaches young people how to handle winning and losing."
+    ],
+    "vocabulary": [
+      {
+        "word": "relay",
+        "syllables": "re-lay",
+        "phonetic": "/ˈriːleɪ/",
+        "definition": "A race in which each team member runs part of the distance.",
+        "example": "The games continued with the four-hundred-metre relay.",
+        "emoji": "🏃"
+      },
+      {
+        "word": "baton",
+        "syllables": "bat-on",
+        "phonetic": "/ˈbætɒn/",
+        "definition": "A short stick passed between runners in a relay.",
+        "example": "Tom's team passed the baton smoothly and finished first.",
+        "emoji": "🏆"
+      },
+      {
+        "word": "grandstand",
+        "syllables": "grand-stand",
+        "phonetic": "/ˈɡrænstænd/",
+        "definition": "A large structure with seats for watching sports.",
+        "example": "Students took shelter under the grandstand roof and shared sandwiches and cold drinks.",
+        "emoji": "🏟️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What place did Tom finish in the sprint?",
+        "options": [
+          "First",
+          "Second",
+          "Third",
+          "He did not finish"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tom pushed himself to the limit and crossed the line in second place."
+      },
+      {
+        "question": "What did the relay team achieve?",
+        "options": [
+          "Dropped the baton",
+          "Set a new school record",
+          "Came second",
+          "Were disqualified"
+        ],
+        "answerIndex": 1,
+        "explanation": "They set a new school record for their age group."
+      },
+      {
+        "question": "What did the referee do?",
+        "options": [
+          "Scored a goal",
+          "Blew his whistle to end the match",
+          "Saved a shot",
+          "Gave a medal"
+        ],
+        "answerIndex": 1,
+        "explanation": "The referee blew his whistle to end the match."
+      }
+    ],
+    "funPrompt": "Which sports day event would you choose: a sprint, a relay or the high jump?"
   }
 ];
 MONTH4_STORIES.forEach(story => { if (!STORIES_DATA.some(e => e.id === story.id)) STORIES_DATA.push(story); });
