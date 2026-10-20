@@ -91,28 +91,157 @@ window.addEventListener("DOMContentLoaded", () => {
   // Load voices dynamically if needed
   if (window.speechSynthesis) {
     window.speechSynthesis.onvoiceschanged = initVoices;
+    // Safari sometimes populates the list late, so retry a couple of times
+    setTimeout(initVoices, 400);
+    setTimeout(initVoices, 1500);
   }
 });
 
 function initVoices() {
   if (!window.speechSynthesis) return;
   synthVoices = window.speechSynthesis.getVoices();
+  populateVoiceSelect();
+}
+
+// Downloaded "Enhanced / Premium / Neural" voices sound far more human than the
+// default compact one, so rank them well above everything else.
+function scoreVoice(v) {
+  const n = (v.name || "").toLowerCase();
+  const lang = (v.lang || "").toLowerCase().replace("_", "-");
+  let s = 0;
+  if (/enhanced|premium|neural|natural/.test(n)) s += 60;
+  if (/siri/.test(n)) s += 55;
+  if (/google/.test(n)) s += 30;
+  if (/samantha|ava|allison|susan|serena|karen|daniel|arthur|martha|moira|tessa/.test(n)) s += 18;
+  if (/zira|david|mark|hazel|george/.test(n)) s += 6;
+  if (lang === "en-us") s += 14;
+  else if (lang === "en-gb") s += 9;
+  else if (lang === "en-au") s += 7;
+  else if (lang.indexOf("en") === 0) s += 4;
+  else return -9999;
+  if (v.localService) s += 3;
+  return s;
+}
+
+const VOICE_KEY = "starreader_preferred_voice";
+
+function englishVoices() {
+  if (!synthVoices.length && window.speechSynthesis) {
+    synthVoices = window.speechSynthesis.getVoices();
+  }
+  return (synthVoices || [])
+    .filter(v => /^en/i.test(v.lang || ""))
+    .sort((a, b) => scoreVoice(b) - scoreVoice(a));
 }
 
 function getBestVoice() {
   if (!window.speechSynthesis) return null;
-  if (!synthVoices.length) {
-    synthVoices = window.speechSynthesis.getVoices();
+  const list = englishVoices();
+  if (!list.length) return null;
+  let saved = null;
+  try { saved = localStorage.getItem(VOICE_KEY); } catch (err) {}
+  if (saved) {
+    const hit = list.find(v => v.name === saved);
+    if (hit) return hit;
   }
-  if (!synthVoices || !synthVoices.length) return null;
+  return list[0];
+}
 
-  // On iOS, preferred voices are Samantha, Daniel, Aaron, Fred, Siri, or any en-US voice
-  const preferredNames = ["Samantha", "Google US English", "Victoria", "Karen", "Daniel", "Zira", "Jenny", "Ava", "Siri", "English"];
-  for (const name of preferredNames) {
-    const found = synthVoices.find(v => v.lang && v.lang.startsWith("en") && v.name.toLowerCase().includes(name.toLowerCase()));
-    if (found) return found;
+function populateVoiceSelect() {
+  const sel = document.getElementById("voiceSelect");
+  if (!sel) return;
+  const list = englishVoices();
+  const active = getBestVoice();
+  sel.innerHTML = "";
+  if (!list.length) {
+    const opt = document.createElement("option");
+    opt.textContent = "No English voice found";
+    sel.appendChild(opt);
+    return;
   }
-  return synthVoices.find(v => v.lang && v.lang.startsWith("en")) || null;
+  list.forEach(v => {
+    const opt = document.createElement("option");
+    opt.value = v.name;
+    const star = /enhanced|premium|neural|natural/i.test(v.name) ? " ⭐" : (v.localService ? "" : " ☁︎");
+    opt.textContent = v.name + " · " + v.lang + star;
+    if (active && v.name === active.name) opt.selected = true;
+    sel.appendChild(opt);
+  });
+}
+
+function setPreferredVoice(name) {
+  try { localStorage.setItem(VOICE_KEY, name); } catch (err) {}
+  if (isSpeaking) stopSpeech();
+  testVoiceSample();
+}
+
+function testVoiceSample() {
+  if (!window.speechSynthesis) return;
+  unlockAudioEngine();
+  try { window.speechSynthesis.cancel(); } catch (err) {}
+  const utt = new SpeechSynthesisUtterance(
+    "Hello! This is how I will read your story. \"Are you ready?\" Let's begin!"
+  );
+  utt.lang = "en-US";
+  utt.rate = currentSpeed;
+  utt.pitch = 1.05;
+  const v = getBestVoice();
+  if (v) { utt.voice = v; if (v.lang) utt.lang = v.lang; }
+  window.speechSynthesis.speak(utt);
+}
+
+// Give each sentence a little shape instead of reading everything on one note.
+function prosodyFor(text) {
+  const t = (text || "").trim();
+  if (/\?["'”’]?$/.test(t)) return { pitch: 1.16, rateMul: 0.98 };
+  if (/!["'”’]?$/.test(t)) return { pitch: 1.12, rateMul: 1.03 };
+  if (/^["“'‘]/.test(t)) return { pitch: 1.10, rateMul: 0.99 };
+  if (/^[—–]/.test(t)) return { pitch: 1.06, rateMul: 1.0 };
+  return { pitch: 1.02, rateMul: 1.0 };
+}
+
+function pauseAfterSentence(text) {
+  const t = (text || "").trim();
+  if (/[!?]["'”’]?$/.test(t)) return 420;
+  if (/\.$/.test(t)) return 340;
+  if (/[;:]["'”’]?$/.test(t)) return 260;
+  if (/,$/.test(t)) return 180;
+  return 220;
+}
+
+// Split the story into speakable lines. Very long sentences are broken at
+// commas so the engine takes a breath instead of running out of air.
+function buildSpeechQueue(paragraphs) {
+  const queue = [];
+  (paragraphs || []).forEach((pText, pIdx) => {
+    const sentences = pText.match(/[^.!?]+[.!?]+["'”’]?|[^.!?]+$/g) || [pText];
+    sentences.forEach((sRaw, sIdx) => {
+      const s = sRaw.trim();
+      if (!s) return;
+      let chunks = [s];
+      if (s.length > 150 && s.indexOf(", ") > 0) {
+        chunks = [];
+        let rest = s;
+        while (rest.length > 150) {
+          const cut = rest.lastIndexOf(", ", 140);
+          if (cut < 40) break;
+          chunks.push(rest.slice(0, cut + 1).trim());
+          rest = rest.slice(cut + 2).trim();
+        }
+        if (rest) chunks.push(rest);
+      }
+      chunks.forEach((c, ci) => {
+        const isLastChunk = ci === chunks.length - 1;
+        queue.push({
+          text: c,
+          pIndex: pIdx,
+          pause: isLastChunk ? pauseAfterSentence(c) : 160,
+          lastOfParagraph: isLastChunk && sIdx === sentences.length - 1,
+        });
+      });
+    });
+  });
+  return queue;
 }
 
 // ==========================================
@@ -361,18 +490,7 @@ function startStorySpeech() {
   }
 
   const story = getStoryById(currentStoryId);
-  const queue = [];
-
-  // Break text into sentences so iOS Safari never cuts off or times out
-  story.paragraphs.forEach((pText, pIdx) => {
-    const sentences = pText.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [pText];
-    sentences.forEach(s => {
-      const clean = s.trim();
-      if (clean) {
-        queue.push({ text: clean, pIndex: pIdx });
-      }
-    });
-  });
+  const queue = buildSpeechQueue(story.paragraphs);
 
   if (!queue.length) return;
 
@@ -396,31 +514,32 @@ function speakNextSentence() {
   }
 
   const item = speechSentenceQueue[currentSentenceIndex];
+  const shape = prosodyFor(item.text);
   const utt = new SpeechSynthesisUtterance(item.text);
-  utt.lang = "en-US"; // MANDATORY FOR IOS SAFARI
-  utt.rate = currentSpeed;
-  utt.pitch = 1.05;
-  utt.volume = 1.0;
-
   const voice = getBestVoice();
+  utt.lang = (voice && voice.lang) || "en-US"; // MANDATORY FOR IOS SAFARI
+  utt.rate = Math.max(0.6, Math.min(1.4, currentSpeed * shape.rateMul));
+  utt.pitch = shape.pitch;
+  utt.volume = 1.0;
   if (voice) utt.voice = voice;
 
   // Highlight active paragraph
   highlightParagraph(item.pIndex);
 
-  utt.onend = () => {
+  const advance = () => {
     currentSentenceIndex++;
-    if (isSpeaking) {
-      speakNextSentence();
-    }
+    if (!isSpeaking) return;
+    const wait = (item.pause || 220) + (item.lastOfParagraph ? 320 : 0);
+    setTimeout(() => {
+      if (isSpeaking) speakNextSentence();
+    }, wait);
   };
+
+  utt.onend = advance;
 
   utt.onerror = (e) => {
     console.warn("Speech error:", e);
-    currentSentenceIndex++;
-    if (isSpeaking) {
-      speakNextSentence();
-    }
+    advance();
   };
 
   window.speechSynthesis.speak(utt);
@@ -462,12 +581,12 @@ function speakWord(word) {
 
 function doSpeakWord(word) {
   const utt = new SpeechSynthesisUtterance(word);
-  utt.lang = "en-US"; // MANDATORY FOR IOS SAFARI
-  utt.rate = Math.max(0.7, currentSpeed * 0.95);
+  const voice = getBestVoice();
+  utt.lang = (voice && voice.lang) || "en-US"; // MANDATORY FOR IOS SAFARI
+  // Single words need to be a touch slower to stay clear
+  utt.rate = Math.max(0.65, currentSpeed * 0.9);
   utt.pitch = 1.0;
   utt.volume = 1.0;
-
-  const voice = getBestVoice();
   if (voice) utt.voice = voice;
 
   window.speechSynthesis.speak(utt);
