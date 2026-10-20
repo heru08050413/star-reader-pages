@@ -1078,11 +1078,11 @@ const MONTH3_STORIES = [
     "intro": "A science class visits a farm that uses insects instead of pesticides and sun instead of fuel.",
     "wordCount": 249,
     "paragraphs": [
-      "Last Thursday, our science class visited an organic farm in a river valley. The owner, Mr. Higgins, met our bus at the gate. He explained how sustainable farming works. Unlike normal farms, this farm uses no chemical pesticides.",
-      "Instead, natural predatory insects control the pests. We walked across green fields where cows and sheep grazed. Mr. Higgins said open space is important for animal health. Next, we visited large glass greenhouses. Inside, tomatoes, cucumbers and strawberries grew in neat rows.",
+      "Last Thursday, our science class visited an organic farm in a river valley. The owner, Mr Higgins, met our bus at the gate. He explained how sustainable farming works. Unlike normal farms, this farm uses no chemical pesticides.",
+      "Instead, natural predatory insects control the pests. We walked across green fields where cows and sheep grazed. Mr Higgins said open space is important for animal health. Next, we visited large glass greenhouses. Inside, tomatoes, cucumbers and strawberries grew in neat rows.",
       "The greenhouse uses a smart watering system. Soil sensors check the moisture and stop waste. Solar panels on the roof make energy for the heating and fans. The farmer showed how crop waste becomes compost. Nothing is wasted, so the farm is a closed cycle.",
       "In the workshop, workers graded and packed fresh produce. Emma weighed a wooden crate of apples on a digital scale. It weighed exactly fifteen kilograms. The farm sells food directly to local markets and school canteens. This cuts transport pollution.",
-      "At lunchtime, the farmer gave us a farm-to-table meal. We ate fresh bread, organic cheese and apple juice. The simple food tasted rich and sweet. Students asked questions about soil and careers. Mr. Higgins said modern farming needs skilled people.",
+      "At lunchtime, the farmer gave us a farm-to-table meal. We ate fresh bread, organic cheese and apple juice. The simple food tasted rich and sweet. Students asked questions about soil and careers. Mr Higgins said modern farming needs skilled people.",
       "He told us to study environmental biology or agricultural science. Before leaving, each student got a small potted herb. We thanked the family for their warm welcome. The trip showed us where our food comes from. Sustainable farming protects food security and the planet."
     ],
     "vocabulary": [
