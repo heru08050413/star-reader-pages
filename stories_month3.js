@@ -2455,6 +2455,417 @@ const MONTH3_STORIES = [
       }
     ],
     "funPrompt": "If your class ran a charity stall, what would you sell and who would you help?"
+  },
+  {
+    "id": 91,
+    "day": 91,
+    "title": "A Visit to the Local Art Gallery",
+    "coverEmoji": "🖼️",
+    "category": "Arts & Culture",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "A gallery visit from a stormy oil painting to a charcoal portrait workshop.",
+    "wordCount": 248,
+    "paragraphs": [
+      "Last Tuesday, our art class visited the city art gallery. The building had high glass ceilings and white stone walls. Our guide, Mr Vance, was a professional art critic. He gave us brochures showing where each exhibition was.",
+      "We started in the modern painting hall. A big oil painting of a stormy coast caught our eye. The artist used bold brushstrokes and dark blue colours to show the power of the sea. Mr Vance explained how light and shadow created a feeling of deep emotion.",
+      "Next, we walked into a quiet room full of abstract art. Some paintings had complex shapes; others were full of bright colour splashes. Emma looked closely at a large canvas. She noticed that the artist had mixed sand with the oil paint. This gave the picture a rough, special surface.",
+      "In the sculpture room, we admired marble figures carved with great skill. A bronze eagle stood on a heavy oak stand.",
+      "The guide told us not to touch the sculptures, because skin oils can damage them.",
+      "In the afternoon, we had a drawing workshop. Each student got a drawing board, charcoal pencils and a sketch pad. We drew the classmate sitting opposite us. Tom worked carefully to get the face proportions right before adding shadows.",
+      "Mr Vance walked around and gave advice. He praised Tom's expressive lines and good perspective.",
+      "Before leaving, we visited the gift shop. We bought postcards and art magazines. Seeing real artworks made our art history lessons more vivid."
+    ],
+    "vocabulary": [
+      {
+        "word": "critic",
+        "syllables": "crit-ic",
+        "phonetic": "/ˈkrɪtɪk/",
+        "definition": "Someone who writes about art and gives their opinion.",
+        "example": "Our guide, Mr Vance, was a professional art critic.",
+        "emoji": "🖋️"
+      },
+      {
+        "word": "abstract",
+        "syllables": "ab-stract",
+        "phonetic": "/ˈæbstrækt/",
+        "definition": "Art that uses shapes and colours rather than real things.",
+        "example": "Next, we walked into a quiet room full of abstract art.",
+        "emoji": "🎨"
+      },
+      {
+        "word": "charcoal",
+        "syllables": "char-coal",
+        "phonetic": "/ˈtʃɑːkəʊl/",
+        "definition": "A black stick used for drawing.",
+        "example": "Each student got a drawing board, charcoal pencils and a sketch pad.",
+        "emoji": "✏️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What did the big oil painting show?",
+        "options": [
+          "A calm harbour",
+          "A stormy coast",
+          "A mountain village",
+          "A city street"
+        ],
+        "answerIndex": 1,
+        "explanation": "A big oil painting of a stormy coast caught our eye."
+      },
+      {
+        "question": "What did Emma notice about the large canvas?",
+        "options": [
+          "It was broken",
+          "Sand had been mixed with the oil paint",
+          "It was very small",
+          "It had no colour"
+        ],
+        "answerIndex": 1,
+        "explanation": "She noticed that the artist had mixed sand with the oil paint."
+      },
+      {
+        "question": "What did the students draw in the workshop?",
+        "options": [
+          "A landscape",
+          "A classmate",
+          "A sculpture",
+          "A flower"
+        ],
+        "answerIndex": 1,
+        "explanation": "We drew the classmate sitting opposite us."
+      }
+    ],
+    "funPrompt": "If you could put one picture from a gallery on your bedroom wall, what would it show?"
+  },
+  {
+    "id": 92,
+    "day": 92,
+    "title": "A Healthy Lifestyle and Fitness",
+    "coverEmoji": "🏃",
+    "category": "Health & Wellbeing",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "A school wellness campaign gets Tom running at six, sleeping by ten and leaving his phone alone.",
+    "wordCount": 247,
+    "paragraphs": [
+      "Eating well and exercising regularly are important for teenage health. Last term, our school started a wellness campaign. The school nurse gave a talk about the effects of junk food. Instead, teenagers should eat plenty of fruit, vegetables and lean protein.",
+      "Exercise is also vital. The PE department organised many sports for every year group. Tom joined the athletics club and started running twice a week. He set his alarm for six o'clock and went for a three-kilometre jog. Running in the morning air improved his breathing.",
+      "At first, long runs were tiring and put a strain on his legs. But with practice, his stamina grew and his speed improved. His coach told him to warm up before every run to protect his joints. Good running shoes with soft soles also protect the ankles. Tom also enjoyed playing badminton with his classmates.",
+      "Badminton needs quick reactions, fast footwork and good hand-eye coordination.",
+      "At weekends, he went cycling with his parents along quiet country paths. Cycling is gentle on the knees. Good sleep matters as much as training. The body needs eight hours of deep sleep to repair tissues and restore energy.",
+      "Staying up late on a phone disturbs sleep and causes daytime tiredness. Tom learned to put his phone away one hour before bed. He read an adventure novel instead, which helped his mind calm down.",
+      "Healthy habits need self-discipline. Tom felt stronger, healthier and more energetic than before. He encouraged his friends to play sports outdoors."
+    ],
+    "vocabulary": [
+      {
+        "word": "stamina",
+        "syllables": "stam-i-na",
+        "phonetic": "/ˈstæmɪnə/",
+        "definition": "The strength to keep doing something for a long time.",
+        "example": "But with practice, his stamina grew and his speed improved.",
+        "emoji": "💪"
+      },
+      {
+        "word": "coordination",
+        "syllables": "co-or-di-na-tion",
+        "phonetic": "/kəʊˌɔːdɪˈneɪʃn/",
+        "definition": "The ability to move different parts of your body well together.",
+        "example": "Badminton needs quick reactions, fast footwork and good hand-eye coordination.",
+        "emoji": "🏸"
+      },
+      {
+        "word": "discipline",
+        "syllables": "dis-ci-pline",
+        "phonetic": "/ˈdɪsəplɪn/",
+        "definition": "The ability to make yourself do difficult things regularly.",
+        "example": "Healthy habits need self-discipline.",
+        "emoji": "🎯"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How far did Tom jog each morning?",
+        "options": [
+          "One kilometre",
+          "Two kilometres",
+          "Three kilometres",
+          "Five kilometres"
+        ],
+        "answerIndex": 2,
+        "explanation": "He set his alarm for six o'clock and went for a three-kilometre jog."
+      },
+      {
+        "question": "Why should you warm up before running?",
+        "options": [
+          "To run faster",
+          "To protect your joints",
+          "To lose weight",
+          "To sleep better"
+        ],
+        "answerIndex": 1,
+        "explanation": "His coach told him to warm up before every run to protect his joints."
+      },
+      {
+        "question": "How much sleep does the body need?",
+        "options": [
+          "Four hours",
+          "Six hours",
+          "Eight hours",
+          "Ten hours"
+        ],
+        "answerIndex": 2,
+        "explanation": "The body needs eight hours of deep sleep to repair tissues and restore energy."
+      }
+    ],
+    "funPrompt": "Which healthy habit would be hardest for you to start, and which would be easiest?"
+  },
+  {
+    "id": 93,
+    "day": 93,
+    "title": "The School Environmental Club",
+    "coverEmoji": "🌍",
+    "category": "Nature & Environment",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "A student green club bans plastic cutlery, plants fifty trees and cuts the power bill by a fifth.",
+    "wordCount": 243,
+    "paragraphs": [
+      "Protecting the environment is one of the most important issues today. Last term, a group of students started our school's first green club. The aim was to raise awareness among students and teachers. Maya was elected chairperson because she is well organised. She held a first meeting in the school library to explain the plans.",
+      "More than fifty pupils came, ready to help. Their first campaign was to reduce plastic waste across the school. The students made colourful posters about how plastic harms the sea. They put labelled bins for paper, glass and plastic in every corridor. The club also asked the headteacher to ban plastic forks and spoons in the canteen.",
+      "Now students bring metal forks and spoons from home.",
+      "The club also started a tree-planting project. The local council gave fifty young trees to plant along the school boundary. On a sunny Saturday, members met with spades, watering cans and gloves. They dug deep holes in the soft soil and placed the roots carefully.",
+      "Trees take in carbon dioxide, stop soil erosion and help birds.",
+      "The club also ran an energy-saving competition between classes. Classrooms that used less electricity won a special green trophy. Students were reminded to switch off lights and computer screens.",
+      "These actions cut the school's monthly power bill by twenty percent. The town council noticed and gave the school a certificate. A local newspaper reporter came to interview Maya. She said protecting the environment is everyone's job."
+    ],
+    "vocabulary": [
+      {
+        "word": "chairperson",
+        "syllables": "chair-per-son",
+        "phonetic": "/ˈtʃeəpɜːsn/",
+        "definition": "The person who leads a meeting or group.",
+        "example": "Maya was elected chairperson because she is well organised.",
+        "emoji": "🪑"
+      },
+      {
+        "word": "labelled",
+        "syllables": "la-belled",
+        "phonetic": "/ˈleɪbld/",
+        "definition": "Having a small sign that shows what something is.",
+        "example": "They put labelled bins for paper, glass and plastic in every corridor.",
+        "emoji": "🏷️"
+      },
+      {
+        "word": "erosion",
+        "syllables": "e-ro-sion",
+        "phonetic": "/ɪˈrəʊʒn/",
+        "definition": "The slow wearing away of soil by water or wind.",
+        "example": "Trees take in carbon dioxide, stop soil erosion and help birds.",
+        "emoji": "🌱"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Who was elected chairperson?",
+        "options": [
+          "Tom",
+          "Leo",
+          "Maya",
+          "Emma"
+        ],
+        "answerIndex": 2,
+        "explanation": "Maya was elected chairperson because she is well organised."
+      },
+      {
+        "question": "How many young trees did the council give?",
+        "options": [
+          "Twenty",
+          "Thirty",
+          "Fifty",
+          "One hundred"
+        ],
+        "answerIndex": 2,
+        "explanation": "The local council gave fifty young trees to plant along the school boundary."
+      },
+      {
+        "question": "By how much did the power bill fall?",
+        "options": [
+          "Ten percent",
+          "Twenty percent",
+          "Thirty percent",
+          "Forty percent"
+        ],
+        "answerIndex": 1,
+        "explanation": "These actions cut the school's monthly power bill by twenty percent."
+      }
+    ],
+    "funPrompt": "Which single change would save the most energy in your school or home?"
+  },
+  {
+    "id": 94,
+    "day": 94,
+    "title": "A Career in Aviation",
+    "coverEmoji": "✈️",
+    "category": "Jobs & Technology",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "An airline captain explains the training, the English and the checks behind every flight.",
+    "wordCount": 244,
+    "paragraphs": [
+      "Modern aviation connects countries and helps trade and tourism. Last Wednesday, our careers adviser invited an airline pilot to speak. Captain Roberts walked into the school hall in his navy-blue uniform. He told stories from his twenty-year career. He said becoming an airline pilot needs hard training and good health.",
+      "Pilots need good spatial awareness, quick decision-making and fluent English. English is the international language of aviation, so pilots can talk safely with air traffic control.",
+      "Captain Roberts described his working day. Before boarding, the crew does a full safety check. They study the weather forecast, calculate fuel and check the flight plan.",
+      "Once passengers are on board, the co-pilot contacts air traffic control for permission to leave. The big jet moves along the runway and then speeds up for take-off. It climbs through the clouds into bright sunshine. At thirty thousand feet, the autopilot keeps a steady course.",
+      "As the plane nears its destination, the captain begins a slow descent. It touches down smoothly and moves to the gate.",
+      "The aviation industry offers many jobs, not only pilots. There are engineers, controllers, ground staff and flight attendants. Emma asked if women face barriers in aviation. The captain smiled and said airlines choose people on merit. He said the number of female pilots has grown fast.",
+      "After the talk, students tried a flight simulator. Tom crashed twice while landing but found it exciting. Captain Roberts told students to study maths, physics and computer science."
+    ],
+    "vocabulary": [
+      {
+        "word": "aviation",
+        "syllables": "a-vi-a-tion",
+        "phonetic": "/ˌeɪviˈeɪʃn/",
+        "definition": "The activity of flying aircraft.",
+        "example": "Modern aviation connects countries and helps trade and tourism.",
+        "emoji": "🛫"
+      },
+      {
+        "word": "spatial",
+        "syllables": "spa-tial",
+        "phonetic": "/ˈspeɪʃl/",
+        "definition": "Relating to space and the position of things in it.",
+        "example": "Pilots need good spatial awareness, quick decision-making and fluent English.",
+        "emoji": "🧭"
+      },
+      {
+        "word": "descent",
+        "syllables": "de-scent",
+        "phonetic": "/dɪˈsent/",
+        "definition": "A movement downwards.",
+        "example": "As the plane nears its destination, the captain begins a slow descent.",
+        "emoji": "🛬"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Which language is used in international aviation?",
+        "options": [
+          "French",
+          "English",
+          "Spanish",
+          "German"
+        ],
+        "answerIndex": 1,
+        "explanation": "English is the international language of aviation."
+      },
+      {
+        "question": "At what altitude does the plane cruise?",
+        "options": [
+          "Ten thousand feet",
+          "Twenty thousand feet",
+          "Thirty thousand feet",
+          "Forty thousand feet"
+        ],
+        "answerIndex": 2,
+        "explanation": "At thirty thousand feet, the autopilot keeps a steady course."
+      },
+      {
+        "question": "How many times did Tom crash in the simulator?",
+        "options": [
+          "Once",
+          "Twice",
+          "Three times",
+          "He did not crash"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tom crashed twice while landing but found it exciting."
+      }
+    ],
+    "funPrompt": "If you could fly a plane for one day, where would you fly and what would you want to see?"
+  },
+  {
+    "id": 95,
+    "day": 95,
+    "title": "Exploring Digital Photography",
+    "coverEmoji": "📷",
+    "category": "Arts & Technology",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "Aperture, shutter speed and ISO: a photography workshop in a botanical garden.",
+    "wordCount": 249,
+    "paragraphs": [
+      "Digital photography has changed how we keep memories. Last month, our media club held a photography workshop. A professional photojournalist named Arthur explained how a camera works. He said good photos need three things: aperture, shutter speed and ISO.",
+      "Arthur showed how the aperture controls the light. A wide aperture makes the background soft and blurry, which is good for portraits. A narrow aperture keeps the whole landscape sharp. Next, he explained shutter speed. A fast shutter freezes a splashing water drop in mid-air.",
+      "On Saturday morning, the club went to the botanical gardens with their cameras. Emma lay low on the grass to take a close-up of a butterfly. She turned the focus ring until the wings were very clear. Tom liked landscapes, so he took wide views of the lake and mountains. He put his camera on a strong tripod to stop camera shake.",
+      "Arthur gave advice and praised creative ideas.",
+      "In the afternoon, the group went to the computer room to edit their photos. They used editing software to crop edges and change brightness. Arthur showed them how to add contrast and colour without making the picture look strange.",
+      "The club chose the best fifty photos for a show in the school library. Printed on shiny paper, they looked very professional. Parents and teachers came to the opening. A local arts magazine printed an article about the students' work.",
+      "The workshop taught students to look at the world more carefully. Photography is about telling a story."
+    ],
+    "vocabulary": [
+      {
+        "word": "aperture",
+        "syllables": "ap-er-ture",
+        "phonetic": "/ˈæpətʃə/",
+        "definition": "The hole in a camera that lets light in.",
+        "example": "Arthur showed how the aperture controls the light.",
+        "emoji": "📸"
+      },
+      {
+        "word": "tripod",
+        "syllables": "tri-pod",
+        "phonetic": "/ˈtraɪpɒd/",
+        "definition": "A three-legged stand for a camera.",
+        "example": "He put his camera on a strong tripod to stop camera shake.",
+        "emoji": "🗜️"
+      },
+      {
+        "word": "contrast",
+        "syllables": "con-trast",
+        "phonetic": "/ˈkɒntrɑːst/",
+        "definition": "The difference between light and dark in a picture.",
+        "example": "Arthur showed them how to add contrast and colour without making the picture look strange.",
+        "emoji": "🌓"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Which three things did Arthur say photos need?",
+        "options": [
+          "Lens, flash and tripod",
+          "Aperture, shutter speed and ISO",
+          "Zoom, colour and paper",
+          "Focus, light and filter"
+        ],
+        "answerIndex": 1,
+        "explanation": "He said good photos need three things: aperture, shutter speed and ISO."
+      },
+      {
+        "question": "What did Emma photograph close-up?",
+        "options": [
+          "A lake",
+          "A butterfly",
+          "A mountain",
+          "A tree"
+        ],
+        "answerIndex": 1,
+        "explanation": "Emma lay low on the grass to take a close-up of a butterfly."
+      },
+      {
+        "question": "How many photos were chosen for the show?",
+        "options": [
+          "Fifteen",
+          "Thirty",
+          "Fifty",
+          "One hundred"
+        ],
+        "answerIndex": 2,
+        "explanation": "The club chose the best fifty photos for a show in the school library."
+      }
+    ],
+    "funPrompt": "If you had one photograph to take today, what would you point the camera at?"
   }
 ];
 
