@@ -10,6 +10,9 @@ let currentSpeed = 0.8; // Default 0.8x for ESL learners
 let currentModalWordData = null;
 let currentFilterWeek = 0;
 let synthVoices = [];
+// Remembers which sentence we are on / last played, so the repeat & skip
+// buttons still work after playback has stopped.
+let currentSentenceRef = { p: 0, s: 0 };
 
 // LocalStorage Keys
 const STORAGE_PREFIX = "starreader_";
@@ -214,9 +217,8 @@ function pauseAfterSentence(text) {
 function buildSpeechQueue(paragraphs) {
   const queue = [];
   (paragraphs || []).forEach((pText, pIdx) => {
-    const sentences = pText.match(/[^.!?]+[.!?]+["'”’]?|[^.!?]+$/g) || [pText];
-    sentences.forEach((sRaw, sIdx) => {
-      const s = sRaw.trim();
+    const sentences = splitSentences(pText);
+    sentences.forEach((s, sIdx) => {
       if (!s) return;
       let chunks = [s];
       if (s.length > 150 && s.indexOf(", ") > 0) {
@@ -235,6 +237,7 @@ function buildSpeechQueue(paragraphs) {
         queue.push({
           text: c,
           pIndex: pIdx,
+          sIndex: sIdx,
           pause: isLastChunk ? pauseAfterSentence(c) : 160,
           lastOfParagraph: isLastChunk && sIdx === sentences.length - 1,
         });
@@ -371,6 +374,13 @@ function loadStory(id) {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
+// Sentences are the unit of playback: one tap = hear that sentence again.
+function splitSentences(text) {
+  return (text.match(/[^.!?]+[.!?]+["'”’]?|[^.!?]+$/g) || [text])
+    .map(s => s.trim())
+    .filter(Boolean);
+}
+
 function renderStoryContent(story) {
   const container = document.getElementById("storyContentArea");
   container.innerHTML = "";
@@ -382,52 +392,75 @@ function renderStoryContent(story) {
     pEl.className = "story-paragraph";
     pEl.id = `para-${pIndex}`;
 
-    // Split text into words while keeping punctuation intact
-    const tokens = pText.split(/(\s+)/);
+    splitSentences(pText).forEach((sentText, sIndex) => {
+      const sentEl = document.createElement("span");
+      sentEl.className = "story-sentence";
+      sentEl.id = `sent-${pIndex}-${sIndex}`;
+      sentEl.dataset.p = pIndex;
+      sentEl.dataset.s = sIndex;
 
-    tokens.forEach((token, tIndex) => {
-      if (/^\s+$/.test(token)) {
-        pEl.appendChild(document.createTextNode(token));
-        return;
-      }
+      // Speaker badge: tap to hear this sentence on its own
+      const playBtn = document.createElement("button");
+      playBtn.type = "button";
+      playBtn.className = "sentence-play-btn";
+      playBtn.textContent = "▶";
+      playBtn.title = "Play just this sentence";
+      playBtn.setAttribute("aria-label", "Play this sentence");
+      playBtn.onclick = (e) => {
+        e.stopPropagation();
+        playClickPop();
+        speakSentence(pIndex, sIndex);
+      };
+      sentEl.appendChild(playBtn);
 
-      // Strip punctuation to check vocabulary match
-      const cleanWord = token.replace(/^[^\w]+|[^\w]+$/g, "").toLowerCase();
-      const isVocab = vocabWords.includes(cleanWord);
+      // Split the sentence into words while keeping punctuation intact
+      sentText.split(/(\s+)/).forEach((token, tIndex) => {
+        if (/^\s+$/.test(token)) {
+          sentEl.appendChild(document.createTextNode(token));
+          return;
+        }
 
-      const span = document.createElement("span");
-      span.textContent = token;
-      span.className = isVocab ? "vocab-highlight" : "story-word";
-      span.id = `w-${pIndex}-${tIndex}`;
+        // Strip punctuation to check vocabulary match
+        const cleanWord = token.replace(/^[^\w]+|[^\w]+$/g, "").toLowerCase();
+        const isVocab = vocabWords.includes(cleanWord);
 
-      if (isVocab) {
-        const vData = story.vocabulary.find(v => v.word.toLowerCase() === cleanWord);
-        span.title = `Click to see meaning of "${cleanWord}"`;
-        span.onclick = (e) => {
-          e.stopPropagation();
-          playClickPop();
-          openVocabModal(vData);
-        };
-      } else {
-        span.title = `Tap to hear "${cleanWord}" · double-tap for meaning`;
-        // iOS does not fire dblclick reliably, so detect a double tap ourselves.
-        // Long-press still works because we no longer disable text selection.
-        let lastTap = 0;
-        span.onclick = (e) => {
-          e.stopPropagation();
-          const now = Date.now();
-          if (now - lastTap < 380) {
-            lastTap = 0;
+        const span = document.createElement("span");
+        span.textContent = token;
+        span.className = isVocab ? "vocab-highlight" : "story-word";
+        span.id = `w-${pIndex}-${sIndex}-${tIndex}`;
+
+        if (isVocab) {
+          const vData = story.vocabulary.find(v => v.word.toLowerCase() === cleanWord);
+          span.title = `Click to see meaning of "${cleanWord}"`;
+          span.onclick = (e) => {
+            e.stopPropagation();
             playClickPop();
-            handleWordClick(cleanWord);
-          } else {
-            lastTap = now;
-            speakWord(cleanWord);
-          }
-        };
-      }
+            openVocabModal(vData);
+          };
+        } else {
+          span.title = `Tap to hear "${cleanWord}" · double-tap for meaning`;
+          // iOS does not fire dblclick reliably, so detect a double tap ourselves.
+          // Long-press still works because we no longer disable text selection.
+          let lastTap = 0;
+          span.onclick = (e) => {
+            e.stopPropagation();
+            const now = Date.now();
+            if (now - lastTap < 380) {
+              lastTap = 0;
+              playClickPop();
+              handleWordClick(cleanWord);
+            } else {
+              lastTap = now;
+              speakWord(cleanWord);
+            }
+          };
+        }
 
-      pEl.appendChild(span);
+        sentEl.appendChild(span);
+      });
+
+      sentEl.appendChild(document.createTextNode(" "));
+      pEl.appendChild(sentEl);
     });
 
     container.appendChild(pEl);
@@ -523,8 +556,9 @@ function speakNextSentence() {
   utt.volume = 1.0;
   if (voice) utt.voice = voice;
 
-  // Highlight active paragraph
-  highlightParagraph(item.pIndex);
+  // Highlight the sentence that is being spoken
+  currentSentenceRef = { p: item.pIndex, s: item.sIndex };
+  highlightSentence(item.pIndex, item.sIndex);
 
   const advance = () => {
     currentSentenceIndex++;
@@ -545,6 +579,90 @@ function speakNextSentence() {
   window.speechSynthesis.speak(utt);
 }
 
+function highlightSentence(pIdx, sIdx) {
+  clearWordHighlights();
+  const el = document.getElementById(`sent-${pIdx}-${sIdx}`);
+  if (el) {
+    el.classList.add("reading-current-sentence");
+    // Keep the sentence comfortably in view on a small screen
+    try {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < 90 || rect.bottom > window.innerHeight - 40) {
+        el.scrollIntoView({ block: "center", behavior: "smooth" });
+      }
+    } catch (err) {}
+  }
+}
+
+// Play a single sentence on its own (tap on the ▶ badge).
+function speakSentence(pIdx, sIdx) {
+  if (!window.speechSynthesis) return;
+  const story = getStoryById(currentStoryId);
+  if (!story) return;
+  const sentences = splitSentences(story.paragraphs[pIdx] || "");
+  const text = sentences[sIdx];
+  if (!text) return;
+
+  unlockAudioEngine();
+  stopSpeech();
+
+  currentSentenceRef = { p: pIdx, s: sIdx };
+  isSpeaking = false;
+  highlightSentence(pIdx, sIdx);
+
+  const shape = prosodyFor(text);
+  const utt = new SpeechSynthesisUtterance(text);
+  const voice = getBestVoice();
+  utt.lang = (voice && voice.lang) || "en-US";
+  utt.rate = Math.max(0.6, Math.min(1.4, currentSpeed * shape.rateMul));
+  utt.pitch = shape.pitch;
+  utt.volume = 1.0;
+  if (voice) utt.voice = voice;
+
+  // Give iOS a moment to settle after the cancel above, otherwise the new
+  // utterance is occasionally swallowed.
+  setTimeout(() => {
+    window.speechSynthesis.speak(utt);
+  }, 60);
+}
+
+function repeatCurrentSentence() {
+  speakSentence(currentSentenceRef.p, currentSentenceRef.s);
+}
+
+function playNextSentence() {
+  const story = getStoryById(currentStoryId);
+  if (!story) return;
+  let { p, s } = currentSentenceRef;
+  const sentences = splitSentences(story.paragraphs[p] || "");
+  if (s + 1 < sentences.length) {
+    s += 1;
+  } else if (p + 1 < story.paragraphs.length) {
+    p += 1;
+    s = 0;
+  } else {
+    return;
+  }
+  speakSentence(p, s);
+}
+
+function playPrevSentence() {
+  const story = getStoryById(currentStoryId);
+  if (!story) return;
+  let { p, s } = currentSentenceRef;
+  if (s > 0) {
+    s -= 1;
+  } else if (p > 0) {
+    const prevSentences = splitSentences(story.paragraphs[p - 1] || "");
+    if (!prevSentences.length) return;
+    p -= 1;
+    s = prevSentences.length - 1;
+  } else {
+    return;
+  }
+  speakSentence(p, s);
+}
+
 function highlightParagraph(pIdx) {
   clearWordHighlights();
   const pEl = document.getElementById(`para-${pIdx}`);
@@ -556,6 +674,9 @@ function highlightParagraph(pIdx) {
 function clearWordHighlights() {
   document.querySelectorAll(".story-sentence-active").forEach(el => {
     el.classList.remove("story-sentence-active");
+  });
+  document.querySelectorAll(".reading-current-sentence").forEach(el => {
+    el.classList.remove("reading-current-sentence");
   });
   document.querySelectorAll(".reading-current-word").forEach(el => {
     el.classList.remove("reading-current-word");
