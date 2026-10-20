@@ -2044,3 +2044,414 @@ function shadowPlayMine() {
     setShadowStatus("回放失败。");
   }
 }
+
+
+// ==========================================
+// FULL-STORY READING ASSESSMENT
+//
+// The child reads the whole article out loud; the browser recogniser is
+// re-armed automatically every time it stops on a pause, so the transcript
+// keeps growing without the child touching anything. When they tap
+// "结束并评估" the whole transcript is aligned against the whole text.
+// ==========================================
+const FULLREAD_KEY = STORAGE_PREFIX + "fullread_scores";
+
+let fullRead = {
+  active: false,
+  rec: null,
+  restartTimer: null,
+  uiTimer: null,
+  transcript: "",
+  interim: "",
+  startedAt: 0,
+  sentences: [],          // [{ text, p, s }]
+  targetWords: [],        // flattened words
+  sentenceOfWord: [],     // word index -> sentence index
+  wordIsStop: [],         // word index -> bool
+  stopRequested: false
+};
+
+function fullReadScores() {
+  try { return JSON.parse(localStorage.getItem(FULLREAD_KEY) || "{}"); } catch (err) { return {}; }
+}
+
+function saveFullReadScore(storyId, stars) {
+  const all = fullReadScores();
+  if (!all[storyId] || all[storyId] < stars) {
+    all[storyId] = stars;
+    try { localStorage.setItem(FULLREAD_KEY, JSON.stringify(all)); } catch (err) {}
+  }
+}
+
+function fullReadSetStatus(msg) {
+  const el = document.getElementById("fullReadStatus");
+  if (el) el.textContent = msg;
+}
+
+function fullReadBuildTargets(story) {
+  const sentences = [];
+  (story.paragraphs || []).forEach((pText, pIdx) => {
+    splitSentences(pText).forEach((text, sIdx) => {
+      sentences.push({ text: text, p: pIdx, s: sIdx });
+    });
+  });
+
+  const targetWords = [];
+  const sentenceOfWord = [];
+  const wordIsStop = [];
+  const expand = (w) => (SHADOW_EXPAND[w] ? SHADOW_EXPAND[w].split(" ") : [w]);
+
+  sentences.forEach((sent, idx) => {
+    shadowNormalize(sent.text).forEach((w) => {
+      targetWords.push(w);
+      sentenceOfWord.push(idx);
+      expand(w).forEach((part) => {});
+      wordIsStop.push(SHADOW_STOPWORDS.has(w));
+    });
+  });
+
+  fullRead.sentences = sentences;
+  fullRead.targetWords = targetWords;
+  fullRead.sentenceOfWord = sentenceOfWord;
+  fullRead.wordIsStop = wordIsStop;
+}
+
+function openFullRead() {
+  const story = getStoryById(currentStoryId);
+  if (!story) return;
+
+  fullReadReset();
+  fullReadBuildTargets(story);
+
+  const panel = document.getElementById("fullReadPanel");
+  if (panel) panel.classList.add("open");
+
+  const titleEl = document.getElementById("fullReadTitle");
+  if (titleEl) titleEl.textContent = story.title || "";
+  const live = document.getElementById("fullReadLive");
+  if (live) {
+    live.classList.remove("listening");
+    live.textContent = "点「开始朗读」，然后从头到尾把整篇读出来。中途停顿没关系，识别会自动接着听。";
+  }
+  const report = document.getElementById("fullReadReport");
+  if (report) report.innerHTML = "";
+  const timer = document.getElementById("fullReadTimer");
+  if (timer) timer.textContent = "00:00 · 0 词";
+
+  const startBtn = document.getElementById("fullReadStartBtn");
+  const stopBtn = document.getElementById("fullReadStopBtn");
+  const resumeBtn = document.getElementById("fullReadResumeBtn");
+  if (startBtn) startBtn.style.display = "inline-flex";
+  if (stopBtn) stopBtn.style.display = "none";
+  if (resumeBtn) resumeBtn.style.display = "none";
+
+  if (!shadowRecognitionSupported()) {
+    fullReadSetStatus("这台设备不支持语音识别，没法做整篇评估。可以继续用单句的「录音对比」。");
+    if (startBtn) startBtn.disabled = true;
+    return;
+  }
+  if (startBtn) startBtn.disabled = false;
+
+  const best = fullReadScores()[story.id] || 0;
+  fullReadSetStatus(best ? "上次成绩 " + "⭐".repeat(best) + "，再来一次？" : "准备好就开始吧。");
+}
+
+function fullReadReset() {
+  fullReadStopListening();
+  fullRead.active = false;
+  fullRead.stopRequested = false;
+  fullRead.transcript = "";
+  fullRead.interim = "";
+  fullRead.startedAt = 0;
+  clearInterval(fullRead.uiTimer);
+  fullRead.uiTimer = null;
+}
+
+function closeFullRead() {
+  fullReadReset();
+  const panel = document.getElementById("fullReadPanel");
+  if (panel) panel.classList.remove("open");
+}
+
+function startFullRead() {
+  if (!shadowRecognitionSupported()) return;
+  try { window.speechSynthesis.cancel(); } catch (err) {}
+
+  fullRead.transcript = "";
+  fullRead.interim = "";
+  fullRead.active = true;
+  fullRead.stopRequested = false;
+  fullRead.startedAt = Date.now();
+
+  const startBtn = document.getElementById("fullReadStartBtn");
+  const stopBtn = document.getElementById("fullReadStopBtn");
+  const resumeBtn = document.getElementById("fullReadResumeBtn");
+  if (startBtn) startBtn.style.display = "none";
+  if (resumeBtn) resumeBtn.style.display = "none";
+  if (stopBtn) stopBtn.style.display = "inline-flex";
+
+  const live = document.getElementById("fullReadLive");
+  if (live) { live.textContent = ""; live.classList.add("listening"); }
+
+  fullReadSetStatus("正在听… 一直读下去，读完点「结束并评估」");
+  fullReadStartTimer();
+  fullReadListen();
+}
+
+function resumeFullRead() {
+  if (!fullRead.active) { startFullRead(); return; }
+  const resumeBtn = document.getElementById("fullReadResumeBtn");
+  if (resumeBtn) resumeBtn.style.display = "none";
+  fullReadSetStatus("继续听…");
+  fullReadListen();
+}
+
+function fullReadStartTimer() {
+  clearInterval(fullRead.uiTimer);
+  fullRead.uiTimer = setInterval(() => {
+    if (!fullRead.active) return;
+    const secs = Math.floor((Date.now() - fullRead.startedAt) / 1000);
+    const mm = String(Math.floor(secs / 60)).padStart(2, "0");
+    const ss = String(secs % 60).padStart(2, "0");
+    const words = shadowNormalize(fullRead.transcript).length;
+    const el = document.getElementById("fullReadTimer");
+    if (el) el.textContent = mm + ":" + ss + " · " + words + " 词";
+    if (secs >= 600) finishFullRead();   // hard cap: 10 minutes
+  }, 500);
+}
+
+function fullReadListen() {
+  if (!fullRead.active) return;
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  let rec;
+  try { rec = new SR(); } catch (err) {
+    fullReadPauseForGesture("识别没能启动，点「继续」接着读。");
+    return;
+  }
+
+  rec.lang = "en-US";
+  rec.continuous = true;        // honoured on Chrome; iOS ignores it and stops on pauses
+  rec.interimResults = true;
+  rec.maxAlternatives = 1;
+
+  rec.onresult = (ev) => {
+    try {
+      let interim = "";
+      for (let i = ev.resultIndex; i < ev.results.length; i++) {
+        const r = ev.results[i];
+        if (r.isFinal) fullRead.transcript += r[0].transcript + " ";
+        else interim += r[0].transcript;
+      }
+      fullRead.interim = interim;
+      fullReadRenderLive();
+    } catch (err) {}
+  };
+
+  rec.onerror = (e) => {
+    const code = e && e.error;
+    if (code === "not-allowed" || code === "service-not-allowed") {
+      fullRead.active = false;
+      fullReadStopListening();
+      fullReadSetStatus("麦克风或语音识别被拒绝，请在设置里允许后重开这个面板。");
+      return;
+    }
+    // "no-speech" / "aborted" / "network" simply mean we re-arm below.
+  };
+
+  rec.onend = () => {
+    if (!fullRead.active) return;
+    clearTimeout(fullRead.restartTimer);
+    fullRead.restartTimer = setTimeout(() => {
+      if (!fullRead.active) return;
+      fullReadListen();
+    }, 260);
+  };
+
+  fullRead.rec = rec;
+  try {
+    rec.start();
+  } catch (err) {
+    fullReadPauseForGesture("识别需要你点一下才能继续。");
+  }
+}
+
+function fullReadPauseForGesture(msg) {
+  clearTimeout(fullRead.restartTimer);
+  fullRead.active = true;
+  const resumeBtn = document.getElementById("fullReadResumeBtn");
+  const startBtn = document.getElementById("fullReadStartBtn");
+  if (resumeBtn) resumeBtn.style.display = "inline-flex";
+  if (startBtn) startBtn.style.display = "none";
+  fullReadSetStatus(msg);
+}
+
+function fullReadStopListening() {
+  clearTimeout(fullRead.restartTimer);
+  const rec = fullRead.rec;
+  fullRead.rec = null;
+  if (rec) {
+    try { rec.onresult = null; rec.onerror = null; rec.onend = null; rec.stop(); } catch (err) {}
+  }
+}
+
+function fullReadRenderLive() {
+  const live = document.getElementById("fullReadLive");
+  if (!live) return;
+  const full = (fullRead.transcript + " " + fullRead.interim).trim();
+  if (!full) return;
+  live.textContent = full.length > 800 ? "…" + full.slice(-800) : full;
+  live.scrollTop = live.scrollHeight;
+}
+
+function finishFullRead() {
+  if (!fullRead.active && !fullRead.transcript) {
+    closeFullRead();
+    return;
+  }
+  fullRead.active = false;
+  clearInterval(fullRead.uiTimer);
+  fullReadStopListening();
+
+  const heard = (fullRead.transcript + " " + fullRead.interim).trim();
+  const stopBtn = document.getElementById("fullReadStopBtn");
+  if (stopBtn) stopBtn.style.display = "none";
+
+  const live = document.getElementById("fullReadLive");
+  if (live) live.classList.remove("listening");
+
+  if (!heard) {
+    fullReadSetStatus("没有识别到内容。检查麦克风，再试一次。");
+    const startBtn = document.getElementById("fullReadStartBtn");
+    if (startBtn) startBtn.style.display = "inline-flex";
+    return;
+  }
+  evaluateFullRead(heard);
+}
+
+// Global word alignment. Uses a Uint8 direction matrix so a 1000+ word text
+// does not blow up memory.
+function alignWordsBig(target, heard) {
+  const n = target.length, m = heard.length;
+  const w = m + 1;
+  const dir = new Uint8Array((n + 1) * w);
+  let prev = new Int32Array(w);
+  let cur = new Int32Array(w);
+  for (let j = 0; j <= m; j++) prev[j] = j;
+
+  for (let i = 1; i <= n; i++) {
+    cur[0] = i;
+    dir[i * w] = 1;
+    const ti = target[i - 1];
+    for (let j = 1; j <= m; j++) {
+      const cost = ti === heard[j - 1] ? 0 : 1;
+      const diag = prev[j - 1] + cost;
+      const up = prev[j] + 1;
+      const left = cur[j - 1] + 1;
+      let best = diag, code = 3;
+      if (up <= best) { best = up; code = 1; }
+      if (left < best) { best = left; code = 2; }
+      cur[j] = best;
+      dir[i * w + j] = code;
+    }
+    const tmp = prev; prev = cur; cur = tmp;
+  }
+
+  const ops = [];
+  let i = n, j = m;
+  while (i > 0 || j > 0) {
+    if (i > 0 && j > 0) {
+      const code = dir[i * w + j];
+      if (code === 3) {
+        ops.push({ type: target[i - 1] === heard[j - 1] ? "match" : "sub", ti: i - 1, target: target[i - 1], heard: heard[j - 1] });
+        i--; j--;
+      } else if (code === 1) {
+        ops.push({ type: "miss", ti: i - 1, target: target[i - 1] });
+        i--;
+      } else {
+        ops.push({ type: "extra", heard: heard[j - 1] });
+        j--;
+      }
+    } else if (i > 0) {
+      ops.push({ type: "miss", ti: i - 1, target: target[i - 1] });
+      i--;
+    } else {
+      ops.push({ type: "extra", heard: heard[j - 1] });
+      j--;
+    }
+  }
+  return ops.reverse();
+}
+
+function evaluateFullRead(heardText) {
+  try {
+    const heardWords = shadowNormalize(heardText);
+    const ops = alignWordsBig(fullRead.targetWords, heardWords);
+
+    // per-sentence tallies
+    const sTotal = new Array(fullRead.sentences.length).fill(0);
+    const sHit = new Array(fullRead.sentences.length).fill(0);
+    for (let k = 0; k < fullRead.targetWords.length; k++) {
+      if (!fullRead.wordIsStop[k]) sTotal[fullRead.sentenceOfWord[k]]++;
+    }
+
+    let contentTotal = 0, contentMatched = 0, wrong = 0, missed = 0;
+    ops.forEach((o) => {
+      if (o.type === "extra") return;
+      const si = fullRead.sentenceOfWord[o.ti];
+      const isStop = fullRead.wordIsStop[o.ti];
+      if (!isStop) contentTotal++;
+
+      const ok = o.type === "match" || (o.type === "sub" && shadowSameWord(o.target, o.heard));
+      if (ok) {
+        if (!isStop) { contentMatched++; sHit[si]++; }
+      } else if (o.type === "miss") {
+        if (!isStop) { missed++; sTotal[si] = Math.max(sTotal[si], 1); }
+      } else {
+        if (!isStop) { wrong++; sTotal[si] = Math.max(sTotal[si], 1); }
+      }
+    });
+
+    const ratio = contentTotal ? contentMatched / contentTotal : 0;
+    const stars = ratio >= 0.85 ? 3 : ratio >= 0.6 ? 2 : ratio >= 0.3 ? 1 : 0;
+
+    // sentences that need another go
+    const weak = [];
+    fullRead.sentences.forEach((sent, idx) => {
+      const tot = sTotal[idx];
+      if (tot < 2) return;                       // too short to judge
+      const r = sHit[idx] / tot;
+      if (r < 0.6) weak.push({ sent: sent, ratio: r });
+    });
+    weak.sort((a, b) => a.ratio - b.ratio);
+    const pick = weak.slice(0, 6);
+
+    const listHtml = pick.length
+      ? '<ul class="fullread-list">' + pick.map((w) =>
+          '<li><button class="jr-play" onclick="speakSentence(' + w.sent.p + ',' + w.sent.s + ')">▶</button>' +
+          '<span>' + shadowEscape(w.sent.text) + '</span></li>').join("") + "</ul>"
+      : "";
+
+    const summary = "实词正确率 " + Math.round(ratio * 100) + "%（" + contentMatched + " / " + contentTotal + "）";
+    const hint = stars === 3 ? "整篇读得很流利，继续保持！"
+      : stars === 2 ? "整体不错，下面这几句再读一遍会更稳。"
+      : stars === 1 ? "读完了一半以上，慢一点、把词读清楚。"
+      : "先跟着标准音读两遍，再整篇来一次。";
+
+    const box = document.getElementById("fullReadReport");
+    if (box) {
+      box.innerHTML =
+        '<div class="shadow-stars">' + (stars ? "⭐".repeat(stars) : "·") + "</div>" +
+        '<div class="fullread-summary">' + summary + "</div>" +
+        '<div class="shadow-hint">' + hint + "</div>" +
+        listHtml;
+    }
+
+    fullReadSetStatus("漏读 " + missed + " 个实词，读错 " + wrong + " 个实词");
+    saveFullReadScore(currentStoryId, stars);
+
+    const startBtn = document.getElementById("fullReadStartBtn");
+    if (startBtn) { startBtn.style.display = "inline-flex"; startBtn.textContent = "▶︎ 再读一次"; }
+  } catch (err) {
+    fullReadSetStatus("评估出错，请再试一次。");
+  }
+}
