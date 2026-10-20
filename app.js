@@ -1500,14 +1500,18 @@ function launchConfetti() {
 }
 
 // ==========================================
-// SHADOWING: read a sentence aloud
+// SHADOWING: record yourself reading a sentence, get feedback
 //
-// Recording and speech recognition both need the microphone, and on iOS
-// holding the mic twice at once deadlocks the audio session (the page
-// freezes). So they are mutually exclusive: one button scores your reading
-// with recognition, the other just records you for an A/B comparison.
+// One button does both jobs: it records your voice (so you can play it back)
+// and, when available, runs speech recognition at the same time (so you get a
+// score). Holding the mic twice at once can wedge iOS Safari, so the merge is
+// guarded in three ways:
+//   1. a checkbox lets you drop to recording-only with one tap
+//   2. recognition failures downgrade to recording-only instead of stopping
+//   3. a watchdog re-opens the UI if nothing comes back
 // ==========================================
 const SHADOW_KEY = STORAGE_PREFIX + "shadow_scores";
+const SHADOW_SCORING_KEY = STORAGE_PREFIX + "shadow_dual_scoring";
 const SHADOW_STOPWORDS = new Set(("a an the and or but if so of to in on at for with from by as " +
   "is are was were be been am do does did have has had will would can could should may might must " +
   "this that these those it its he she they we you i not no yes very just also than then there here").split(" "));
@@ -1522,8 +1526,10 @@ const SHADOW_EXPAND = {
 
 let shadowState = {
   p: 0, s: 0, target: "",
-  mode: null,          // null | "score" | "record"
+  active: false,
+  scoring: true,
   recognition: null,
+  restarts: 0,
   mediaRecorder: null,
   stream: null,
   chunks: [],
@@ -1604,42 +1610,17 @@ function setShadowStatus(msg) {
   if (el) el.textContent = msg;
 }
 
-function resetShadowButtons() {
-  const scoreBtn = document.getElementById("shadowScoreBtn");
-  const recBtn = document.getElementById("shadowRecordBtn");
-  if (scoreBtn) {
-    scoreBtn.disabled = false;
-    scoreBtn.classList.remove("recording");
-    scoreBtn.textContent = "🎯 跟读评分";
-  }
-  if (recBtn) {
-    recBtn.disabled = false;
-    recBtn.classList.remove("recording");
-    recBtn.textContent = "🎧 录音对比";
-  }
+function shadowGetScoring() {
+  try {
+    const v = localStorage.getItem(SHADOW_SCORING_KEY);
+    return v === null ? true : v === "1";
+  } catch (err) { return true; }
 }
 
-function markShadowBusy(which) {
-  resetShadowButtons();
-  const scoreBtn = document.getElementById("shadowScoreBtn");
-  const recBtn = document.getElementById("shadowRecordBtn");
-  if (which === "score") {
-    if (scoreBtn) { scoreBtn.textContent = "⏹ 停止"; scoreBtn.classList.add("recording"); }
-    if (recBtn) recBtn.disabled = true;
-  } else {
-    if (recBtn) { recBtn.textContent = "⏹ 停止"; recBtn.classList.add("recording"); }
-    if (scoreBtn) scoreBtn.disabled = true;
-  }
-}
-
-function armShadowWatchdog() {
-  clearTimeout(shadowState.watchdog);
-  shadowState.watchdog = setTimeout(() => {
-    if (shadowState.mode) {
-      stopShadowActive();
-      setShadowStatus("这次没成功，再试一次吧。");
-    }
-  }, 16000);
+function shadowSetScoring(on) {
+  shadowState.scoring = !!on;
+  try { localStorage.setItem(SHADOW_SCORING_KEY, on ? "1" : "0"); } catch (err) {}
+  setShadowStatus(on ? "已开启评分：读完会显示星级和逐词反馈。" : "只录音：读完点「听我的」自己对比。");
 }
 
 function openShadowPanel(pIdx, sIdx) {
@@ -1657,6 +1638,8 @@ function openShadowPanel(pIdx, sIdx) {
   shadowState.target = text;
   shadowState.finalTranscript = "";
   shadowState.interimTranscript = "";
+  shadowState.restarts = 0;
+  shadowState.scoring = shadowGetScoring();
 
   const panel = document.getElementById("shadowPanel");
   document.getElementById("shadowTarget").innerHTML = shadowWordChips(text);
@@ -1665,22 +1648,17 @@ function openShadowPanel(pIdx, sIdx) {
   document.getElementById("shadowReplayBtn").style.display = "none";
   if (panel) panel.classList.add("open");
 
-  resetShadowButtons();
-  const scoreBtn = document.getElementById("shadowScoreBtn");
-  const recBtn = document.getElementById("shadowRecordBtn");
-  if (scoreBtn) scoreBtn.disabled = !shadowRecognitionSupported();
-  if (recBtn) recBtn.disabled = !shadowSupported();
+  const toggle = document.getElementById("shadowScoringToggle");
+  if (toggle) toggle.checked = shadowState.scoring && shadowRecognitionSupported();
 
-  if (!shadowRecognitionSupported() && !shadowSupported()) {
-    setShadowStatus("这个浏览器不能用麦克风，换 Safari 或 Chrome 试试。");
+  shadowResetMicButton();
+
+  if (!shadowSupported()) {
+    setShadowStatus("这个浏览器不能录音，换 Safari 或 Chrome 试试。");
     return;
   }
-  if (!shadowRecognitionSupported()) {
-    setShadowStatus("这台设备不支持语音评分，可以用「录音对比」自己听。");
-  } else {
-    const best = shadowScores()[shadowKey(pIdx, sIdx)] || 0;
-    setShadowStatus(best ? "最好成绩 " + "⭐".repeat(best) : "先听一遍，再点「跟读评分」");
-  }
+  const best = shadowScores()[shadowKey(pIdx, sIdx)] || 0;
+  setShadowStatus(best ? "最好成绩 " + "⭐".repeat(best) + " · 再读一次挑战更高" : "先听一遍，再点「开始跟读」");
 }
 
 function closeShadowPanel() {
@@ -1691,7 +1669,7 @@ function closeShadowPanel() {
 }
 
 function shadowPlayTarget() {
-  if (shadowState.mode) stopShadowActive();
+  if (shadowState.active) stopShadowActive();
   speakSentence(shadowState.p, shadowState.s);
 }
 
@@ -1702,7 +1680,7 @@ function shadowReset() {
   shadowState.interimTranscript = "";
   document.getElementById("shadowResult").innerHTML = "";
   document.getElementById("shadowReplayBtn").style.display = "none";
-  resetShadowButtons();
+  shadowResetMicButton();
   setShadowStatus("再试一次：先听，再读。");
 }
 
@@ -1726,6 +1704,15 @@ function stopShadowTracks() {
   }
 }
 
+function shadowResetMicButton() {
+  const btn = document.getElementById("shadowMicBtn");
+  if (btn) {
+    btn.textContent = "🎤 开始跟读";
+    btn.classList.remove("recording");
+    btn.disabled = false;
+  }
+}
+
 function shadowPickMime() {
   if (!window.MediaRecorder) return "";
   const list = ["audio/mp4", "audio/webm", "audio/ogg"];
@@ -1735,31 +1722,98 @@ function shadowPickMime() {
   return "";
 }
 
-// --- mode 1: recognition scoring (microphone belongs to the recogniser) ---
-function startShadowScore() {
-  if (shadowState.mode === "score") { stopShadowActive(); return; }
-  if (shadowState.mode) stopShadowActive();
-  if (!shadowRecognitionSupported()) {
-    setShadowStatus("这台设备不支持语音评分，请用「录音对比」。");
-    return;
-  }
+function armShadowWatchdog() {
+  clearTimeout(shadowState.watchdog);
+  shadowState.watchdog = setTimeout(() => {
+    if (shadowState.active) {
+      stopShadowActive();
+      setShadowStatus("这次没录完，再试一次吧。");
+    }
+  }, 20000);
+}
+
+async function shadowToggle() {
+  if (shadowState.active) { stopShadowActive(); return; }
+  if (!shadowSupported()) { setShadowStatus("这个浏览器不能录音。"); return; }
 
   try { window.speechSynthesis.cancel(); } catch (err) {}
+  await new Promise(r => setTimeout(r, 320));
 
-  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-  let rec;
-  try { rec = new SR(); } catch (err) {
-    setShadowStatus("语音识别启动失败。");
+  let stream;
+  try {
+    stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+  } catch (err) {
+    setShadowStatus("没有拿到麦克风权限，请在 Safari 设置里允许后重试。");
     return;
   }
-  rec.lang = "en-US";
-  rec.continuous = false;
-  rec.interimResults = true;
-  rec.maxAlternatives = 1;
 
+  shadowState.stream = stream;
+  shadowState.chunks = [];
   shadowState.finalTranscript = "";
   shadowState.interimTranscript = "";
-  shadowState.mode = "score";
+  shadowState.restarts = 0;
+  shadowState.active = true;
+
+  const mime = shadowPickMime();
+  let mr;
+  try {
+    mr = mime ? new MediaRecorder(stream, { mimeType: mime }) : new MediaRecorder(stream);
+  } catch (err) {
+    shadowState.active = false;
+    stopShadowTracks();
+    setShadowStatus("录音启动失败，再试一次。");
+    return;
+  }
+
+  mr.ondataavailable = (e) => {
+    try { if (e.data && e.data.size) shadowState.chunks.push(e.data); } catch (err) {}
+  };
+  mr.onstop = () => {
+    try {
+      stopShadowTracks();          // release the mic only after the recorder flushes
+      finalizeShadowRecording();
+      finishShadowAttempt();
+    } catch (err) {
+      setShadowStatus("录音处理失败，再试一次。");
+    } finally {
+      shadowState.active = false;
+      clearTimeout(shadowState.watchdog);
+      shadowResetMicButton();
+    }
+  };
+
+  shadowState.mediaRecorder = mr;
+  try { mr.start(); } catch (err) {
+    shadowState.active = false;
+    stopShadowTracks();
+    shadowResetMicButton();
+    setShadowStatus("录音没能启动，再试一次。");
+    return;
+  }
+
+  const btn = document.getElementById("shadowMicBtn");
+  if (btn) { btn.textContent = "⏹ 停止"; btn.classList.add("recording"); }
+  armShadowWatchdog();
+
+  // Recognition runs alongside the recorder when the device allows it.
+  if (shadowState.scoring && shadowRecognitionSupported()) {
+    setShadowStatus("正在录音和听… 读完点「停止」");
+    startShadowRecognition();
+  } else {
+    setShadowStatus("正在录音… 读完点「停止」");
+  }
+}
+
+function startShadowRecognition() {
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SR) return;
+  let rec;
+  try { rec = new SR(); } catch (err) { return; }
+
+  rec.lang = "en-US";
+  rec.continuous = true;
+  rec.interimResults = true;
+  rec.maxAlternatives = 1;
 
   rec.onresult = (ev) => {
     try {
@@ -1780,134 +1834,54 @@ function startShadowScore() {
   };
 
   rec.onerror = (e) => {
-    const msg = e && e.error === "no-speech" ? "没有听到声音，靠近一点再读。"
-      : (e && (e.error === "not-allowed" || e.error === "service-not-allowed")) ? "麦克风或语音识别被拒绝，请在设置里允许。"
-      : "识别出错，再试一次。";
-    finishShadowScore(msg);
-  };
-
-  rec.onend = () => { finishShadowScore(); };
-
-  shadowState.recognition = rec;
-  markShadowBusy("score");
-  setShadowStatus("请读这句话…");
-  armShadowWatchdog();
-  try { rec.start(); } catch (err) { finishShadowScore("识别没能启动，再试一次。"); }
-}
-
-function finishShadowScore(overrideMsg) {
-  const rec = shadowState.recognition;
-  shadowState.recognition = null;
-  if (rec) {
-    try { rec.onresult = null; rec.onerror = null; rec.onend = null; rec.stop(); } catch (err) {}
-  }
-  const wasScoring = shadowState.mode === "score";
-  shadowState.mode = null;
-  clearTimeout(shadowState.watchdog);
-  resetShadowButtons();
-  if (!wasScoring) return;
-
-  if (overrideMsg) { setShadowStatus(overrideMsg); return; }
-  const heard = (shadowState.finalTranscript || shadowState.interimTranscript || "").trim();
-  if (!heard) { setShadowStatus("没有识别到内容。先点「听标准音」，再读一遍。"); return; }
-  evaluateShadow(heard);
-}
-
-// --- mode 2: plain recording for A/B comparison ---
-async function startShadowRecord() {
-  if (shadowState.mode === "record") { stopShadowActive(); return; }
-  if (shadowState.mode) stopShadowActive();
-  if (!shadowSupported()) {
-    setShadowStatus("这个浏览器不能录音。");
-    return;
-  }
-
-  try { window.speechSynthesis.cancel(); } catch (err) {}
-  await new Promise(r => setTimeout(r, 320));
-
-  let stream;
-  try {
-    stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-  } catch (err) {
-    setShadowStatus("没有拿到麦克风权限，请在 Safari 设置里允许后重试。");
-    return;
-  }
-
-  shadowState.stream = stream;
-  shadowState.chunks = [];
-  shadowState.mode = "record";
-
-  const mime = shadowPickMime();
-  let mr;
-  try {
-    mr = mime ? new MediaRecorder(stream, { mimeType: mime }) : new MediaRecorder(stream);
-  } catch (err) {
-    shadowState.mode = null;
-    stopShadowTracks();
-    setShadowStatus("录音启动失败，再试一次。");
-    return;
-  }
-
-  mr.ondataavailable = (e) => {
-    try { if (e.data && e.data.size) shadowState.chunks.push(e.data); } catch (err) {}
-  };
-  mr.onstop = () => {
-    try {
-      // Release the mic only after the recorder has finished flushing,
-      // otherwise iOS can wedge the audio session.
-      stopShadowTracks();
-      finalizeShadowRecording();
-    } catch (err) {
-      setShadowStatus("录音处理失败，再试一次。");
-    } finally {
-      shadowState.mode = null;
-      clearTimeout(shadowState.watchdog);
-      resetShadowButtons();
+    const code = e && e.error;
+    if (code === "audio-capture" || code === "not-allowed" || code === "service-not-allowed") {
+      // This device will not share the microphone: keep the recording, drop scoring.
+      shadowState.scoring = false;
+      const toggle = document.getElementById("shadowScoringToggle");
+      if (toggle) toggle.checked = false;
+      setShadowStatus("这台设备不能边录边评分，这次只录音——读完点「听我的」。");
     }
   };
 
-  shadowState.mediaRecorder = mr;
-  markShadowBusy("record");
-  setShadowStatus("正在录音… 读完点「停止」");
-  armShadowWatchdog();
-  try { mr.start(); } catch (err) {
-    shadowState.mode = null;
-    stopShadowTracks();
-    resetShadowButtons();
-    setShadowStatus("录音没能启动，再试一次。");
-  }
+  rec.onend = () => {
+    if (!shadowState.active || shadowState.scoring === false) return;
+    if (shadowState.restarts >= 3) return;
+    shadowState.restarts++;
+    setTimeout(() => {
+      if (!shadowState.active) return;
+      try { startShadowRecognition(); } catch (err) {}
+    }, 200);
+  };
+
+  shadowState.recognition = rec;
+  try { rec.start(); } catch (err) {}
 }
 
 function stopShadowActive() {
   clearTimeout(shadowState.watchdog);
 
-  if (shadowState.mode === "score") {
-    finishShadowScore();
-    return;
-  }
-  if (shadowState.mode === "record") {
-    const mr = shadowState.mediaRecorder;
-    shadowState.mediaRecorder = null;
-    shadowState.mode = null;
-    if (mr && mr.state !== "inactive") {
-      try { mr.stop(); } catch (err) { stopShadowTracks(); resetShadowButtons(); }
-    } else {
-      stopShadowTracks();
-      resetShadowButtons();
-    }
-    return;
-  }
-  shadowState.mode = null;
-  shadowState.mediaRecorder = null;
+  const rec = shadowState.recognition;
   shadowState.recognition = null;
-  stopShadowTracks();
-  resetShadowButtons();
+  if (rec) {
+    try { rec.onresult = null; rec.onerror = null; rec.onend = null; rec.stop(); } catch (err) {}
+  }
+
+  const mr = shadowState.mediaRecorder;
+  shadowState.mediaRecorder = null;
+  if (mr && mr.state !== "inactive") {
+    try { mr.stop(); } catch (err) { stopShadowTracks(); }
+  } else {
+    stopShadowTracks();
+  }
+  shadowState.active = false;
+  shadowResetMicButton();
 }
 
 function finalizeShadowRecording() {
   if (!shadowState.chunks.length) {
-    setShadowStatus("没有录到声音，再试一次（读完记得点「停止」）。");
-    return;
+    setShadowStatus("没有录到声音，再试一次。");
+    return false;
   }
   try {
     const type = shadowState.chunks[0].type || "audio/mp4";
@@ -1916,13 +1890,24 @@ function finalizeShadowRecording() {
     shadowState.audioUrl = URL.createObjectURL(blob);
     const replayBtn = document.getElementById("shadowReplayBtn");
     if (replayBtn) replayBtn.style.display = "inline-flex";
-    setShadowStatus("录好了。点「听我的」，和标准音对比一下。");
+    return true;
   } catch (err) {
     setShadowStatus("录音保存失败，再试一次。");
+    return false;
   }
 }
 
-// --- comparison helpers ---
+// Runs once the recorder has stopped: score if we have a transcript, otherwise
+// just tell the child the clip is ready to play back.
+function finishShadowAttempt() {
+  const heard = (shadowState.finalTranscript || shadowState.interimTranscript || "").trim();
+  if (!heard) {
+    setShadowStatus("录好了。点「听我的」听一遍，再点「听标准音」对比。");
+    return;
+  }
+  evaluateShadow(heard);
+}
+
 function shadowNormalize(text) {
   return String(text || "")
     .toLowerCase()
@@ -2062,10 +2047,10 @@ function evaluateShadow(heard) {
     }
 
     setShadowStatus("实词读对 " + contentMatched + " / " + Math.max(1, contentTotal) + " 个" +
-      (miss + wrong ? "，标出的词再试一次" : ""));
+      (miss + wrong ? "，标出的词再试一次" : "") + " · 可以点「听我的」回放");
     if (stars) saveShadowScore(stars);
   } catch (err) {
-    setShadowStatus("评分出错，再试一次。");
+    setShadowStatus("评分出错，录音已保存，可以点「听我的」。");
   }
 }
 
@@ -2081,7 +2066,6 @@ function shadowPlayMine() {
     setShadowStatus("回放失败。");
   }
 }
-
 
 // ==========================================
 // FULL-STORY READING ASSESSMENT
