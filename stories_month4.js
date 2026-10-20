@@ -254,13 +254,13 @@ const MONTH4_STORIES = [
     "level": "Explorer",
     "readingTime": "6 mins",
     "intro": "A Japanese exchange student folds origami cranes and learns to bake British scones.",
-    "wordCount": 257,
+    "wordCount": 251,
     "paragraphs": [
       "School exchange programmes give students a window into other cultures. Last month, our school welcomed twelve visiting students from Japan. They arrived at a special assembly, where our headteacher gave a warm speech about friendship. Each local student was asked to host and guide one visitor.",
       "Maya hosted Yuki, a cheerful fifteen-year-old from Tokyo. On Monday, Maya showed her around the school and introduced her to teachers and friends. Yuki joined maths, art and English lessons. She said our classrooms felt friendly and interactive. In the art lesson, Yuki showed the class origami, the Japanese art of paper folding.",
       "She taught them to fold paper into animals and flowers. The students loved it and made colourful paper cranes.",
       "In return, Maya took Yuki to a cooking lesson. They baked British scones with jam and cream. Yuki loved the sweet taste and said she would bake them for her family.",
-      "At the weekend, Maya's family took Yuki to see local sights. They visited the cathedral, walked on the old city walls and explored a museum. Yuki took many photos. Speaking English every day helped her fluency. Maya also learned some Japanese greetings and customs. She learned a few words of Japanese too.",
+      "At the weekend, Maya's family took Yuki to see local sights. They visited the cathedral, walked on the old city walls and explored a museum. Yuki took many photos. Speaking English every day helped her fluency. Maya also learned some Japanese greetings, customs and everyday words.",
       "On the last evening, the school held a farewell party. The visiting students played music on a Japanese stringed instrument. Local students acted in a funny play about cultural misunderstandings.",
       "When the visit ended, some students cried. Cultural exchange breaks down prejudice and builds bridges between countries. Maya and Yuki promised to stay in touch online."
     ],
@@ -660,7 +660,7 @@ const MONTH4_STORIES = [
     "level": "Explorer",
     "readingTime": "6 mins",
     "intro": "A bank manager explains saving, debt and the strange magic of compound interest.",
-    "wordCount": 271,
+    "wordCount": 272,
     "paragraphs": [
       "Learning about money when you are young prepares you for adult life. Last term, our economics department started a practical money module. A bank manager named Mr Dawson gave a talk. He explained why budgeting, saving and smart spending matter. He said many teenagers get pocket money from parents or part-time jobs.",
       "But without a savings plan, money disappears quickly on things you do not need. Even a small monthly deposit into a savings account grows with interest over time.",
@@ -668,7 +668,7 @@ const MONTH4_STORIES = [
       "Students should learn the difference between needs and wants. Real needs include healthy food, education, clothes and a safe home.",
       "During the question time, Tom asked how compound interest works. Mr Dawson praised the question and drew a clear diagram on the whiteboard. He explained that compound interest earns interest not only on your savings but also on the interest already added.",
       "After the talk, students played a computer budgeting game. Each student got a virtual monthly salary and had to plan for rent, food and savings. Tom managed his budget well and kept a positive balance.",
-      "He learned that careful planning and self-discipline are needed for long-term goals. Many pupils opened their first youth savings accounts with the school's partner bank. Tom decided to save twenty percent of his weekly money for university. He wrote his income and spending in a small diary. Good money habits started early lead to a secure future."
+      "He learned that careful planning and self-discipline are needed for long-term goals. Many pupils opened their first youth savings accounts with the school's partner bank. Tom decided to save twenty percent of his weekly money for university. He wrote his income and spending in a small diary. Good money habits that start early lead to a secure future."
     ],
     "vocabulary": [
       {
