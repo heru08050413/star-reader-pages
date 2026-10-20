@@ -813,6 +813,412 @@ const MONTH4_STORIES = [
       }
     ],
     "funPrompt": "If your class staged a mystery play, what would the detective be like?"
+  },
+  {
+    "id": 111,
+    "day": 111,
+    "title": "Restoring a Community Garden",
+    "coverEmoji": "🌻",
+    "category": "Community & Environment",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "A class adopts a forgotten plot and turns weeds, glass and hard soil back into a garden.",
+    "wordCount": 294,
+    "paragraphs": [
+      "A neglected garden can become a valuable shared space when neighbours work together. Last spring, our class adopted a small plot behind the local health centre. Ms Patel, the volunteer coordinator, explained our plan. We divided into teams to clear rubbish and prepare the beds.",
+      "Everyone wore thick gloves because broken glass was hidden in the long grass. Tom used a sturdy rake to gather dry leaves into compost bags. Maya loosened the hard soil with a fork so rainwater could drain away. We hoped to raise money for seeds by holding a weekend plant sale.",
+      "A local carpenter donated wood and showed us how to repair the broken benches. By lunchtime, the main path was clear and the garden already looked welcoming. In the afternoon, we marked out a vegetable plot for tomatoes, beans and courgettes. We pulled out every deep root so the weeds would not return quickly. Ms Patel showed us how to mix compost into the soil without harming the earthworms.",
+      "Younger pupils planted lavender beside the sunny wall. We also put a water butt under the hall roof to collect rain. Using stored rainwater saves water and helps plants in dry weather.",
+      "Before we left, we labelled each row so future helpers would know what was planted. The next Saturday, families came to paint signs and spread wood chips. By July, the garden was growing fresh vegetables for the local food bank. The project gave older residents a quiet place to meet and share advice.",
+      "Our plant sale raised more than four hundred pounds. Working with the soil helped us understand how strong community relationships grow. The garden now produces food, friendship and pride. Restoring the plot showed that patient teamwork can change a forgotten corner of a town."
+    ],
+    "vocabulary": [
+      {
+        "word": "plot",
+        "syllables": "plot",
+        "phonetic": "/plɒt/",
+        "definition": "A small area of ground used for growing things.",
+        "example": "Last spring, our class adopted a small plot behind the local health centre.",
+        "emoji": "🌱"
+      },
+      {
+        "word": "compost",
+        "syllables": "com-post",
+        "phonetic": "/ˈkɒmpɒst/",
+        "definition": "Rotted plants and food waste used to feed the soil.",
+        "example": "Ms Patel showed us how to mix compost into the soil without harming the earthworms.",
+        "emoji": "🪱"
+      },
+      {
+        "word": "lavender",
+        "syllables": "lav-en-der",
+        "phonetic": "/ˈlævəndə/",
+        "definition": "A plant with small purple flowers and a strong pleasant smell.",
+        "example": "Younger pupils planted lavender beside the sunny wall.",
+        "emoji": "💜"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Why did everyone wear thick gloves?",
+        "options": [
+          "Because it was cold",
+          "Because broken glass was hidden in the grass",
+          "To protect from bees",
+          "To carry tools"
+        ],
+        "answerIndex": 1,
+        "explanation": "Everyone wore thick gloves because broken glass was hidden in the long grass."
+      },
+      {
+        "question": "How much did the plant sale raise?",
+        "options": [
+          "One hundred pounds",
+          "Two hundred pounds",
+          "More than four hundred pounds",
+          "One thousand pounds"
+        ],
+        "answerIndex": 2,
+        "explanation": "Our plant sale raised more than four hundred pounds."
+      },
+      {
+        "question": "Where did the vegetables go?",
+        "options": [
+          "To a supermarket",
+          "To the local food bank",
+          "To the school canteen",
+          "To the market"
+        ],
+        "answerIndex": 1,
+        "explanation": "By July, the garden was growing fresh vegetables for the local food bank."
+      }
+    ],
+    "funPrompt": "What would you plant first in a shared garden, and who would you invite to help?"
+  },
+  {
+    "id": 112,
+    "day": 112,
+    "title": "A First-Aid Workshop at School",
+    "coverEmoji": "🩹",
+    "category": "Health & Safety",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "A paramedic teaches students how to check for danger, cool a burn and keep a casualty calm.",
+    "wordCount": 285,
+    "paragraphs": [
+      "Basic first-aid knowledge can help students act calmly when an accident happens. Last Friday, a qualified paramedic named Ms Green visited our school gym.",
+      "First, she told us to check for danger before we approach an injured person. Ms Green showed us how to speak clearly and give an accurate location by phone.",
+      "Then we practised supporting a pretend injured arm without moving it. Maya learned to tie a clean bandage without making it too tight. The paramedic said small cuts should be treated with clean hands and sterile materials. Gentle pressure can help stop bleeding while professional help is on the way.",
+      "Next, we talked about burns from hot water, flames or electricity. A fresh burn should be cooled under clean running water as soon as possible. Ms Green warned that a frightening accident can leave a person in shock. Keeping the injured person warm and calm is important while help arrives.",
+      "After the demonstration, we worked in pairs on short emergency scenarios. One card described a cyclist who had fallen and might have a broken wrist. Tom remembered not to give the cyclist food or drink before medical assessment. Another card described a pupil who felt faint in a crowded hall. We learned to make space, loosen tight clothing and watch the person carefully.",
+      "By the end, everyone could recall the main steps. Ms Green stressed that first aid does not replace treatment by trained medical staff. But correct action can help a small problem and stop it getting worse.",
+      "Our class made safety posters for labs, kitchens and sports areas. The school nurse put our posters by the main reception desk. The workshop proved that practical knowledge can make a school safer."
+    ],
+    "vocabulary": [
+      {
+        "word": "bandage",
+        "syllables": "ban-dage",
+        "phonetic": "/ˈbændɪdʒ/",
+        "definition": "A long strip of cloth used to cover a wound.",
+        "example": "Maya learned to tie a clean bandage without making it too tight.",
+        "emoji": "🩹"
+      },
+      {
+        "word": "pressure",
+        "syllables": "pres-sure",
+        "phonetic": "/ˈpreʃə/",
+        "definition": "The force you apply when you press on something.",
+        "example": "Gentle pressure can help stop bleeding while professional help is on the way.",
+        "emoji": "✋"
+      },
+      {
+        "word": "shock",
+        "syllables": "shock",
+        "phonetic": "/ʃɒk/",
+        "definition": "A serious medical condition caused by injury or fright.",
+        "example": "Ms Green warned that a frightening accident can leave a person in shock.",
+        "emoji": "😨"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What should students check before approaching an injured person?",
+        "options": [
+          "Their phone",
+          "For danger",
+          "Their homework",
+          "The weather"
+        ],
+        "answerIndex": 1,
+        "explanation": "First, she told us to check for danger before we approach an injured person."
+      },
+      {
+        "question": "How should a fresh burn be treated?",
+        "options": [
+          "With ice",
+          "Cooled under clean running water",
+          "Covered with butter",
+          "Left alone"
+        ],
+        "answerIndex": 1,
+        "explanation": "A fresh burn should be cooled under clean running water as soon as possible."
+      },
+      {
+        "question": "What did Tom remember about the fallen cyclist?",
+        "options": [
+          "To give him water",
+          "Not to give food or drink before medical assessment",
+          "To move his wrist",
+          "To send him home"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tom remembered not to give the cyclist food or drink before medical assessment."
+      }
+    ],
+    "funPrompt": "If you saw someone fall, what would you do first and who would you call?"
+  },
+  {
+    "id": 113,
+    "day": 113,
+    "title": "An Archaeological Dig by the River",
+    "coverEmoji": "🏺",
+    "category": "History & Science",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "Pottery, a bronze coin and burnt grain: how archaeologists read the ground layer by layer.",
+    "wordCount": 283,
+    "paragraphs": [
+      "Archaeology lets students study history through real objects, not just stories. During the summer holiday, our history club visited an excavation site beside the River Avon. Dr Lewis, a field archaeologist, welcomed us and described the Roman past of the area.",
+      "Each square was photographed before any soil was removed. We scraped the earth gently because careless digging could destroy fragile evidence. A darker layer of soil showed where people had once lit fires or stored waste. Maya found several pieces of pottery near the corner of her square. She put them in a labelled tray instead of washing them straight away.",
+      "Dr Lewis explained that the shape and pattern could show how a pot was used. A specialist would later date the pieces by comparing them with known examples. Nearby, Tom uncovered a small bronze coin covered with green corrosion. Finding the coin was exciting, but its context made it scientifically useful.",
+      "After lunch, we wrote measurements and observations in the official site record. Accurate notes let future researchers check conclusions long after a dig has ended.",
+      "One soil sample held burnt grain, which suggested that food was prepared nearby. Another square showed the outline of a wooden post from a riverside building. The evidence did not prove every detail, so the archaeologists avoided dramatic claims. Instead, they compared several clues and explained the limits of each idea.",
+      "Before leaving, we helped cover the trench to protect it from overnight rain. Dr Lewis showed us a digital model made from hundreds of site photos. Back at school, we made a display about the coin, pottery and plant samples. The trip taught us that reliable history depends on careful evidence and honest records."
+    ],
+    "vocabulary": [
+      {
+        "word": "excavation",
+        "syllables": "ex-ca-va-tion",
+        "phonetic": "/ˌekskəˈveɪʃn/",
+        "definition": "The careful digging of a site to find old objects.",
+        "example": "During the summer holiday, our history club visited an excavation site beside the River Avon.",
+        "emoji": "⛏️"
+      },
+      {
+        "word": "evidence",
+        "syllables": "ev-i-dence",
+        "phonetic": "/ˈevɪdəns/",
+        "definition": "Facts or objects that help prove something.",
+        "example": "We scraped the earth gently because careless digging could destroy fragile evidence.",
+        "emoji": "🔍"
+      },
+      {
+        "word": "context",
+        "syllables": "con-text",
+        "phonetic": "/ˈkɒntekst/",
+        "definition": "The situation or place in which something is found.",
+        "example": "Finding the coin was exciting, but its context made it scientifically useful.",
+        "emoji": "🗺️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Who was Dr Lewis?",
+        "options": [
+          "A museum guide",
+          "A field archaeologist",
+          "A history teacher",
+          "A photographer"
+        ],
+        "answerIndex": 1,
+        "explanation": "Dr Lewis, a field archaeologist, welcomed us and described the Roman past of the area."
+      },
+      {
+        "question": "What did Maya find near her square?",
+        "options": [
+          "A gold ring",
+          "Pieces of pottery",
+          "A wooden post",
+          "Burnt grain"
+        ],
+        "answerIndex": 1,
+        "explanation": "Maya found several pieces of pottery near the corner of her square."
+      },
+      {
+        "question": "What did one soil sample contain?",
+        "options": [
+          "Burnt grain",
+          "Animal bones",
+          "Pollen only",
+          "Roman coins"
+        ],
+        "answerIndex": 0,
+        "explanation": "One soil sample held burnt grain, which suggested that food was prepared nearby."
+      }
+    ],
+    "funPrompt": "If you found an old object in your garden, what would you do with it?"
+  },
+  {
+    "id": 114,
+    "day": 114,
+    "title": "The Neighbourhood Food Festival",
+    "coverEmoji": "🍲",
+    "category": "Culture & Community",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "Twelve families, one courtyard and a tasting card: a food festival that builds respect.",
+    "wordCount": 291,
+    "paragraphs": [
+      "Food festivals can introduce neighbours to new traditions in a friendly way. Our community centre organised an international food fair on the first Saturday in June. Families from twelve cultural backgrounds volunteered to cook dishes. The organisers set up each stand around the central courtyard and gave out reusable plates.",
+      "They planned to serve vegetable curry, coconut rice and small pandan cakes. Across the courtyard, an Italian family rolled fresh pasta for the main course. Visitors got a tasting card that encouraged them to try six different foods. Before the gates opened, volunteers checked allergy labels and food temperatures carefully.",
+      "At midday, the mayor welcomed everyone and thanked residents for sharing their skills. Tom helped at the drinks stand, serving mint tea and homemade lemonade. He found that careful service mattered as much as speed when the queue grew long.",
+      "Maya invited an elderly visitor to try a mild version of the curry. The visitor praised the balanced spices and asked for the family recipe. During the afternoon, cooks showed how to fold dumplings and shape bread dough. A chef explained how one dish can change when ingredients move between countries.",
+      "This exchange showed that food traditions are living practices, not fixed museum pieces. Judges later chose one savoury dish and one dessert for community awards. When rain started, volunteers quickly moved the tables under covered walkways. No food was wasted because unopened portions went to a local shelter.",
+      "The event raised money for free cooking classes at the community centre. Several visitors offered to teach a future course on healthy family meals. By evening, every stand had sold out and the courtyard was full of talk. Sharing a meal proved to be a simple but powerful way to build respect."
+    ],
+    "vocabulary": [
+      {
+        "word": "stand",
+        "syllables": "stand",
+        "phonetic": "/stænd/",
+        "definition": "A table or small shop where things are sold at an event.",
+        "example": "The organisers set up each stand around the central courtyard and gave out reusable plates.",
+        "emoji": "🍽️"
+      },
+      {
+        "word": "allergy",
+        "syllables": "al-ler-gy",
+        "phonetic": "/ˈælədʒi/",
+        "definition": "A bad reaction of the body to certain foods or substances.",
+        "example": "Before the gates opened, volunteers checked allergy labels and food temperatures carefully.",
+        "emoji": "⚠️"
+      },
+      {
+        "word": "dumplings",
+        "syllables": "dump-lings",
+        "phonetic": "/ˈdʌmplɪŋz/",
+        "definition": "Small pieces of dough with filling, cooked in water or steamed.",
+        "example": "During the afternoon, cooks showed how to fold dumplings and shape bread dough.",
+        "emoji": "🥟"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How many cultural backgrounds took part?",
+        "options": [
+          "Six",
+          "Twelve",
+          "Twenty",
+          "Thirty"
+        ],
+        "answerIndex": 1,
+        "explanation": "Families from twelve cultural backgrounds volunteered to cook dishes."
+      },
+      {
+        "question": "What did visitors receive?",
+        "options": [
+          "A recipe book",
+          "A tasting card",
+          "A free plate",
+          "A map"
+        ],
+        "answerIndex": 1,
+        "explanation": "Visitors got a tasting card that encouraged them to try six different foods."
+      },
+      {
+        "question": "What happened to unopened food?",
+        "options": [
+          "It was thrown away",
+          "It went to a local shelter",
+          "It was sold the next day",
+          "It was frozen"
+        ],
+        "answerIndex": 1,
+        "explanation": "No food was wasted because unopened portions went to a local shelter."
+      }
+    ],
+    "funPrompt": "Which family dish would you bring to a food festival, and what story would you tell about it?"
+  },
+  {
+    "id": 115,
+    "day": 115,
+    "title": "Designing an Accessible Mobile App",
+    "coverEmoji": "📲",
+    "category": "Technology & Society",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "Students design a bus app by asking wheelchair users and people with limited sight what they need.",
+    "wordCount": 263,
+    "paragraphs": [
+      "Accessible technology helps people with different abilities take part in daily life. Our computing class decided to design a mobile app for the town's bus network. The project began with interviews rather than coding. Many users said that small text and confusing menus made travel information hard to use.",
+      "Others needed clear audio announcements when they could not read a screen outdoors. Our team made a simple home page with large buttons and strong colour contrast. A voice option could read departure times and directions aloud through headphones.",
+      "Maya wrote short, clear labels so every command was easy to understand. Tom built a prototype that worked on both older and newer phones. Another problem appeared when the voice reader said street names incorrectly.",
+      "The team recorded local pronunciations and fixed the audio database. We also tested the app without colour to make sure meaning did not depend on red or green alone. All personal location data was stored only with the user's permission.",
+      "After each test, we sorted comments into urgent fixes and future improvements. The second prototype let users make text bigger without breaking the page. A local accessibility adviser praised our willingness to listen and improve. She reminded us that one design cannot remove every barrier for every person. The bus company agreed to test the app on three busy routes.",
+      "Our class published the source code so other schools could study the project. The experience showed that inclusive design improves products for many users, not just a small group. Good access begins when designers treat users as partners, not problems."
+    ],
+    "vocabulary": [
+      {
+        "word": "accessibility",
+        "syllables": "ac-ces-si-bil-i-ty",
+        "phonetic": "/əkˌsesəˈbɪləti/",
+        "definition": "The quality of being easy for everyone to use, including people with disabilities.",
+        "example": "A local accessibility adviser praised our willingness to listen and improve.",
+        "emoji": "♿"
+      },
+      {
+        "word": "contrast",
+        "syllables": "con-trast",
+        "phonetic": "/ˈkɒntrɑːst/",
+        "definition": "A clear difference between light and dark colours.",
+        "example": "Our team made a simple home page with large buttons and strong colour contrast.",
+        "emoji": "🌓"
+      },
+      {
+        "word": "prototype",
+        "syllables": "pro-to-type",
+        "phonetic": "/ˈprəʊtətaɪp/",
+        "definition": "A first test version of a product.",
+        "example": "Tom built a prototype that worked on both older and newer phones.",
+        "emoji": "📱"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How did the project begin?",
+        "options": [
+          "With coding",
+          "With interviews",
+          "With a design contest",
+          "With a school survey"
+        ],
+        "answerIndex": 1,
+        "explanation": "The project began with interviews rather than coding."
+      },
+      {
+        "question": "What could the voice option do?",
+        "options": [
+          "Call a taxi",
+          "Read departure times and directions aloud",
+          "Translate into French",
+          "Take photos"
+        ],
+        "answerIndex": 1,
+        "explanation": "A voice option could read departure times and directions aloud through headphones."
+      },
+      {
+        "question": "Why did they test the app without colour?",
+        "options": [
+          "To save battery",
+          "To make sure meaning did not depend on red or green alone",
+          "To make it faster",
+          "To reduce cost"
+        ],
+        "answerIndex": 1,
+        "explanation": "We also tested the app without colour to make sure meaning did not depend on red or green alone."
+      }
+    ],
+    "funPrompt": "What small design change would make a phone app easier for an older person to use?"
   }
 ];
 MONTH4_STORIES.forEach(story => { if (!STORIES_DATA.some(e => e.id === story.id)) STORIES_DATA.push(story); });
