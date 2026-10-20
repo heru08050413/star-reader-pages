@@ -280,10 +280,11 @@ function renderStoryContent(story) {
           openVocabModal(vData);
         };
       } else {
-        span.title = "Click to hear pronunciation";
+        span.title = `Click for meaning of "${cleanWord}"`;
         span.onclick = (e) => {
           e.stopPropagation();
-          speakWord(cleanWord);
+          playClickPop();
+          handleWordClick(cleanWord);
         };
       }
 
@@ -506,16 +507,47 @@ function clearWordHighlights() {
 // ==========================================
 // VOCABULARY MODAL
 // ==========================================
+function handleWordClick(word) {
+  if (!word) return;
+  const lookup = (window.LONGMAN_DATA || {})[String(word).toLowerCase()] || {};
+  const defs = lookup.defs || [];
+  openVocabModal({
+    word,
+    syllables: word,
+    phonetic: lookup.phonetic || "",
+    definition: defs[0] || "",
+    example: "",
+    emoji: "📖",
+    longman: defs,
+    lookupOnly: true,
+  });
+}
+
 function openVocabModal(vData) {
   if (!vData) return;
   currentModalWordData = vData;
 
-  document.getElementById("modalEmoji").textContent = vData.emoji || "✨";
+  const lookup = (window.LONGMAN_DATA || {})[String(vData.word).toLowerCase()] || {};
+  const longmanDefs = vData.longman || lookup.defs || [];
+
+  document.getElementById("modalEmoji").textContent = vData.emoji || "📖";
   document.getElementById("modalWord").textContent = vData.word;
   document.getElementById("modalSyllables").textContent = vData.syllables || vData.word;
-  document.getElementById("modalPhonetic").textContent = vData.phonetic || "";
-  document.getElementById("modalDefinition").textContent = vData.definition;
-  document.getElementById("modalExample").textContent = `"${vData.example || ""}"`;
+  document.getElementById("modalPhonetic").textContent = vData.phonetic || lookup.phonetic || "";
+  document.getElementById("modalDefinition").textContent = vData.definition || longmanDefs[0] || "—";
+  document.getElementById("modalExample").textContent = vData.example ? `"${vData.example}"` : "";
+
+  const longmanSection = document.getElementById("modalLongmanSection");
+  const longmanList = document.getElementById("modalLongman");
+  if (longmanSection && longmanList) {
+    if (longmanDefs.length && !vData.lookupOnly) {
+      longmanList.innerHTML = longmanDefs.map(d => `<li>${d}</li>`).join("");
+      longmanSection.style.display = "block";
+    } else {
+      longmanSection.style.display = "none";
+      longmanList.innerHTML = "";
+    }
+  }
 
   // Check if already in word bank
   const exists = state.wordBank.some(w => w.word.toLowerCase() === vData.word.toLowerCase());
@@ -734,21 +766,28 @@ function renderStoryLibrary() {
 
   const allStories = getAllStories();
 
-  // Update total count badge
-  const totalBadge = document.getElementById("libraryTotalCount");
-  if (totalBadge) totalBadge.textContent = allStories.length;
+  // Advanced stories live in their own tab; core views only show the daily track
+  const coreStories = allStories.filter(s => s.track !== 'advanced');
 
-  let filtered = allStories;
+  let filtered = coreStories;
 
   if (currentFilterView === 'month1') {
-    filtered = allStories.filter(s => (s.day || s.id) <= 30);
+    filtered = coreStories.filter(s => (s.day || s.id) <= 30);
   } else if (currentFilterView === 'month2') {
-    filtered = allStories.filter(s => (s.day || s.id) >= 31 && (s.day || s.id) <= 60);
+    filtered = coreStories.filter(s => (s.day || s.id) >= 31 && (s.day || s.id) <= 60);
+  } else if (currentFilterView === 'month3') {
+    filtered = coreStories.filter(s => (s.day || s.id) >= 61 && (s.day || s.id) <= 80);
+  } else if (currentFilterView === 'advanced') {
+    filtered = allStories.filter(s => s.track === 'advanced');
   } else if (currentFilterView === 'custom') {
-    filtered = allStories.filter(s => s.id > 100 || s.category === 'Custom Story');
+    filtered = allStories.filter(s => !s.track && (s.id > 100 || s.category === 'Custom Story'));
   } else if (currentFilterWeek > 0) {
-    filtered = allStories.filter(s => s.week === currentFilterWeek);
+    filtered = coreStories.filter(s => s.week === currentFilterWeek);
   }
+
+  // Update total count badge for the active view
+  const totalBadge = document.getElementById("libraryTotalCount");
+  if (totalBadge) totalBadge.textContent = filtered.length;
 
   if (!filtered.length) {
     container.innerHTML = `
@@ -776,7 +815,7 @@ function renderStoryLibrary() {
       <div class="card-top">
         <span class="card-emoji">${story.coverEmoji || '📖'}</span>
         <div style="display:flex; align-items:center; gap:0.4rem;">
-          <span class="card-day-badge">Day ${story.day || story.id}</span>
+          <span class="card-day-badge">${story.track === 'advanced' ? '⭐ Adv ' + (story.day || story.id) : 'Day ' + (story.day || story.id)}</span>
           ${isCompleted ? '<span class="card-completed-badge" title="Completed">⭐</span>' : ''}
         </div>
       </div>
