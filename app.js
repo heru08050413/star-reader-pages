@@ -808,6 +808,13 @@ function renderStoryLibrary() {
   const totalBadge = document.getElementById("libraryTotalCount");
   if (totalBadge) totalBadge.textContent = filtered.length;
 
+  // Nav label: show however many days the uploaded stories actually cover
+  const navDayCount = document.getElementById("navDayCount");
+  if (navDayCount) {
+    const maxDay = coreStories.reduce((m, s) => Math.max(m, s.day || s.id || 0), 0);
+    navDayCount.textContent = maxDay || coreStories.length;
+  }
+
   if (!filtered.length) {
     container.innerHTML = `
       <div style="grid-column: 1 / -1; text-align:center; padding:3rem 1rem; color:var(--text-muted);">
