@@ -821,6 +821,413 @@ const MONTH3_STORIES = [
       }
     ],
     "funPrompt": "What would a pet need from you every single day?"
+  },
+  {
+    "id": 71,
+    "day": 71,
+    "title": "The Art of Filmmaking",
+    "coverEmoji": "🎬",
+    "category": "Arts & Performance",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "A school media club makes a short film, from the first script to the final applause.",
+    "wordCount": 248,
+    "paragraphs": [
+      "Last month, our school media club made a ten-minute film. The project began when Maya wrote a story about friendship. Our teacher helped us get cameras and filming permissions. The casting director held auditions to choose the actors.",
+      "Leo was chosen to play the bad character, a man with a troubled mind. The crew used cameras on heavy tripods to keep the shots steady. The sound recordist tested the microphone to remove background noise. The director shouted 'Action!' and the scene began.",
+      "In the second scene, the main characters argued in a café. The actors knew their lines and showed real feeling. But a crash of dropped plates in the kitchen ruined the first recording. The director stayed calm and asked for one more take. The second take was perfect.",
+      "Outdoor filming took place near old stone bridges. The autumn sunlight made a golden background. Once all footage was captured, the team went to the editing room. They used a powerful computer and editing software. The editor cut unnecessary scenes and put the best takes in order.",
+      "A music student composed a soundtrack. He mixed violin music with modern beats. Sound designers added small effects, like wind and traffic. After weeks of work, the final cut was ready. The club showed the film in the school hall.",
+      "Parents and pupils came to watch. When the credits rolled, the crowd clapped loudly. A local critic praised the storytelling and visual style. The project taught everyone about patience and teamwork."
+    ],
+    "vocabulary": [
+      {
+        "word": "tripods",
+        "syllables": "tri-pods",
+        "phonetic": "/ˈtraɪpɒdz/",
+        "definition": "Three-legged stands that hold a camera steady.",
+        "example": "The crew used cameras on heavy tripods to keep the shots steady.",
+        "emoji": "📹"
+      },
+      {
+        "word": "scene",
+        "syllables": "scene",
+        "phonetic": "/siːn/",
+        "definition": "A part of a film or play where the action happens in one place.",
+        "example": "The director shouted 'Action!' and the scene began.",
+        "emoji": "🎞️"
+      },
+      {
+        "word": "credits",
+        "syllables": "cred-its",
+        "phonetic": "/ˈkredɪts/",
+        "definition": "The list of names shown at the end of a film.",
+        "example": "When the credits rolled, the crowd clapped loudly.",
+        "emoji": "📜"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Who played the bad character?",
+        "options": [
+          "Maya",
+          "Leo",
+          "The teacher",
+          "A local critic"
+        ],
+        "answerIndex": 1,
+        "explanation": "Leo was chosen to play the bad character, a man with a troubled mind."
+      },
+      {
+        "question": "What ruined the first recording of the café scene?",
+        "options": [
+          "A loud song",
+          "Dropped plates in the kitchen",
+          "A broken camera",
+          "Rain outside"
+        ],
+        "answerIndex": 1,
+        "explanation": "But a crash of dropped plates in the kitchen ruined the first recording."
+      },
+      {
+        "question": "What did the music student compose?",
+        "options": [
+          "A poster",
+          "A soundtrack",
+          "The costumes",
+          "The script"
+        ],
+        "answerIndex": 1,
+        "explanation": "A music student composed a soundtrack."
+      }
+    ],
+    "funPrompt": "If your class made a short film, what story would you tell and where would you film it?"
+  },
+  {
+    "id": 72,
+    "day": 72,
+    "title": "Extreme Weather and Natural Forces",
+    "coverEmoji": "❄️",
+    "category": "Science & Environment",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "A snowstorm cuts the power, and neighbours look after one another.",
+    "wordCount": 246,
+    "paragraphs": [
+      "Last winter, a huge snowstorm hit our northern county. The weather office sent a serious warning on Sunday evening. The temperature fell to minus fifteen degrees. Ice covered the roads, roofs and power lines.",
+      "Strong winds brought down big tree branches and blocked the roads. The storm caused a power failure across the whole district. Inside our house, the heating stopped working. My father lit candles and brought extra blankets. We sat in the living room near the wood stove to keep warm.",
+      "My mother melted clean snow in a pot to get drinking water. The TV and internet did not work. We used an old radio to hear news. The government said all schools and offices would stay closed. Rescue crews worked all night to clear the snow from the main roads.",
+      "Engineers climbed high poles in the freezing cold to repair the broken cables. In the valleys, the river level rose, and people feared floods. Farmers built barriers with sandbags to protect their animals. Volunteers brought hot meals to old people living alone.",
+      "My brother and I visited our neighbour, an eighty-year-old retired teacher. We helped her shovel snow from her door. She thanked us and gave us ginger biscuits.",
+      "By Wednesday afternoon, the wind dropped and the sky cleared. The sun shone on the white land. The power company finally brought the electricity back. The storm showed how strong nature can be. It also showed how people help each other in hard times."
+    ],
+    "vocabulary": [
+      {
+        "word": "warning",
+        "syllables": "warn-ing",
+        "phonetic": "/ˈwɔːnɪŋ/",
+        "definition": "A message that tells people about possible danger.",
+        "example": "The weather office sent a serious warning on Sunday evening.",
+        "emoji": "⚠️"
+      },
+      {
+        "word": "candles",
+        "syllables": "can-dles",
+        "phonetic": "/ˈkændlz/",
+        "definition": "Sticks of wax with a string that burns to give light.",
+        "example": "My father lit candles and brought extra blankets.",
+        "emoji": "🕯️"
+      },
+      {
+        "word": "shovel",
+        "syllables": "shov-el",
+        "phonetic": "/ˈʃʌvl/",
+        "definition": "To move snow or soil with a large flat tool.",
+        "example": "We helped her shovel snow from her door.",
+        "emoji": "🪏"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How cold did it get?",
+        "options": [
+          "Minus five degrees",
+          "Minus fifteen degrees",
+          "Minus twenty-five degrees",
+          "Zero degrees"
+        ],
+        "answerIndex": 1,
+        "explanation": "The temperature fell to minus fifteen degrees."
+      },
+      {
+        "question": "How did the family get the news?",
+        "options": [
+          "On TV",
+          "From an old radio",
+          "On the internet",
+          "From a newspaper"
+        ],
+        "answerIndex": 1,
+        "explanation": "We used an old radio to hear news."
+      },
+      {
+        "question": "How did the children help their neighbour?",
+        "options": [
+          "They cooked dinner",
+          "They shovelled snow from her door",
+          "They fixed her roof",
+          "They drove her to hospital"
+        ],
+        "answerIndex": 1,
+        "explanation": "We helped her shovel snow from her door."
+      }
+    ],
+    "funPrompt": "What would your family need if the power went out for two days?"
+  },
+  {
+    "id": 73,
+    "day": 73,
+    "title": "Celebrating Traditional Festivals",
+    "coverEmoji": "🎭",
+    "category": "Culture & Festivals",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "A spring carnival of paper masks, brass bands and fireworks over an old castle.",
+    "wordCount": 247,
+    "paragraphs": [
+      "Every spring, our town celebrates an old festival called Carnival. People work for months to make the celebration a success. Local artists and school children meet in workshops to make paper masks. They decorate big floats with flowers, ribbons and lights.",
+      "On the morning of the festival, thousands of people line the main square. Brass bands play happy music. Musicians march in neat rows with trumpets, flutes and drums. Dancers in bright national costumes move along the street. Food stalls sell local dishes.",
+      "The smell of roasted chestnuts, sweet pastries and hot chocolate fills the air. Children run after balloons and blow toy whistles.",
+      "In the afternoon, the town hall holds a storytelling session. An old storyteller tells tales about heroes, dragons and kings. The audience listens in silence.",
+      "Later, there is a fancy-dress competition on an outdoor stage. People of all ages wear clothes made from recycled materials. A seven-year-old girl dressed as a forest fairy wins first prize. The judges praise her cardboard wings and shining crown.",
+      "At dusk, the festival reaches its best moment. Fireworks shoot up from the old castle. Red, green and gold light fills the dark sky. The crowd shouts with joy.",
+      "The mayor gives a closing speech. She thanks the volunteers and says that traditions keep the town together.",
+      "Families walk home happily, singing the songs of the day. The festival gives people a joyful break from work. It brings neighbours together. Such traditions create memories that last for generations."
+    ],
+    "vocabulary": [
+      {
+        "word": "floats",
+        "syllables": "floats",
+        "phonetic": "/fləʊts/",
+        "definition": "Large decorated vehicles that move in a parade.",
+        "example": "They decorate big floats with flowers, ribbons and lights.",
+        "emoji": "🎪"
+      },
+      {
+        "word": "costumes",
+        "syllables": "cos-tumes",
+        "phonetic": "/ˈkɒstjuːmz/",
+        "definition": "Special clothes worn for a play, festival or party.",
+        "example": "Dancers in bright national costumes move along the street.",
+        "emoji": "👗"
+      },
+      {
+        "word": "fireworks",
+        "syllables": "fire-works",
+        "phonetic": "/ˈfaɪəwɜːks/",
+        "definition": "Objects that explode in the sky with bright colours and noise.",
+        "example": "Fireworks shoot up from the old castle.",
+        "emoji": "🎆"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What do the children help to make?",
+        "options": [
+          "Paper masks",
+          "Wooden boats",
+          "Glass windows",
+          "Clay pots"
+        ],
+        "answerIndex": 0,
+        "explanation": "Local artists and school children meet in workshops to make paper masks."
+      },
+      {
+        "question": "Who won the fancy-dress competition?",
+        "options": [
+          "A teenage boy",
+          "A seven-year-old girl as a forest fairy",
+          "The mayor",
+          "A group of teachers"
+        ],
+        "answerIndex": 1,
+        "explanation": "A seven-year-old girl dressed as a forest fairy wins first prize."
+      },
+      {
+        "question": "Where do the fireworks come from?",
+        "options": [
+          "The town square",
+          "The old castle",
+          "The river",
+          "The school"
+        ],
+        "answerIndex": 1,
+        "explanation": "Fireworks shoot up from the old castle."
+      }
+    ],
+    "funPrompt": "Which festival in your town would you show to a visitor, and what would you explain first?"
+  },
+  {
+    "id": 74,
+    "day": 74,
+    "title": "A Visit to a Modern Sustainable Farm",
+    "coverEmoji": "🌱",
+    "category": "Nature & Science",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "A science class visits a farm that uses insects instead of pesticides and sun instead of fuel.",
+    "wordCount": 249,
+    "paragraphs": [
+      "Last Thursday, our science class visited an organic farm in a river valley. The owner, Mr. Higgins, met our bus at the gate. He explained how sustainable farming works. Unlike normal farms, this farm uses no chemical pesticides.",
+      "Instead, natural predatory insects control the pests. We walked across green fields where cows and sheep grazed. Mr. Higgins said open space is important for animal health. Next, we visited large glass greenhouses. Inside, tomatoes, cucumbers and strawberries grew in neat rows.",
+      "The greenhouse uses a smart watering system. Soil sensors check the moisture and stop waste. Solar panels on the roof make energy for the heating and fans. The farmer showed how crop waste becomes compost. Nothing is wasted, so the farm is a closed cycle.",
+      "In the workshop, workers graded and packed fresh produce. Emma weighed a wooden crate of apples on a digital scale. It weighed exactly fifteen kilograms. The farm sells food directly to local markets and school canteens. This cuts transport pollution.",
+      "At lunchtime, the farmer gave us a farm-to-table meal. We ate fresh bread, organic cheese and apple juice. The simple food tasted rich and sweet. Students asked questions about soil and careers. Mr. Higgins said modern farming needs skilled people.",
+      "He told us to study environmental biology or agricultural science. Before leaving, each student got a small potted herb. We thanked the family for their warm welcome. The trip showed us where our food comes from. Sustainable farming protects food security and the planet."
+    ],
+    "vocabulary": [
+      {
+        "word": "organic",
+        "syllables": "or-gan-ic",
+        "phonetic": "/ɔːˈɡænɪk/",
+        "definition": "Grown or made without harmful chemicals.",
+        "example": "Last Thursday, our science class visited an organic farm in a river valley.",
+        "emoji": "🌿"
+      },
+      {
+        "word": "compost",
+        "syllables": "com-post",
+        "phonetic": "/ˈkɒmpɒst/",
+        "definition": "Rotted plants and food waste used to feed the soil.",
+        "example": "The farmer showed how crop waste becomes compost.",
+        "emoji": "🪱"
+      },
+      {
+        "word": "produce",
+        "syllables": "pro-duce",
+        "phonetic": "/ˈprɒdjuːs/",
+        "definition": "Fruit and vegetables grown for sale.",
+        "example": "In the workshop, workers graded and packed fresh produce.",
+        "emoji": "🥕"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How does this farm control pests?",
+        "options": [
+          "With chemical pesticides",
+          "With natural predatory insects",
+          "With plastic nets",
+          "By removing all insects"
+        ],
+        "answerIndex": 1,
+        "explanation": "Instead, natural predatory insects control the pests."
+      },
+      {
+        "question": "What did Emma weigh on the scale?",
+        "options": [
+          "A bag of potatoes",
+          "A crate of apples",
+          "A basket of tomatoes",
+          "A sack of grain"
+        ],
+        "answerIndex": 1,
+        "explanation": "Emma weighed a wooden crate of apples on a digital scale."
+      },
+      {
+        "question": "Where does the farm sell its food?",
+        "options": [
+          "Only overseas",
+          "Directly to local markets and school canteens",
+          "Only online",
+          "To big supermarkets"
+        ],
+        "answerIndex": 1,
+        "explanation": "The farm sells food directly to local markets and school canteens."
+      }
+    ],
+    "funPrompt": "What does eating local food mean, and how could your family try it once?"
+  },
+  {
+    "id": 75,
+    "day": 75,
+    "title": "The Historic City Tour",
+    "coverEmoji": "🏛️",
+    "category": "History & Culture",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "A history class walks the Roman walls, medieval lanes and Viking museum of York.",
+    "wordCount": 247,
+    "paragraphs": [
+      "Our history class took a walking tour of York. A historian named Dr Evans met us at the city walls. These stone walls were built in Roman times. Dr Evans gave us maps of the old streets.",
+      "We walked along the high walls. They gave us a wide view of the city. Dr Evans explained how the walls protected people from enemies. Then we went down stone steps to a narrow lane called the Shambles. The old wooden houses lean toward each other. In the Middle Ages, butchers sold meat there.",
+      "Today, the old shops sell books, tea and gifts. Next, we visited York Minster, a huge Gothic cathedral. Inside, the tall stone pillars left us speechless. Sunlight came through tall stained-glass windows. The guide said craftsmen spent years making them.",
+      "In the crypt below, we saw old Roman army remains. Archaeologists found weapons, coins and pottery. Dr Evans told us not to touch them, because skin oils can damage old things. Outside, we rested in the museum gardens. Next to us stood the ruins of an old abbey.",
+      "In the afternoon, we visited a Viking museum. We sat in moving capsules that carried us through a rebuilt Viking village. The figures, sounds and smells made the past feel real.",
+      "Before the train home, we bought postcards at the station. Seeing these places made our history lessons more vivid. Old buildings need care and money. Learning about the past helps us understand culture and our own city."
+    ],
+    "vocabulary": [
+      {
+        "word": "pillars",
+        "syllables": "pil-lars",
+        "phonetic": "/ˈpɪləz/",
+        "definition": "Tall stone posts that hold up a building.",
+        "example": "Inside, the tall stone pillars left us speechless.",
+        "emoji": "🏛️"
+      },
+      {
+        "word": "crypt",
+        "syllables": "crypt",
+        "phonetic": "/krɪpt/",
+        "definition": "A room under a church, often used for burials.",
+        "example": "In the crypt below, we saw old Roman army remains.",
+        "emoji": "🕯️"
+      },
+      {
+        "word": "ruins",
+        "syllables": "ru-ins",
+        "phonetic": "/ˈruːɪnz/",
+        "definition": "The broken parts left of an old building.",
+        "example": "Next to us stood the ruins of an old abbey.",
+        "emoji": "🏚️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Who built the city walls?",
+        "options": [
+          "The Vikings",
+          "The Romans",
+          "The Normans",
+          "The Tudors"
+        ],
+        "answerIndex": 1,
+        "explanation": "These stone walls were built in Roman times."
+      },
+      {
+        "question": "What is the name of the huge cathedral?",
+        "options": [
+          "St Mary's Abbey",
+          "York Minster",
+          "The Shambles",
+          "The Viking Centre"
+        ],
+        "answerIndex": 1,
+        "explanation": "Next, we visited York Minster, a huge Gothic cathedral."
+      },
+      {
+        "question": "How did the Viking museum bring the past to life?",
+        "options": [
+          "With actors only",
+          "With moving capsules through a rebuilt village",
+          "With a film",
+          "With a guided walk"
+        ],
+        "answerIndex": 1,
+        "explanation": "We sat in moving capsules that carried us through a rebuilt Viking village."
+      }
+    ],
+    "funPrompt": "If you walked around your own town with a historian, which building would you ask about first?"
   }
 ];
 
