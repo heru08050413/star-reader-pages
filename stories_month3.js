@@ -22,9 +22,9 @@ const MONTH3_STORIES = [
       "In the first lesson, the teacher wrote the project aim on the blackboard. Leo listened carefully and took notes in his new notebook. His best friend Sam sat next to him and showed him a funny cartoon. Leo told him to stop because the teacher was strict.",
       "In English class, they read the second act of a famous play. The teacher asked Leo to act as an old hero. At first he felt nervous, but his pronunciation was very good.",
       "When the bell rang, the students went to the playground. Sam's phone battery was dead. He asked Leo where he could charge it. The science club teacher let him use a socket in the lab.",
-      "At noon, everyone had lunch in the canteen. Leo ate soup and salad and drank orange juice. The boys argued about the football match. Sam thought their school team would win. Leo said the other team's new striker was very fast.",
+      "At noon, everyone had lunch in the canteen. Leo ate soup and salad and drank orange juice. The boys argued about the soccer match. Sam thought their school team would win. Leo said the other team's new striker was very fast.",
       "In the afternoon, the class booked museum tickets online. Leo wanted an encyclopedia, but all copies were out. The librarian told him to download a digital copy.",
-      "Before school ended, the headteacher spoke in the hall. She praised the students for their charity work. Leo packed his bag and went home. He felt tired but very happy."
+      "Before school ended, the principal spoke in the hall. She praised the students for their charity work. Leo packed his bag and went home. He felt tired but very happy."
     ],
     "vocabulary": [
       {
@@ -40,7 +40,7 @@ const MONTH3_STORIES = [
         "syllables": "match",
         "phonetic": "/mætʃ/",
         "definition": "A game between two teams or players.",
-        "example": "The boys argued about the football match.",
+        "example": "The boys argued about the soccer match.",
         "emoji": "⚽"
       },
       {
@@ -58,7 +58,7 @@ const MONTH3_STORIES = [
         "options": [
           "He wanted breakfast",
           "He did not want to miss the bus",
-          "He had a football match",
+          "He had a soccer match",
           "He could not sleep"
         ],
         "answerIndex": 1,
@@ -76,11 +76,11 @@ const MONTH3_STORIES = [
         "explanation": "The science club teacher let him use a socket in the lab."
       },
       {
-        "question": "What did the headteacher praise the students for?",
+        "question": "What did the principal praise the students for?",
         "options": [
           "Their notes",
           "Their charity work",
-          "Their football",
+          "Their soccer",
           "Their drawings"
         ],
         "answerIndex": 1,
@@ -103,8 +103,8 @@ const MONTH3_STORIES = [
       "On Saturday morning, Clara walked down the busy street. She wanted to buy a special birthday gift for her sister.",
       "The big shop on the corner had a sale on winter clothes. Clara went in and saw many people looking at the racks. She picked up a silk scarf. The price was fair and reasonable.",
       "She was not sure if her sister would like the blue pattern. A friendly shop assistant came to help. Clara tried on a leather jacket. It was a perfect fit, and she looked smart and confident.",
-      "At the cash register, Clara waited in a long queue. She paid with a ten-pound note and some coins.",
-      "Outside, Clara went to a small café across the road. She ordered black coffee and a strawberry tart. Then she got a text from her classmate David. He asked if she wanted to join the cycling club on Sunday afternoon. Clara said she would love to, if the weather was fine. She told David to check his tyres before he set off.",
+      "At the cash register, Clara waited in a long line. She paid with a ten-pound note and some coins.",
+      "Outside, Clara went to a small café across the road. She ordered black coffee and a strawberry tart. Then she got a text from her classmate David. He asked if she wanted to join the cycling club on Sunday afternoon. Clara said she would love to, if the weather was fine. She told David to check his tires before he set off.",
       "After the café, Clara did her weekly shopping at the local market. She bought carrots, grapes and cooking oil. The stall owner was cheerful and told her jokes.",
       "Clara carried her heavy bags home carefully. Near the crossroads, road repairs caused a traffic hold-up. When she got home, she put the gift in her bedroom drawer. She felt happy because her shopping was done."
     ],
@@ -126,11 +126,11 @@ const MONTH3_STORIES = [
         "emoji": "🧥"
       },
       {
-        "word": "queue",
-        "syllables": "queue",
+        "word": "line",
+        "syllables": "line",
         "phonetic": "/kjuː/",
-        "definition": "A line of people waiting for something.",
-        "example": "At the cash register, Clara waited in a long queue.",
+        "definition": "A row of people waiting their turn.",
+        "example": "At the cash register, Clara waited in a long line.",
         "emoji": "👥"
       }
     ],
@@ -152,7 +152,7 @@ const MONTH3_STORIES = [
           "By credit card",
           "With a ten-pound note and some coins",
           "By phone",
-          "With a cheque"
+          "With a check"
         ],
         "answerIndex": 1,
         "explanation": "She paid with a ten-pound note and some coins."
@@ -182,10 +182,10 @@ const MONTH3_STORIES = [
     "intro": "Two brothers hike a mountain, see a deer and learn to take care of the wild.",
     "wordCount": 232,
     "paragraphs": [
-      "Early on Sunday morning, Mark and his older brother packed their bags for a mountain walk. They took a tent, warm sleeping bags and a strong torch. They took a bus and reached the green valley at eight o'clock. Mark wore strong boots for the rough ground.",
+      "Early on Sunday morning, Mark and his older brother packed their bags for a mountain walk. They took a tent, warm sleeping bags and a strong flashlight. They took a bus and reached the green valley at eight o'clock. Mark wore strong boots for the rough ground.",
       "They walked along a narrow path. Mark stopped to take photos of wild plants. From the cliff, they could see a lake far below.",
       "Suddenly, they heard a loud crack in the forest. A shy deer came out of the bushes. It looked at them for a moment and then ran away.",
-      "At midday, they reached a rocky flat area and had lunch. They sat on a stone and ate sandwiches and apples. His brother explained how old explorers used the sun to find their way. After lunch, they picked up all their rubbish to protect the animals.",
+      "At midday, they reached a rocky flat area and had lunch. They sat on a stone and ate sandwiches and apples. His brother explained how old explorers used the sun to find their way. After lunch, they picked up all their garbage to protect the animals.",
       "While climbing the highest part, Mark felt pain in his left knee. His brother told him to rest by a big rock. After a short rest, Mark felt better and could walk again.",
       "At the top, they could see the whole valley. Mark felt very proud. The way down was slippery because of small stones.",
       "In the late afternoon, they came back to a small village. They went into a guesthouse and a friendly host gave them hot tea. Both brothers agreed it was a great weekend."
@@ -240,7 +240,7 @@ const MONTH3_STORIES = [
         "explanation": "While climbing the highest part, Mark felt pain in his left knee."
       },
       {
-        "question": "Why did they pick up all their rubbish?",
+        "question": "Why did they pick up all their garbage?",
         "options": [
           "To sell it",
           "To protect the animals",
@@ -248,7 +248,7 @@ const MONTH3_STORIES = [
           "To take it home"
         ],
         "answerIndex": 1,
-        "explanation": "After lunch, they picked up all their rubbish to protect the animals."
+        "explanation": "After lunch, they picked up all their garbage to protect the animals."
       }
     ],
     "funPrompt": "What would you take with you for a day in the mountains?"
@@ -347,8 +347,8 @@ const MONTH3_STORIES = [
     "paragraphs": [
       "Yesterday morning, David arrived at the airport two hours before his flight. He pushed his luggage trolley to the airline desk in Terminal 2. The ground staff asked for his passport and booking number. They weighed his suitcase and said it was fine. The agent gave him a boarding pass and said the flight would leave from Gate 14.",
       "David looked at the departure screen. His plane was on time. He went through security and put his metal things in a plastic tray. Everything passed the X-ray machine without a problem.",
-      "Then David walked through the duty-free shops. He bought a box of butter biscuits for his host family. He also changed some money at the airport exchange booth.",
-      "An announcement asked passengers to get ready for boarding. David joined the queue and showed his passport to the flight attendant. He found his window seat and put his small bag in the overhead locker. The captain spoke and said the plane was ready to leave once the runway was clear.",
+      "Then David walked through the duty-free shops. He bought a box of butter cookies for his host family. He also changed some money at the airport exchange booth.",
+      "An announcement asked passengers to get ready for boarding. David joined the line and showed his passport to the flight attendant. He found his window seat and put his small bag in the overhead locker. The captain spoke and said the plane was ready to leave once the runway was clear.",
       "David fastened his seat belt. Soon the plane went fast down the runway and rose into the sky. The flight attendants served hot meals and cold drinks. David chose chicken pasta with bread and water.",
       "He watched a funny film on his screen. Later, the captain said they would land soon. The plane touched down smoothly. David went through customs and met his host in the arrivals hall."
     ],
@@ -394,12 +394,12 @@ const MONTH3_STORIES = [
         "question": "What did David buy at duty-free?",
         "options": [
           "A book",
-          "A box of butter biscuits",
+          "A box of butter cookies",
           "A bag",
           "Perfume"
         ],
         "answerIndex": 1,
-        "explanation": "He bought a box of butter biscuits for his host family."
+        "explanation": "He bought a box of butter cookies for his host family."
       },
       {
         "question": "What did David eat on the plane?",
@@ -423,12 +423,12 @@ const MONTH3_STORIES = [
     "category": "Sports & Teamwork",
     "level": "Explorer",
     "readingTime": "5 mins",
-    "intro": "A town sports day of sprints, football and a relay team that sets a new record.",
+    "intro": "A town sports day of sprints, soccer and a relay team that sets a new record.",
     "wordCount": 248,
     "paragraphs": [
-      "Every summer, our town holds a sports day on the public field. Hundreds of people come early to warm up. The sports club has clean changing rooms and lockers. Tom entered the hundred-metre sprint and the high jump. His coach gave him advice on how to jump well.",
+      "Every summer, our town holds a sports day on the public field. Hundreds of people come early to warm up. The sports club has clean changing rooms and lockers. Tom entered the hundred-meter sprint and the high jump. His coach gave him advice on how to jump well.",
       "In the sprint, the runners waited for the gun. When it fired, they ran very fast. Tom tried his best and finished second. He was a little sad not to win, but his parents were proud.",
-      "On the next field, two schools played football. The other team had a very good goalkeeper. In the second half, the home captain got a yellow card. The referee blew his whistle to stop the game. Both teams played fairly and showed respect. Near them, younger children played table tennis under a tent.",
+      "On the next field, two schools played soccer. The other team had a very good goalkeeper. In the second half, the home captain got a yellow card. The referee blew his whistle to stop the game. Both teams played fairly and showed respect. Near them, younger children played table tennis under a tent.",
       "A teacher showed them how to hold the bat. He said a gentle spin makes the ball hard to return.",
       "At noon, a light rain stopped the games. People waited under trees and ate sandwiches. Soon the sun came back.",
       "The games continued with a relay race. Tom's team passed the baton smoothly and finished first. They set a new town record!",
@@ -440,7 +440,7 @@ const MONTH3_STORIES = [
         "syllables": "sprint",
         "phonetic": "/sprɪnt/",
         "definition": "A short race run at top speed.",
-        "example": "Tom entered the hundred-metre sprint and the high jump.",
+        "example": "Tom entered the hundred-meter sprint and the high jump.",
         "emoji": "🏃"
       },
       {
@@ -465,12 +465,12 @@ const MONTH3_STORIES = [
         "question": "Which two events did Tom enter?",
         "options": [
           "The relay and the long jump",
-          "The hundred-metre sprint and the high jump",
-          "The football match and table tennis",
+          "The hundred-meter sprint and the high jump",
+          "The soccer match and table tennis",
           "The marathon and the sprint"
         ],
         "answerIndex": 1,
-        "explanation": "Tom entered the hundred-metre sprint and the high jump."
+        "explanation": "Tom entered the hundred-meter sprint and the high jump."
       },
       {
         "question": "What place did Tom finish in the sprint?",
@@ -500,20 +500,20 @@ const MONTH3_STORIES = [
   {
     "id": 67,
     "day": 67,
-    "title": "A Coastal Holiday and Marine Ecology",
+    "title": "A Coastal Vacation and Marine Ecology",
     "coverEmoji": "🌊",
     "category": "Nature & Environment",
     "level": "Explorer",
     "readingTime": "5 mins",
-    "intro": "A seaside holiday with seals, rock pools and a lesson about plastic waste.",
+    "intro": "A seaside vacation with seals, rock pools and a lesson about plastic waste.",
     "wordCount": 246,
     "paragraphs": [
       "Last summer, our family rented a small wooden house by the sea. It stood on a high cliff above a wide sandy bay. From the balcony, we could see the ocean and faraway islands. Every morning, my sister and I got up early to watch the sunrise.",
-      "After breakfast, we put on our swimsuits and walked down the rocky path. The weather was warm with a gentle breeze. We hired a double kayak from a sports centre near the harbour. The instructor helped us put on bright orange life jackets. He warned us to stay near the shore because the currents were strong.",
-      "In a quiet cove, we stopped to watch a family of grey seals resting on stones. My sister used her waterproof camera to take close-up photos.",
+      "After breakfast, we put on our swimsuits and walked down the rocky path. The weather was warm with a gentle breeze. We hired a double kayak from a sports center near the harbor. The instructor helped us put on bright orange life jackets. He warned us to stay near the shore because the currents were strong.",
+      "In a quiet cove, we stopped to watch a family of gray seals resting on stones. My sister used her waterproof camera to take close-up photos.",
       "In the afternoon, the sea became rough, so we returned the kayak. We spent the rest of the day exploring the rock pools left by the low tide. We found tiny green crabs, purple sea anemones and empty shells.",
-      "A local fisherman told us that plastic waste was harming the coast. He said bottles and fishing lines often hurt seabirds. My sister and I decided to collect rubbish on the beach. We filled two big bags with glass, cans and wrappers.",
-      "In the evening, we ate at a small seafood restaurant. The grilled fish was very fresh. We watched the sunset paint the sky red and gold. That holiday was one of the best of our childhood."
+      "A local fisherman told us that plastic waste was harming the coast. He said bottles and fishing lines often hurt seabirds. My sister and I decided to collect garbage on the beach. We filled two big bags with glass, cans and wrappers.",
+      "In the evening, we ate at a small seafood restaurant. The grilled fish was very fresh. We watched the sunset paint the sky red and gold. That vacation was one of the best of our childhood."
     ],
     "vocabulary": [
       {
@@ -521,7 +521,7 @@ const MONTH3_STORIES = [
         "syllables": "kay-ak",
         "phonetic": "/ˈkaɪæk/",
         "definition": "A light narrow boat moved with a double paddle.",
-        "example": "We hired a double kayak from a sports centre near the harbour.",
+        "example": "We hired a double kayak from a sports center near the harbor.",
         "emoji": "🛶"
       },
       {
@@ -529,7 +529,7 @@ const MONTH3_STORIES = [
         "syllables": "seals",
         "phonetic": "/siːlz/",
         "definition": "Sea animals with smooth fur that swim and rest on rocks.",
-        "example": "We stopped to watch a family of grey seals resting on stones.",
+        "example": "We stopped to watch a family of gray seals resting on stones.",
         "emoji": "🦭"
       },
       {
@@ -547,7 +547,7 @@ const MONTH3_STORIES = [
         "options": [
           "In a fishing village",
           "On a high cliff above a sandy bay",
-          "Next to the harbour",
+          "Next to the harbor",
           "On a busy street"
         ],
         "answerIndex": 1,
@@ -592,7 +592,7 @@ const MONTH3_STORIES = [
       "Last month, my uncle decided to upgrade his house with a smart system. The main control box connects to the family Wi-Fi.",
       "Now every family member can use the machines with a phone app. The living room lights can be turned on or off by voice. The smart thermostat changes the indoor temperature when the weather changes. When winter is cold, the heating turns on by itself. At sunset, the window blinds close to keep the room private.",
       "In the kitchen, the fridge watches the food dates. If milk or vegetables run low, it makes a shopping list. The microwave can read a barcode and choose the right cooking mode. A robot vacuum moves across the wooden floor to collect dust.",
-      "When its battery drops below twenty percent, the robot goes back to its dock by itself. The house also has a new security system. Cameras near the door can recognise visitors by their faces. If a stranger tries to force the door, a loud alarm sounds.",
+      "When its battery drops below twenty percent, the robot goes back to its dock by itself. The house also has a new security system. Cameras near the door can recognize visitors by their faces. If a stranger tries to force the door, a loud alarm sounds.",
       "The system makes my family feel safe and comfortable. It also uses very little electricity. By turning off unused machines, it lowers the monthly bill. Uncle Jack said the first cost was high. But he believes the long-term savings make it worthwhile.",
       "Some older relatives found the screens confusing at first. But with clear instructions, even my grandfather learned to switch TV channels. Used responsibly, technology helps us build a cleaner and more sustainable future."
     ],
@@ -710,7 +710,7 @@ const MONTH3_STORIES = [
           "A new museum",
           "A transport strike",
           "A school event",
-          "A football match"
+          "A soccer match"
         ],
         "answerIndex": 1,
         "explanation": "Rachel was asked to write about a transport strike on Friday."
@@ -836,7 +836,7 @@ const MONTH3_STORIES = [
       "Last month, our school media club made a ten-minute film. The project began when Maya wrote a story about friendship. Our teacher helped us get cameras and filming permissions. The casting director held auditions to choose the actors.",
       "Leo was chosen to play the bad character, a man with a troubled mind. The crew used cameras on heavy tripods to keep the shots steady. The sound recordist tested the microphone to remove background noise. The director shouted 'Action!' and the scene began.",
       "In the second scene, the main characters argued in a café. The actors knew their lines and showed real feeling. But a crash of dropped plates in the kitchen ruined the first recording. The director stayed calm and asked for one more take. The second take was perfect.",
-      "Outdoor filming took place near old stone bridges. The autumn sunlight made a golden background. Once all footage was captured, the team went to the editing room. They used a powerful computer and editing software. The editor cut unnecessary scenes and put the best takes in order.",
+      "Outdoor filming took place near old stone bridges. The fall sunlight made a golden background. Once all footage was captured, the team went to the editing room. They used a powerful computer and editing software. The editor cut unnecessary scenes and put the best takes in order.",
       "A music student composed a soundtrack. He mixed violin music with modern beats. Sound designers added small effects, like wind and traffic. After weeks of work, the final cut was ready. The club showed the film in the school hall.",
       "Parents and pupils came to watch. When the credits rolled, the crowd clapped loudly. A local critic praised the storytelling and visual style. The project taught everyone about patience and teamwork."
     ],
@@ -911,14 +911,14 @@ const MONTH3_STORIES = [
     "category": "Science & Environment",
     "level": "Explorer",
     "readingTime": "5 mins",
-    "intro": "A snowstorm cuts the power, and neighbours look after one another.",
+    "intro": "A snowstorm cuts the power, and neighbors look after one another.",
     "wordCount": 246,
     "paragraphs": [
       "Last winter, a huge snowstorm hit our northern county. The weather office sent a serious warning on Sunday evening. The temperature fell to minus fifteen degrees. Ice covered the roads, roofs and power lines.",
       "Strong winds brought down big tree branches and blocked the roads. The storm caused a power failure across the whole district. Inside our house, the heating stopped working. My father lit candles and brought extra blankets. We sat in the living room near the wood stove to keep warm.",
       "My mother melted clean snow in a pot to get drinking water. The TV and internet did not work. We used an old radio to hear news. The government said all schools and offices would stay closed. Rescue crews worked all night to clear the snow from the main roads.",
       "Engineers climbed high poles in the freezing cold to repair the broken cables. In the valleys, the river level rose, and people feared floods. Farmers built barriers with sandbags to protect their animals. Volunteers brought hot meals to old people living alone.",
-      "My brother and I visited our neighbour, an eighty-year-old retired teacher. We helped her shovel snow from her door. She thanked us and gave us ginger biscuits.",
+      "My brother and I visited our neighbor, an eighty-year-old retired teacher. We helped her shovel snow from her door. She thanked us and gave us ginger cookies.",
       "By Wednesday afternoon, the wind dropped and the sky cleared. The sun shone on the white land. The power company finally brought the electricity back. The storm showed how strong nature can be. It also showed how people help each other in hard times."
     ],
     "vocabulary": [
@@ -971,7 +971,7 @@ const MONTH3_STORIES = [
         "explanation": "We used an old radio to hear news."
       },
       {
-        "question": "How did the children help their neighbour?",
+        "question": "How did the children help their neighbor?",
         "options": [
           "They cooked dinner",
           "They shovelled snow from her door",
@@ -1002,7 +1002,7 @@ const MONTH3_STORIES = [
       "Later, there is a fancy-dress competition on an outdoor stage. People of all ages wear clothes made from recycled materials. A seven-year-old girl dressed as a forest fairy wins first prize. The judges praise her cardboard wings and shining crown.",
       "At dusk, the festival reaches its best moment. Fireworks shoot up from the old castle. Red, green and gold light fills the dark sky. The crowd shouts with joy.",
       "The mayor gives a closing speech. She thanks the volunteers and says that traditions keep the town together.",
-      "Families walk home happily, singing the songs of the day. The festival gives people a joyful break from work. It brings neighbours together. Such traditions create memories that last for generations."
+      "Families walk home happily, singing the songs of the day. The festival gives people a joyful break from work. It brings neighbors together. Such traditions create memories that last for generations."
     ],
     "vocabulary": [
       {
@@ -1025,7 +1025,7 @@ const MONTH3_STORIES = [
         "word": "fireworks",
         "syllables": "fire-works",
         "phonetic": "/ˈfaɪəwɜːks/",
-        "definition": "Objects that explode in the sky with bright colours and noise.",
+        "definition": "Objects that explode in the sky with bright colors and noise.",
         "example": "Fireworks shoot up from the old castle.",
         "emoji": "🎆"
       }
@@ -1210,7 +1210,7 @@ const MONTH3_STORIES = [
           "St Mary's Abbey",
           "York Minster",
           "The Shambles",
-          "The Viking Centre"
+          "The Viking Center"
         ],
         "answerIndex": 1,
         "explanation": "Next, we visited York Minster, a huge Gothic cathedral."
@@ -1245,8 +1245,8 @@ const MONTH3_STORIES = [
       "Dr Evans came in with a smile and asked where it hurt. Leo said he had a sore throat and a bad headache.",
       "The doctor looked at his throat with a small stick. She listened to his chest and lungs with a stethoscope. She said he had a common viral flu, not a serious bacterial illness.",
       "The doctor explained that antibiotics would not cure a virus, so he did not need them. Instead, she wrote a prescription for fever medicine and throat lozenges. She told Leo to take two tablets every eight hours after meals. She also told him to rest and drink hot tea with honey. She said he should not do hard exercise until he felt better.",
-      "On the way home, they visited the pharmacy. The chemist explained the dose and put a label on the bottle.",
-      "At home, Leo put on comfortable pyjamas and lay under a warm duvet. His mother brought chicken soup and orange juice. Soon Leo felt better. Following the doctor's advice helped him recover quickly."
+      "On the way home, they visited the pharmacy. The pharmacist explained the dose and put a label on the bottle.",
+      "At home, Leo put on comfortable pajamas and lay under a warm duvet. His mother brought chicken soup and orange juice. Soon Leo felt better. Following the doctor's advice helped him recover quickly."
     ],
     "vocabulary": [
       {
@@ -1320,14 +1320,14 @@ const MONTH3_STORIES = [
     "level": "Explorer",
     "readingTime": "5 mins",
     "intro": "Maya writes a CV, goes to an interview and gets her first summer job.",
-    "wordCount": 246,
+    "wordCount": 247,
     "paragraphs": [
-      "With the long summer holiday coming, Maya decided to find a part-time job. She looked at a recruitment website with jobs for students. A seaside hotel was advertising a weekend customer service assistant. The job needed good people skills, basic computer skills and good English.",
+      "With the long summer vacation coming, Maya decided to find a part-time job. She looked at a recruitment website with jobs for students. A seaside hotel was advertising a weekend customer service assistant. The job needed good people skills, basic computer skills and good English.",
       "Maya updated her CV with her school results and activities. She wrote a letter explaining why she was suitable. Before sending, she asked her English teacher to check the spelling and grammar.",
-      "Two days later, Maya got an email inviting her to an interview. On Friday morning, she wore a smart dark suit and clean shoes. She arrived at the hotel reception fifteen minutes early. The human resources manager welcomed her with a firm handshake.",
-      "The manager asked Maya to describe a difficult situation she had handled. Maya described how she organised a school charity sale. She answered each question clearly and politely.",
-      "The interviewer was impressed by her attitude and communication. He explained the job: answering phone calls and greeting guests. The hotel offered a good hourly pay, flexible hours and free meals. He asked if she could work on public holidays. Maya said she was happy to take on any duty. At the end, the manager offered her the job on the spot.",
-      "Maya was delighted and thanked him. On Monday, she signed a standard contract. The hotel gave all new staff a two-day training programme. Having a real job taught Maya the value of hard work and independence."
+      "Two days later, Maya got an email inviting her to an interview. On Friday morning, she wore a smart dark suit and clean shoes. She arrived at the hotel front desk fifteen minutes early. The human resources manager welcomed her with a firm handshake.",
+      "The manager asked Maya to describe a difficult situation she had handled. Maya described how she organized a school charity sale. She answered each question clearly and politely.",
+      "The interviewer was impressed by her attitude and communication. He explained the job: answering phone calls and greeting guests. The hotel offered a good hourly pay, flexible hours and free meals. He asked if she could work on public vacations. Maya said she was happy to take on any duty. At the end, the manager offered her the job on the spot.",
+      "Maya was delighted and thanked him. On Monday, she signed a standard contract. The hotel gave all new staff a two-day training program. Having a real job taught Maya the value of hard work and independence."
     ],
     "vocabulary": [
       {
@@ -1370,13 +1370,13 @@ const MONTH3_STORIES = [
       {
         "question": "What did Maya describe in the interview?",
         "options": [
-          "Her holiday plans",
-          "A school charity sale she organised",
-          "Her favourite teacher",
+          "Her vacation plans",
+          "A school charity sale she organized",
+          "Her favorite teacher",
           "A book she read"
         ],
         "answerIndex": 1,
-        "explanation": "Maya described how she organised a school charity sale and managed the money carefully."
+        "explanation": "Maya described how she organized a school charity sale and managed the money carefully."
       },
       {
         "question": "When did she sign the contract?",
@@ -1405,7 +1405,7 @@ const MONTH3_STORIES = [
     "paragraphs": [
       "Last term, our school music department started an instrument project. The music teacher introduced the four main families of orchestra instruments.",
       "First, he showed the string family: the violin, viola, cello and double bass. He said strings make sound when a horsehair bow is pulled across them.",
-      "Leo chose the acoustic guitar because he loved folk and rock music. His teacher showed him how to press the metal frets with his fingertips. At first his fingers hurt, but soon they grew hard skin. He learned to read notes on the five lines of the staff. Practising thirty minutes a day helped him play difficult chords.",
+      "Leo chose the acoustic guitar because he loved folk and rock music. His teacher showed him how to press the metal frets with his fingertips. At first his fingers hurt, but soon they grew hard skin. He learned to read notes on the five lines of the staff. Practicing thirty minutes a day helped him play difficult chords.",
       "Next, the class learned about wind instruments, like the flute, clarinet and saxophone. Playing them needs careful control of breath. In the brass section, the trumpet made a bright sound. The percussion section was popular with students who had a good sense of rhythm. Sam enjoyed the snare drum and learned to keep a steady beat.",
       "Every Friday, all the young musicians met for an orchestra rehearsal. The conductor stood on a wooden podium with a thin white baton. He raised his arms, called for silence and gave the downbeat. If someone made a mistake, he stopped to correct the bar.",
       "At the end of term, the orchestra gave a concert in the town hall. When the last chord sounded, the hall erupted in applause. Playing in an orchestra taught the students that each person must serve the whole group."
@@ -1449,7 +1449,7 @@ const MONTH3_STORIES = [
         "explanation": "He said strings make sound when a horsehair bow is pulled across them."
       },
       {
-        "question": "How long did Leo practise each day?",
+        "question": "How long did Leo practice each day?",
         "options": [
           "Ten minutes",
           "Twenty minutes",
@@ -1457,7 +1457,7 @@ const MONTH3_STORIES = [
           "One hour"
         ],
         "answerIndex": 2,
-        "explanation": "Practising thirty minutes a day helped him play difficult chords."
+        "explanation": "Practicing thirty minutes a day helped him play difficult chords."
       },
       {
         "question": "Who stopped the orchestra to correct a mistake?",
@@ -1487,7 +1487,7 @@ const MONTH3_STORIES = [
       "The internet has changed how teenagers talk and connect. Today almost every student has a smartphone. Social media lets people share photos and chat in real time. Emma has a blog about her landscape photography. She uploads photos of the coast and writes short captions. Her classmates leave comments and 'like' her posts.",
       "But our computer science teacher warned us about privacy. She said that once something is online, it is hard to delete. Students should never share their home address or phone number. Strong passwords are important to stop other people using your account.",
       "A good password should have capital letters, numbers and symbols. The teacher also warned about viruses and fake links. We should never open unknown email attachments. She also talked about online kindness. Cyberbullying and unkind posts can hurt people badly. We should treat others online with the same respect as in real life.",
-      "Another problem is screen addiction. Too many hours on a phone can hurt your eyes and sleep. Tom realised he spent over four hours on games every evening. He set a strict screen time limit on his phone. When the alarm rang after sixty minutes, he turned off the screen. Instead of chatting online, he invited friends to play football outside. He felt happier and fitter.",
+      "Another problem is screen addiction. Too many hours on a phone can hurt your eyes and sleep. Tom realized he spent over four hours on games every evening. He set a strict screen time limit on his phone. When the alarm rang after sixty minutes, he turned off the screen. Instead of chatting online, he invited friends to play soccer outside. He felt happier and fitter.",
       "The internet is a powerful tool for learning. Technology is neutral; how we use it matters. Our school created a 'Digital Wellness Week' to teach healthy habits."
     ],
     "vocabulary": [
@@ -1548,7 +1548,7 @@ const MONTH3_STORIES = [
           "Ten minutes"
         ],
         "answerIndex": 2,
-        "explanation": "Tom realised he spent over four hours on games every evening."
+        "explanation": "Tom realized he spent over four hours on games every evening."
       }
     ],
     "funPrompt": "What rule would you set for your own screen time, and what would you do instead?"
@@ -1564,10 +1564,10 @@ const MONTH3_STORIES = [
     "intro": "Dinosaurs, a meteorite you can touch, and a planetarium sky: a journey through deep time.",
     "wordCount": 243,
     "paragraphs": [
-      "Last Saturday, our school went to the National Museum of Natural History. We travelled by coach and arrived at ten o'clock. The museum was a huge old building with tall stone arches. At the entrance, guards checked our bags. Our guide, Mr Davies, gave each pupil a guidebook and an activity sheet.",
+      "Last Saturday, our school went to the National Museum of Natural History. We traveled by coach and arrived at ten o'clock. The museum was a huge old building with tall stone arches. At the entrance, guards checked our bags. Our guide, Mr Davies, gave each pupil a guidebook and an activity sheet.",
       "We started in the dinosaur hall. In the middle stood the enormous skeleton of a Diplodocus. Its long neck and tail stretched across the hall. Mr Davies said these huge plant-eaters lived millions of years ago.",
       "Tom used his tablet to scan a QR code. A 3D animation showed how prehistoric animals hunted.",
-      "Next, we visited the biodiversity gallery. We saw colourful birds, big African mammals and rare insects. A researcher talked about extinction and why we are losing species. She said farming and cutting down forests harm nature.",
+      "Next, we visited the biodiversity gallery. We saw colorful birds, big African mammals and rare insects. A researcher talked about extinction and why we are losing species. She said farming and cutting down forests harm nature.",
       "In the mineral hall, we saw precious stones, crystals and gold. A big meteorite that fell from space caught everyone's attention. Visitors could touch the heavy dark stone. It felt cold and metallic.",
       "At noon, we ate our packed lunches in the museum café. In the afternoon, we went to the digital planetarium. The domed ceiling became a night sky full of stars and galaxies. The astronomer explained how our solar system formed.",
       "Before leaving, Leo bought a book about fossils. The trip was a journey through time. It showed us the history of our planet and why we must protect it."
@@ -1649,10 +1649,10 @@ const MONTH3_STORIES = [
       "Last month, my father booked a five-day stay at a lakeside mountain resort. The receptionist said a double room with a bathroom was free.",
       "The clerk said the resort also has free Wi-Fi, a gym and parking. To confirm the booking, my father paid a ten percent deposit by card. The hotel sent an email with the full plan and a receipt.",
       "On Friday afternoon, we arrived at the resort. The front desk clerk smiled and gave us our key cards. He said breakfast was served in the dining room from seven to ten.",
-      "Our room was on the third floor. It had a wide view of the pine forest. The beds had clean cotton sheets, soft pillows and a warm blanket. In the corner stood a wooden wardrobe. My mother opened the glass door and stepped onto the balcony.",
-      "The mountain air felt cool, and the far peak was white with snow. My brother found a kettle. In the bathroom, the big bathtub had hot and cold taps. Clean towels and shampoo were arranged by the basin.",
+      "Our room was on the third floor. It had a wide view of the pine forest. The beds had clean cotton sheets, soft pillows and a warm blanket. In the corner stood a wooden closet. My mother opened the glass door and stepped onto the balcony.",
+      "The mountain air felt cool, and the far peak was white with snow. My brother found a kettle. In the bathroom, the big bathtub had hot and cold faucets. Clean towels and shampoo were arranged by the basin.",
       "The concierge gave us a walking map and advised us to wear strong boots, because the paths were wet.",
-      "In the evening, we ate at the resort restaurant. The chef cooked roast chicken, baked potatoes and green beans. After dinner, we sat by the stone fireplace and played a board game. Before leaving, my father left a tip for the cleaning staff. Our mountain holiday was even better than we expected."
+      "In the evening, we ate at the resort restaurant. The chef cooked roast chicken, baked potatoes and green beans. After dinner, we sat by the stone fireplace and played a board game. Before leaving, my father left a tip for the cleaning staff. Our mountain vacation was even better than we expected."
     ],
     "vocabulary": [
       {
@@ -1708,7 +1708,7 @@ const MONTH3_STORIES = [
         "options": [
           "Sandals",
           "Strong boots",
-          "Trainers",
+          "Sneakers",
           "Raincoats"
         ],
         "answerIndex": 1,
@@ -1728,7 +1728,7 @@ const MONTH3_STORIES = [
     "intro": "Two students build a sand-and-charcoal water filter and present it to a panel of judges.",
     "wordCount": 245,
     "paragraphs": [
-      "Every year, our school holds a science fair for young inventors. Leo and Sam made a team to design a cheap water filter. They spent three weeks on research and materials. In the chemistry lab, they tested how sand and charcoal clean dirty water.",
+      "Every year, our school holds a science fair for young inventors. Leo and Sam made a team to design a cheap water filter. They spent three weeks on research and materials. In the pharmacistry lab, they tested how sand and charcoal clean dirty water.",
       "Leo wrote every measurement in his project journal. Their teacher checked their plan and gave useful advice. She told them to control the variables so the results would be correct.",
       "On the day of the fair, the school gym became a busy science hall. Dozens of stalls stood on the basketball court. Each stall had a board explaining the project.",
       "At nine o'clock, a group of judges arrived. A university professor stopped at Leo and Sam's table. Leo greeted him politely and began the presentation. He said their filter was made for villages without clean water.",
@@ -1784,7 +1784,7 @@ const MONTH3_STORIES = [
           "Plastic and stone"
         ],
         "answerIndex": 1,
-        "explanation": "In the chemistry lab, they tested how sand and charcoal clean dirty water."
+        "explanation": "In the pharmacistry lab, they tested how sand and charcoal clean dirty water."
       },
       {
         "question": "What did their project win?",
@@ -1808,12 +1808,12 @@ const MONTH3_STORIES = [
     "category": "Leisure & Adventure",
     "level": "Explorer",
     "readingTime": "5 mins",
-    "intro": "A birthday trip with a fifty-metre coaster, a soaking flume and a giant stuffed bear.",
+    "intro": "A birthday trip with a fifty-meter coaster, a soaking flume and a giant stuffed bear.",
     "wordCount": 243,
     "paragraphs": [
       "For David's fifteenth birthday, his parents took him and his friends to a theme park. They left early on Saturday and arrived at ten o'clock. David's mother bought four all-day tickets. Each visitor got a wristband and a pocket guide with a map.",
-      "The park had themed zones, like Adventure Island and Future World. They went first to the big roller coaster called 'Silver Thunder'. They joined the queue, which moved forward at a steady pace. While waiting, David read the safety sign. It told riders to secure loose items and fasten their belts.",
-      "When their turn came, they got into the cars and pulled down the shoulder bars. The train climbed slowly to fifty metres. Suddenly, the coaster dropped at great speed. The passengers screamed as the train went through sharp turns and loops.",
+      "The park had themed zones, like Adventure Island and Future World. They went first to the big roller coaster called 'Silver Thunder'. They joined the line, which moved forward at a steady pace. While waiting, David read the safety sign. It told riders to secure loose items and fasten their belts.",
+      "When their turn came, they got into the cars and pulled down the shoulder bars. The train climbed slowly to fifty meters. Suddenly, the coaster dropped at great speed. The passengers screamed as the train went through sharp turns and loops.",
       "After the ride, David felt dizzy but thrilled.",
       "Next, they went on a water flume. Log boats drifted along a river and splashed down at the end. The splash soaked their shirts, and everyone laughed.",
       "At noon, they ate at a diner. David ordered a cheeseburger, fries and cola. His friends had pizza and ice cream.",
@@ -1830,11 +1830,11 @@ const MONTH3_STORIES = [
         "emoji": "🎢"
       },
       {
-        "word": "queue",
-        "syllables": "queue",
+        "word": "line",
+        "syllables": "line",
         "phonetic": "/kjuː/",
-        "definition": "A line of people waiting for something.",
-        "example": "They joined the queue, which moved forward at a steady pace.",
+        "definition": "A row of people waiting their turn.",
+        "example": "They joined the line, which moved forward at a steady pace.",
         "emoji": "👥"
       },
       {
@@ -1850,13 +1850,13 @@ const MONTH3_STORIES = [
       {
         "question": "How high did the coaster climb?",
         "options": [
-          "Twenty metres",
-          "Thirty metres",
-          "Fifty metres",
-          "One hundred metres"
+          "Twenty meters",
+          "Thirty meters",
+          "Fifty meters",
+          "One hundred meters"
         ],
         "answerIndex": 2,
-        "explanation": "The train climbed slowly to fifty metres."
+        "explanation": "The train climbed slowly to fifty meters."
       },
       {
         "question": "What happened at the end of the water flume?",
@@ -1894,7 +1894,7 @@ const MONTH3_STORIES = [
     "intro": "A school turns recycling bins, compost and motion sensors into a thirty-percent cut in waste charges.",
     "wordCount": 247,
     "paragraphs": [
-      "Protecting the environment is one of the most important jobs for our society. Every person can help by adopting green habits. Last term, our school started a green campus project. The aim was to cut energy waste and plastic litter. We put colour-coded recycling bins in every room and corridor.",
+      "Protecting the environment is one of the most important jobs for our society. Every person can help by adopting green habits. Last term, our school started a green campus project. The aim was to cut energy waste and plastic litter. We put color-coded recycling bins in every room and corridor.",
       "Blue bins were for paper, green for glass and yellow for plastic. Student monitors checked the bins every day to make sure the sorting was correct. Putting food waste with paper was not allowed.",
       "In the canteen, we replaced plastic forks and cups with metal ones. Students were asked to bring reusable water bottles instead of buying bottled drinks. The canteen staff began composting fruit and vegetable peelings. The compost was later used in the school garden.",
       "To save electricity, classrooms installed motion sensors. When a room was empty for ten minutes, the lights turned off. Teachers reminded students to switch off monitors before leaving.",
@@ -1930,7 +1930,7 @@ const MONTH3_STORIES = [
     ],
     "quiz": [
       {
-        "question": "Which colour bin was for plastic?",
+        "question": "Which color bin was for plastic?",
         "options": [
           "Blue",
           "Green",
@@ -1976,8 +1976,8 @@ const MONTH3_STORIES = [
     "intro": "A harvest festival of giant pumpkins, sheep shearing, folk dancing and a charity auction.",
     "wordCount": 245,
     "paragraphs": [
-      "Every autumn, after the crops are gathered, our county celebrates the Harvest Festival. Farmers and families come to the old market square. The square is decorated with golden wheat, orange pumpkins and paper streamers. In the centre, a wooden stage holds folk musicians and dancers. They play happy tunes on violins, flutes and accordions.",
-      "Around the square, stalls sell fresh produce. Visitors can taste sweet apples, wild honey and berry jam. Local bakers show crusty bread, fruit pies and ginger biscuits.",
+      "Every fall, after the crops are gathered, our county celebrates the Harvest Festival. Farmers and families come to the old market square. The square is decorated with golden wheat, orange pumpkins and paper streamers. In the center, a wooden stage holds folk musicians and dancers. They play happy tunes on violins, flutes and accordions.",
+      "Around the square, stalls sell fresh produce. Visitors can taste sweet apples, wild honey and berry jam. Local bakers show crusty bread, fruit pies and ginger cookies.",
       "In the farm pavilion, judges look at giant vegetables entered in the contest. A retired farmer wins a blue ribbon for a huge pumpkin. It weighs over ninety kilograms. Children take photos beside the orange giant.",
       "Nearby, a petting area lets younger children meet farm animals.",
       "A sheep shearer gives a demonstration. He shows how wool is cut from the sheep with hand shears. He explains that wool is a natural and renewable material. In the craft tent, a woodcarver makes small animals from fallen branches. Visitors can buy wooden bowls, baskets and tablecloths.",
@@ -2064,7 +2064,7 @@ const MONTH3_STORIES = [
       "Next, the cousins walked to the end of the pier. Fishermen were casting long lines. An old fisherman showed them a bucket with two mackerel and a sea bass.",
       "While they talked, Emma dropped her sunglasses onto a lower ledge. A pier worker used a long pole with a net to get them back. Emma thanked him warmly.",
       "At noon, the family ate fish and chips at an open-air café. In the afternoon, they rented a yellow pedalo. Oliver and Emma took turns pedalling across the gentle waves.",
-      "As the sun set, hundreds of coloured lights lit the pier. Before driving home, Oliver bought a box of peppermint rock candy for his grandparents. They left feeling relaxed and happy."
+      "As the sun set, hundreds of colored lights lit the pier. Before driving home, Oliver bought a box of peppermint rock candy for his grandparents. They left feeling relaxed and happy."
     ],
     "vocabulary": [
       {
@@ -2096,7 +2096,7 @@ const MONTH3_STORIES = [
       {
         "question": "What game did Emma want to play?",
         "options": [
-          "Table football",
+          "Table soccer",
           "Air hockey",
           "Pinball",
           "Basketball"
@@ -2220,14 +2220,14 @@ const MONTH3_STORIES = [
     "category": "Travel & Transport",
     "level": "Explorer",
     "readingTime": "5 mins",
-    "intro": "Four hundred kilometres in two hours: a morning on a high-speed train.",
+    "intro": "Four hundred kilometers in two hours: a morning on a high-speed train.",
     "wordCount": 241,
     "paragraphs": [
-      "Travelling by high-speed train is one of the best ways to move across land. On Monday morning, Daniel arrived at the busy central station. He looked at the big electronic departures board to find his train. Train G104 to London would leave on time from Platform Nine.",
-      "He touched his mobile ticket on the barrier to enter. On the clean platform, he found carriage four and stepped on board. The carriage was bright, cool and very quiet. Daniel found his reserved window seat and lifted his small suitcase onto the overhead rack. The seat was soft.",
-      "At eight o'clock, the train left with barely a sound. Within five minutes, it reached three hundred kilometres per hour. Looking out of the wide window, Daniel watched the city give way to green fields. The train crossed old rivers, went through mountain tunnels and passed quiet villages. Daniel plugged in his laptop and did some homework.",
+      "Traveling by high-speed train is one of the best ways to move across land. On Monday morning, Daniel arrived at the busy central station. He looked at the big electronic departures board to find his train. Train G104 to London would leave on time from Platform Nine.",
+      "He touched his mobile ticket on the barrier to enter. On the clean platform, he found carriage four and stepped on board. The carriage was bright, cool and very quiet. Daniel found his reserved window seat and elevatored his small suitcase onto the overhead rack. The seat was soft.",
+      "At eight o'clock, the train left with barely a sound. Within five minutes, it reached three hundred kilometers per hour. Looking out of the wide window, Daniel watched the city give way to green fields. The train crossed old rivers, went through mountain tunnels and passed quiet villages. Daniel plugged in his laptop and did some homework.",
       "The smooth ride meant he could type without shaking. Halfway through the two-hour journey, a steward pushed a trolley down the aisle. Daniel bought hot black tea and a fresh blueberry muffin. The steward took payment with a small contactless card reader.",
-      "Daniel packed his books and put on his coat. The train had covered four hundred kilometres in just two hours. High-speed rail cuts travel time and produces far less pollution than planes or cars. Daniel stepped off the train feeling relaxed and free of travel tiredness."
+      "Daniel packed his books and put on his coat. The train had covered four hundred kilometers in just two hours. High-speed rail cuts travel time and produces far less pollution than planes or cars. Daniel stepped off the train feeling relaxed and free of travel tiredness."
     ],
     "vocabulary": [
       {
@@ -2243,7 +2243,7 @@ const MONTH3_STORIES = [
         "syllables": "rack",
         "phonetic": "/ræk/",
         "definition": "A shelf for holding things, especially luggage.",
-        "example": "Daniel found his reserved window seat and lifted his small suitcase onto the overhead rack.",
+        "example": "Daniel found his reserved window seat and elevatored his small suitcase onto the overhead rack.",
         "emoji": "🧳"
       },
       {
@@ -2259,13 +2259,13 @@ const MONTH3_STORIES = [
       {
         "question": "What speed did the train reach?",
         "options": [
-          "One hundred kilometres per hour",
-          "Two hundred kilometres per hour",
-          "Three hundred kilometres per hour",
-          "Four hundred kilometres per hour"
+          "One hundred kilometers per hour",
+          "Two hundred kilometers per hour",
+          "Three hundred kilometers per hour",
+          "Four hundred kilometers per hour"
         ],
         "answerIndex": 2,
-        "explanation": "Within five minutes, it reached three hundred kilometres per hour."
+        "explanation": "Within five minutes, it reached three hundred kilometers per hour."
       },
       {
         "question": "How long was the journey?",
@@ -2276,7 +2276,7 @@ const MONTH3_STORIES = [
           "Four hours"
         ],
         "answerIndex": 1,
-        "explanation": "The train had covered four hundred kilometres in just two hours."
+        "explanation": "The train had covered four hundred kilometers in just two hours."
       },
       {
         "question": "What did Daniel buy from the trolley?",
@@ -2284,7 +2284,7 @@ const MONTH3_STORIES = [
           "Coffee and a sandwich",
           "Black tea and a blueberry muffin",
           "Juice and a cake",
-          "Water and biscuits"
+          "Water and cookies"
         ],
         "answerIndex": 1,
         "explanation": "Daniel bought hot black tea and a fresh blueberry muffin."
@@ -2303,7 +2303,7 @@ const MONTH3_STORIES = [
     "intro": "Binoculars, camera traps and a diving osprey: a biology trip into a wildlife reserve.",
     "wordCount": 245,
     "paragraphs": [
-      "National parks are important for protecting animals and their homes. Last autumn, our biology class visited the Northern Highlands Wildlife Reserve. A park ranger named Sarah met our bus at the visitor centre. She gave each pupil binoculars and a field guide.",
+      "National parks are important for protecting animals and their homes. Last fall, our biology class visited the Northern Highlands Wildlife Reserve. A park ranger named Sarah met our bus at the visitor center. She gave each pupil binoculars and a field guide.",
       "Sarah said the park's main job is to protect endangered native mammals. The mountain air smelled of pine needles and wet moss. Sarah stopped and pointed to a clearing. Through our binoculars, we saw a red deer stag eating among the ferns.",
       "Its big branched antlers stood out against the golden leaves.",
       "Further up the valley, Sarah showed us how rangers use camera traps. Small cameras tied to trees take photos when an animal walks past. These pictures let scientists count animals without disturbing them. Sarah showed us a photo of a rare wildcat hunting mice. She said roads and new towns are the biggest danger to these animals.",
@@ -2385,13 +2385,13 @@ const MONTH3_STORIES = [
     "intro": "A charity fair of books, cakes and a raffle raises more than three thousand pounds for a hospital ward.",
     "wordCount": 240,
     "paragraphs": [
-      "Last Saturday, our neighbourhood group held a charity fair in the town park. The aim was to raise money to repair the children's ward at the local hospital. Student volunteers arrived at eight to set up stalls and tents. Tom and Leo were given the second-hand book and puzzle stall.",
+      "Last Saturday, our neighborhood group held a charity fair in the town park. The aim was to raise money to repair the children's ward at the local hospital. Student volunteers arrived at eight to set up stalls and tents. Tom and Leo were given the second-hand book and puzzle stall.",
       "Local people had given hundreds of books. The boys sorted them into groups and put a fair price on each one. Across the grass, another group ran a cake stand. The smell of cinnamon buns, brownies and apple tarts filled the air.",
       "By ten o'clock, hundreds of families came through the park gates. A local brass band played cheerful music. Children enjoyed face painting, balloon animals and a sack race.",
-      "At the book stall, Tom helped an old lady find a book about the town's history. She was so pleased that she put an extra five pounds in the collection tin. Leo kept a careful record of every payment.",
+      "At the book stall, Tom helped an old lady find a book about the town's history. She was so pleased that she put an extra five pounds in the collection box. Leo kept a careful record of every payment.",
       "At noon, the volunteers served tea, coffee and sandwiches. In the afternoon, the mayor drew the raffle tickets from a big wire drum. Prizes included restaurant vouchers and food hampers.",
       "When the fair closed at four, everyone helped pack up. The group counted the money and announced more than three thousand pounds. Everyone cheered.",
-      "The hospital director thanked the community for their generosity. Volunteering builds character and brings neighbours of all ages together. Tom and Leo were tired but very happy."
+      "The hospital director thanked the community for their generosity. Volunteering builds character and brings neighbors of all ages together. Tom and Leo were tired but very happy."
     ],
     "vocabulary": [
       {
@@ -2451,7 +2451,7 @@ const MONTH3_STORIES = [
           "A book"
         ],
         "answerIndex": 1,
-        "explanation": "She was so pleased that she put an extra five pounds in the collection tin."
+        "explanation": "She was so pleased that she put an extra five pounds in the collection box."
       }
     ],
     "funPrompt": "If your class ran a charity stall, what would you sell and who would you help?"
@@ -2468,8 +2468,8 @@ const MONTH3_STORIES = [
     "wordCount": 248,
     "paragraphs": [
       "Last Tuesday, our art class visited the city art gallery. The building had high glass ceilings and white stone walls. Our guide, Mr Vance, was a professional art critic. He gave us brochures showing where each exhibition was.",
-      "We started in the modern painting hall. A big oil painting of a stormy coast caught our eye. The artist used bold brushstrokes and dark blue colours to show the power of the sea. Mr Vance explained how light and shadow created a feeling of deep emotion.",
-      "Next, we walked into a quiet room full of abstract art. Some paintings had complex shapes; others were full of bright colour splashes. Emma looked closely at a large canvas. She noticed that the artist had mixed sand with the oil paint. This gave the picture a rough, special surface.",
+      "We started in the modern painting hall. A big oil painting of a stormy coast caught our eye. The artist used bold brushstrokes and dark blue colors to show the power of the sea. Mr Vance explained how light and shadow created a feeling of deep emotion.",
+      "Next, we walked into a quiet room full of abstract art. Some paintings had complex shapes; others were full of bright color splashes. Emma looked closely at a large canvas. She noticed that the artist had mixed sand with the oil paint. This gave the picture a rough, special surface.",
       "In the sculpture room, we admired marble figures carved with great skill. A bronze eagle stood on a heavy oak stand.",
       "The guide told us not to touch the sculptures, because skin oils can damage them.",
       "In the afternoon, we had a drawing workshop. Each student got a drawing board, charcoal pencils and a sketch pad. We drew the classmate sitting opposite us. Tom worked carefully to get the face proportions right before adding shadows.",
@@ -2489,7 +2489,7 @@ const MONTH3_STORIES = [
         "word": "abstract",
         "syllables": "ab-stract",
         "phonetic": "/ˈæbstrækt/",
-        "definition": "Art that uses shapes and colours rather than real things.",
+        "definition": "Art that uses shapes and colors rather than real things.",
         "example": "Next, we walked into a quiet room full of abstract art.",
         "emoji": "🎨"
       },
@@ -2506,7 +2506,7 @@ const MONTH3_STORIES = [
       {
         "question": "What did the big oil painting show?",
         "options": [
-          "A calm harbour",
+          "A calm harbor",
           "A stormy coast",
           "A mountain village",
           "A city street"
@@ -2520,7 +2520,7 @@ const MONTH3_STORIES = [
           "It was broken",
           "Sand had been mixed with the oil paint",
           "It was very small",
-          "It had no colour"
+          "It had no color"
         ],
         "answerIndex": 1,
         "explanation": "She noticed that the artist had mixed sand with the oil paint."
@@ -2551,7 +2551,7 @@ const MONTH3_STORIES = [
     "wordCount": 247,
     "paragraphs": [
       "Eating well and exercising regularly are important for teenage health. Last term, our school started a wellness campaign. The school nurse gave a talk about the effects of junk food. Instead, teenagers should eat plenty of fruit, vegetables and lean protein.",
-      "Exercise is also vital. The PE department organised many sports for every year group. Tom joined the athletics club and started running twice a week. He set his alarm for six o'clock and went for a three-kilometre jog. Running in the morning air improved his breathing.",
+      "Exercise is also vital. The PE department organized many sports for every year group. Tom joined the athletics club and started running twice a week. He set his alarm for six o'clock and went for a three-kilometer jog. Running in the morning air improved his breathing.",
       "At first, long runs were tiring and put a strain on his legs. But with practice, his stamina grew and his speed improved. His coach told him to warm up before every run to protect his joints. Good running shoes with soft soles also protect the ankles. Tom also enjoyed playing badminton with his classmates.",
       "Badminton needs quick reactions, fast footwork and good hand-eye coordination.",
       "At weekends, he went cycling with his parents along quiet country paths. Cycling is gentle on the knees. Good sleep matters as much as training. The body needs eight hours of deep sleep to repair tissues and restore energy.",
@@ -2588,13 +2588,13 @@ const MONTH3_STORIES = [
       {
         "question": "How far did Tom jog on his morning run?",
         "options": [
-          "One kilometre",
-          "Two kilometres",
-          "Three kilometres",
-          "Five kilometres"
+          "One kilometer",
+          "Two kilometers",
+          "Three kilometers",
+          "Five kilometers"
         ],
         "answerIndex": 2,
-        "explanation": "He set his alarm for six o'clock and went for a three-kilometre jog."
+        "explanation": "He set his alarm for six o'clock and went for a three-kilometer jog."
       },
       {
         "question": "Why should you warm up before running?",
@@ -2632,8 +2632,8 @@ const MONTH3_STORIES = [
     "intro": "A student green club bans plastic cutlery, plants fifty trees and cuts the power bill by a fifth.",
     "wordCount": 243,
     "paragraphs": [
-      "Protecting the environment is one of the most important issues today. Last term, a group of students started our school's first green club. The aim was to raise awareness among students and teachers. Maya was elected chairperson because she is well organised. She held a first meeting in the school library to explain the plans.",
-      "More than fifty pupils came, ready to help. Their first campaign was to reduce plastic waste across the school. The students made colourful posters about how plastic harms the sea. They put labelled bins for paper, glass and plastic in every corridor. The club also asked the headteacher to ban plastic forks and spoons in the canteen.",
+      "Protecting the environment is one of the most important issues today. Last term, a group of students started our school's first green club. The aim was to raise awareness among students and teachers. Maya was elected chairperson because she is well organized. She held a first meeting in the school library to explain the plans.",
+      "More than fifty pupils came, ready to help. Their first campaign was to reduce plastic waste across the school. The students made colorful posters about how plastic harms the sea. They put labeled bins for paper, glass and plastic in every corridor. The club also asked the principal to ban plastic forks and spoons in the canteen.",
       "Now students bring metal forks and spoons from home.",
       "The club also started a tree-planting project. The local council gave fifty young trees to plant along the school boundary. On a sunny Saturday, members met with spades, watering cans and gloves. They dug deep holes in the soft soil and placed the roots carefully.",
       "Trees take in carbon dioxide, stop soil erosion and help birds.",
@@ -2646,15 +2646,15 @@ const MONTH3_STORIES = [
         "syllables": "chair-per-son",
         "phonetic": "/ˈtʃeəpɜːsn/",
         "definition": "The person who leads a meeting or group.",
-        "example": "Maya was elected chairperson because she is well organised.",
+        "example": "Maya was elected chairperson because she is well organized.",
         "emoji": "🪑"
       },
       {
-        "word": "labelled",
+        "word": "labeled",
         "syllables": "la-belled",
         "phonetic": "/ˈleɪbld/",
         "definition": "Having a small sign that shows what something is.",
-        "example": "They put labelled bins for paper, glass and plastic in every corridor.",
+        "example": "They put labeled bins for paper, glass and plastic in every corridor.",
         "emoji": "🏷️"
       },
       {
@@ -2676,7 +2676,7 @@ const MONTH3_STORIES = [
           "Emma"
         ],
         "answerIndex": 2,
-        "explanation": "Maya was elected chairperson because she is well organised."
+        "explanation": "Maya was elected chairperson because she is well organized."
       },
       {
         "question": "How many young trees did the council give?",
@@ -2720,7 +2720,7 @@ const MONTH3_STORIES = [
       "Once passengers are on board, the co-pilot contacts air traffic control for permission to leave. The big jet moves along the runway and then speeds up for take-off. It climbs through the clouds into bright sunshine. At thirty thousand feet, the autopilot keeps a steady course.",
       "As the plane nears its destination, the captain begins a slow descent. It touches down smoothly and moves to the gate.",
       "The aviation industry offers many jobs, not only pilots. There are engineers, controllers, ground staff and flight attendants. Emma asked if women face barriers in aviation. The captain smiled and said airlines choose people on merit. He said the number of female pilots has grown fast.",
-      "After the talk, students tried a flight simulator. Tom crashed twice while landing but found it exciting. Captain Roberts told students to study maths, physics and computer science."
+      "After the talk, students tried a flight simulator. Tom crashed twice while landing but found it exciting. Captain Roberts told students to study math, physics and computer science."
     ],
     "vocabulary": [
       {
@@ -2800,7 +2800,7 @@ const MONTH3_STORIES = [
       "Arthur showed how the aperture controls the light. A wide aperture makes the background soft and blurry, which is good for portraits. A narrow aperture keeps the whole landscape sharp. Next, he explained shutter speed. A fast shutter freezes a splashing water drop in mid-air.",
       "On Saturday morning, the club went to the botanical gardens with their cameras. Emma lay low on the grass to take a close-up of a butterfly. She turned the focus ring until the wings were very clear. Tom liked landscapes, so he took wide views of the lake and mountains. He put his camera on a strong tripod to stop camera shake.",
       "Arthur gave advice and praised creative ideas.",
-      "In the afternoon, the group went to the computer room to edit their photos. They used editing software to crop edges and change brightness. Arthur showed them how to add contrast and colour without making the picture look strange.",
+      "In the afternoon, the group went to the computer room to edit their photos. They used editing software to crop edges and change brightness. Arthur showed them how to add contrast and color without making the picture look strange.",
       "The club chose the best fifty photos for a show in the school library. Printed on shiny paper, they looked very professional. Parents and teachers came to the opening. A local arts magazine printed an article about the students' work.",
       "The workshop taught students to look at the world more carefully. Photography is about telling a story."
     ],
@@ -2826,7 +2826,7 @@ const MONTH3_STORIES = [
         "syllables": "con-trast",
         "phonetic": "/ˈkɒntrɑːst/",
         "definition": "The difference between light and dark in a picture.",
-        "example": "Arthur showed them how to add contrast and colour without making the picture look strange.",
+        "example": "Arthur showed them how to add contrast and color without making the picture look strange.",
         "emoji": "🌓"
       }
     ],
@@ -2836,7 +2836,7 @@ const MONTH3_STORIES = [
         "options": [
           "Lens, flash and tripod",
           "Aperture, shutter speed and ISO",
-          "Zoom, colour and paper",
+          "Zoom, color and paper",
           "Focus, light and filter"
         ],
         "answerIndex": 1,
@@ -2880,7 +2880,7 @@ const MONTH3_STORIES = [
     "paragraphs": [
       "Having a healthy routine is important for teenagers. Tom usually sets his alarm for six o'clock. He drinks a glass of warm water and does some light stretching. His mother makes a healthy breakfast with eggs, toast and milk.",
       "Tom knows that skipping breakfast can make him tired in class. When he had a bad cough and a fever last month, his doctor gave him advice. The doctor wrote a prescription and told him not to take other medicine. Tom took the tablets twice a day until he felt better. Since then, he has paid more attention to his health.",
-      "He walks to school instead of taking the bus. At school, the PE teacher organises workouts in the gym. During a basketball game, Tom twisted his right ankle.",
+      "He walks to school instead of taking the bus. At school, the PE teacher organizes workouts in the gym. During a basketball game, Tom twisted his right ankle.",
       "The school nurse put a cold pack on it to reduce the swelling. She checked the joint and found no broken bone. Tom had to rest on the bench for the rest of the lesson. His classmate carried his backpack to the classroom.",
       "In the evening, Tom avoids sweet snacks and fizzy drinks. He brushes his teeth with fluoride toothpaste to prevent toothache. Too much screen time before bed disturbs sleep. So Tom puts his phone away and reads a novel instead. He turns off his lamp at ten o'clock.",
       "A good night's rest helps him feel fresh and positive. Healthy habits need effort and self-discipline. Tom encourages his friends to join weekend outdoor activities."
@@ -2959,11 +2959,11 @@ const MONTH3_STORIES = [
     "intro": "A school drama festival teaches a class that confidence grows on stage.",
     "wordCount": 239,
     "paragraphs": [
-      "Every autumn, our school holds a drama festival. Our English teacher became the director and led daily rehearsals. Alice was chosen for the female lead because she had natural talent. Her clear voice could reach the back of the hall.",
+      "Every fall, our school holds a drama festival. Our English teacher became the director and led daily rehearsals. Alice was chosen for the female lead because she had natural talent. Her clear voice could reach the back of the hall.",
       "Ben got the funny role, which suited his cheerful personality.",
       "The stage crew worked behind the scenes to make the scenery and costumes. They used recycled cardboard and wooden planks to build the walls. Lucy took charge of the lights and adjusted each spotlight.",
-      "On opening night, a big audience filled the hall. The headteacher gave a short welcome speech before the red curtain rose. In the first scene, Alice walked onto the bright stage with an old suitcase. Her acting caught everyone's attention.",
-      "When Ben entered wearing a silly clown hat, the crowd laughed. He made big gestures that matched the funny story. During the interval, students served juice and biscuits.",
+      "On opening night, a big audience filled the hall. The principal gave a short welcome speech before the red curtain rose. In the first scene, Alice walked onto the bright stage with an old suitcase. Her acting caught everyone's attention.",
+      "When Ben entered wearing a silly clown hat, the crowd laughed. He made big gestures that matched the funny story. During the interval, students served juice and cookies.",
       "In the second act, the story took an exciting turn. The villain tried to steal a necklace from the palace. But the clever detective caught the thief just in time. The last scene ended with a song from the whole cast.",
       "When the play ended, the audience stood up and clapped. The young actors bowed and received flowers. A newspaper reporter took photos and interviewed them. Taking part in the play gave the students confidence. They learned that teamwork and hard work are the keys to success."
     ],
@@ -2989,7 +2989,7 @@ const MONTH3_STORIES = [
         "syllables": "in-ter-val",
         "phonetic": "/ˈɪntəvl/",
         "definition": "A short break between the parts of a play.",
-        "example": "During the interval, students served juice and biscuits.",
+        "example": "During the interval, students served juice and cookies.",
         "emoji": "⏸️"
       }
     ],
@@ -3043,7 +3043,7 @@ const MONTH3_STORIES = [
     "paragraphs": [
       "It was raining hard when Sarah left the railway station on Tuesday. She opened her umbrella, but the wind almost turned it inside out. She ran to a bus shelter to keep dry. The screen said the next bus was twenty minutes late.",
       "A traffic jam had formed because workers were repairing a sewer. Sarah decided that waiting in the cold was a waste of time. She looked at her watch. She had only thirty minutes before her job interview.",
-      "Sarah opened a map app on her phone to find another way. It showed an underground station two blocks away. While crossing the road, she stepped into a deep puddle.",
+      "Sarah opened a map app on her phone to find another way. It showed an subway station two blocks away. While crossing the road, she stepped into a deep puddle.",
       "But she stayed calm and entered the warm metro station. She tapped her travel card on the scanner and went through the gate. The train arrived in two minutes, and she got on. The carriage was crowded, but a young man kindly gave her his seat. Sarah thanked him and sat down to review her notes.",
       "Three stops later, a voice announced her station. She went up the escalator to the street. Luckily, the rain had stopped. She found the office building easily because its glass front stood out.",
       "The receptionist checked her name on the visitor list. Sarah sat in the waiting room on the fourth floor. She took a deep breath to calm down. She was five minutes early, which showed she was reliable. The difficult journey had made her even more determined to succeed."
@@ -3080,7 +3080,7 @@ const MONTH3_STORIES = [
         "options": [
           "The driver was ill",
           "Workers were repairing a sewer",
-          "It was a holiday",
+          "It was a vacation",
           "The road was closed for a race"
         ],
         "answerIndex": 1,
@@ -3090,7 +3090,7 @@ const MONTH3_STORIES = [
         "question": "How did Sarah get to the office?",
         "options": [
           "By taxi",
-          "By underground train",
+          "By subway train",
           "By bike",
           "On foot"
         ],
@@ -3122,11 +3122,11 @@ const MONTH3_STORIES = [
     "intro": "A marine biology trip shows that protecting the ocean starts with small choices.",
     "wordCount": 247,
     "paragraphs": [
-      "Oceans cover more than seventy percent of Earth and hold many kinds of life. Last weekend, our biology teacher took us to a marine research centre near a rocky harbour. A scientist welcomed us and explained what a marine ecosystem is. She said tiny plankton produce much of the oxygen in our air.",
-      "In the main hall, big glass tanks held hundreds of colourful fish. We watched two sea turtles swim slowly near the surface. The guide showed us a tank with large sharks. He said sharks rarely attack people and play an important role in the ocean.",
-      "Next, the scientist showed us a display about pollution. Millions of tonnes of plastic waste go into the sea every year. Seabirds and sea animals often mistake plastic for food. Old fishing nets can trap endangered animals. The scientist said everyone has a duty to protect the sea.",
+      "Oceans cover more than seventy percent of Earth and hold many kinds of life. Last weekend, our biology teacher took us to a marine research center near a rocky harbor. A scientist welcomed us and explained what a marine ecosystem is. She said tiny plankton produce much of the oxygen in our air.",
+      "In the main hall, big glass tanks held hundreds of colorful fish. We watched two sea turtles swim slowly near the surface. The guide showed us a tank with large sharks. He said sharks rarely attack people and play an important role in the ocean.",
+      "Next, the scientist showed us a display about pollution. Millions of tons of plastic waste go into the sea every year. Seabirds and sea animals often mistake plastic for food. Old fishing nets can trap endangered animals. The scientist said everyone has a duty to protect the sea.",
       "In the lab, we looked at seawater under a microscope. Tom drew diagrams in his notebook. The teacher explained how warmer water harms coral reefs.",
-      "When the sea gets too warm, coral loses its colour and dies.",
+      "When the sea gets too warm, coral loses its color and dies.",
       "After the talk, our class joined a beach clean-up. With gloves and bags, we walked along the sand. We picked up bottles, cans and old rope. In two hours, we collected over fifty kilograms of litter.",
       "A park ranger thanked us for our hard work. Working together on the beach gave us a real sense of achievement. Protecting nature needs action, not just words."
     ],
@@ -3143,7 +3143,7 @@ const MONTH3_STORIES = [
         "word": "coral",
         "syllables": "cor-al",
         "phonetic": "/ˈkɒrəl/",
-        "definition": "A hard colourful structure in the sea where many small animals live.",
+        "definition": "A hard colorful structure in the sea where many small animals live.",
         "example": "The teacher explained how warmer water harms coral reefs.",
         "emoji": "🪸"
       },
@@ -3151,7 +3151,7 @@ const MONTH3_STORIES = [
         "word": "litter",
         "syllables": "lit-ter",
         "phonetic": "/ˈlɪtə/",
-        "definition": "Rubbish that people leave on the ground or in the sea.",
+        "definition": "Garbage that people leave on the ground or in the sea.",
         "example": "In two hours, we collected over fifty kilograms of litter.",
         "emoji": "🗑️"
       }
@@ -3208,7 +3208,7 @@ const MONTH3_STORIES = [
       "First, she told us to pour the flour onto the wooden table. My brother broke four eggs into the middle and stirred them with a fork. Then came the hardest part: kneading the dough by hand.",
       "We pressed and folded the dough again and again until it was soft and smooth. After kneading, we covered the dough with a wet cloth. We let it rest for half an hour. Meanwhile, Grandma made a rich tomato sauce. She cut onions, carrots and garlic with a sharp knife.",
       "The smell of herbs and oil filled the house. When the dough was ready, we used a rolling pin to make thin sheets. My brother fed the dough through the pasta cutter to make long ribbons. Grandma put a big pot of salty water on the stove. Fresh pasta cooks very fast, in only three minutes.",
-      "She told us to stand back to avoid the hot steam. When the pasta floated, she poured it into a colander. We mixed it with the sauce and added cheese. My mother set the table with colourful plates.",
+      "She told us to stand back to avoid the hot steam. When the pasta floated, she poured it into a colander. We mixed it with the sauce and added cheese. My mother set the table with colorful plates.",
       "When our father came home, dinner was ready. Everyone said the pasta was delicious. After dinner, my brother and I washed the dishes. Learning to cook teaches useful skills and brings families together."
     ],
     "vocabulary": [
