@@ -529,7 +529,7 @@ const MONTH3_STORIES = [
         "syllables": "seals",
         "phonetic": "/siːlz/",
         "definition": "Sea animals with smooth fur that swim and rest on rocks.",
-        "example": "we stopped to watch a family of grey seals resting on stones.",
+        "example": "We stopped to watch a family of grey seals resting on stones.",
         "emoji": "🦭"
       },
       {
