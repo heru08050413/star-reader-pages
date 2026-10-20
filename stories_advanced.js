@@ -41,7 +41,7 @@ const ADVANCED_STORIES = [
         "syllables": "charge",
         "phonetic": "/tʃɑːdʒ/",
         "definition": "To put electricity into a battery or device.",
-        "example": "Sam asked Leo where he could charge his phone.",
+        "example": "Sam realised his phone battery was dead, so he asked Leo where he could charge it.",
         "emoji": "🔋"
       },
       {
@@ -49,7 +49,7 @@ const ADVANCED_STORIES = [
         "syllables": "match",
         "phonetic": "/mætʃ/",
         "definition": "To be equal to someone in speed, strength, or quality.",
-        "example": "The opponent's new striker could easily match Sam's speed on the pitch.",
+        "example": "Leo pointed out that the opponent’s new striker could easily match Sam's speed on the pitch.",
         "emoji": "⚽"
       }
     ],
@@ -115,7 +115,7 @@ const ADVANCED_STORIES = [
         "syllables": "fair",
         "phonetic": "/feə/",
         "definition": "Reasonable and just; also used to mean 'quite a large number'.",
-        "example": "She saw a fair number of shoppers browsing through the aisles.",
+        "example": "Clara entered the shop and saw a fair number of shoppers browsing through the aisles.",
         "emoji": "⚖️"
       },
       {
@@ -197,7 +197,7 @@ const ADVANCED_STORIES = [
         "syllables": "pack",
         "phonetic": "/pæk/",
         "definition": "To put things into a bag or container for a journey.",
-        "example": "They packed a portable tent and warm sleeping bags.",
+        "example": "They made sure to pack a portable tent, warm sleeping bags, and a durable waterproof torch.",
         "emoji": "🎒"
       },
       {
@@ -451,7 +451,7 @@ const ADVANCED_STORIES = [
         "syllables": "pack",
         "phonetic": "/pæk/",
         "definition": "A bag of something cold pressed against an injury.",
-        "example": "The school nurse applied a cold pack to reduce the swelling.",
+        "example": "The school nurse applied a cold pack immediately to reduce the swelling and pain.",
         "emoji": "🧊"
       },
       {
@@ -459,7 +459,7 @@ const ADVANCED_STORIES = [
         "syllables": "put a-way",
         "phonetic": "/pʊt əˈweɪ/",
         "definition": "To put something back in its proper place.",
-        "example": "Tom puts his mobile phone away and reads a novel instead.",
+        "example": "Therefore, Tom puts his mobile phone away and reads an adventure novel instead.",
         "emoji": "📵"
       }
     ],
@@ -689,7 +689,7 @@ const ADVANCED_STORIES = [
         "syllables": "a-mount",
         "phonetic": "/əˈmaʊnt/",
         "definition": "How much there is of something.",
-        "example": "Plankton produce a large amount of the oxygen in Earth's atmosphere.",
+        "example": "She explained that microscopic plankton produce a large amount of the oxygen in Earth’s atmosphere.",
         "emoji": "🔢"
       },
       {
@@ -779,7 +779,7 @@ const ADVANCED_STORIES = [
         "syllables": "smooth",
         "phonetic": "/smuːð/",
         "definition": "Even and flat, with no bumps.",
-        "example": "They folded the dough until the surface became soft and smooth.",
+        "example": "We had to press and fold the dough repeatedly until the surface became soft and smooth.",
         "emoji": "🫧"
       },
       {
@@ -787,7 +787,7 @@ const ADVANCED_STORIES = [
         "syllables": "sheet",
         "phonetic": "/ʃiːt/",
         "definition": "A thin flat piece of something.",
-        "example": "They used a rolling pin to flatten the dough into thin sheets.",
+        "example": "When the resting time was over, we used a rolling pin to flatten the dough into thin sheets.",
         "emoji": "📄"
       }
     ],
@@ -827,6 +827,826 @@ const ADVANCED_STORIES = [
       }
     ],
     "funPrompt": "What food does your family make together, and who taught you the recipe?"
+  },
+  {
+    "id": 511,
+    "day": 11,
+    "track": "advanced",
+    "title": "The Community Sports Day",
+    "coverEmoji": "🏅",
+    "category": "Sports & Teamwork",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "A town sports day brings together sprinters, footballers and young volunteers.",
+    "wordCount": 403,
+    "paragraphs": [
+      "Every summer, our town hosts an exciting athletics contest on the public sports ground. Hundreds of energetic competitors arrived early to warm up along the running track. The local sports club provided modern facilities, including clean changing rooms and secure lockers. Tom decided to enter both the hundred-metre sprint and the senior high jump. His coach gave him some practical advice on how to maintain balance over the bar.",
+      "In the opening event, the sprinters crouched at the starting line, waiting for the signal gun. When the official fired the starter pistol, the runners raced forward at incredible speed. Tom pushed himself to the limit and managed to cross the finishing line in second place. He was slightly disappointed not to win gold, but his parents were truly proud of him. Meanwhile, on the adjacent grass pitch, two rival secondary schools played a football match.",
+      "The visiting team had a brilliant goalkeeper who blocked several powerful shots. During the second half, the home captain received a yellow card for a dangerous tackle. The referee blew his whistle loudly to restore order on the pitch. Despite the fierce competition, both teams demonstrated excellent sportsmanship and mutual respect. Nearby, younger children enjoyed a lively game of table tennis under a canvas tent.",
+      "A qualified instructor showed beginners how to hold the wooden racket properly. He explained that hitting the small white ball with a gentle spin makes returning it difficult. At noon, a light shower of rain caused the organizers to pause the outdoor events. Spectators took shelter under large trees and shared delicious sandwiches and cold drinks. Fortunately, the dark clouds passed quickly, and the warm afternoon sun returned.",
+      "The tournament resumed with the thrilling four-hundred-metre relay race. Tom’s relay team coordinated their baton exchanges smoothly without dropping the metal tube. They finished first and set a brand-new town record for their age group. At the awards ceremony, the mayor presented shiny medals and trophies to the winners. Each participant also received a commemorative certificate signed by the sports director.",
+      "Tom felt that regular physical training had greatly improved his stamina and confidence. Playing sports regularly teaches young people how to handle both victory and defeat. It also strengthens social bonds and creates lasting memories among teammates. Before going home, the volunteers helped the staff clear away all the equipment and flags. Tom returned home feeling pleasantly tired and eager for next year's championship."
+    ],
+    "vocabulary": [
+      {
+        "word": "contest",
+        "syllables": "con-test",
+        "phonetic": "/ˈkɒntest/",
+        "definition": "A competition in which people try to win.",
+        "example": "Every summer, our town hosts an exciting athletics contest on the public sports ground.",
+        "emoji": "🏆"
+      },
+      {
+        "word": "track",
+        "syllables": "track",
+        "phonetic": "/træk/",
+        "definition": "The marked course on which races are run.",
+        "example": "Hundreds of energetic competitors arrived early to warm up along the running track.",
+        "emoji": "🏃"
+      },
+      {
+        "word": "pitch",
+        "syllables": "pitch",
+        "phonetic": "/pɪtʃ/",
+        "definition": "A marked area of ground used for playing football, rugby or hockey.",
+        "example": "On the adjacent grass pitch, two rival secondary schools played a football match.",
+        "emoji": "⚽"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Which two events did Tom enter?",
+        "options": [
+          "The long jump and the relay",
+          "The hundred-metre sprint and the senior high jump",
+          "The marathon and the shot put",
+          "The relay and the football match"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tom decided to enter both the hundred-metre sprint and the senior high jump."
+      },
+      {
+        "question": "What place did Tom finish in the sprint?",
+        "options": [
+          "First",
+          "Second",
+          "Third",
+          "He did not finish"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tom managed to cross the finishing line in second place."
+      },
+      {
+        "question": "What did Tom's relay team achieve?",
+        "options": [
+          "They dropped the baton",
+          "They set a brand-new town record",
+          "They were disqualified",
+          "They came last"
+        ],
+        "answerIndex": 1,
+        "explanation": "They finished first and set a brand-new town record for their age group."
+      }
+    ],
+    "funPrompt": "Which sport would you like to enter in a town sports day, and what would you practise first?"
+  },
+  {
+    "id": 512,
+    "day": 12,
+    "track": "advanced",
+    "title": "A Coastal Holiday and Marine Ecology",
+    "coverEmoji": "🌊",
+    "category": "Nature & Environment",
+    "level": "Advanced",
+    "readingTime": "8 mins",
+    "intro": "A seaside holiday turns into a lesson about seals, tides and plastic waste.",
+    "wordCount": 435,
+    "paragraphs": [
+      "During the long summer holiday, our family rented a charming wooden cottage by the sea. The holiday home was situated on a high cliff overlooking a wide sandy bay. From our balcony, we had a breathtaking view of the Atlantic Ocean and distant islands. Every morning, my sister and I woke up early to watch the glorious sunrise over the water. After a hearty breakfast, we put on our swimsuits and walked down the steep rocky path.",
+      "The weather was pleasantly warm, with a refreshing breeze blowing steadily from the southwest. We hired a double kayak from a local water sports centre near the fishing harbour. The instructor helped us fasten our bright orange life jackets securely around our chests. He warned us not to venture too far from the shore because tidal currents were strong. Paddling across the calm turquoise waters gave us a wonderful feeling of freedom.",
+      "In a quiet cove, we stopped paddling to observe a family of grey seals resting on flat stones. The animals seemed unafraid of our presence and basked peacefully in the sun. My sister took out her waterproof camera to capture close-up pictures of the creatures. In the afternoon, the sea grew somewhat rough, so we returned the kayak to the dock. We spent the rest of the day exploring the shallow rock pools left by the low tide.",
+      "We discovered tiny green crabs, purple sea anemones, and empty seashells. A local fisherman told us that plastic waste was threatening the delicate coastal environment. He pointed out that discarded bottles and nylon fishing lines often harm seabirds. Hearing this, my sister and I decided to collect any rubbish we found along the beach. We filled two large plastic bags with broken glass, tin cans, and food wrappers.",
+      "The fisherman thanked us warmly and praised our responsible attitude toward nature conservation. In the evening, we visited an open-air seafood restaurant in the neighbouring village. The waiter served us grilled salmon, boiled potatoes, and a bowl of fresh garden salad. The fish tasted remarkably fresh and was seasoned with aromatic lemon juice and black pepper. While dining, we enjoyed the soothing sound of rolling waves crashing against the seawall.",
+      "The golden sunset painted the evening sky in shades of crimson and violet. We walked slowly back to the cottage under a clear sky dotted with brilliant stars. Being close to nature provided our family with much-needed relief from city stress. We realised how vital it is to preserve our pristine marine habitats for future generations. That coastal trip was undoubtedly one of the most memorable vacations of our childhood."
+    ],
+    "vocabulary": [
+      {
+        "word": "view",
+        "syllables": "view",
+        "phonetic": "/vjuː/",
+        "definition": "What you can see from a particular place.",
+        "example": "From our balcony, we had a breathtaking view of the Atlantic Ocean.",
+        "emoji": "🌅"
+      },
+      {
+        "word": "capture",
+        "syllables": "cap-ture",
+        "phonetic": "/ˈkæptʃə/",
+        "definition": "To take a photograph or picture of something.",
+        "example": "My sister took out her waterproof camera to capture close-up pictures of the creatures.",
+        "emoji": "📷"
+      },
+      {
+        "word": "rough",
+        "syllables": "rough",
+        "phonetic": "/rʌf/",
+        "definition": "A sea that is rough has big waves and is not calm.",
+        "example": "In the afternoon, the sea grew somewhat rough, so we returned the kayak to the dock.",
+        "emoji": "🌊"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Where was the family's holiday cottage?",
+        "options": [
+          "On a high cliff overlooking a sandy bay",
+          "In a fishing village",
+          "Next to the railway station",
+          "On a busy city street"
+        ],
+        "answerIndex": 0,
+        "explanation": "The holiday home was situated on a high cliff overlooking a wide sandy bay."
+      },
+      {
+        "question": "Why did they return the kayak early?",
+        "options": [
+          "They were tired",
+          "The sea grew rough",
+          "The kayak was broken",
+          "It started to rain"
+        ],
+        "answerIndex": 1,
+        "explanation": "In the afternoon, the sea grew somewhat rough, so we returned the kayak to the dock."
+      },
+      {
+        "question": "What did the fisherman say was threatening the coast?",
+        "options": [
+          "Too many seals",
+          "Plastic waste",
+          "Oil from ships",
+          "Strong winds"
+        ],
+        "answerIndex": 1,
+        "explanation": "He told us that plastic waste was threatening the delicate coastal environment."
+      }
+    ],
+    "funPrompt": "What would you pack for a week by the sea, and what would you do on the first morning?"
+  },
+  {
+    "id": 513,
+    "day": 13,
+    "track": "advanced",
+    "title": "The High-Tech Smart Home",
+    "coverEmoji": "🏠",
+    "category": "Science & Technology",
+    "level": "Advanced",
+    "readingTime": "8 mins",
+    "intro": "Uncle Jack fills his house with smart devices, and even grandfather learns to use them.",
+    "wordCount": 424,
+    "paragraphs": [
+      "Over the past decade, rapid advancements in digital electronics have transformed our daily lives. Modern smart appliances are designed to make household chores far more efficient and convenient. Last month, my uncle decided to upgrade his traditional house with an automated smart system. A certified electrical engineer arrived on Monday morning to install the control devices. The central control hub connects to the family Wi-Fi network via a secure wireless connection.",
+      "Now, every member of the family can operate home appliances using a dedicated smartphone app. For example, the living room lights can be turned on or off with a simple voice command. The smart thermostat automatically adjusts the indoor temperature depending on the weather forecast. When the winter weather becomes bitterly cold, the central heating turns on automatically. Similarly, the motorized window blinds draw shut at sunset to maintain room privacy.",
+      "In the modern kitchen, the intelligent refrigerator monitors the expiry dates of stored food. If essential ingredients like milk or fresh vegetables run low, it generates an automatic shopping list. The microwave oven can scan the barcode on a food packet and select the correct cooking mode. An automated robotic vacuum cleaner glides smoothly across the wooden floors to collect dust. It uses sophisticated optical sensors to avoid bumping into chairs, tables, or thick rugs.",
+      "When its battery level drops below twenty percent, the robot returns to its charging dock on its own. The house is also equipped with a cutting-edge home security system. Digital cameras installed near the front entrance can identify visitors through facial recognition technology. If an unfamiliar person attempts to force the door open, a loud emergency alarm sounds instantly. At the same time, an urgent alert message is sent directly to my uncle's mobile phone.",
+      "This integrated system gives my family a profound sense of safety and comfort. Furthermore, these smart devices are engineered to consume minimal electrical power. By turning off unused appliances, the smart system significantly lowers the monthly electricity bill. Uncle Jack mentioned that the initial cost of installation was quite high and expensive. However, he firmly believes that the long-term energy savings make the investment worthwhile.",
+      "Some elderly relatives found the complex touchscreens a bit confusing at first. But with clear step-by-step instructions, even my grandfather learned how to switch TV channels easily. Technology continues to develop rapidly, opening up countless possibilities for modern living. Embracing new inventions responsibly helps us create a cleaner and more sustainable future. Our homes are no longer just physical shelters, but intelligent spaces that support our well-being."
+    ],
+    "vocabulary": [
+      {
+        "word": "draw",
+        "syllables": "draw",
+        "phonetic": "/drɔː/",
+        "definition": "To pull something such as a curtain so that it covers or uncovers a window.",
+        "example": "The motorized window blinds draw shut at sunset to maintain room privacy.",
+        "emoji": "🪟"
+      },
+      {
+        "word": "bill",
+        "syllables": "bill",
+        "phonetic": "/bɪl/",
+        "definition": "A written statement showing how much you must pay for something.",
+        "example": "The smart system significantly lowers the monthly electricity bill.",
+        "emoji": "🧾"
+      },
+      {
+        "word": "switch",
+        "syllables": "switch",
+        "phonetic": "/swɪtʃ/",
+        "definition": "To change from one thing to another.",
+        "example": "Even my grandfather learned how to switch TV channels easily.",
+        "emoji": "🔀"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What does the smart thermostat adjust?",
+        "options": [
+          "The lighting",
+          "The indoor temperature",
+          "The security cameras",
+          "The robot vacuum"
+        ],
+        "answerIndex": 1,
+        "explanation": "The smart thermostat automatically adjusts the indoor temperature according to the weather forecast."
+      },
+      {
+        "question": "When does the robot vacuum return to its charging dock?",
+        "options": [
+          "Every hour",
+          "When its battery drops below twenty percent",
+          "At sunset",
+          "When the door opens"
+        ],
+        "answerIndex": 1,
+        "explanation": "When its battery level drops below twenty percent, the robot returns to its charging dock."
+      },
+      {
+        "question": "Why does Uncle Jack think the system is worth the cost?",
+        "options": [
+          "It looks modern",
+          "The long-term energy savings",
+          "It was a gift",
+          "It is easy to install"
+        ],
+        "answerIndex": 1,
+        "explanation": "He firmly believes that the long-term energy savings make the investment worthwhile."
+      }
+    ],
+    "funPrompt": "If a robot could do one chore in your home, which chore would you choose and why?"
+  },
+  {
+    "id": 514,
+    "day": 14,
+    "track": "advanced",
+    "title": "A Day in the Life of a City Journalist",
+    "coverEmoji": "📰",
+    "category": "Jobs & Society",
+    "level": "Advanced",
+    "readingTime": "8 mins",
+    "intro": "A city reporter follows a transport strike from the picket line to the front page.",
+    "wordCount": 430,
+    "paragraphs": [
+      "Being a news journalist for a daily metropolitan newspaper is both challenging and rewarding. Rachel works as a senior reporter for the city section, covering local community events. Her working day typically begins at eight o'clock with an editorial meeting in the newsroom. The chief editor reviews the top headlines and assigns major breaking news stories to the staff. Rachel was assigned to investigate an urgent public transportation strike scheduled for Friday.",
+      "She immediately checked her calendar, grabbed her digital voice recorder, and headed out. First, she visited the central trade union office to interview the railway workers' representative. The union leader explained that staff were demanding better safety measures and fair wages. Rachel listened attentively and took accurate shorthand notes in her pocket notebook. She asked precise questions to ensure that all the facts presented were correct.",
+      "Next, she walked over to the city council building to gather the government's official response. The mayor's press secretary delivered a brief statement explaining ongoing budget negotiations. Rachel asked for a printed copy of the financial report so she could analyse the budgetary data. To make the news article balanced, Rachel also interviewed ordinary commuters at the bus stop. Many passengers expressed deep concern about potential travel delays during morning rush hours.",
+      "A young student remarked that cancelled bus services might cause her to miss a crucial university exam. Rachel thanked all the interviewees and returned to the newspaper office by two o'clock. Back at her desk, she had to write a comprehensive six-hundred-word article before the strict deadline. She drafted the article carefully, organising her points with clear topic sentences and relevant facts. She selected two high-resolution photographs taken by the press photographer to accompany the text.",
+      "After proofreading the text for spelling and grammar errors, she submitted the draft to the editor. The editor praised her clear writing style and approved the article without making any major changes. The layout designer placed the story on the front page of the upcoming morning edition. In addition to print reporting, Rachel was asked to record a two-minute audio podcast for their website. She spoke clearly into the studio microphone, summarizing the key developments of the story.",
+      "By seven in the evening, Rachel's daily assignments were successfully completed. She packed her laptop, feeling exhausted but deeply satisfied with her productive day. Journalism plays a crucial role in keeping the public informed and holding authorities accountable. It requires curiosity, strict honesty, and strong dedication to seeking the objective truth. Rachel took great pride in knowing that her work contributed meaningfully to society's democratic life."
+    ],
+    "vocabulary": [
+      {
+        "word": "strike",
+        "syllables": "strike",
+        "phonetic": "/straɪk/",
+        "definition": "A period of time when workers stop working because of a disagreement about pay or conditions.",
+        "example": "Rachel was assigned to investigate an urgent public transportation strike.",
+        "emoji": "✊"
+      },
+      {
+        "word": "draft",
+        "syllables": "draft",
+        "phonetic": "/drɑːft/",
+        "definition": "To write the first version of something.",
+        "example": "She drafted the article carefully, organising her points with clear topic sentences.",
+        "emoji": "✍️"
+      },
+      {
+        "word": "press",
+        "syllables": "press",
+        "phonetic": "/pres/",
+        "definition": "Newspapers and magazines, and the journalists who write for them.",
+        "example": "The mayor's press secretary delivered a brief statement.",
+        "emoji": "🗞️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What was Rachel assigned to investigate?",
+        "options": [
+          "A charity contest",
+          "A public transportation strike",
+          "A new museum",
+          "A school closure"
+        ],
+        "answerIndex": 1,
+        "explanation": "Rachel was assigned to investigate an urgent public transportation strike."
+      },
+      {
+        "question": "How long was the article she had to write?",
+        "options": [
+          "Two hundred words",
+          "Four hundred words",
+          "Six hundred words",
+          "One thousand words"
+        ],
+        "answerIndex": 2,
+        "explanation": "She had to write a comprehensive six-hundred-word article before the strict deadline."
+      },
+      {
+        "question": "Where was the story placed in the newspaper?",
+        "options": [
+          "On the sports page",
+          "On the front page",
+          "In the classifieds",
+          "On the letters page"
+        ],
+        "answerIndex": 1,
+        "explanation": "The layout designer placed the story on the front page."
+      }
+    ],
+    "funPrompt": "If you were a reporter for one day, which local story would you want to investigate?"
+  },
+  {
+    "id": 515,
+    "day": 15,
+    "track": "advanced",
+    "title": "Volunteering at the Animal Shelter",
+    "coverEmoji": "🐶",
+    "category": "Animals & Kindness",
+    "level": "Advanced",
+    "readingTime": "8 mins",
+    "intro": "A school volunteer group spends a Saturday caring for dogs and cats waiting for a home.",
+    "wordCount": 467,
+    "paragraphs": [
+      "Last Saturday, our school voluntary service group spent the entire day at a local animal shelter. The shelter provides temporary care and medical treatment for abandoned or lost domestic pets. The manager welcomed our group warmly and explained the safety rules before we began work. She emphasized that volunteers must treat every frightened animal with extreme patience and gentleness. Our first task was to clean the dog kennels and lay down fresh wooden shavings and blankets.",
+      "Tom and David carried buckets of warm soapy water and scrubbing brushes to wash the concrete floors. They worked efficiently, making sure that every sleeping area was clean and dry. Meanwhile, Emma and I were assigned to prepare morning meals for over forty barking dogs. We measured exact portions of dry biscuit kibble and mixed them with nutritious canned meat. We also filled clean stainless-steel bowls with fresh water from the outdoor tap.",
+      "When we placed the food trays inside the enclosures, the hungry dogs wagged their tails excitedly. After lunch, the shelter's resident veterinarian invited us into the clinic to observe health check-ups. She examined a rescued golden retriever puppy that had been brought in with a minor leg injury. The vet cleaned the small scratch carefully and applied a protective antiseptic ointment. She explained that regular vaccinations and proper nutrition are essential to prevent dangerous diseases.",
+      "In the afternoon, the weather was sunny, so we took several well-behaved dogs out for a long walk. We attached strong leather leads to their collars and walked along the nearby countryside path. The dogs were overjoyed to run through the green grass and explore the scents of wild plants. Walking the animals provided them with necessary exercise and helped improve their social behaviour. Later that day, the shelter opened its doors to members of the public looking to adopt a pet.",
+      "A young married couple came in searching for a friendly cat to join their new suburban home. Emma introduced them to a gentle white kitten that had been rescued from a busy street. The couple fell in love with the playful kitten instantly and decided to complete the adoption form. Seeing an abandoned animal find a loving forever family was a deeply touching experience. Before leaving, the manager praised our class for our remarkable dedication and hardworking spirit.",
+      "She reminded us that adopting a pet is a serious long-term commitment that requires great responsibility. Volunteering at the animal shelter taught our class the true value of empathy and civic duty. We learned that even small acts of kindness can make a profound difference in the lives of helpless creatures. On the bus ride home, everyone agreed that the volunteer experience had been both educational and heartwarming. We promised to return next month to continue supporting the shelter's noble animal welfare mission."
+    ],
+    "vocabulary": [
+      {
+        "word": "tap",
+        "syllables": "tap",
+        "phonetic": "/tæp/",
+        "definition": "A thing you turn to let water flow out of a pipe.",
+        "example": "We also filled clean stainless-steel bowls with fresh water from the outdoor tap.",
+        "emoji": "🚰"
+      },
+      {
+        "word": "lead",
+        "syllables": "lead",
+        "phonetic": "/liːd/",
+        "definition": "A long strap used to control a dog when you walk it.",
+        "example": "We attached strong leather leads to their collars and walked along the nearby countryside path.",
+        "emoji": "🐕"
+      },
+      {
+        "word": "treat",
+        "syllables": "treat",
+        "phonetic": "/triːt/",
+        "definition": "To behave towards someone or something in a particular way.",
+        "example": "Volunteers must treat every frightened animal with extreme patience.",
+        "emoji": "🤝"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What was the volunteers' first task?",
+        "options": [
+          "Walking the dogs",
+          "Cleaning the dog kennels",
+          "Feeding the cats",
+          "Painting the clinic"
+        ],
+        "answerIndex": 1,
+        "explanation": "Our first task was to clean the dog kennels and lay down fresh wooden shavings."
+      },
+      {
+        "question": "Which animal did the vet examine?",
+        "options": [
+          "A white kitten",
+          "A golden retriever puppy with a leg injury",
+          "A grey rabbit",
+          "A small parrot"
+        ],
+        "answerIndex": 1,
+        "explanation": "She examined a rescued golden retriever puppy that had been brought in with a minor leg injury."
+      },
+      {
+        "question": "Who adopted the white kitten?",
+        "options": [
+          "An elderly man",
+          "A young married couple",
+          "A school teacher",
+          "The vet"
+        ],
+        "answerIndex": 1,
+        "explanation": "A young married couple came in searching for a friendly cat, and fell in love with the kitten."
+      }
+    ],
+    "funPrompt": "What would you need to prepare before bringing a pet into your home?"
+  },
+  {
+    "id": 516,
+    "day": 16,
+    "track": "advanced",
+    "title": "The Art of Filmmaking",
+    "coverEmoji": "🎬",
+    "category": "Arts & Performance",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "A school media club writes, shoots and edits a short film from first idea to premiere.",
+    "wordCount": 399,
+    "paragraphs": [
+      "Filmmaking is a complex creative process that combines diverse artistic and technical talents. Last month, our secondary school media club produced a ten-minute short feature film. The project began when Maya wrote an original screen drama about youth friendship. Our teacher served as the executive producer, securing equipment and filming permissions. During pre-production, the casting director held auditions to select the leading actors.",
+      "Leo was chosen to play the antagonist, a character with a deeply conflicted mind. The crew used digital video cameras mounted on heavy tripods to ensure steady shots. The lighting technician positioned large lamps and reflectors to control shadows on the set. Before each take, the sound recordist tested the boom microphone to eliminate background noise. The director shouted \"Action!\" through her megaphone, and the scene began to unfold.",
+      "In the dramatic second scene, the main characters had a heated argument inside a café. The actors remembered their lines accurately and delivered their dialogue with convincing emotion. However, an accidental crash of dropped plates in the kitchen spoiled the first recording. The director remained remarkably patient and asked everyone to shoot the scene once more. The second take was flawless, capturing the precise mood and dramatic tension required.",
+      "Outdoor filming took place along the historic stone bridges of the old district. The natural autumn sunlight created a gorgeous golden background for the final scenes. Once all footage was captured, the team entered the editing suite to assemble the film. They used advanced video editing software on a powerful desktop computer. The editor trimmed unnecessary sequences and arranged the best takes in chronological order.",
+      "A talented music student composed a touching orchestral soundtrack to accompany the narrative. He blended classical violin melodies with modern electronic beats to enhance the mood. Sound designers also added subtle audio effects, such as distant traffic and gentle wind. After weeks of painstaking post-production, the final cut of the film was ready. The club organised a special premiere screening in the school auditorium.",
+      "A huge audience of parents, teachers, and fellow pupils attended the evening show. When the closing credits rolled on the large white screen, the crowd applauded loudly. A local arts critic praised the student film for its impressive storytelling and visual style. Working on the film taught everyone the enormous value of perseverance and teamwork. The project inspired several students to pursue professional careers in television and cinema production."
+    ],
+    "vocabulary": [
+      {
+        "word": "patient",
+        "syllables": "pa-tient",
+        "phonetic": "/ˈpeɪʃnt/",
+        "definition": "Able to keep calm and not get annoyed when something takes a long time.",
+        "example": "The director remained remarkably patient and asked everyone to shoot the scene once more.",
+        "emoji": "🧘"
+      },
+      {
+        "word": "order",
+        "syllables": "or-der",
+        "phonetic": "/ˈɔːdə/",
+        "definition": "The way in which things follow one another.",
+        "example": "The editor trimmed unnecessary sequences and arranged the best takes in chronological order.",
+        "emoji": "📋"
+      },
+      {
+        "word": "cut",
+        "syllables": "cut",
+        "phonetic": "/kʌt/",
+        "definition": "A particular version of a film after editing.",
+        "example": "After weeks of painstaking post-production, the final cut of the film was ready.",
+        "emoji": "✂️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Who played the antagonist?",
+        "options": [
+          "Maya",
+          "Leo",
+          "The teacher",
+          "A local critic"
+        ],
+        "answerIndex": 1,
+        "explanation": "Leo was chosen to play the antagonist, a character with a deeply conflicted mind."
+      },
+      {
+        "question": "What spoiled the first recording of the café scene?",
+        "options": [
+          "A loud song",
+          "Dropped plates crashing in the kitchen",
+          "A broken camera",
+          "Rain outside"
+        ],
+        "answerIndex": 1,
+        "explanation": "An accidental crash of dropped plates in the kitchen spoiled the first recording."
+      },
+      {
+        "question": "What did the music student create?",
+        "options": [
+          "A poster",
+          "A touching orchestral soundtrack",
+          "The costumes",
+          "The script"
+        ],
+        "answerIndex": 1,
+        "explanation": "A talented music student composed a touching orchestral soundtrack."
+      }
+    ],
+    "funPrompt": "If your class made a ten-minute film, what story would you tell and where would you film it?"
+  },
+  {
+    "id": 517,
+    "day": 17,
+    "track": "advanced",
+    "title": "Extreme Weather and Natural Forces",
+    "coverEmoji": "❄️",
+    "category": "Science & Environment",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "A blizzard cuts power to a whole district, and neighbours look after one another.",
+    "wordCount": 386,
+    "paragraphs": [
+      "Global weather patterns have become increasingly unpredictable and extreme in recent years. Last winter, a ferocious blizzard struck our quiet northern county without much early warning. The meteorological office issued an urgent severe weather alert on Sunday evening. Temperatures plunged well below freezing point, reaching minus fifteen degrees Celsius. Overnight, a thick layer of dense ice coated roads, roofs, and overhead power lines.",
+      "Fierce gale-force winds brought down huge tree branches, blocking major transport routes. The sudden snowstorm caused an immediate electrical power failure across the entire district. Inside our family house, the central heating system suddenly stopped working. My father lit candles and fetched extra woollen blankets from the upstairs linen cupboard. We gathered in the living room around the traditional wood stove to keep warm.",
+      "My mother melted clean snow in a metal saucepan on the camping cooker to get drinking water. The television and internet services were unavailable, disrupting normal communication. We relied on an old battery-powered radio to receive official news updates from authorities. The local government announced that all schools and public offices would remain shut. Emergency rescue crews worked around the clock to clear deep snow drifts from main highways.",
+      "Specialist engineers climbed high utility poles in freezing conditions to repair severed cables. In nearby rural valleys, rising river levels raised fears of severe spring floods. Local farmers built makeshift barriers using sandbags to defend their livestock barns. Volunteers from the community centre delivered hot meals to elderly residents living alone. My brother and I checked on our next-door neighbour, an eighty-year-old retired teacher.",
+      "We helped her shovel heavy snow away from her front driveway and kitchen door. She expressed her deep gratitude and offered us sweet ginger biscuits as a warm treat. By Wednesday afternoon, the fierce wind began to drop, and the sky cleared gradually. Bright winter sunshine reflected brilliantly off the vast white landscape. The municipal power company finally restored electricity, bringing relief to thousands of cold homes.",
+      "The severe storm served as a powerful reminder of nature’s formidable strength. It highlighted the critical importance of emergency preparedness in every household. Furthermore, experiencing such natural crises fosters community solidarity and mutual help. When facing unexpected hardship, people naturally come together to support one another. Proper environmental planning remains essential to protect our society from future climate shocks."
+    ],
+    "vocabulary": [
+      {
+        "word": "point",
+        "syllables": "point",
+        "phonetic": "/pɔɪnt/",
+        "definition": "A particular mark on a scale of measurement, such as temperature.",
+        "example": "Temperatures plunged well below freezing point.",
+        "emoji": "🌡️"
+      },
+      {
+        "word": "clear",
+        "syllables": "clear",
+        "phonetic": "/klɪə/",
+        "definition": "To remove things from a place so that it becomes tidy or free.",
+        "example": "Emergency rescue crews worked around the clock to clear deep snow drifts from main highways.",
+        "emoji": "🚧"
+      },
+      {
+        "word": "drop",
+        "syllables": "drop",
+        "phonetic": "/drɒp/",
+        "definition": "To become weaker or lower.",
+        "example": "By Wednesday afternoon, the fierce wind began to drop.",
+        "emoji": "🌬️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How cold did the temperature become?",
+        "options": [
+          "Minus five degrees",
+          "Minus fifteen degrees",
+          "Minus twenty-five degrees",
+          "Zero degrees"
+        ],
+        "answerIndex": 1,
+        "explanation": "Temperatures plunged well below freezing point, reaching minus fifteen degrees Celsius."
+      },
+      {
+        "question": "How did the family receive official news?",
+        "options": [
+          "On television",
+          "From a battery-powered radio",
+          "From the internet",
+          "From a newspaper"
+        ],
+        "answerIndex": 1,
+        "explanation": "We relied on an old battery-powered radio to receive official news updates."
+      },
+      {
+        "question": "How did the children help their neighbour?",
+        "options": [
+          "They cooked dinner",
+          "They shovelled snow from her driveway",
+          "They repaired her roof",
+          "They drove her to hospital"
+        ],
+        "answerIndex": 1,
+        "explanation": "We helped her shovel heavy snow away from her front driveway and kitchen door."
+      }
+    ],
+    "funPrompt": "What would your family need if the power went out for three days?"
+  },
+  {
+    "id": 518,
+    "day": 18,
+    "track": "advanced",
+    "title": "Celebrating Traditional Festivals",
+    "coverEmoji": "🎭",
+    "category": "Culture & Festivals",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "A spring carnival fills the town with paper masks, brass bands and fireworks.",
+    "wordCount": 391,
+    "paragraphs": [
+      "Cultural festivals offer a wonderful window into a nation's historic customs and heritage. Every spring, our town celebrates the ancient Carnival with magnificent street parades. Months of diligent preparation go into making the annual celebration a tremendous success. Local artists and school children gather in community workshops to create elaborate paper masks. They decorate giant floats with colourful paper flowers, silk ribbons, and sparkling lights.",
+      "On the festival morning, thousands of excited spectators lined the decorated main square. The festive atmosphere was enhanced by the lively sounds of traditional brass bands. Musicians marched in neat rows, playing cheerful tunes on trumpets, flutes, and snare drums. Dancers wearing brightly coloured national costumes danced gracefully along the cobblestone avenue. Street food stalls were set up along the pavement, offering a wide variety of local delicacies.",
+      "The delicious scent of roasted chestnuts, sweet fried pastries, and hot chocolate filled the air. Children ran around chasing festive balloons and blowing funny toy whistles. In the afternoon, the town hall hosted a traditional folk storytelling session. An elderly master narrator told captivating tales about legendary heroes, dragons, and ancient kings. The audience listened in complete silence, spellbound by the rich imagery of the narrative.",
+      "Later, a fancy-dress competition was held on the outdoor wooden stage. Participants of all ages showed off creative outfits made entirely from recycled materials. A seven-year-old girl dressed as a mythical forest fairy won the grand first prize. The judges praised her elaborate cardboard wings and sparkling crown for their exceptional design. As dusk approached, the carnival reached its highest point of public excitement.",
+      "A stunning firework display was launched from the grounds of the medieval castle. Brilliant bursts of crimson, emerald, and gold illuminated the dark night sky. The crowd let out joyful shouts of admiration with every booming explosion. The mayor delivered a closing speech, thanking the committee and volunteers for their tireless work. She stressed that keeping cultural traditions alive helps strengthen community identity.",
+      "Families walked home together in high spirits, humming the memorable tunes of the festival hymns. The celebration provided people with a joyful break from their busy working lives. It united neighbours of different backgrounds and celebrated shared human values. Such vibrant community traditions create precious memories that last across generations. Everyone went to bed that night looking forward to next year's carnival with great anticipation."
+    ],
+    "vocabulary": [
+      {
+        "word": "square",
+        "syllables": "square",
+        "phonetic": "/skweə/",
+        "definition": "An open public area in a town, surrounded by buildings.",
+        "example": "Thousands of excited spectators lined the decorated main square.",
+        "emoji": "🏛️"
+      },
+      {
+        "word": "stage",
+        "syllables": "stage",
+        "phonetic": "/steɪdʒ/",
+        "definition": "A raised area where performers stand in front of an audience.",
+        "example": "A fancy-dress competition was held on the outdoor wooden stage.",
+        "emoji": "🎪"
+      },
+      {
+        "word": "break",
+        "syllables": "break",
+        "phonetic": "/breɪk/",
+        "definition": "A short period when you stop what you are doing and rest.",
+        "example": "The celebration provided people with a joyful break from their busy working lives.",
+        "emoji": "⏸️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What do local artists and school children make for the carnival?",
+        "options": [
+          "Wooden boats",
+          "Elaborate paper masks",
+          "Glass windows",
+          "Clay pots"
+        ],
+        "answerIndex": 1,
+        "explanation": "Local artists and school children gather in community workshops to create elaborate paper masks."
+      },
+      {
+        "question": "Who won the fancy-dress competition?",
+        "options": [
+          "A teenage boy",
+          "A seven-year-old girl dressed as a forest fairy",
+          "The mayor",
+          "A group of teachers"
+        ],
+        "answerIndex": 1,
+        "explanation": "A seven-year-old girl dressed as a mythical forest fairy won the grand first prize."
+      },
+      {
+        "question": "Where were the fireworks launched from?",
+        "options": [
+          "The town square",
+          "The grounds of the medieval castle",
+          "The river bank",
+          "The school roof"
+        ],
+        "answerIndex": 1,
+        "explanation": "A stunning firework display was launched from the grounds of the medieval castle."
+      }
+    ],
+    "funPrompt": "Which festival in your town or country would you show to a visitor, and what would you explain first?"
+  },
+  {
+    "id": 519,
+    "day": 19,
+    "track": "advanced",
+    "title": "A Visit to a Modern Sustainable Farm",
+    "coverEmoji": "🌱",
+    "category": "Nature & Science",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "A science class visits a farm that uses insects instead of pesticides and sun instead of fuel.",
+    "wordCount": 391,
+    "paragraphs": [
+      "Agricultural methods have changed dramatically with the introduction of ecological science. Last Thursday, our science class visited an organic farm located in a fertile river valley. The farm owner, Mr. Higgins, met our school coach at the wooden farm gate. He began the tour by explaining the fundamental principles of sustainable farming. Unlike conventional farms, this ecological facility uses zero harmful chemical pesticides.",
+      "Instead, natural predatory insects are released into the fields to control crop pests. We walked across expansive green pastures where dairy cattle and sheep grazed freely. Mr. Higgins explained that providing animals with open space is vital for their physical health. Next, we visited the large computer-controlled glass greenhouses. Inside, vibrant red tomatoes, crisp cucumbers, and fresh strawberries grew in neat rows.",
+      "The greenhouse utilizes a smart irrigation system that delivers precise amounts of water. Soil moisture sensors measure moisture levels and prevent any wasteful overuse of liquid nutrients. Energy for the heating pumps and automated ventilation is generated by rooftop solar panels. The farmer demonstrated how agricultural crop residues are recycled into rich organic compost. Nothing goes to waste, creating a closed and environmentally responsible production cycle.",
+      "In the farm workshop, workers were busy grading and packaging freshly picked produce. Emma was invited to weigh a wooden crate of crisp apples on a digital industrial scale. The weight measured exactly fifteen kilograms, which was the standard shipment unit. The farm sells its goods directly to local markets and school canteens across the district. Supplying food locally drastically reduces transportation pollution and fuel consumption.",
+      "At lunchtime, the farmer treated our entire class to a delicious farm-to-table meal. We enjoyed crusty homemade bread, organic cheese, and freshly squeezed apple juice. The simple food tasted exceptionally rich, sweet, and full of natural flavour. During the meal, students asked insightful questions about soil management and career paths. Mr. Higgins explained that modern agriculture requires skilled agronomists, data analysts, and engineers.",
+      "He encouraged interested students to study environmental biology or agricultural science at university. Before departing, each student received a small potted herb plant as a learning gift. We thanked the Higgins family warmly for their exceptional hospitality and educational lecture. The field trip helped us understand where our food comes from and how it is grown. Sustainable farming plays a crucial role in safeguarding global food security and our planet's future."
+    ],
+    "vocabulary": [
+      {
+        "word": "produce",
+        "syllables": "pro-duce",
+        "phonetic": "/ˈprɒdjuːs/",
+        "definition": "Fruit and vegetables grown for sale, especially on a farm.",
+        "example": "Workers were busy grading and packaging freshly picked produce.",
+        "emoji": "🥕"
+      },
+      {
+        "word": "scale",
+        "syllables": "scale",
+        "phonetic": "/skeɪl/",
+        "definition": "A machine used for weighing things.",
+        "example": "Emma was invited to weigh a wooden crate of crisp apples on a digital industrial scale.",
+        "emoji": "⚖️"
+      },
+      {
+        "word": "soil",
+        "syllables": "soil",
+        "phonetic": "/sɔɪl/",
+        "definition": "The top layer of earth in which plants grow.",
+        "example": "Soil moisture sensors measure moisture levels.",
+        "emoji": "🪴"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How does this farm control crop pests?",
+        "options": [
+          "With chemical pesticides",
+          "By releasing natural predatory insects",
+          "With plastic nets",
+          "By removing all insects"
+        ],
+        "answerIndex": 1,
+        "explanation": "Natural predatory insects are released into the fields to control crop pests."
+      },
+      {
+        "question": "What did Emma weigh on the industrial scale?",
+        "options": [
+          "A bag of potatoes",
+          "A wooden crate of apples",
+          "A basket of tomatoes",
+          "A sack of grain"
+        ],
+        "answerIndex": 1,
+        "explanation": "Emma was invited to weigh a wooden crate of crisp apples on a digital industrial scale."
+      },
+      {
+        "question": "Where does the farm sell its food?",
+        "options": [
+          "To supermarkets overseas",
+          "Directly to local markets and school canteens",
+          "Only online",
+          "To restaurants in the capital"
+        ],
+        "answerIndex": 1,
+        "explanation": "The farm sells its goods directly to local markets and school canteens."
+      }
+    ],
+    "funPrompt": "What does 'eating locally' mean, and how could your family try it for one meal?"
+  },
+  {
+    "id": 520,
+    "day": 20,
+    "track": "advanced",
+    "title": "The Historic City Tour",
+    "coverEmoji": "🏛️",
+    "category": "History & Culture",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "A history class walks the Roman walls, medieval lanes and Viking museums of York.",
+    "wordCount": 411,
+    "paragraphs": [
+      "Exploring historical architecture helps us understand the social lives of ancient civilizations. During our autumn field excursion, our history class took a guided walking tour of York. Our tour guide, an experienced historian named Dr Evans, met us at the city walls. These magnificent stone fortifications were originally constructed during the Roman period. Dr Evans distributed printed map brochures showing the layout of medieval streets.",
+      "We began our walk along the elevated ramparts, which offered a panoramic view of the city. The guide pointed out how the defensive walls helped protect medieval citizens from hostile armies. Next, we descended the stone steps to explore the famous Shambles, a narrow cobbled lane. Timber-framed buildings leaned inward toward the street, almost touching at the top floor. In the Middle Ages, butchers displayed fresh meat on wide wooden window ledges.",
+      "Today, these historic shops house charming bookstores, tea shops, and handcrafted gift boutiques. Our next stop was the grand Gothic cathedral, known worldwide as York Minster. As we entered the enormous building, the sheer scale of the stone pillars left us speechless. Sunlight streamed through towering stained-glass windows, creating dazzling coloured patterns on the stone floor. The guide explained that medieval craftsmen spent decades completing these intricate glass windows.",
+      "In the subterranean crypt, we saw archaeological excavations of ancient Roman army headquarters. Archaeologists had discovered ancient weapons, bronze coins, and domestic clay pottery. Dr Evans reminded us not to touch the delicate artifacts, as human skin oils can damage them. Outside the cathedral, we rested on a bench in the tranquil museum gardens. Nearby stood the picturesque ruins of St. Mary's Abbey, surrounded by ancient trees.",
+      "A flock of white pigeons pecked at breadcrumbs on the manicured green lawn. Tom took several high-definition photos with his digital camera for our class presentation. In the afternoon, we visited a specialized interactive Viking museum near the river wharf. We boarded moving simulation capsules that transported us through a reconstructed Norse village. Realistic figures, authentic historic sounds, and even historic smells brought the past to life.",
+      "The experience gave us a vivid impression of what daily life was like a thousand years ago. Before catching the train home, we bought souvenir postcards at the railway station kiosk. Reviewing the historical sights made our textbook history lessons far more vivid and meaningful. Preserving historic urban centres requires substantial financial investment and ongoing public care. Learning about historical roots deepens our appreciation of cultural diversity and modern civic heritage."
+    ],
+    "vocabulary": [
+      {
+        "word": "period",
+        "syllables": "pe-ri-od",
+        "phonetic": "/ˈpɪəriəd/",
+        "definition": "A length of time in history or in someone's life.",
+        "example": "These magnificent stone fortifications were originally constructed during the Roman period.",
+        "emoji": "⏳"
+      },
+      {
+        "word": "scale",
+        "syllables": "scale",
+        "phonetic": "/skeɪl/",
+        "definition": "The size or level of something, especially when it is large.",
+        "example": "The sheer scale of the stone pillars left us speechless.",
+        "emoji": "📐"
+      },
+      {
+        "word": "ruins",
+        "syllables": "ru-ins",
+        "phonetic": "/ˈruːɪnz/",
+        "definition": "The broken parts that are left of an old building.",
+        "example": "Nearby stood the picturesque ruins of St. Mary's Abbey.",
+        "emoji": "🏚️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Who originally built the city walls?",
+        "options": [
+          "The Vikings",
+          "The Romans",
+          "The Normans",
+          "The Tudors"
+        ],
+        "answerIndex": 1,
+        "explanation": "These magnificent stone fortifications were originally constructed during the Roman period."
+      },
+      {
+        "question": "What is the name of the Gothic cathedral?",
+        "options": [
+          "St. Mary's Abbey",
+          "York Minster",
+          "The Shambles",
+          "The Viking Centre"
+        ],
+        "answerIndex": 1,
+        "explanation": "Our next stop was the grand Gothic cathedral, known worldwide as York Minster."
+      },
+      {
+        "question": "How did the Viking museum bring the past to life?",
+        "options": [
+          "With actors in costume only",
+          "With moving simulation capsules through a reconstructed village",
+          "With a film in the car park",
+          "With a guided walk along the river"
+        ],
+        "answerIndex": 1,
+        "explanation": "We boarded moving simulation capsules that transported us through a reconstructed Norse village."
+      }
+    ],
+    "funPrompt": "If you explored your own town with a historian, which building would you ask about first?"
   }
 ];
 
