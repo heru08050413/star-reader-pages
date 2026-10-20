@@ -2114,11 +2114,11 @@ const MONTH4_STORIES = [
     "coverEmoji": "🥗",
     "category": "Health & Food",
     "level": "Explorer",
-    "readingTime": "7 mins",
+    "readingTime": "6 mins",
     "intro": "A salad bar, a food label and a pot of vegetable soup: learning to eat well.",
-    "wordCount": 301,
+    "wordCount": 287,
     "paragraphs": [
-      "Eating a balanced, nutritious diet is essential for teenage growth. Last week, our home economics teacher gave a talk on healthy eating. She explained that a wide variety of fresh foods provides important vitamins and minerals. Teenagers should eat plenty of leafy green vegetables, ripe fruit and whole grains. Too many sugary drinks and processed snacks can cause health problems.",
+      "Eating a balanced, nutritious diet is essential for teenage growth. Last week, our home economics teacher gave a talk on healthy eating. Teenagers should eat plenty of leafy green vegetables, ripe fruit and whole grains. Too many sugary drinks and processed snacks can cause health problems.",
       "Regular junk food increases the risk of obesity and long-term disease. To encourage healthy habits, the school canteen introduced a fresh salad bar at lunchtime. Students can choose crisp lettuce, juicy tomatoes, boiled eggs and grilled chicken. My classmate Tom decided to replace his daily fizzy drink with pure mineral water.",
       "He noticed that drinking enough water improved his concentration in class. Alongside balanced eating, understanding food labels is a useful skill. Nutrition labels show ingredient lists, calorie counts and recommended serving sizes. Shoppers should check these labels carefully before buying packaged food. Cooking at home with fresh ingredients is another good way to control your diet.",
       "Last Sunday, Tom helped his mother make a traditional vegetable soup. He used a sharp knife to cut carrots, potatoes and onions into even pieces. His mother cooked the vegetables in a small pan with a little olive oil. The wonderful smell of herbs and soup soon filled the house. Eating home-cooked meals together strengthens family bonds and builds healthy traditions.",
@@ -2274,14 +2274,14 @@ const MONTH4_STORIES = [
     "coverEmoji": "📸",
     "category": "Arts & Technology",
     "level": "Explorer",
-    "readingTime": "7 mins",
+    "readingTime": "6 mins",
     "intro": "A garden photography trip: wide apertures, fast shutters and fifty pictures on a gallery wall.",
-    "wordCount": 305,
+    "wordCount": 293,
     "paragraphs": [
       "Digital photography combines technical skill with creative visual expression. Last Saturday, our media club organised a photography trip to the botanical gardens. A professional photojournalist named Arthur came with our group to give expert guidance. He reminded everyone that stunning images need an understanding of aperture, shutter speed and ISO. Arthur showed how the lens aperture controls the amount of light entering the camera.",
       "A wide aperture creates a soft, blurry background, which is perfect for portrait shots. A narrow aperture keeps wide landscapes sharp from the foreground to the horizon. Next, he explained how shutter speed decides whether fast subjects look sharp or blurred. A fast shutter freezes a splashing water drop in mid-air with amazing clarity. With their cameras ready, club members walked along the winding garden paths.",
       "Emma crouched low on the grass to take a close-up macro shot of a butterfly. She adjusted her focus ring carefully so the delicate wings were crystal clear. Tom preferred landscapes, so he captured panoramic views of the lake and distant peaks. He mounted his camera on a sturdy metal tripod to prevent blurry camera shake.",
-      "He encouraged everyone to watch the natural light and the background details. In the afternoon, the group returned to the media lab to edit their images. They used professional software to crop unnecessary edges and adjust brightness. Arthur showed them how to add contrast and colour without making photos look unnatural. The club chose the best fifty photographs for a public exhibition in the school library.",
+      "In the afternoon, the group returned to the media lab to edit their images. They used professional software to crop unnecessary edges and adjust brightness. Arthur showed them how to add contrast and colour without making photos look unnatural. The club chose the best fifty photographs for a public exhibition in the school library.",
       "Printed on glossy paper, the images looked remarkably professional. Parents and teachers came to the evening opening. A local arts magazine published an article about several award-winning student photos. The workshop taught students to observe everyday surroundings with greater attention. Photography is not just pressing a button; it is telling a visual story."
     ],
     "vocabulary": [
@@ -2426,6 +2426,407 @@ const MONTH4_STORIES = [
       }
     ],
     "funPrompt": "If you could look at one thing through a telescope tonight, what would it be?"
+  },
+  {
+    "id": 131,
+    "day": 131,
+    "title": "Preparing for a School Exam",
+    "coverEmoji": "📝",
+    "category": "School & Study",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "A revision timetable, a study group and a deep breath before the exam booklet opens.",
+    "wordCount": 289,
+    "paragraphs": [
+      "Preparing for important exams needs discipline and a well-structured study plan. Last month, our headteacher announced that final exams would begin soon. Tom realised he needed to revise several difficult maths and science subjects. He opened his diary and made a realistic revision timetable. Every evening after dinner, he spent two hours reviewing chapters and notes.",
+      "He sat at his wooden desk, turned on his lamp and pushed his phone away. When he met a difficult physics formula, he asked his teacher for help. Tom wrote the extra explanations in his notebook for later.",
+      "At weekends, he formed a study group with classmates at the library. They quizzed each other on vocabulary, grammar rules and historical events. Practising past exam papers helped them get used to the question formats. They learned to divide their time wisely in exams so they would not run out of time. Alongside study, staying healthy is important for a sharp mind.",
+      "Tom made sure to get eight hours of sleep each night instead of staying up late. Eating well and drinking water kept his mind sharp and full of energy. On the morning of the maths exam, he arrived at the hall early. The chief invigilator gave out question papers and told students to check their details. Tom took a deep breath to calm his nerves before opening the booklet.",
+      "He read every question carefully before writing his answers in black ink. He managed his time well and finished the difficult calculus section with minutes to spare. After checking for careless errors, he handed his paper to the invigilator. Outside in the bright sun, he felt a huge wave of relief. Good results are the direct reward of steady hard work and careful preparation."
+    ],
+    "vocabulary": [
+      {
+        "word": "revise",
+        "syllables": "re-vise",
+        "phonetic": "/rɪˈvaɪz/",
+        "definition": "To study again what you have learned, especially before an exam.",
+        "example": "Tom realised he needed to revise several difficult maths and science subjects.",
+        "emoji": "📚"
+      },
+      {
+        "word": "invigilator",
+        "syllables": "in-vig-i-la-tor",
+        "phonetic": "/ɪnˈvɪdʒɪleɪtə/",
+        "definition": "A person who watches students during an exam.",
+        "example": "The chief invigilator gave out question papers and told students to check their details.",
+        "emoji": "🧑‍🏫"
+      },
+      {
+        "word": "calculus",
+        "syllables": "cal-cu-lus",
+        "phonetic": "/ˈkælkjələs/",
+        "definition": "A branch of advanced mathematics.",
+        "example": "He managed his time well and finished the difficult calculus section with minutes to spare.",
+        "emoji": "📐"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How long did Tom study each evening?",
+        "options": [
+          "One hour",
+          "Two hours",
+          "Three hours",
+          "Thirty minutes"
+        ],
+        "answerIndex": 1,
+        "explanation": "Every evening after dinner, he spent two hours reviewing chapters and notes."
+      },
+      {
+        "question": "How much sleep did Tom make sure to get?",
+        "options": [
+          "Six hours",
+          "Seven hours",
+          "Eight hours",
+          "Ten hours"
+        ],
+        "answerIndex": 2,
+        "explanation": "Tom made sure to get eight hours of sleep each night instead of staying up late."
+      },
+      {
+        "question": "What did Tom do before opening the booklet?",
+        "options": [
+          "Asked a question",
+          "Took a deep breath",
+          "Sharpened his pencil",
+          "Read the invigilator's notes"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tom took a deep breath to calm his nerves before opening the booklet."
+      }
+    ],
+    "funPrompt": "What is your best way to remember something difficult before a test?"
+  },
+  {
+    "id": 132,
+    "day": 132,
+    "title": "A Visit to the Local Dental Clinic",
+    "coverEmoji": "🦷",
+    "category": "Health & Wellbeing",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "A routine dental visit: a check-up, a polish and a new toothbrush on the way out.",
+    "wordCount": 276,
+    "paragraphs": [
+      "Maintaining good oral hygiene is essential for dental health and a confident smile. Last Tuesday morning, Emma went to the community dental clinic for her routine check-up. The receptionist checked her patient records and asked her to sit in the waiting room. A friendly dental nurse called her name and took her into the sanitised examination room. Emma sat in the adjustable chair and put her bag on the floor.",
+      "Dr Taylor greeted her warmly and adjusted the bright overhead lamp. He asked whether she had felt any toothache or gum sensitivity recently. Emma said her teeth felt comfortable, but she wanted a professional clean anyway. The dentist used a small silver mirror and a pointed metal probe to check her teeth. He looked carefully at each molar for hidden cavities or enamel damage.",
+      "Luckily, her teeth and gums were in excellent condition with no signs of decay. Dr Taylor praised Emma for keeping up her daily brushing and flossing. He reminded her that brushing twice a day with fluoride toothpaste protects against oral disease.",
+      "Next, the dental hygienist polished Emma's teeth to remove surface stains. She used a rotating soft brush and a mint-flavoured paste. The cleaning was completely painless and lasted less than thirty minutes. Before leaving, the receptionist gave Emma a free toothbrush and a sample tube of toothpaste. Emma booked her next six-month appointment before leaving.",
+      "Regular check-ups catch minor problems before they become painful. In the evening, she ate a healthy dinner of vegetables, chicken and rice. Afterwards, she brushed her teeth for two full minutes with an electric toothbrush. She also flossed between her molars to remove tiny food particles."
+    ],
+    "vocabulary": [
+      {
+        "word": "hygiene",
+        "syllables": "hy-giene",
+        "phonetic": "/ˈhaɪdʒiːn/",
+        "definition": "Keeping your body and teeth clean to stay healthy.",
+        "example": "Maintaining good oral hygiene is essential for dental health and a confident smile.",
+        "emoji": "🪥"
+      },
+      {
+        "word": "probe",
+        "syllables": "probe",
+        "phonetic": "/prəʊb/",
+        "definition": "A thin tool a dentist uses to examine teeth.",
+        "example": "The dentist used a small silver mirror and a pointed metal probe to check her teeth.",
+        "emoji": "🔧"
+      },
+      {
+        "word": "decay",
+        "syllables": "de-cay",
+        "phonetic": "/dɪˈkeɪ/",
+        "definition": "Damage to teeth caused by bacteria.",
+        "example": "Luckily, her teeth and gums were in excellent condition with no signs of decay.",
+        "emoji": "🦠"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How often does Emma visit the dental clinic?",
+        "options": [
+          "Every three months",
+          "Every six months",
+          "Once a year",
+          "Every two years"
+        ],
+        "answerIndex": 1,
+        "explanation": "Emma booked her next six-month appointment before leaving."
+      },
+      {
+        "question": "What did the dentist check each molar for?",
+        "options": [
+          "Size",
+          "Hidden cavities or enamel damage",
+          "Colour",
+          "Braces"
+        ],
+        "answerIndex": 1,
+        "explanation": "He looked carefully at each molar for hidden cavities or enamel damage."
+      },
+      {
+        "question": "How long did the cleaning last?",
+        "options": [
+          "Ten minutes",
+          "Less than thirty minutes",
+          "One hour",
+          "Two hours"
+        ],
+        "answerIndex": 1,
+        "explanation": "The cleaning was completely painless and lasted less than thirty minutes."
+      }
+    ],
+    "funPrompt": "What would you tell a friend who is nervous about visiting the dentist?"
+  },
+  {
+    "id": 133,
+    "day": 133,
+    "title": "A Weekend at the Farm",
+    "coverEmoji": "🚜",
+    "category": "Nature & Science",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "A geography trip to an organic farm: insects instead of pesticides and a fifteen-kilogram crate of apples.",
+    "wordCount": 287,
+    "paragraphs": [
+      "Last weekend, our geography club visited a family-run organic farm in the countryside. The friendly owner, Mr Higgins, met us at the wooden gate. He explained how sustainable farming protects the local environment. Unlike conventional industrial farms, this organic farm uses no chemical pesticides.",
+      "Instead, natural predatory insects are encouraged to control crop pests. We walked across wide green fields where cows and sheep grazed freely. Mr Higgins said giving animals open space is vital for their health. Next, we visited the large computer-controlled greenhouses. Inside, red tomatoes, cucumbers and strawberries grew in neat rows.",
+      "The greenhouse uses a smart irrigation system that delivers exact amounts of water. Soil moisture sensors measure the levels and stop wasteful overuse of nutrients. Energy for the heating pumps and ventilation comes from rooftop solar panels. The farmer showed how crop leftovers are recycled into rich compost.",
+      "In the farm workshop, workers were busy grading and packing produce. Emma weighed a wooden crate of apples on a digital industrial scale. It measured exactly fifteen kilograms, the standard shipment unit. The farm sells its goods directly to local markets and school canteens.",
+      "At lunchtime, the farmer treated us to a delicious farm-to-table meal. We enjoyed fresh bread, organic cheese and apple juice. Students asked thoughtful questions about soil management and careers. Mr Higgins explained that modern farming needs skilled agronomists, data analysts and engineers. He encouraged students to study environmental biology or agricultural science.",
+      "Before leaving, each student received a small potted herb as a gift. We thanked the family for their warm welcome. The trip helped us understand where our food comes from and how it is grown. Sustainable farming plays a vital role in protecting food security and the planet."
+    ],
+    "vocabulary": [
+      {
+        "word": "organic",
+        "syllables": "or-gan-ic",
+        "phonetic": "/ɔːˈɡænɪk/",
+        "definition": "Grown or made without harmful chemicals.",
+        "example": "Last weekend, our geography club visited a family-run organic farm in the countryside.",
+        "emoji": "🌿"
+      },
+      {
+        "word": "irrigation",
+        "syllables": "ir-ri-ga-tion",
+        "phonetic": "/ˌɪrɪˈɡeɪʃn/",
+        "definition": "Supplying water to land or crops.",
+        "example": "The greenhouse uses a smart irrigation system that delivers exact amounts of water.",
+        "emoji": "💧"
+      },
+      {
+        "word": "compost",
+        "syllables": "com-post",
+        "phonetic": "/ˈkɒmpɒst/",
+        "definition": "Rotted plants and food waste used to feed the soil.",
+        "example": "The farmer showed how crop leftovers are recycled into rich compost.",
+        "emoji": "🪱"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How does this farm control pests?",
+        "options": [
+          "With chemical pesticides",
+          "By encouraging natural predatory insects",
+          "With plastic netting",
+          "By removing all insects"
+        ],
+        "answerIndex": 1,
+        "explanation": "Instead, natural predatory insects are encouraged to control crop pests."
+      },
+      {
+        "question": "How much did the crate of apples weigh?",
+        "options": [
+          "Five kilograms",
+          "Ten kilograms",
+          "Fifteen kilograms",
+          "Twenty kilograms"
+        ],
+        "answerIndex": 2,
+        "explanation": "It measured exactly fifteen kilograms, the standard shipment unit."
+      },
+      {
+        "question": "Where does the farm sell its food?",
+        "options": [
+          "Only overseas",
+          "Directly to local markets and school canteens",
+          "Only online",
+          "To big supermarkets"
+        ],
+        "answerIndex": 1,
+        "explanation": "The farm sells its goods directly to local markets and school canteens."
+      }
+    ],
+    "funPrompt": "Which job on an organic farm would you most like to try for a day?"
+  },
+  {
+    "id": 134,
+    "day": 134,
+    "title": "Delivering Emergency Supplies After a Flood",
+    "coverEmoji": "🆘",
+    "category": "Community & Safety",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "After three days of rain a river bursts its banks, and volunteers learn that accuracy saves lives.",
+    "wordCount": 300,
+    "paragraphs": [
+      "Severe flooding can cut off communities and stop essential services within hours. After three days of heavy rain, the River Lark burst its banks near a small village. Emergency teams closed unsafe roads and moved residents from low-lying homes. Our youth volunteer group offered to help organise relief supplies at the town hall. The coordinator divided the hall into areas for drinking water, food, blankets and hygiene products.",
+      "Every donated item was checked, counted and entered on a digital supply list. Volunteers rejected opened food and damaged electrical equipment for safety reasons. Maya packed family boxes with bottled water, cereal, soap and clean towels. Tom labelled each box with its contents, weight and destination. A map showed which routes were still open and which bridges were closed.",
+      "The fastest route was not always the safest because strong currents crossed several roads. From the edge of the flooded area, trained crews carried lighter packages by boat. A temporary distribution point was set up on the dry bank beside the village church. Residents signed for medicines so staff could keep an accurate record.",
+      "The local pharmacy supplied replacement prescriptions after checking patient details. Mobile phone charging stations helped families contact relatives and get official updates. A volunteer electrician checked each station before public use. By evening, the first delivery had reached every household cut off by water. The next morning, volunteers prepared cleaning kits for homes that were becoming accessible.",
+      "Health officers warned residents not to touch floodwater without protective clothing. Dirty water may carry harmful bacteria, chemicals or sharp hidden objects. The relief centre also offered a quiet space for children and older residents. As the river level fell, engineers inspected roads, power lines and the damaged bank. Clear records let the coordinator send resources where they were most urgently needed."
+    ],
+    "vocabulary": [
+      {
+        "word": "relief",
+        "syllables": "re-lief",
+        "phonetic": "/rɪˈliːf/",
+        "definition": "Help given to people in a difficult situation.",
+        "example": "Our youth volunteer group offered to help organise relief supplies at the town hall.",
+        "emoji": "🎁"
+      },
+      {
+        "word": "distribution",
+        "syllables": "dis-tri-bu-tion",
+        "phonetic": "/ˌdɪstrɪˈbjuːʃn/",
+        "definition": "The act of giving out things to people.",
+        "example": "A temporary distribution point was set up on the dry bank beside the village church.",
+        "emoji": "📦"
+      },
+      {
+        "word": "bacteria",
+        "syllables": "bac-te-ria",
+        "phonetic": "/bækˈtɪəriə/",
+        "definition": "Very small living things that can cause disease.",
+        "example": "Dirty water may carry harmful bacteria, chemicals or sharp hidden objects.",
+        "emoji": "🦠"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Which river burst its banks?",
+        "options": [
+          "The Thames",
+          "The River Lark",
+          "The Severn",
+          "The Avon"
+        ],
+        "answerIndex": 1,
+        "explanation": "After three days of heavy rain, the River Lark burst its banks near a small village."
+      },
+      {
+        "question": "What did volunteers reject for safety reasons?",
+        "options": [
+          "Blankets",
+          "Opened food and damaged electrical equipment",
+          "Bottled water",
+          "Soap"
+        ],
+        "answerIndex": 1,
+        "explanation": "Volunteers rejected opened food and damaged electrical equipment for safety reasons."
+      },
+      {
+        "question": "Who checked the phone charging stations?",
+        "options": [
+          "A teacher",
+          "A volunteer electrician",
+          "The coordinator",
+          "A rescue officer"
+        ],
+        "answerIndex": 1,
+        "explanation": "A volunteer electrician checked each station before public use."
+      }
+    ],
+    "funPrompt": "If your town had to help a flooded village, what would you put in a family box?"
+  },
+  {
+    "id": 135,
+    "day": 135,
+    "title": "A School Art Exhibition",
+    "coverEmoji": "🖌️",
+    "category": "Arts & Culture",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "A spring art show: a colourful sunset canvas, a charcoal portrait and a crowd at the doors.",
+    "wordCount": 288,
+    "paragraphs": [
+      "Annual school art exhibitions give talented students a platform to show their creativity. Last month, our art department hosted a grand spring painting show. More than fifty student artists gathered in the school exhibition hall to arrange their framed works. The gallery showed different media, including oil paintings, watercolours, charcoal sketches and sculptures. Maya displayed a vibrant landscape canvas of a colourful sunset over a coastal village.",
+      "Leo presented a detailed charcoal portrait of an ancient literary hero. Their strict art teacher, Mr Vance, walked around the hall giving helpful criticism and praise. He reminded students that artistic expression needs patience, observation and emotional depth. On opening night, a large crowd of parents, teachers and pupils filled the hall.",
+      "As the doors opened, visitors stepped inside to admire the displays. Soft spotlights highlighted the rich textures and bold brushstrokes of each painting. Maya answered questions from curious visitors about her choice of warm colours. She explained that warm shades create a feeling of joy and calm. During the evening, student volunteers served fruit punch and biscuits in the hall.",
+      "Many parents praised the professional layout of the gallery and the impressive talent. A local newspaper reporter took photos and interviewed several students. He published an article calling the exhibition a triumph for youth arts education. Taking part in public art shows teaches students self-confidence and communication.",
+      "They packed their unsold artwork carefully after the show. Our school celebrated the exhibition's success with a gathering in the canteen on Monday. Tom felt inspired to join an advanced digital design workshop next term. Learning new creative skills opens students' horizons and prepares them for future design careers. Visual arts help young people express complex ideas without relying only on words."
+    ],
+    "vocabulary": [
+      {
+        "word": "exhibition",
+        "syllables": "ex-hi-bi-tion",
+        "phonetic": "/ˌeksɪˈbɪʃn/",
+        "definition": "A public show of art or other objects.",
+        "example": "Annual school art exhibitions give talented students a platform to show their creativity.",
+        "emoji": "🖼️"
+      },
+      {
+        "word": "charcoal",
+        "syllables": "char-coal",
+        "phonetic": "/ˈtʃɑːkəʊl/",
+        "definition": "A black stick used for drawing.",
+        "example": "The gallery showed different media, including oil paintings, watercolours, charcoal sketches and sculptures.",
+        "emoji": "✏️"
+      },
+      {
+        "word": "criticism",
+        "syllables": "crit-i-cism",
+        "phonetic": "/ˈkrɪtɪsɪzəm/",
+        "definition": "Remarks that judge whether something is good or bad.",
+        "example": "Their strict art teacher, Mr Vance, walked around the hall giving helpful criticism and praise.",
+        "emoji": "💬"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How many student artists took part?",
+        "options": [
+          "Over twenty",
+          "Over fifty",
+          "Over one hundred",
+          "Ten"
+        ],
+        "answerIndex": 1,
+        "explanation": "More than fifty student artists gathered in the school exhibition hall to arrange their framed works."
+      },
+      {
+        "question": "What did Maya display?",
+        "options": [
+          "A charcoal portrait",
+          "A vibrant landscape canvas",
+          "A sculpture",
+          "A photograph"
+        ],
+        "answerIndex": 1,
+        "explanation": "Maya displayed a vibrant landscape canvas of a colourful sunset over a coastal village."
+      },
+      {
+        "question": "What did the local reporter do?",
+        "options": [
+          "Bought a painting",
+          "Took photos and interviewed students",
+          "Judged the show",
+          "Taught a class"
+        ],
+        "answerIndex": 1,
+        "explanation": "A local newspaper reporter took photos and interviewed several students."
+      }
+    ],
+    "funPrompt": "If you made a picture for a school show, what would you draw and why?"
   }
 ];
 MONTH4_STORIES.forEach(story => { if (!STORIES_DATA.some(e => e.id === story.id)) STORIES_DATA.push(story); });
