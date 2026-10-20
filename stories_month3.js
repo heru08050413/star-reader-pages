@@ -2046,6 +2046,415 @@ const MONTH3_STORIES = [
       }
     ],
     "funPrompt": "Which food at a harvest festival would you most want to taste, and why?"
+  },
+  {
+    "id": 86,
+    "day": 86,
+    "title": "A Day at the Seaside Amusement Pier",
+    "coverEmoji": "🎡",
+    "category": "Leisure & Adventure",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "A hot August day on a seaside pier: air hockey, a magic trick and a lost pair of sunglasses.",
+    "wordCount": 244,
+    "paragraphs": [
+      "During a hot August weekend, Oliver and his cousins spent Saturday at a seaside resort. An old pleasure pier stretched far out into the blue sea. Shops, food kiosks and game arcades lined both sides of the wooden deck. His cousin Emma wanted to play air hockey in the arcade.",
+      "They put metal tokens into the machine, and the table blew a cushion of air. Emma moved her paddle fast to block Oliver's attacks. The little puck bounced off the sides. After a close game, Emma scored the winning goal and cheered.",
+      "Outside on the pier, a street magician drew a crowd. He asked Oliver to check that a wooden box was empty. Then he waved a silk handkerchief, and three white doves flew out.",
+      "Next, the cousins walked to the end of the pier. Fishermen were casting long lines. An old fisherman showed them a bucket with two mackerel and a sea bass.",
+      "While they talked, Emma dropped her sunglasses onto a lower ledge. A pier worker used a long pole with a net to get them back. Emma thanked him warmly.",
+      "At noon, the family ate fish and chips at an open-air café. In the afternoon, they rented a yellow pedalo. Oliver and Emma took turns pedalling across the gentle waves.",
+      "As the sun set, hundreds of coloured lights lit the pier. Before driving home, Oliver bought a box of peppermint rock candy for his grandparents. They left feeling relaxed and happy."
+    ],
+    "vocabulary": [
+      {
+        "word": "pier",
+        "syllables": "pier",
+        "phonetic": "/pɪə/",
+        "definition": "A long structure built out into the sea for people to walk on.",
+        "example": "An old pleasure pier stretched far out into the blue sea.",
+        "emoji": "🎠"
+      },
+      {
+        "word": "tokens",
+        "syllables": "to-kens",
+        "phonetic": "/ˈtəʊkənz/",
+        "definition": "Small metal coins used in machines or games.",
+        "example": "They put metal tokens into the machine, and the table blew a cushion of air.",
+        "emoji": "🪙"
+      },
+      {
+        "word": "pedalo",
+        "syllables": "ped-a-lo",
+        "phonetic": "/ˈpedələʊ/",
+        "definition": "A small boat moved by turning pedals with your feet.",
+        "example": "In the afternoon, they rented a yellow pedalo.",
+        "emoji": "⛵"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What game did Emma want to play?",
+        "options": [
+          "Table football",
+          "Air hockey",
+          "Pinball",
+          "Basketball"
+        ],
+        "answerIndex": 1,
+        "explanation": "His cousin Emma wanted to play air hockey in the arcade."
+      },
+      {
+        "question": "What flew out of the magician's box?",
+        "options": [
+          "Three white doves",
+          "A rabbit",
+          "Ribbons",
+          "A small dog"
+        ],
+        "answerIndex": 0,
+        "explanation": "Then he waved a silk handkerchief, and three white doves flew out."
+      },
+      {
+        "question": "How did the worker get the sunglasses back?",
+        "options": [
+          "By diving",
+          "With a long pole and a net",
+          "By asking a fisherman",
+          "By climbing"
+        ],
+        "answerIndex": 1,
+        "explanation": "A pier worker used a long pole with a net to get them back."
+      }
+    ],
+    "funPrompt": "What would you most want to do on a seaside pier: the games, the food, or the fishing?"
+  },
+  {
+    "id": 87,
+    "day": 87,
+    "title": "The High School Debate Championship",
+    "coverEmoji": "🎙️",
+    "category": "School & Skills",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "A school debate team argues that AI should replace teachers — and wins by two points.",
+    "wordCount": 248,
+    "paragraphs": [
+      "Debating is a good way to improve speaking and thinking skills. Last Friday, our school hosted the yearly inter-school debating championship. Eight school teams met in the main hall to compete for the trophy. The final topic was whether artificial intelligence should replace human teachers.",
+      "Our team had to support the motion. Maya was chosen as the first speaker. She stood behind the wooden podium and took a deep breath. She spoke clearly and argued that digital systems can give each student a personal learning path. She used numbers from recent studies to show that AI can raise study efficiency.",
+      "When she finished, the timekeeper rang a brass bell.",
+      "Then the leader of the opposition took the floor. He said that machines lack real human empathy and moral guidance.",
+      "In the rebuttals, both sides exchanged strong arguments with great fluency. Leo pointed out a basic flaw in the opposition's numbers. He stayed calm under pressure and answered difficult questions politely. The debate was fierce but respectful.",
+      "At the end, the three adjudicators went to a private room to decide.",
+      "They scored each team on matter, manner, team coordination and logic. After fifteen tense minutes, the chief judge returned. She praised both sides for their preparation and eloquence. By a narrow margin of two points, our school became champion. Our team hugged each other and walked up to take the golden cup.",
+      "Maya also won the best speaker award. Debating teaches young people to see problems from many sides."
+    ],
+    "vocabulary": [
+      {
+        "word": "motion",
+        "syllables": "mo-tion",
+        "phonetic": "/ˈməʊʃn/",
+        "definition": "A formal idea that people discuss and vote on in a debate.",
+        "example": "Our team had to support the motion.",
+        "emoji": "🗳️"
+      },
+      {
+        "word": "adjudicators",
+        "syllables": "ad-ju-di-ca-tors",
+        "phonetic": "/əˈdʒuːdɪkeɪtəz/",
+        "definition": "People who judge a debate or competition and decide the winner.",
+        "example": "At the end, the three adjudicators went to a private room to decide.",
+        "emoji": "⚖️"
+      },
+      {
+        "word": "margin",
+        "syllables": "mar-gin",
+        "phonetic": "/ˈmɑːdʒɪn/",
+        "definition": "The difference between two amounts, such as scores.",
+        "example": "By a narrow margin of two points, our school became champion.",
+        "emoji": "📊"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What was the topic of the final?",
+        "options": [
+          "Should school uniforms be banned?",
+          "Should AI replace human teachers?",
+          "Should homework be abolished?",
+          "Should sport be compulsory?"
+        ],
+        "answerIndex": 1,
+        "explanation": "The final topic was whether artificial intelligence should replace human teachers."
+      },
+      {
+        "question": "What did Maya use in her speech?",
+        "options": [
+          "A story",
+          "Numbers from recent studies",
+          "A video",
+          "A song"
+        ],
+        "answerIndex": 1,
+        "explanation": "She used numbers from recent studies to show that AI can raise study efficiency."
+      },
+      {
+        "question": "By how many points did the school win?",
+        "options": [
+          "One point",
+          "Two points",
+          "Five points",
+          "Ten points"
+        ],
+        "answerIndex": 1,
+        "explanation": "By a narrow margin of two points, our school became champion."
+      }
+    ],
+    "funPrompt": "Which do you think matters more in a classroom: a teacher's empathy or a computer's efficiency?"
+  },
+  {
+    "id": 88,
+    "day": 88,
+    "title": "A Journey by High-Speed Rail",
+    "coverEmoji": "🚄",
+    "category": "Travel & Transport",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "Four hundred kilometres in two hours: a morning on a high-speed train.",
+    "wordCount": 241,
+    "paragraphs": [
+      "Travelling by high-speed train is one of the best ways to move across land. On Monday morning, Daniel arrived at the busy central station. Daniel looked at the big electronic departures board to find his train. Train G104 to London would leave on time from Platform Nine.",
+      "He touched his mobile ticket on the barrier to enter. On the clean platform, he found carriage four and stepped on board. The carriage was bright, cool and very quiet. Daniel found his reserved window seat and lifted his small suitcase onto the overhead rack. The seat was soft.",
+      "At eight o'clock, the train left with barely a sound. Within five minutes, it reached three hundred kilometres per hour. Looking out of the wide window, Daniel watched the city give way to green fields. The train crossed old rivers, went through mountain tunnels and passed quiet villages. Daniel plugged in his laptop and did some homework.",
+      "The smooth ride meant he could type without shaking. Halfway through the two-hour journey, a steward pushed a trolley down the aisle. Daniel bought hot black tea and a fresh blueberry muffin. The steward took payment with a small contactless card reader.",
+      "Daniel packed his books and put on his coat. The train had covered four hundred kilometres in just two hours. High-speed rail cuts travel time and produces far less pollution than planes or cars. Daniel stepped off the train feeling relaxed and free of travel tiredness."
+    ],
+    "vocabulary": [
+      {
+        "word": "carriage",
+        "syllables": "car-riage",
+        "phonetic": "/ˈkærɪdʒ/",
+        "definition": "One of the separate parts of a train where passengers sit.",
+        "example": "On the clean platform, he found carriage four and stepped on board.",
+        "emoji": "🚃"
+      },
+      {
+        "word": "rack",
+        "syllables": "rack",
+        "phonetic": "/ræk/",
+        "definition": "A shelf for holding things, especially luggage.",
+        "example": "Daniel found his reserved window seat and lifted his small suitcase onto the overhead rack.",
+        "emoji": "🧳"
+      },
+      {
+        "word": "steward",
+        "syllables": "stew-ard",
+        "phonetic": "/ˈstjuːəd/",
+        "definition": "A person who serves food and helps passengers on a train.",
+        "example": "Halfway through the two-hour journey, a steward pushed a trolley down the aisle.",
+        "emoji": "☕"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What speed did the train reach?",
+        "options": [
+          "One hundred kilometres per hour",
+          "Two hundred kilometres per hour",
+          "Three hundred kilometres per hour",
+          "Four hundred kilometres per hour"
+        ],
+        "answerIndex": 2,
+        "explanation": "Within five minutes, it reached three hundred kilometres per hour."
+      },
+      {
+        "question": "How long was the journey?",
+        "options": [
+          "One hour",
+          "Two hours",
+          "Three hours",
+          "Four hours"
+        ],
+        "answerIndex": 1,
+        "explanation": "The train had covered four hundred kilometres in just two hours."
+      },
+      {
+        "question": "What did Daniel buy from the trolley?",
+        "options": [
+          "Coffee and a sandwich",
+          "Black tea and a blueberry muffin",
+          "Juice and a cake",
+          "Water and biscuits"
+        ],
+        "answerIndex": 1,
+        "explanation": "Daniel bought hot black tea and a fresh blueberry muffin."
+      }
+    ],
+    "funPrompt": "Would you rather travel by high-speed train or by plane, and why?"
+  },
+  {
+    "id": 89,
+    "day": 89,
+    "title": "Wildlife Conservation in the National Park",
+    "coverEmoji": "🦌",
+    "category": "Nature & Environment",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "Binoculars, camera traps and a diving osprey: a biology trip into a wildlife reserve.",
+    "wordCount": 245,
+    "paragraphs": [
+      "National parks are important for protecting animals and their homes. Last autumn, our biology class visited the Northern Highlands Wildlife Reserve. A park ranger named Sarah met our bus at the visitor centre. She gave each pupil binoculars and a field guide.",
+      "Sarah said the park's main job is to protect endangered native mammals. The mountain air smelled of pine needles and wet moss. Sarah stopped and pointed to a clearing. Through our binoculars, we saw a red deer stag eating among the ferns.",
+      "Its big branched antlers stood out against the golden leaves.",
+      "Further up the valley, Sarah showed us how rangers use camera traps. Small cameras tied to trees take photos when an animal walks past. These pictures let scientists count animals without disturbing them. Sarah showed us a photo of a rare wildcat hunting mice. She said roads and new towns are the biggest danger to these animals.",
+      "The park also protects many migrating birds. We sat inside a wooden bird hide beside a quiet lake. We watched an osprey dive from the sky and catch a fish in its talons.",
+      "Before leaving, we helped the rangers plant young birch trees on a bare slope. Trees help stop soil erosion. We dug holes, planted the roots and tied the trees to stakes.",
+      "Working in the soil gave us a real connection to nature. Sarah thanked us for our help. The visit showed us how every animal matters in the balance of nature."
+    ],
+    "vocabulary": [
+      {
+        "word": "binoculars",
+        "syllables": "bin-oc-u-lars",
+        "phonetic": "/bɪˈnɒkjələz/",
+        "definition": "A pair of tubes you look through to see things far away.",
+        "example": "She gave each pupil binoculars and a field guide.",
+        "emoji": "🔭"
+      },
+      {
+        "word": "antlers",
+        "syllables": "ant-lers",
+        "phonetic": "/ˈæntləz/",
+        "definition": "The hard branched horns of a deer.",
+        "example": "Its big branched antlers stood out against the golden leaves.",
+        "emoji": "🦌"
+      },
+      {
+        "word": "erosion",
+        "syllables": "e-ro-sion",
+        "phonetic": "/ɪˈrəʊʒn/",
+        "definition": "The slow wearing away of soil or rock by water or wind.",
+        "example": "Trees help stop soil erosion.",
+        "emoji": "🌱"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Which animal did they see through binoculars?",
+        "options": [
+          "A wild boar",
+          "A red deer stag",
+          "A fox",
+          "A mountain goat"
+        ],
+        "answerIndex": 1,
+        "explanation": "Through our binoculars, we saw a red deer stag eating among the ferns."
+      },
+      {
+        "question": "How do rangers monitor animals without disturbing them?",
+        "options": [
+          "By chasing them",
+          "With cameras tied to trees",
+          "By counting footprints",
+          "By asking visitors"
+        ],
+        "answerIndex": 1,
+        "explanation": "Small cameras tied to trees take photos when an animal walks past."
+      },
+      {
+        "question": "What did the osprey do?",
+        "options": [
+          "Built a nest",
+          "Dived to catch a fish",
+          "Chased a deer",
+          "Flew away"
+        ],
+        "answerIndex": 1,
+        "explanation": "We watched an osprey dive from the sky and catch a fish in its talons."
+      }
+    ],
+    "funPrompt": "If you visited a wildlife reserve, which animal would you most hope to see?"
+  },
+  {
+    "id": 90,
+    "day": 90,
+    "title": "A Weekend Volunteer Charity Fair",
+    "coverEmoji": "🎪",
+    "category": "Community & Kindness",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "A charity fair of books, cakes and a raffle raises more than three thousand pounds for a hospital ward.",
+    "wordCount": 240,
+    "paragraphs": [
+      "Last Saturday, our neighbourhood group held a charity fair in the town park. The aim was to raise money to repair the children's ward at the local hospital. Student volunteers arrived at eight to set up stalls and tents. Tom and Leo were given the second-hand book and puzzle stall.",
+      "Local people had given hundreds of books. The boys sorted them into groups and put a fair price on each one. Across the grass, another group ran a cake stand. The smell of cinnamon buns, brownies and apple tarts filled the air.",
+      "By ten o'clock, hundreds of families came through the park gates. A local brass band played cheerful music. Children enjoyed face painting, balloon animals and a sack race.",
+      "At the book stall, Tom helped an old lady find a book about the town's history. She was so pleased that she put an extra five pounds in the collection tin. Leo kept a careful record of every payment.",
+      "At noon, the volunteers served tea, coffee and sandwiches. In the afternoon, the mayor drew the raffle tickets from a big wire drum. Prizes included restaurant vouchers and food hampers.",
+      "When the fair closed at four, everyone helped pack up. The group counted the money and announced more than three thousand pounds. Everyone cheered.",
+      "The hospital director thanked the community for their generosity. Volunteering builds character and brings neighbours of all ages together. Tom and Leo were tired but very happy."
+    ],
+    "vocabulary": [
+      {
+        "word": "stall",
+        "syllables": "stall",
+        "phonetic": "/stɔːl/",
+        "definition": "A small table or shop where things are sold at an event.",
+        "example": "Tom and Leo were given the second-hand book and puzzle stall.",
+        "emoji": "📚"
+      },
+      {
+        "word": "raffle",
+        "syllables": "raf-fle",
+        "phonetic": "/ˈræfl/",
+        "definition": "A competition where tickets are sold and prizes are won by chance.",
+        "example": "In the afternoon, the mayor drew the raffle tickets from a big wire drum.",
+        "emoji": "🎟️"
+      },
+      {
+        "word": "volunteers",
+        "syllables": "vol-un-teers",
+        "phonetic": "/ˌvɒlənˈtɪəz/",
+        "definition": "People who do a job without being paid, to help others.",
+        "example": "Student volunteers arrived at eight to set up stalls and tents.",
+        "emoji": "🙋"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What was the fair raising money for?",
+        "options": [
+          "A new school library",
+          "The children's ward at the local hospital",
+          "A sports club",
+          "A village hall"
+        ],
+        "answerIndex": 1,
+        "explanation": "The aim was to raise money to repair the children's ward at the local hospital."
+      },
+      {
+        "question": "How much did the fair raise?",
+        "options": [
+          "Over five hundred pounds",
+          "Over one thousand pounds",
+          "Over three thousand pounds",
+          "Over ten thousand pounds"
+        ],
+        "answerIndex": 2,
+        "explanation": "The group counted the money and announced more than three thousand pounds."
+      },
+      {
+        "question": "What extra donation did the old lady give?",
+        "options": [
+          "One pound",
+          "Five pounds",
+          "Ten pounds",
+          "A book"
+        ],
+        "answerIndex": 1,
+        "explanation": "She was so pleased that she put an extra five pounds in the collection tin."
+      }
+    ],
+    "funPrompt": "If your class ran a charity stall, what would you sell and who would you help?"
   }
 ];
 
