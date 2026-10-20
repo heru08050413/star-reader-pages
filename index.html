@@ -437,7 +437,7 @@
   <!-- ==========================================
        SHADOWING PANEL (read a sentence aloud, get feedback)
        ========================================== -->
-  <div class="shadow-panel" id="shadowPanel">
+  <div class="shadow-panel" id="shadowPanel" onclick="if (event.target === this) closeShadowPanel();">
     <div class="shadow-inner">
       <div class="shadow-head">
         <strong>🎤 跟读练习</strong>
