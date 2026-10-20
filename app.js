@@ -1547,6 +1547,41 @@ function shadowEscape(t) {
   return String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
+function shadowEscapeAttr(t) {
+  return shadowEscape(t).replace(/"/g, "&quot;");
+}
+
+// Render a sentence as tappable word chips so the child can hear any single
+// word on its own before trying the whole sentence again.
+function shadowWordChips(text) {
+  return String(text || "").split(/(\s+)/).map((tok) => {
+    if (!tok || /^\s+$/.test(tok)) return tok;
+    const clean = tok.replace(/^[^\w]+|[^\w]+$/g, "");
+    if (!clean) return shadowEscape(tok);
+    const at = tok.indexOf(clean);
+    const lead = tok.slice(0, at);
+    const tail = tok.slice(at + clean.length);
+    return shadowEscape(lead) +
+      '<span class="shadow-word-click" data-w="' + shadowEscapeAttr(clean) + '" title="点一下听发音">' +
+      shadowEscape(clean) + "</span>" + shadowEscape(tail);
+  }).join("");
+}
+
+let shadowChipBound = false;
+function bindShadowChipClicks() {
+  if (shadowChipBound) return;
+  const panel = document.getElementById("shadowPanel");
+  if (!panel) return;
+  panel.addEventListener("click", (e) => {
+    const el = e.target && e.target.closest ? e.target.closest("[data-w]") : null;
+    if (!el) return;
+    e.stopPropagation();
+    const w = el.getAttribute("data-w");
+    if (w) { playClickPop(); speakWord(w); }
+  });
+  shadowChipBound = true;
+}
+
 function shadowKey(p, s) {
   return currentStoryId + ":" + p + ":" + s;
 }
@@ -1624,7 +1659,8 @@ function openShadowPanel(pIdx, sIdx) {
   shadowState.interimTranscript = "";
 
   const panel = document.getElementById("shadowPanel");
-  document.getElementById("shadowTarget").textContent = text;
+  document.getElementById("shadowTarget").innerHTML = shadowWordChips(text);
+  bindShadowChipClicks();
   document.getElementById("shadowResult").innerHTML = "";
   document.getElementById("shadowReplayBtn").style.display = "none";
   if (panel) panel.classList.add("open");
@@ -2007,7 +2043,8 @@ function evaluateShadow(heard) {
 
     const words = decorated.map((d) => {
       const title = d.level === "wrong" ? " 读成了「" + d.heard + "」" : (d.level === "miss" ? " 漏读了" : "");
-      return '<span class="shadow-word shadow-' + d.level + '" title="' + shadowEscape(title) + '">' +
+      return '<span class="shadow-word shadow-' + d.level + '" data-w="' + shadowEscapeAttr(d.target) +
+        '" title="' + shadowEscape(title) + ' 点一下听发音">' +
         shadowEscape(d.target) + "</span>";
     }).join(" ");
 
