@@ -281,15 +281,20 @@ function renderStoryContent(story) {
         };
       } else {
         span.title = `Tap to hear "${cleanWord}" · double-tap for meaning`;
+        // iOS does not fire dblclick reliably, so detect a double tap ourselves.
+        // Long-press still works because we no longer disable text selection.
+        let lastTap = 0;
         span.onclick = (e) => {
           e.stopPropagation();
-          speakWord(cleanWord);
-        };
-        span.ondblclick = (e) => {
-          e.stopPropagation();
-          e.preventDefault();
-          playClickPop();
-          handleWordClick(cleanWord);
+          const now = Date.now();
+          if (now - lastTap < 380) {
+            lastTap = 0;
+            playClickPop();
+            handleWordClick(cleanWord);
+          } else {
+            lastTap = now;
+            speakWord(cleanWord);
+          }
         };
       }
 
