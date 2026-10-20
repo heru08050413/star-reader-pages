@@ -398,6 +398,38 @@ body.theme-soft-night .speed-toggle {
   color: white;
 }
 
+/* Voice picker next to the speed toggle */
+.voice-picker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.voice-picker select {
+  max-width: 15rem;
+  padding: 0.35rem 0.5rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  background: white;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+  text-overflow: ellipsis;
+}
+
+body.theme-soft-night .voice-picker select {
+  background: #334155;
+  color: var(--text-dark);
+}
+
+.voice-picker select:focus {
+  outline: 2px solid var(--primary);
+  outline-offset: 1px;
+}
+
 .view-controls {
   display: flex;
   align-items: center;
