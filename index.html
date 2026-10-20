@@ -104,6 +104,12 @@
             <button class="btn btn-outline btn-sm" onclick="testSoundOnDevice()" title="Test audio and voice on your device">
               🔊 Test Sound
             </button>
+
+            <!-- Voice picker: the most natural English voice is picked automatically -->
+            <div class="voice-picker" title="Choose the reading voice">
+              <select id="voiceSelect" onchange="setPreferredVoice(this.value)"></select>
+              <button class="btn btn-outline btn-sm" onclick="testVoiceSample()" title="Hear this voice">▶︎</button>
+            </div>
           </div>
 
           <div class="view-controls">
