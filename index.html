@@ -94,6 +94,13 @@
             <button class="btn btn-outline btn-sm" id="btnStopAudio" onclick="stopSpeech()" style="display:none;">
               ⏹️ Stop
             </button>
+
+            <!-- Sentence-by-sentence replay: listen, repeat, move on -->
+            <div class="sentence-nav" title="Listen sentence by sentence">
+              <button class="btn btn-outline btn-sm" onclick="playPrevSentence()" title="Previous sentence">⏮</button>
+              <button class="btn btn-outline btn-sm" onclick="repeatCurrentSentence()" title="Repeat this sentence">🔁 重听</button>
+              <button class="btn btn-outline btn-sm" onclick="playNextSentence()" title="Next sentence">⏭</button>
+            </div>
             
             <!-- Speed Toggle for ESL (Slow / Normal) -->
             <div class="speed-toggle" title="Reading audio speed">
