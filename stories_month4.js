@@ -1219,6 +1219,407 @@ const MONTH4_STORIES = [
       }
     ],
     "funPrompt": "What small design change would make a phone app easier for an older person to use?"
+  },
+  {
+    "id": 116,
+    "day": 116,
+    "title": "A Day at the Fire Station",
+    "coverEmoji": "🚒",
+    "category": "Safety & Community",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "A fire station drill shows why crews check equipment, follow orders and never go back for possessions.",
+    "wordCount": 280,
+    "paragraphs": [
+      "Firefighters protect communities through prevention, training and fast emergency response. Last Tuesday, our class visited the central fire station. Watch Manager Harris welcomed us beside three red engines in the vehicle bay.",
+      "The crew invited us to look at a thermal camera used to find heat through smoke. Next, a firefighter unrolled a hose and connected it to the water supply. The team then performed a drill with a pretend kitchen fire.",
+      "When the alarm sounded, each crew member moved quickly to an assigned position. One firefighter took charge of the hose while another checked the building plan. The station officer stayed outside to track the crew and assess changing risks. Mr Harris stressed that no one should enter a burning building to save possessions. People should leave by the safest route, close doors and call the emergency services.",
+      "We practised crawling under harmless stage smoke in a training room. Staying low reduces exposure to the hottest air and thickest smoke. After the drill, the crew showed how a ladder is secured on uneven ground. They also showed us a cutting tool used after serious road crashes.",
+      "At lunchtime, we met the operator who watches several live screens. She said accurate details help controllers send the right resources without delay. A sudden test call made the crew put on their equipment and board an engine.",
+      "Before leaving, we checked smoke alarms and planned escape routes for our own homes. The firefighters advised families to test alarms regularly and replace weak batteries. Our class later designed a safety leaflet for elderly residents living alone. The visit showed us that fire safety begins long before anyone has to make an emergency call."
+    ],
+    "vocabulary": [
+      {
+        "word": "thermal",
+        "syllables": "ther-mal",
+        "phonetic": "/ˈθɜːml/",
+        "definition": "Relating to heat, especially a camera that shows heat.",
+        "example": "The crew invited us to look at a thermal camera used to find heat through smoke.",
+        "emoji": "🌡️"
+      },
+      {
+        "word": "hose",
+        "syllables": "hose",
+        "phonetic": "/həʊz/",
+        "definition": "A long tube used to carry water.",
+        "example": "One firefighter took charge of the hose while another checked the building plan.",
+        "emoji": "💦"
+      },
+      {
+        "word": "drill",
+        "syllables": "drill",
+        "phonetic": "/drɪl/",
+        "definition": "A practice exercise for an emergency.",
+        "example": "The team then performed a drill with a pretend kitchen fire.",
+        "emoji": "🔔"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What is a thermal camera used for?",
+        "options": [
+          "Taking photographs",
+          "Finding heat through smoke",
+          "Measuring wind",
+          "Recording sound"
+        ],
+        "answerIndex": 1,
+        "explanation": "The crew invited us to look at a thermal camera used to find heat through smoke."
+      },
+      {
+        "question": "What should people never do in a fire?",
+        "options": [
+          "Close doors",
+          "Enter a burning building to save possessions",
+          "Call the emergency services",
+          "Leave by the safest route"
+        ],
+        "answerIndex": 1,
+        "explanation": "Mr Harris stressed that no one should enter a burning building to save possessions."
+      },
+      {
+        "question": "What did the class design later?",
+        "options": [
+          "A fire engine model",
+          "A safety leaflet for elderly residents",
+          "A new alarm",
+          "A poster for the station"
+        ],
+        "answerIndex": 1,
+        "explanation": "Our class later designed a safety leaflet for elderly residents living alone."
+      }
+    ],
+    "funPrompt": "What would you check in your own home tonight to make it safer from fire?"
+  },
+  {
+    "id": 117,
+    "day": 117,
+    "title": "Producing a School Podcast",
+    "coverEmoji": "🎙️",
+    "category": "Media & Communication",
+    "level": "Explorer",
+    "readingTime": "7 mins",
+    "intro": "A school podcast goes from a clear question and three guests to five hundred plays in a week.",
+    "wordCount": 305,
+    "paragraphs": [
+      "Podcasting gives students a flexible way to research ideas and share voices from their community. Our media club started a monthly audio programme about school life and local events. Maya volunteered to host the first episode, which looked at teenage reading habits. The team began by choosing a clear question and finding suitable guests. We invited a librarian, two pupils and a children's author to join the discussion.",
+      "Before recording, Tom tested each microphone and reduced background noise in the room. Soft furnishings helped stop the speakers' voices from making a hollow echo. Maya prepared open questions that encouraged detailed answers rather than simple yes or no replies. She introduced each guest and explained the purpose of the episode to listeners. During the interview, the author described how childhood memories inspired her latest novel.",
+      "One pupil argued that graphic novels should get more attention in English lessons. Maya kept the conversation balanced and invited quieter guests to speak. After the interview, the team recorded a short review of three new library books. We saved every sound file with a clear name so nothing important was lost.",
+      "Tom used editing software to cut long pauses, repeated phrases and accidental noises. He added a short musical theme that the school orchestra had composed. The final programme lasted twenty minutes and included a written transcript for accessibility. Our teacher checked the episode for factual accuracy, respectful language and copyright. The team got permission before using any music or personal story.",
+      "On Friday, we posted the episode on the secure school website. Listeners could follow the channel and send ideas for future topics. Within a week, the first episode had more than five hundred plays. Several parents praised the clear sound and the range of opinions. A student with hearing loss helped us make the transcript easier to navigate."
+    ],
+    "vocabulary": [
+      {
+        "word": "episode",
+        "syllables": "ep-i-sode",
+        "phonetic": "/ˈepɪsəʊd/",
+        "definition": "One part of a series of programmes.",
+        "example": "Maya volunteered to host the first episode, which looked at teenage reading habits.",
+        "emoji": "🎧"
+      },
+      {
+        "word": "echo",
+        "syllables": "ech-o",
+        "phonetic": "/ˈekəʊ/",
+        "definition": "A sound that comes back because it hits a surface.",
+        "example": "Soft furnishings helped stop the speakers' voices from making a hollow echo.",
+        "emoji": "🔊"
+      },
+      {
+        "word": "transcript",
+        "syllables": "tran-script",
+        "phonetic": "/ˈtrænskrɪpt/",
+        "definition": "A written copy of spoken words.",
+        "example": "The final programme lasted twenty minutes and included a written transcript for accessibility.",
+        "emoji": "📝"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Who hosted the first episode?",
+        "options": [
+          "Tom",
+          "Maya",
+          "The librarian",
+          "The author"
+        ],
+        "answerIndex": 1,
+        "explanation": "Maya volunteered to host the first episode, which looked at teenage reading habits."
+      },
+      {
+        "question": "How long was the final programme?",
+        "options": [
+          "Ten minutes",
+          "Twenty minutes",
+          "Thirty minutes",
+          "One hour"
+        ],
+        "answerIndex": 1,
+        "explanation": "The final programme lasted twenty minutes and included a written transcript."
+      },
+      {
+        "question": "How many plays did the episode get in its first week?",
+        "options": [
+          "Fifty",
+          "One hundred",
+          "More than five hundred",
+          "One thousand"
+        ],
+        "answerIndex": 2,
+        "explanation": "Within a week, the first episode had more than five hundred plays."
+      }
+    ],
+    "funPrompt": "If you made a podcast about your school, what would your first episode be about?"
+  },
+  {
+    "id": 118,
+    "day": 118,
+    "title": "Managing Exam Stress",
+    "coverEmoji": "🧘",
+    "category": "Health & Wellbeing",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "A school counsellor explains why short sessions, real breaks and asking for help beat last-minute panic.",
+    "wordCount": 300,
+    "paragraphs": [
+      "Exams can create pressure, but healthy preparation helps students stay focused and confident. Two months before the final tests, our school counsellor held a workshop on managing stress. She explained that a moderate level of concern can motivate useful action. Problems start when worry stops sleep, concentration or normal daily activities. Students listed common warning signs, including headaches, irritability and constant tiredness.",
+      "The counsellor asked us to compare these signs with our usual behaviour rather than diagnose ourselves. Each pupil made a realistic revision plan with short sessions and specific goals. Dividing a large subject into smaller tasks makes progress easier to see. Tom decided to take a five-minute break after every forty minutes of concentrated study.",
+      "Maya uses a simple breathing exercise to calm her mind before difficult practice papers. She also keeps her phone outside the room to reduce interruptions. Regular meals provide steady energy and protect students from sudden mood changes. Physical activity can improve sleep and give the brain a rest from revision.",
+      "A balanced timetable should include schoolwork, exercise, meals and time with friends. Students were encouraged to support one another without comparing every test score. Helpful support means listening calmly, not dismissing another person's feelings. The workshop also challenged the belief that one exam decides an entire future. Results matter, but they are only one part of a student's wider development.",
+      "When pressure becomes overwhelming, pupils should speak to a trusted adult or health professional. Asking for help is a responsible response, not a sign of weakness. In the following weeks, Tom followed his plan and adjusted it when tasks took longer. Maya kept one evening free each week so her mind could recover fully. Both noticed that steady revision created more confidence than last-minute panic. Learning to manage stress is a lifelong skill."
+    ],
+    "vocabulary": [
+      {
+        "word": "irritability",
+        "syllables": "ir-ri-ta-bil-i-ty",
+        "phonetic": "/ˌɪrɪtəˈbɪləti/",
+        "definition": "Becoming easily annoyed or angry.",
+        "example": "Students listed common warning signs, including headaches, irritability and constant tiredness.",
+        "emoji": "😤"
+      },
+      {
+        "word": "revision",
+        "syllables": "re-vi-sion",
+        "phonetic": "/rɪˈvɪʒn/",
+        "definition": "Studying again what you have learned, especially before an exam.",
+        "example": "Each pupil made a realistic revision plan with short sessions and specific goals.",
+        "emoji": "📚"
+      },
+      {
+        "word": "overwhelming",
+        "syllables": "o-ver-whelm-ing",
+        "phonetic": "/ˌəʊvəˈwelmɪŋ/",
+        "definition": "So strong or difficult that you feel unable to deal with it.",
+        "example": "When pressure becomes overwhelming, pupils should speak to a trusted adult or health professional.",
+        "emoji": "🌊"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What is Tom's study pattern?",
+        "options": [
+          "Two hours without a break",
+          "Forty minutes of study, then a five-minute break",
+          "Ten minutes of study, then an hour of rest",
+          "Only in the evening"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tom decided to take a five-minute break after every forty minutes of concentrated study."
+      },
+      {
+        "question": "What does Maya do before difficult practice papers?",
+        "options": [
+          "Drinks coffee",
+          "Uses a breathing exercise",
+          "Runs outside",
+          "Listens to music"
+        ],
+        "answerIndex": 1,
+        "explanation": "Maya uses a simple breathing exercise to calm her mind before difficult practice papers."
+      },
+      {
+        "question": "When should pupils ask for help?",
+        "options": [
+          "Never",
+          "When pressure becomes overwhelming",
+          "Only after the exam",
+          "Only at school"
+        ],
+        "answerIndex": 1,
+        "explanation": "When pressure becomes overwhelming, pupils should speak to a trusted adult or health professional."
+      }
+    ],
+    "funPrompt": "What is one small thing you could do this week to feel calmer about school?"
+  },
+  {
+    "id": 119,
+    "day": 119,
+    "title": "Launching a Student Social Enterprise",
+    "coverEmoji": "♻️",
+    "category": "Money & Society",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "A class turns unwanted fabric into lunch bags, reuses the profit and gives eight hundred pounds away.",
+    "wordCount": 287,
+    "paragraphs": [
+      "A social enterprise uses business methods to address a community or environmental need. Our economics class decided to make reusable lunch bags from unwanted fabric. Before investing any capital, we surveyed pupils about size, colour and price preferences. The survey showed a clear market for durable bags costing less than ten pounds.",
+      "Maya prepared a budget covering fabric, thread, labels and online payment fees. A local tailor donated offcuts and taught volunteers how to cut material safely. Students worked in teams responsible for design, production, marketing and finance. Each bag carried a label explaining that part of the profit would support the food bank. Our first production run made fifty bags in four simple designs.",
+      "Tom photographed the products and opened a secure sales account on the school website. The launch attracted strong interest because the bags were useful and reasonably priced. Within three days, every item had sold and several customers asked for new colours. The finance team recorded each sale and checked the account balance every afternoon.",
+      "We calculated that the first batch made a modest return after all costs were paid. Half of the profit was reinvested, while the rest went to the food bank. The class agreed to share responsibility rather than give one student complete control. When a supplier raised its prices, Maya compared three other sources.",
+      "The group rejected cheaper fabric that was likely to tear after repeated use. Protecting quality was essential for keeping customer trust. We later introduced a repair service that extended the life of damaged bags. At the end of term, the enterprise had donated eight hundred pounds to local families. Our return was measured not only in money but also in skills, confidence and community benefit."
+    ],
+    "vocabulary": [
+      {
+        "word": "capital",
+        "syllables": "cap-i-tal",
+        "phonetic": "/ˈkæpɪtl/",
+        "definition": "Money used to start or run a business.",
+        "example": "Before investing any capital, we surveyed pupils about size, colour and price preferences.",
+        "emoji": "💵"
+      },
+      {
+        "word": "offcuts",
+        "syllables": "off-cuts",
+        "phonetic": "/ˈɒfkʌts/",
+        "definition": "Small pieces of material left after cutting a larger piece.",
+        "example": "A local tailor donated offcuts and taught volunteers how to cut material safely.",
+        "emoji": "🧵"
+      },
+      {
+        "word": "reinvested",
+        "syllables": "re-in-vest-ed",
+        "phonetic": "/ˌriːɪnˈvestɪd/",
+        "definition": "Put money back into a business to help it grow.",
+        "example": "Half of the profit was reinvested, while the rest went to the food bank.",
+        "emoji": "📈"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What product did the class make?",
+        "options": [
+          "Paper notebooks",
+          "Reusable lunch bags from unwanted fabric",
+          "Recycled pens",
+          "Cotton T-shirts"
+        ],
+        "answerIndex": 1,
+        "explanation": "Our economics class decided to make reusable lunch bags from unwanted fabric."
+      },
+      {
+        "question": "How much had the enterprise donated by the end of term?",
+        "options": [
+          "Two hundred pounds",
+          "Five hundred pounds",
+          "Eight hundred pounds",
+          "One thousand pounds"
+        ],
+        "answerIndex": 2,
+        "explanation": "At the end of term, the enterprise had donated eight hundred pounds to local families."
+      },
+      {
+        "question": "What cheaper material did the group reject?",
+        "options": [
+          "Recycled paper",
+          "Fabric that was likely to tear",
+          "Old curtains",
+          "Cotton offcuts"
+        ],
+        "answerIndex": 1,
+        "explanation": "The group rejected cheaper fabric that was likely to tear after repeated use."
+      }
+    ],
+    "funPrompt": "If your class started a small business to help others, what would you make or sell?"
+  },
+  {
+    "id": 120,
+    "day": 120,
+    "title": "A Model United Nations Conference",
+    "coverEmoji": "🌐",
+    "category": "Global Issues & Debate",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "A one-day Model UN on clean water: amendments, abstentions and a resolution that passes by twenty-two votes.",
+    "wordCount": 292,
+    "paragraphs": [
+      "Model United Nations conferences help students practise diplomacy, research and formal public speaking. This year, our school hosted a one-day conference on access to clean water. Each participant represented a country and researched its geography, economy and water challenges. Maya served as the chair and opened the meeting with a reminder about respectful debate. Delegates raised their country cards when they wished to take the floor.",
+      "The first speaker described how drought threatened farming communities in her region. Another delegate explained that damaged pipes wasted water in fast-growing cities. Participants had to separate reliable evidence from unsupported online claims. Tom made a point about the need for affordable technology in rural areas. The chair asked him to connect his point more directly to the proposed solution.",
+      "During a short break, delegates formed groups with countries sharing similar concerns. They began to draft a resolution calling for training, investment and transparent monitoring. Some countries wanted firm targets, while others feared unrealistic financial demands. The groups revised the draft until its language was both ambitious and practical. After lunch, Maya introduced a formal motion to begin discussion of amendments.",
+      "One amendment added support for communities affected by floods as well as drought. Another proposed an independent review of how international funds were spent. The debate stayed energetic, but personal criticism was ruled out of order. Maya used the gavel only when several speakers tried to interrupt at once.",
+      "The final resolution passed with twenty-two votes in favour and four abstentions. Students realised that compromise requires careful listening as well as persuasive speech. A visiting diplomat praised the delegates for asking precise questions about implementation. At the closing ceremony, awards recognised research, cooperation and improvement. Tom received a commendation for responding constructively to opposing points."
+    ],
+    "vocabulary": [
+      {
+        "word": "delegates",
+        "syllables": "del-e-gates",
+        "phonetic": "/ˈdelɪɡəts/",
+        "definition": "People who represent a country or group at a meeting.",
+        "example": "Delegates raised their country cards when they wished to take the floor.",
+        "emoji": "🎫"
+      },
+      {
+        "word": "resolution",
+        "syllables": "res-o-lu-tion",
+        "phonetic": "/ˌrezəˈluːʃn/",
+        "definition": "A formal decision agreed by a group.",
+        "example": "They began to draft a resolution calling for training, investment and transparent monitoring.",
+        "emoji": "📜"
+      },
+      {
+        "word": "abstentions",
+        "syllables": "ab-sten-tions",
+        "phonetic": "/əbˈstenʃnz/",
+        "definition": "Choices not to vote for or against something.",
+        "example": "The final resolution passed with twenty-two votes in favour and four abstentions.",
+        "emoji": "🤐"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How many votes were in favour of the final resolution?",
+        "options": [
+          "Twelve",
+          "Twenty-two",
+          "Thirty",
+          "Four"
+        ],
+        "answerIndex": 1,
+        "explanation": "The final resolution passed with twenty-two votes in favour and four abstentions."
+      },
+      {
+        "question": "How many countries abstained?",
+        "options": [
+          "Two",
+          "Four",
+          "Six",
+          "Ten"
+        ],
+        "answerIndex": 1,
+        "explanation": "The final resolution passed with twenty-two votes in favour and four abstentions."
+      },
+      {
+        "question": "What did Tom receive at the closing ceremony?",
+        "options": [
+          "A medal",
+          "A commendation",
+          "A book",
+          "A trophy"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tom received a commendation for responding constructively to opposing points."
+      }
+    ],
+    "funPrompt": "If you represented a country in a Model UN debate, which global problem would you speak about first?"
   }
 ];
 MONTH4_STORIES.forEach(story => { if (!STORIES_DATA.some(e => e.id === story.id)) STORIES_DATA.push(story); });
