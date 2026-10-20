@@ -2870,408 +2870,409 @@ const MONTH3_STORIES = [
   {
     "id": 96,
     "day": 96,
-    "title": "A Visit to the Local Public Library",
-    "coverEmoji": "📚",
-    "category": "City Life & Learning",
+    "title": "Healthy Living and Daily Routine",
+    "coverEmoji": "🏃",
+    "category": "Health & Wellbeing",
     "level": "Explorer",
     "readingTime": "5 mins",
-    "intro": "A Saturday morning in the library: a three-week loan, a heavy book and a writing workshop.",
+    "intro": "Tom builds a healthy daily routine after learning the hard way what happens without one.",
     "wordCount": 243,
     "paragraphs": [
-      "Public libraries give everyone a quiet place to study and read. Last Saturday morning, Leo went to the town library to borrow some books. The old building had a wide stone entrance and tall pillars. At the desk, the librarian scanned his card and checked his account. She told him that all books must be returned within three weeks.",
-      "Leo walked into the main reading hall. Rows of wooden desks stood under warm ceiling lights. He needed information about ancient Roman buildings for a history project. He used a computer near the corner to search. The screen showed a list of encyclopedias and journals.",
-      "Leo wrote down the shelf numbers and walked to the third aisle. He found a heavy leather book with pictures, maps and diagrams. He carried it to an empty desk by the big window. Daylight came through the glass, so it was easy to read.",
-      "Next to him, a student typed an essay on a laptop. The hall stayed quiet.",
-      "After taking notes, Leo went to the automatic checkout. He scanned his card and put the book on the sensor pad. The machine printed a receipt with the due date.",
-      "Before leaving, he looked at the notice board by the door. The library was holding a creative writing workshop next weekend. Leo signed up using his phone app. He felt happy as he walked out into the fresh air. Libraries are valuable places that give free access to knowledge."
+      "Having a healthy routine is important for teenagers. Tom usually sets his alarm for six o'clock. He drinks a glass of warm water and does some light stretching. His mother makes a healthy breakfast with eggs, toast and milk.",
+      "Tom knows that skipping breakfast can make him tired in class. When he had a bad cough and a fever last month, his doctor gave him advice. The doctor wrote a prescription and told him not to take other medicine. Tom took the tablets twice a day until he felt better. Since then, he has paid more attention to his health.",
+      "He walks to school instead of taking the bus. At school, the PE teacher organises workouts in the gym. During a basketball game, Tom twisted his right ankle.",
+      "The school nurse put a cold pack on it to reduce the swelling. She checked the joint and found no broken bone. Tom had to rest on the bench for the rest of the lesson. His classmate carried his backpack to the classroom.",
+      "In the evening, Tom avoids sweet snacks and fizzy drinks. He brushes his teeth with fluoride toothpaste to prevent toothache. Too much screen time before bed disturbs sleep. So Tom puts his phone away and reads a novel instead. He turns off his lamp at ten o'clock.",
+      "A good night's rest helps him feel fresh and positive. Healthy habits need effort and self-discipline. Tom encourages his friends to join weekend outdoor activities."
     ],
     "vocabulary": [
       {
-        "word": "librarian",
-        "syllables": "li-brar-i-an",
-        "phonetic": "/laɪˈbreəriən/",
-        "definition": "A person who works in a library and helps people find books.",
-        "example": "At the desk, the librarian scanned his card and checked his account.",
-        "emoji": "👩‍🏫"
+        "word": "prescription",
+        "syllables": "pre-scrip-tion",
+        "phonetic": "/prɪˈskrɪpʃn/",
+        "definition": "A written note from a doctor that lets you get medicine.",
+        "example": "The doctor wrote a prescription and told him not to take other medicine.",
+        "emoji": "💊"
       },
       {
-        "word": "aisle",
-        "syllables": "aisle",
-        "phonetic": "/aɪl/",
-        "definition": "A narrow passage between rows of shelves or seats.",
-        "example": "Leo wrote down the shelf numbers and walked to the third aisle.",
-        "emoji": "📚"
+        "word": "swelling",
+        "syllables": "swell-ing",
+        "phonetic": "/ˈswelɪŋ/",
+        "definition": "A part of the body that has become bigger because of injury.",
+        "example": "The school nurse put a cold pack on it to reduce the swelling.",
+        "emoji": "🦶"
       },
       {
-        "word": "checkout",
-        "syllables": "check-out",
-        "phonetic": "/ˈtʃekaʊt/",
-        "definition": "The place where you borrow or pay for things.",
-        "example": "After taking notes, Leo went to the automatic checkout.",
-        "emoji": "🖥️"
+        "word": "fluoride",
+        "syllables": "flu-o-ride",
+        "phonetic": "/ˈflɔːraɪd/",
+        "definition": "A substance in toothpaste that protects teeth.",
+        "example": "He brushes his teeth with fluoride toothpaste to prevent toothache.",
+        "emoji": "🦷"
       }
     ],
     "quiz": [
       {
-        "question": "How long can borrowed books be kept?",
+        "question": "What time does Tom set his alarm?",
         "options": [
-          "One week",
-          "Two weeks",
-          "Three weeks",
-          "One month"
-        ],
-        "answerIndex": 2,
-        "explanation": "She told him that all books must be returned within three weeks."
-      },
-      {
-        "question": "What did Leo need for his project?",
-        "options": [
-          "Ancient Roman buildings",
-          "Japanese history",
-          "Modern art",
-          "Marine biology"
-        ],
-        "answerIndex": 0,
-        "explanation": "He needed information about ancient Roman buildings for a history project."
-      },
-      {
-        "question": "How did Leo sign up for the workshop?",
-        "options": [
-          "By phone",
-          "Using his phone app",
-          "At the desk",
-          "By email"
+          "Five o'clock",
+          "Six o'clock",
+          "Seven o'clock",
+          "Eight o'clock"
         ],
         "answerIndex": 1,
-        "explanation": "Leo signed up using his phone app."
+        "explanation": "Tom usually sets his alarm for six o'clock."
+      },
+      {
+        "question": "What injury did Tom get at basketball?",
+        "options": [
+          "He broke his arm",
+          "He twisted his right ankle",
+          "He hurt his knee",
+          "He cut his hand"
+        ],
+        "answerIndex": 1,
+        "explanation": "During a basketball game, Tom twisted his right ankle."
+      },
+      {
+        "question": "What does Tom do before bed?",
+        "options": [
+          "Plays on his phone",
+          "Puts his phone away and reads a novel",
+          "Watches TV",
+          "Eats a snack"
+        ],
+        "answerIndex": 1,
+        "explanation": "So Tom puts his phone away and reads a novel instead."
       }
     ],
-    "funPrompt": "What would you look for first in a library: a story, a fact book, or a quiet desk?"
+    "funPrompt": "What is one healthy habit you would like to start, and what is stopping you?"
   },
   {
     "id": 97,
     "day": 97,
-    "title": "A School Chemistry Experiment",
-    "coverEmoji": "🧪",
-    "category": "Science & Technology",
+    "title": "The School Drama Festival",
+    "coverEmoji": "🎭",
+    "category": "Arts & Performance",
     "level": "Explorer",
     "readingTime": "5 mins",
-    "intro": "Zinc, acid and a lot of bubbles: a first chemistry experiment with safety goggles on.",
-    "wordCount": 238,
+    "intro": "A school drama festival teaches a class that confidence grows on stage.",
+    "wordCount": 239,
     "paragraphs": [
-      "Lab experiments help students understand science. On Wednesday morning, our class had a chemistry lesson. The teacher, Mr Harrison, welcomed us into the lab. He told us to follow the safety rules. Everyone had to wear goggles, a white coat and rubber gloves.",
-      "The aim was to see how different metals react with acid. Mr Harrison gave each group glass tubes, metal strips and a Bunsen burner. Tom and Sam set up their tripod and wire net on the bench. Sam measured twenty millilitres of acid with a cylinder. He poured it carefully into a tube.",
-      "Using tongs, Leo dropped a small piece of zinc into the acid. Bubbles rose at once as hydrogen gas formed. A sharp hiss came from the tube. Mr Harrison walked around and gave advice. He asked Tom why the bubbles appeared so fast.",
-      "Tom answered that zinc reacts with acid to make hydrogen. The teacher praised the boys for their careful work.",
-      "Next, they tested copper and iron strips. They wrote down every change in colour and temperature in their journals. When the experiment ended, they washed the equipment in the sink. They cleaned the benches and put the waste in the right bin. Mr Harrison collected the written reports the next week.",
-      "He said practical experiments build analytical and problem-solving skills. Science needs curiosity, patience and accuracy. Tom felt proud of his notes. Hands-on lessons make textbook chapters easier to understand."
+      "Every autumn, our school holds a drama festival. Our English teacher became the director and led daily rehearsals. Alice was chosen for the female lead because she had natural talent. Her clear voice could reach the back of the hall.",
+      "Ben got the funny role, which suited his cheerful personality.",
+      "The stage crew worked behind the scenes to make the scenery and costumes. They used recycled cardboard and wooden planks to build the walls. Lucy took charge of the lights and adjusted each spotlight.",
+      "On opening night, a big audience filled the hall. The headteacher gave a short welcome speech before the red curtain rose. In the first scene, Alice walked onto the bright stage with an old suitcase. Her acting caught everyone's attention.",
+      "When Ben entered wearing a silly clown hat, the crowd laughed. He made big gestures that matched the funny story. During the interval, students served juice and biscuits.",
+      "In the second act, the story took an exciting turn. The villain tried to steal a necklace from the palace. But the clever detective caught the thief just in time. The last scene ended with a song from the whole cast.",
+      "When the play ended, the audience stood up and clapped. The young actors bowed and received flowers. A newspaper reporter took photos and interviewed them. Taking part in the play gave the students confidence. They learned that teamwork and hard work are the keys to success."
     ],
     "vocabulary": [
       {
-        "word": "goggles",
-        "syllables": "gog-gles",
-        "phonetic": "/ˈɡɒɡlz/",
-        "definition": "Special glasses that protect your eyes.",
-        "example": "Everyone had to wear goggles, a white coat and rubber gloves.",
-        "emoji": "🥽"
+        "word": "rehearsals",
+        "syllables": "re-hears-als",
+        "phonetic": "/rɪˈhɜːslz/",
+        "definition": "Practice sessions for a play or concert.",
+        "example": "Our English teacher became the director and led daily rehearsals.",
+        "emoji": "🎬"
       },
       {
-        "word": "acid",
-        "syllables": "ac-id",
-        "phonetic": "/ˈæsɪd/",
-        "definition": "A chemical liquid that can burn or eat away materials.",
-        "example": "The aim was to see how different metals react with acid.",
-        "emoji": "🧴"
+        "word": "spotlight",
+        "syllables": "spot-light",
+        "phonetic": "/ˈspɒtlaɪt/",
+        "definition": "A strong light that shines on one person or place on stage.",
+        "example": "Lucy took charge of the lights and adjusted each spotlight.",
+        "emoji": "🔦"
       },
       {
-        "word": "hydrogen",
-        "syllables": "hy-dro-gen",
-        "phonetic": "/ˈhaɪdrədʒən/",
-        "definition": "A light gas with no colour or smell.",
-        "example": "Bubbles rose at once as hydrogen gas formed.",
-        "emoji": "🫧"
+        "word": "interval",
+        "syllables": "in-ter-val",
+        "phonetic": "/ˈɪntəvl/",
+        "definition": "A short break between the parts of a play.",
+        "example": "During the interval, students served juice and biscuits.",
+        "emoji": "⏸️"
       }
     ],
     "quiz": [
       {
-        "question": "What safety equipment did students wear?",
+        "question": "Who played the female lead?",
         "options": [
-          "Only gloves",
-          "Goggles, a coat and rubber gloves",
-          "A hat and boots",
-          "Nothing"
+          "Lucy",
+          "Alice",
+          "Ben",
+          "The teacher"
         ],
         "answerIndex": 1,
-        "explanation": "Everyone had to wear goggles, a white coat and rubber gloves."
+        "explanation": "Alice was chosen for the female lead because she had natural talent."
       },
       {
-        "question": "What happened when zinc was added to the acid?",
+        "question": "What did the stage crew use to build the walls?",
         "options": [
-          "The liquid turned blue",
-          "Bubbles of hydrogen gas formed",
-          "Nothing happened",
-          "The tube broke"
+          "Metal sheets",
+          "Recycled cardboard and wooden planks",
+          "Glass",
+          "Old curtains"
         ],
         "answerIndex": 1,
-        "explanation": "Bubbles rose at once as hydrogen gas formed."
+        "explanation": "They used recycled cardboard and wooden planks to build the walls."
       },
       {
-        "question": "Which metals did they test next?",
+        "question": "How did the audience react at the end?",
         "options": [
-          "Gold and silver",
-          "Copper and iron",
-          "Zinc and lead",
-          "Aluminium and tin"
+          "They left quietly",
+          "They stood up and clapped",
+          "They asked for a refund",
+          "They sang along"
         ],
         "answerIndex": 1,
-        "explanation": "Next, they tested copper and iron strips."
+        "explanation": "When the play ended, the audience stood up and clapped."
       }
     ],
-    "funPrompt": "What simple experiment would you like to try, and what would you need to stay safe?"
+    "funPrompt": "If your class put on a play, which job would you choose: actor, director, or set designer?"
   },
   {
     "id": 98,
     "day": 98,
-    "title": "A Weekend Camping Trip",
-    "coverEmoji": "⛺",
-    "category": "Nature & Adventure",
+    "title": "A Rainy Day in the City",
+    "coverEmoji": "🌧️",
+    "category": "City Life",
     "level": "Explorer",
     "readingTime": "5 mins",
-    "intro": "Two brothers pitch a tent by a mountain lake, cook on a campfire and leave no trace.",
-    "wordCount": 241,
+    "intro": "A rainy commute nearly ruins Sarah's job interview, but she refuses to give up.",
+    "wordCount": 247,
     "paragraphs": [
-      "Last Friday, Mark and his brother packed their gear into the car. They took a strong tent, warm sleeping bags and a small stove. The forecast said the weather would be clear. They drove for two hours to a campsite near a mountain lake.",
-      "The site sat among old pine trees and looked over a quiet valley. They paid the fee at the ranger station and chose a flat pitch. Together they put up the tent and pushed the metal pegs deep. They pulled the ropes tight so the wind could not move them. Inside, they laid out foam mats and warm blankets.",
-      "Mark collected dry twigs and fallen branches. His brother lit a match and started a small fire in a stone ring. Orange flames crackled and gave a warm light. They boiled water for hot chocolate and soup.",
-      "As night came, millions of stars appeared. They sat by the fire, told stories and listened to owls. The quiet air helped them forget city noise. At ten o'clock, they put out the fire with water.",
-      "At sunrise, they got up to watch the sun rise over the misty lake. A family of ducks swam near the shore. Mark took photos with his camera. After a breakfast of eggs and toast, they packed up.",
-      "They collected all their litter in bags. The ranger thanked them for keeping the site clean. The weekend refreshed them and deepened their love of the outdoors."
+      "It was raining hard when Sarah left the railway station on Tuesday. Sarah opened her umbrella, but the wind almost turned it inside out. She ran to a bus shelter to keep dry. The screen said the next bus was twenty minutes late.",
+      "A traffic jam had formed because workers were repairing a sewer. Sarah decided that waiting in the cold was a waste of time. She looked at her watch. She had only thirty minutes before her job interview.",
+      "Sarah opened a map app on her phone to find another way. It showed an underground station two blocks away. While crossing the road, she stepped into a deep puddle.",
+      "But she stayed calm and entered the warm metro station. She tapped her travel card on the scanner and went through the gate. The train arrived in two minutes, and she got on. The carriage was crowded, but a young man kindly gave her his seat. Sarah thanked him and sat down to review her notes.",
+      "Three stops later, a voice announced her station. She went up the escalator to the street. Luckily, the rain had stopped. She found the office building easily because its glass front stood out.",
+      "The receptionist checked her name on the visitor list. Sarah sat in the waiting room on the fourth floor. She took a deep breath to calm down. She was five minutes early, which showed she was reliable. The difficult journey had made her even more determined to succeed."
     ],
     "vocabulary": [
       {
-        "word": "pitch",
-        "syllables": "pitch",
-        "phonetic": "/pɪtʃ/",
-        "definition": "A place where you put up a tent.",
-        "example": "They paid the fee at the ranger station and chose a flat pitch.",
-        "emoji": "⛺"
+        "word": "umbrella",
+        "syllables": "um-brel-la",
+        "phonetic": "/ʌmˈbrelə/",
+        "definition": "A thing you hold over your head to keep off rain.",
+        "example": "Sarah opened her umbrella, but the wind almost turned it inside out.",
+        "emoji": "☂️"
       },
       {
-        "word": "twigs",
-        "syllables": "twigs",
-        "phonetic": "/twɪɡz/",
-        "definition": "Small thin branches from a tree.",
-        "example": "Mark collected dry twigs and fallen branches.",
-        "emoji": "🌿"
+        "word": "puddle",
+        "syllables": "pud-dle",
+        "phonetic": "/ˈpʌdl/",
+        "definition": "A small pool of water on the ground.",
+        "example": "While crossing the road, she stepped into a deep puddle.",
+        "emoji": "💧"
       },
       {
-        "word": "ranger",
-        "syllables": "ran-ger",
-        "phonetic": "/ˈreɪndʒə/",
-        "definition": "A person who looks after a forest or park.",
-        "example": "The ranger thanked them for keeping the site clean.",
-        "emoji": "🧑‍🌾"
+        "word": "reliable",
+        "syllables": "re-li-a-ble",
+        "phonetic": "/rɪˈlaɪəbl/",
+        "definition": "Able to be trusted to do what you promise.",
+        "example": "She was five minutes early, which showed she was reliable.",
+        "emoji": "✅"
       }
     ],
     "quiz": [
       {
-        "question": "How long did they drive?",
+        "question": "Why was the bus late?",
         "options": [
-          "One hour",
-          "Two hours",
-          "Three hours",
-          "Half a day"
+          "The driver was ill",
+          "Workers were repairing a sewer",
+          "It was a holiday",
+          "The road was closed for a race"
         ],
         "answerIndex": 1,
-        "explanation": "They drove for two hours to a campsite near a mountain lake."
+        "explanation": "A traffic jam had formed because workers were repairing a sewer."
       },
       {
-        "question": "What did they use to light the fire?",
+        "question": "How did Sarah get to the office?",
         "options": [
-          "A lighter",
-          "A match",
-          "A torch",
-          "A candle"
+          "By taxi",
+          "By underground train",
+          "By bike",
+          "On foot"
         ],
         "answerIndex": 1,
-        "explanation": "His brother lit a match and started a small fire in a stone ring."
+        "explanation": "She tapped her travel card on the scanner and went through the gate."
       },
       {
-        "question": "What did the ranger thank them for?",
+        "question": "How early was Sarah for the interview?",
         "options": [
-          "Helping other campers",
-          "Keeping the site clean",
-          "Reporting a fire",
-          "Fixing the path"
+          "Fifteen minutes",
+          "Ten minutes",
+          "Five minutes",
+          "She was late"
         ],
-        "answerIndex": 1,
-        "explanation": "The ranger thanked them for keeping the site clean."
+        "answerIndex": 2,
+        "explanation": "She was five minutes early, which showed she was reliable."
       }
     ],
-    "funPrompt": "What three things would you pack for one night in a tent, and why?"
+    "funPrompt": "Tell about a day when everything went wrong but you still got where you needed to go."
   },
   {
     "id": 99,
     "day": 99,
-    "title": "An International Cultural Exchange",
-    "coverEmoji": "🇯🇵",
-    "category": "Culture & Language",
+    "title": "Exploring the Marine World",
+    "coverEmoji": "🐋",
+    "category": "Nature & Environment",
     "level": "Explorer",
     "readingTime": "5 mins",
-    "intro": "A Japanese exchange student folds origami cranes and learns to bake British scones.",
-    "wordCount": 249,
+    "intro": "A marine biology trip shows that protecting the ocean starts with small choices.",
+    "wordCount": 247,
     "paragraphs": [
-      "School exchange programmes give students a window into other cultures. Last month, our school welcomed twelve visiting students from Japan. They arrived at a special assembly, where our headteacher gave a warm speech about friendship. Each local student was asked to host and guide one visitor.",
-      "Maya hosted Yuki, a cheerful fifteen-year-old from Tokyo. On Monday, Maya showed her around the school and introduced her to teachers and friends. Yuki joined maths, art and English lessons. She said our classrooms felt friendly and interactive. In the art lesson, Yuki showed the class origami, the Japanese art of paper folding.",
-      "She taught them to fold paper into animals and flowers. The students loved it and made colourful paper cranes.",
-      "In return, Maya took Yuki to a cooking lesson. They baked British scones with jam and cream. Yuki loved the sweet taste and said she would bake them for her family.",
-      "At the weekend, Maya's family took Yuki to see local sights. They visited the cathedral, walked on the old city walls and explored a museum. Yuki took many photos. Speaking English every day helped her fluency. Maya also learned some Japanese greetings and customs.",
-      "On the last evening, the school held a farewell party. The visiting students played music on a Japanese stringed instrument. Local students acted in a funny play about cultural misunderstandings.",
-      "When the visit ended, some students cried. Cultural exchange breaks down prejudice and builds bridges between countries. Maya and Yuki promised to stay in touch online."
+      "Oceans cover more than seventy percent of Earth and hold many kinds of life. Last weekend, our biology teacher took us to a marine research centre near a rocky harbour. A scientist welcomed us and explained what a marine ecosystem is. She said tiny plankton produce much of the oxygen in our air.",
+      "In the main hall, big glass tanks held hundreds of colourful fish. We watched two sea turtles swim slowly near the surface. The guide showed us a tank with large sharks. He said sharks rarely attack people and play an important role in the ocean.",
+      "Next, the scientist showed us a display about pollution. Millions of tonnes of plastic waste go into the sea every year. Seabirds and sea animals often mistake plastic for food. Old fishing nets can trap endangered animals. The scientist said everyone has a duty to protect the sea.",
+      "In the lab, we looked at seawater under a microscope. Tom drew diagrams in his notebook. The teacher explained how warmer water harms coral reefs.",
+      "When the sea gets too warm, coral loses its colour and dies.",
+      "After the talk, our class joined a beach clean-up. With gloves and bags, we walked along the sand. We picked up bottles, cans and old rope. In two hours, we collected over fifty kilograms of litter.",
+      "A park ranger thanked us for our hard work. Working together on the beach gave us a real sense of achievement. Protecting nature needs action, not just words."
     ],
     "vocabulary": [
       {
-        "word": "assembly",
-        "syllables": "as-sem-bly",
-        "phonetic": "/əˈsembli/",
-        "definition": "A meeting of all the students and teachers in a school.",
-        "example": "They arrived at a special assembly, where our headteacher gave a warm speech about friendship.",
-        "emoji": "🏫"
+        "word": "plankton",
+        "syllables": "plank-ton",
+        "phonetic": "/ˈplæŋktən/",
+        "definition": "Very tiny plants and animals that live in the sea.",
+        "example": "She said tiny plankton produce much of the oxygen in our air.",
+        "emoji": "🦠"
       },
       {
-        "word": "origami",
-        "syllables": "or-i-ga-mi",
-        "phonetic": "/ˌɒrɪˈɡɑːmi/",
-        "definition": "The Japanese art of folding paper into shapes.",
-        "example": "In the art lesson, Yuki showed the class origami, the Japanese art of paper folding.",
-        "emoji": "🕊️"
+        "word": "coral",
+        "syllables": "cor-al",
+        "phonetic": "/ˈkɒrəl/",
+        "definition": "A hard colourful structure in the sea where many small animals live.",
+        "example": "The teacher explained how warmer water harms coral reefs.",
+        "emoji": "🪸"
       },
       {
-        "word": "fluency",
-        "syllables": "flu-en-cy",
-        "phonetic": "/ˈfluːənsi/",
-        "definition": "The ability to speak a language easily and well.",
-        "example": "Speaking English every day helped her fluency.",
-        "emoji": "🗣️"
+        "word": "litter",
+        "syllables": "lit-ter",
+        "phonetic": "/ˈlɪtə/",
+        "definition": "Rubbish that people leave on the ground or in the sea.",
+        "example": "In two hours, we collected over fifty kilograms of litter.",
+        "emoji": "🗑️"
       }
     ],
     "quiz": [
       {
-        "question": "How many visiting students came?",
+        "question": "What produces much of the oxygen in our air?",
         "options": [
-          "Five",
-          "Twelve",
-          "Twenty",
-          "Thirty"
+          "Sea turtles",
+          "Tiny plankton",
+          "Sharks",
+          "Coral"
         ],
         "answerIndex": 1,
-        "explanation": "Last month, our school welcomed twelve visiting students from Japan."
+        "explanation": "She said tiny plankton produce much of the oxygen in our air."
       },
       {
-        "question": "What did Yuki demonstrate in the art lesson?",
+        "question": "What harms coral reefs?",
         "options": [
-          "Calligraphy",
-          "Origami paper folding",
-          "Ikebana",
-          "Tea making"
+          "Cold water",
+          "Warmer water",
+          "Too many fish",
+          "Strong winds"
         ],
         "answerIndex": 1,
-        "explanation": "In the art lesson, Yuki showed the class origami."
+        "explanation": "The teacher explained how warmer water harms coral reefs."
       },
       {
-        "question": "What did Maya and Yuki bake?",
+        "question": "How much litter did the class collect?",
         "options": [
-          "Rice cakes",
-          "British scones",
-          "Pancakes",
-          "Bread rolls"
+          "Ten kilograms",
+          "Twenty kilograms",
+          "Over fifty kilograms",
+          "One hundred kilograms"
         ],
-        "answerIndex": 1,
-        "explanation": "They baked British scones with jam and cream."
+        "answerIndex": 2,
+        "explanation": "In two hours, we collected over fifty kilograms of litter."
       }
     ],
-    "funPrompt": "If a student from another country visited your home, what would you show them first?"
+    "funPrompt": "What is one small thing you could do at home to use less plastic?"
   },
   {
     "id": 100,
     "day": 100,
-    "title": "A Career in Software Engineering",
-    "coverEmoji": "💻",
-    "category": "Jobs & Technology",
+    "title": "Cooking and Family Traditions",
+    "coverEmoji": "🍝",
+    "category": "Family & Food",
     "level": "Explorer",
     "readingTime": "5 mins",
-    "intro": "A software engineer explains why code needs patience, teamwork and clear thinking.",
-    "wordCount": 236,
+    "intro": "A grandmother passes on her pasta recipe and a little family tradition along with it.",
+    "wordCount": 249,
     "paragraphs": [
-      "Software now runs almost everything we use, from phones to hospitals. Last Thursday, our computer club invited a software engineer to speak. Mr Turner walked into the lab with a laptop. He explained what software engineers do. He said they design, test and maintain computer programs.",
-      "Almost every electronic device depends on code. Smartphone apps, traffic systems and medical machines all need software. Mr Turner said building reliable software needs strong logical thinking. Programmers must write clear, efficient instructions. When a program fails, engineers study the system to find the fault.",
-      "Fixing bugs takes patience and attention to detail. Engineers also work with designers, managers and testers. Good teamwork and clear communication are vital for big projects.",
-      "Tom asked which language beginners should learn first. Mr Turner suggested Python or JavaScript because their rules are clear and they are widely used. He told students to practise writing small programs and building simple projects.",
-      "After the talk, students tried a coding puzzle on the computers. Tom moved code blocks in a visual editor to guide a robot through a maze. His first try failed because of a loop error. He fixed the sequence and succeeded.",
-      "Mr Turner praised the students' curiosity. He said the tech industry offers many jobs, like web design, security and artificial intelligence. The talk showed students the huge potential of digital skills. Learning to code helps young people become creators, not just users."
+      "Cooking together on Sunday afternoons is a family tradition in our home. Today, my grandmother taught my brother and me how to make pasta. The main ingredients were flour, eggs, olive oil and a little salt.",
+      "First, she told us to pour the flour onto the wooden table. My brother broke four eggs into the middle and stirred them with a fork. Then came the hardest part: kneading the dough by hand.",
+      "We pressed and folded the dough again and again until it was soft and smooth. After kneading, we covered the dough with a wet cloth. We let it rest for half an hour. Meanwhile, Grandma made a rich tomato sauce. She cut onions, carrots and garlic with a sharp knife.",
+      "The smell of herbs and oil filled the house. When the dough was ready, we used a rolling pin to make thin sheets. My brother fed the dough through the pasta cutter to make long ribbons. Grandma put a big pot of salty water on the stove. Fresh pasta cooks very fast, in only three minutes.",
+      "She told us to stand back to avoid the hot steam. When the pasta floated, she poured it into a colander. We mixed it with the sauce and added cheese. My mother set the table with colourful plates.",
+      "When our father came home, dinner was ready. Everyone said the pasta was delicious. After dinner, my brother and I washed the dishes. Learning to cook teaches useful skills and brings families together."
     ],
     "vocabulary": [
       {
-        "word": "maintain",
-        "syllables": "main-tain",
-        "phonetic": "/meɪnˈteɪn/",
-        "definition": "To keep something working properly over time.",
-        "example": "He said they design, test and maintain computer programs.",
-        "emoji": "🔧"
+        "word": "kneading",
+        "syllables": "knead-ing",
+        "phonetic": "/ˈniːdɪŋ/",
+        "definition": "Pressing and folding dough with your hands.",
+        "example": "Then came the hardest part: kneading the dough by hand.",
+        "emoji": "👐"
       },
       {
-        "word": "logical",
-        "syllables": "log-i-cal",
-        "phonetic": "/ˈlɒdʒɪkl/",
-        "definition": "Following clear and sensible reasoning.",
-        "example": "Mr Turner said building reliable software needs strong logical thinking.",
-        "emoji": "🧠"
+        "word": "dough",
+        "syllables": "dough",
+        "phonetic": "/dəʊ/",
+        "definition": "A soft mixture of flour and water used to make bread or pasta.",
+        "example": "After kneading, we covered the dough with a wet cloth.",
+        "emoji": "🍞"
       },
       {
-        "word": "bugs",
-        "syllables": "bugs",
-        "phonetic": "/bʌɡz/",
-        "definition": "Mistakes in a computer program.",
-        "example": "Fixing bugs takes patience and attention to detail.",
-        "emoji": "🐞"
+        "word": "colander",
+        "syllables": "col-an-der",
+        "phonetic": "/ˈkʌləndə/",
+        "definition": "A bowl with holes used to drain water from food.",
+        "example": "When the pasta floated, she poured it into a colander.",
+        "emoji": "🥣"
       }
     ],
     "quiz": [
       {
-        "question": "What do software engineers do?",
+        "question": "How long did the dough rest?",
         "options": [
-          "Only write code",
-          "Design, test and maintain programs",
-          "Fix computers",
-          "Sell phones"
+          "Ten minutes",
+          "Half an hour",
+          "Two hours",
+          "All night"
         ],
         "answerIndex": 1,
-        "explanation": "He said they design, test and maintain computer programs."
+        "explanation": "We let it rest for half an hour."
       },
       {
-        "question": "Which languages did Mr Turner suggest for beginners?",
+        "question": "How long does fresh pasta take to cook?",
         "options": [
-          "C and C++",
-          "Python or JavaScript",
-          "Java and Ruby",
-          "HTML only"
+          "One minute",
+          "Three minutes",
+          "Ten minutes",
+          "Twenty minutes"
         ],
         "answerIndex": 1,
-        "explanation": "Mr Turner suggested Python or JavaScript because their rules are clear and they are widely used."
+        "explanation": "Fresh pasta cooks very fast, in only three minutes."
       },
       {
-        "question": "What did Tom guide through a maze?",
+        "question": "What did the children do after dinner?",
         "options": [
-          "A real robot",
-          "A robot in a coding puzzle",
-          "A car",
-          "A ball"
+          "Went for a walk",
+          "Washed the dishes",
+          "Watched TV",
+          "Cooked more pasta"
         ],
         "answerIndex": 1,
-        "explanation": "Tom moved code blocks in a visual editor to guide a robot through a maze."
+        "explanation": "After dinner, my brother and I washed the dishes."
       }
     ],
-    "funPrompt": "If you could build one app to make life easier, what would it do?"
+    "funPrompt": "What food does your family make together, and who taught you the recipe?"
   }
 ];
 
