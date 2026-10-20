@@ -171,13 +171,15 @@
     <section id="tab-library" class="tab-panel">
       <div class="library-header">
         <div>
-          <h2 style="font-size: 1.8rem; font-weight:800;">Daily Reading Library (<span id="libraryTotalCount">60</span> Stories)</h2>
+          <h2 style="font-size: 1.8rem; font-weight:800;">Daily Reading Library (<span id="libraryTotalCount">80</span> Stories)</h2>
           <p style="color:var(--text-muted); font-weight:600;">One story each day • Leveled English reading for 8-year-olds</p>
         </div>
         <div class="week-selector-bar" id="libraryFilterButtons">
           <button class="week-tab-btn active" onclick="filterLibraryView('all')">All Stories</button>
           <button class="week-tab-btn" onclick="filterLibraryView('month1')">Month 1 (Days 1–30)</button>
           <button class="week-tab-btn" onclick="filterLibraryView('month2')">Month 2 (Days 31–60)</button>
+          <button class="week-tab-btn" onclick="filterLibraryView('month3')">Month 3 (Days 61–80)</button>
+          <button class="week-tab-btn" onclick="filterLibraryView('advanced')">⭐ Advanced (80)</button>
           <button class="week-tab-btn" onclick="filterLibraryView('custom')">Custom Stories</button>
         </div>
       </div>
@@ -396,6 +398,11 @@
           <div class="modal-definition" id="modalDefinition">Definition of the word.</div>
         </div>
 
+        <div class="modal-section" id="modalLongmanSection" style="display:none;">
+          <div class="modal-label">Longman Dictionary:</div>
+          <ol class="modal-longman" id="modalLongman"></ol>
+        </div>
+
         <div class="modal-section">
           <div class="modal-label">Example in a Sentence:</div>
           <div class="modal-example" id="modalExample">"Example sentence goes here."</div>
@@ -416,6 +423,9 @@
   <!-- Application Logic -->
   <script src="stories.js"></script>
   <script src="stories_month2.js"></script>
+  <script src="stories_month3.js"></script>
+  <script src="stories_advanced.js"></script>
+  <script src="longman-data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
