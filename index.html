@@ -45,7 +45,7 @@
         <span>📖</span> Today's Story
       </button>
       <button class="nav-btn" data-tab="library" onclick="navigateToTab('library')">
-        <span>📚</span> Story Library (60 Days)
+        <span>📚</span> Story Library (<span id="navDayCount">—</span> Days)
       </button>
       <button class="nav-btn" data-tab="words" onclick="navigateToTab('words')">
         <span>🗂️</span> My Word Bank (<span id="navWordCount">0</span>)
@@ -171,7 +171,7 @@
     <section id="tab-library" class="tab-panel">
       <div class="library-header">
         <div>
-          <h2 style="font-size: 1.8rem; font-weight:800;">Daily Reading Library (<span id="libraryTotalCount">80</span> Stories)</h2>
+          <h2 style="font-size: 1.8rem; font-weight:800;">Daily Reading Library (<span id="libraryTotalCount">140</span> Stories)</h2>
           <p style="color:var(--text-muted); font-weight:600;">One story each day • Leveled English reading for 8-year-olds</p>
         </div>
         <div class="week-selector-bar" id="libraryFilterButtons">
@@ -226,7 +226,7 @@
           </div>
           <div class="stat-card">
             <div class="stat-card-icon">📖</div>
-            <div class="stat-card-value" id="statsStoriesReadVal">0 / 30</div>
+            <div class="stat-card-value" id="statsStoriesReadVal">0 / 140</div>
             <div class="stat-card-label">Stories Completed</div>
           </div>
           <div class="stat-card">
