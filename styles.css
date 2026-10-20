@@ -1720,3 +1720,23 @@ body.fullread-active {
   color: var(--text-muted);
   margin: -0.55rem 0 0.85rem;
 }
+
+/* Scoring toggle inside the shadowing dialog */
+.shadow-opt {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: -0.2rem 0 0.7rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  user-select: none;
+}
+
+.shadow-opt input {
+  width: 1.15rem;
+  height: 1.15rem;
+  accent-color: var(--primary);
+  cursor: pointer;
+}
