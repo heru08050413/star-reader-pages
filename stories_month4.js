@@ -2025,6 +2025,407 @@ const MONTH4_STORIES = [
       }
     ],
     "funPrompt": "Which sports day event would you choose: a sprint, a relay or the high jump?"
+  },
+  {
+    "id": 126,
+    "day": 126,
+    "title": "The Local Community Library",
+    "coverEmoji": "📖",
+    "category": "Community & Learning",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "A library card, a leather-bound volume and a writing workshop: one quiet Saturday.",
+    "wordCount": 287,
+    "paragraphs": [
+      "Local public libraries are vital cultural centres that give free access to knowledge. Last Saturday morning, Clara went to her neighbourhood library to borrow some books. The elegant brick building had a welcoming entrance and an automated check-in terminal. At the front desk, the librarian scanned Clara's membership card and checked her account. She reminded Clara that all borrowed items must be returned within three weeks.",
+      "Clara walked into the spacious main reading hall. Rows of study desks stood under warm overhead lamps. She needed materials about medieval European architecture for her history project. She used an electronic cataloguing terminal near the corner. The screen showed a list of encyclopedias and academic journals.",
+      "Clara wrote down the book codes and walked quietly to the second aisle. She checked the shelf labels until she found the heavy leather-bound volume. The book contained fascinating illustrations, detailed maps and chronological diagrams. She carried it to an empty desk near the large arched window. Natural daylight streamed through the glass, making it pleasant to read for hours.",
+      "After taking notes, Clara went to the automated checkout. She scanned her card and placed the book on the digital sensor pad. The machine printed a small receipt with the official due date.",
+      "Before leaving, she checked the community notice board near the exit. The library was hosting an interactive creative writing workshop next weekend. Clara registered using her phone app. Stepping outside into the fresh breeze, she felt deeply satisfied.",
+      "Libraries remain invaluable public institutions that support lifelong learning. Reading broadens young minds and sharpens critical thinking. Clara walked home at a steady pace, eager to start her new book. Spending a quiet weekend afternoon at the library proved both productive and enjoyable."
+    ],
+    "vocabulary": [
+      {
+        "word": "membership",
+        "syllables": "mem-ber-ship",
+        "phonetic": "/ˈmembəʃɪp/",
+        "definition": "Being a member of a library or club.",
+        "example": "At the front desk, the librarian scanned Clara's membership card and checked her account.",
+        "emoji": "🪪"
+      },
+      {
+        "word": "volume",
+        "syllables": "vol-ume",
+        "phonetic": "/ˈvɒljuːm/",
+        "definition": "A book, especially a large or thick one.",
+        "example": "She checked the shelf labels until she found the heavy leather-bound volume.",
+        "emoji": "📚"
+      },
+      {
+        "word": "due date",
+        "syllables": "due date",
+        "phonetic": "/djuː deɪt/",
+        "definition": "The date by which something must be returned.",
+        "example": "The machine printed a small receipt with the official due date.",
+        "emoji": "🗓️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How long can borrowed items be kept?",
+        "options": [
+          "One week",
+          "Two weeks",
+          "Three weeks",
+          "One month"
+        ],
+        "answerIndex": 2,
+        "explanation": "She reminded Clara that all borrowed items must be returned within three weeks."
+      },
+      {
+        "question": "What was Clara researching?",
+        "options": [
+          "Ancient Rome",
+          "Medieval European architecture",
+          "Modern art",
+          "Marine life"
+        ],
+        "answerIndex": 1,
+        "explanation": "She needed materials about medieval European architecture for her history project."
+      },
+      {
+        "question": "Which event was the library hosting?",
+        "options": [
+          "A book sale",
+          "A creative writing workshop",
+          "A film night",
+          "A chess tournament"
+        ],
+        "answerIndex": 1,
+        "explanation": "The library was hosting an interactive creative writing workshop next weekend."
+      }
+    ],
+    "funPrompt": "What is the quietest place you know, and what do you like to do there?"
+  },
+  {
+    "id": 127,
+    "day": 127,
+    "title": "Healthy Eating and Culinary Nutrition",
+    "coverEmoji": "🥗",
+    "category": "Health & Food",
+    "level": "Explorer",
+    "readingTime": "7 mins",
+    "intro": "A salad bar, a food label and a pot of vegetable soup: learning to eat well.",
+    "wordCount": 301,
+    "paragraphs": [
+      "Eating a balanced, nutritious diet is essential for teenage growth. Last week, our home economics teacher gave a talk on healthy eating. She explained that a wide variety of fresh foods provides important vitamins and minerals. Teenagers should eat plenty of leafy green vegetables, ripe fruit and whole grains. Too many sugary drinks and processed snacks can cause health problems.",
+      "Regular junk food increases the risk of obesity and long-term disease. To encourage healthy habits, the school canteen introduced a fresh salad bar at lunchtime. Students can choose crisp lettuce, juicy tomatoes, boiled eggs and grilled chicken. My classmate Tom decided to replace his daily fizzy drink with pure mineral water.",
+      "He noticed that drinking enough water improved his concentration in class. Alongside balanced eating, understanding food labels is a useful skill. Nutrition labels show ingredient lists, calorie counts and recommended serving sizes. Shoppers should check these labels carefully before buying packaged food. Cooking at home with fresh ingredients is another good way to control your diet.",
+      "Last Sunday, Tom helped his mother make a traditional vegetable soup. He used a sharp knife to cut carrots, potatoes and onions into even pieces. His mother cooked the vegetables in a small pan with a little olive oil. The wonderful smell of herbs and soup soon filled the house. Eating home-cooked meals together strengthens family bonds and builds healthy traditions.",
+      "Nutritional science shows that food is not merely fuel, but medicine for the body. Good habits in youth build a strong foundation for lifelong health. Tom felt energetic after starting his new eating plan. He encouraged his friends to choose fresh fruit instead of chocolate bars at break time. The school also plans to start an organic vegetable garden next spring. Harvesting their own vegetables connects students directly to the food they eat."
+    ],
+    "vocabulary": [
+      {
+        "word": "nutritious",
+        "syllables": "nu-tri-tious",
+        "phonetic": "/njuːˈtrɪʃəs/",
+        "definition": "Full of the substances your body needs to stay healthy.",
+        "example": "Eating a balanced, nutritious diet is essential for teenage growth.",
+        "emoji": "🥦"
+      },
+      {
+        "word": "obesity",
+        "syllables": "o-be-si-ty",
+        "phonetic": "/əʊˈbiːsəti/",
+        "definition": "Being very overweight in a way that harms health.",
+        "example": "Regular junk food increases the risk of obesity and long-term disease.",
+        "emoji": "⚖️"
+      },
+      {
+        "word": "calorie",
+        "syllables": "cal-o-rie",
+        "phonetic": "/ˈkæləri/",
+        "definition": "A unit used to measure the energy in food.",
+        "example": "Nutrition labels show ingredient lists, calorie counts and recommended serving sizes.",
+        "emoji": "🔥"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What did the school canteen introduce?",
+        "options": [
+          "A pizza counter",
+          "A fresh salad bar",
+          "A snack machine",
+          "A juice bar"
+        ],
+        "answerIndex": 1,
+        "explanation": "To encourage healthy habits, the school canteen introduced a fresh salad bar at lunchtime."
+      },
+      {
+        "question": "What did Tom replace his fizzy drink with?",
+        "options": [
+          "Fruit juice",
+          "Milk",
+          "Pure mineral water",
+          "Hot chocolate"
+        ],
+        "answerIndex": 2,
+        "explanation": "My classmate Tom decided to replace his daily fizzy drink with pure mineral water."
+      },
+      {
+        "question": "What did Tom cook with his mother?",
+        "options": [
+          "Chicken soup",
+          "A vegetable soup",
+          "A fruit cake",
+          "Bread"
+        ],
+        "answerIndex": 1,
+        "explanation": "Last Sunday, Tom helped his mother make a traditional vegetable soup."
+      }
+    ],
+    "funPrompt": "What is one healthy food you actually enjoy, and how would you cook it?"
+  },
+  {
+    "id": 128,
+    "day": 128,
+    "title": "Exploring Renewable Energy Solutions",
+    "coverEmoji": "☀️",
+    "category": "Science & Environment",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "Wind turbines, solar cells and a hydrogen car: how clean energy replaces fossil fuels.",
+    "wordCount": 265,
+    "paragraphs": [
+      "Moving from fossil fuels to renewable energy is vital for fighting climate change. Last month, our science class visited a city exhibition on clean technology. A renewable energy engineer named Dr Evans gave an inspiring talk. He explained that traditional power stations rely on burning coal, oil and gas. These processes release huge amounts of carbon dioxide into the atmosphere.",
+      "Greenhouse gases trap solar heat, causing global temperatures and sea levels to rise. In contrast, renewable sources like solar, wind and water power produce no harmful emissions. Dr Evans showed diagrams of offshore wind turbines making clean electricity. Similarly, rooftop solar panels absorb sunlight and change it into usable energy.",
+      "During the tour, students visited an experimental rooftop solar installation. Technicians showed how solar cells work efficiently even under cloudy winter skies. Tom asked whether home solar panels are cost-effective for ordinary families. The engineer answered that although the first cost is high, energy bills drop a lot. Over ten years, homeowners get their money back through savings. Many local governments also offer grants to encourage green power.",
+      "He said future power grids will rely on smart networks that balance supply and demand.",
+      "Students then tested a miniature hydrogen fuel cell car. Tom guided the tiny vehicle along a track powered by clean water. The demonstration showed the potential of hydrogen as a transport fuel. Our school has now installed solar panels on its office roof. Students can watch real-time solar output on a display screen. Simple habits, like turning off unused lights, also save energy. Embracing clean technology protects our planet for the future."
+    ],
+    "vocabulary": [
+      {
+        "word": "greenhouse",
+        "syllables": "green-house",
+        "phonetic": "/ˈɡriːnhaʊs/",
+        "definition": "Relating to gases that trap heat in the atmosphere.",
+        "example": "Greenhouse gases trap solar heat, causing global temperatures and sea levels to rise.",
+        "emoji": "🏭"
+      },
+      {
+        "word": "emissions",
+        "syllables": "e-mis-sions",
+        "phonetic": "/ɪˈmɪʃnz/",
+        "definition": "Gases or other substances sent out into the air.",
+        "example": "In contrast, renewable sources like solar, wind and water power produce no harmful emissions.",
+        "emoji": "💨"
+      },
+      {
+        "word": "solar",
+        "syllables": "so-lar",
+        "phonetic": "/ˈsəʊlə/",
+        "definition": "Relating to the sun and its energy.",
+        "example": "Similarly, rooftop solar panels absorb sunlight and change it into usable energy.",
+        "emoji": "☀️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Which gases trap solar heat?",
+        "options": [
+          "Oxygen and nitrogen",
+          "Greenhouse gases",
+          "Hydrogen and helium",
+          "Water vapour only"
+        ],
+        "answerIndex": 1,
+        "explanation": "Greenhouse gases trap solar heat, causing global temperatures and sea levels to rise."
+      },
+      {
+        "question": "What question did Tom ask the engineer?",
+        "options": [
+          "How wind turbines are built",
+          "Whether home solar panels are cost-effective",
+          "How much coal is burned",
+          "How to drive a hydrogen car"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tom asked whether home solar panels are cost-effective for ordinary families."
+      },
+      {
+        "question": "What powered the tiny car in the workshop?",
+        "options": [
+          "Petrol",
+          "A hydrogen fuel cell",
+          "A small battery",
+          "Wind"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tom guided the tiny vehicle along a track powered by clean water."
+      }
+    ],
+    "funPrompt": "Which clean energy source do you think would work best where you live?"
+  },
+  {
+    "id": 129,
+    "day": 129,
+    "title": "A Weekend Photography Excursion",
+    "coverEmoji": "📸",
+    "category": "Arts & Technology",
+    "level": "Explorer",
+    "readingTime": "7 mins",
+    "intro": "A garden photography trip: wide apertures, fast shutters and fifty pictures on a gallery wall.",
+    "wordCount": 305,
+    "paragraphs": [
+      "Digital photography combines technical skill with creative visual expression. Last Saturday, our media club organised a photography trip to the botanical gardens. A professional photojournalist named Arthur came with our group to give expert guidance. He reminded everyone that stunning images need an understanding of aperture, shutter speed and ISO. Arthur showed how the lens aperture controls the amount of light entering the camera.",
+      "A wide aperture creates a soft, blurry background, which is perfect for portrait shots. A narrow aperture keeps wide landscapes sharp from the foreground to the horizon. Next, he explained how shutter speed decides whether fast subjects look sharp or blurred. A fast shutter freezes a splashing water drop in mid-air with amazing clarity. With their cameras ready, club members walked along the winding garden paths.",
+      "Emma crouched low on the grass to take a close-up macro shot of a butterfly. She adjusted her focus ring carefully so the delicate wings were crystal clear. Tom preferred landscapes, so he captured panoramic views of the lake and distant peaks. He mounted his camera on a sturdy metal tripod to prevent blurry camera shake.",
+      "He encouraged everyone to watch the natural light and the background details. In the afternoon, the group returned to the media lab to edit their images. They used professional software to crop unnecessary edges and adjust brightness. Arthur showed them how to add contrast and colour without making photos look unnatural. The club chose the best fifty photographs for a public exhibition in the school library.",
+      "Printed on glossy paper, the images looked remarkably professional. Parents and teachers came to the evening opening. A local arts magazine published an article about several award-winning student photos. The workshop taught students to observe everyday surroundings with greater attention. Photography is not just pressing a button; it is telling a visual story."
+    ],
+    "vocabulary": [
+      {
+        "word": "aperture",
+        "syllables": "ap-er-ture",
+        "phonetic": "/ˈæpətʃə/",
+        "definition": "The hole in a camera that lets light in.",
+        "example": "Arthur showed how the lens aperture controls the amount of light entering the camera.",
+        "emoji": "📷"
+      },
+      {
+        "word": "tripod",
+        "syllables": "tri-pod",
+        "phonetic": "/ˈtraɪpɒd/",
+        "definition": "A three-legged stand for a camera.",
+        "example": "He mounted his camera on a sturdy metal tripod to prevent blurry camera shake.",
+        "emoji": "🗜️"
+      },
+      {
+        "word": "contrast",
+        "syllables": "con-trast",
+        "phonetic": "/ˈkɒntrɑːst/",
+        "definition": "The difference between light and dark in a picture.",
+        "example": "Arthur showed them how to add contrast and colour without making photos look unnatural.",
+        "emoji": "🌓"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Which three things did Arthur say photos need?",
+        "options": [
+          "Lens, flash and tripod",
+          "Aperture, shutter speed and ISO",
+          "Zoom, colour and paper",
+          "Focus, light and filter"
+        ],
+        "answerIndex": 1,
+        "explanation": "He reminded everyone that stunning images need an understanding of aperture, shutter speed and ISO."
+      },
+      {
+        "question": "What did Emma photograph close-up?",
+        "options": [
+          "A lake",
+          "A butterfly",
+          "A mountain",
+          "A tree"
+        ],
+        "answerIndex": 1,
+        "explanation": "Emma crouched low on the grass to take a close-up macro shot of a butterfly."
+      },
+      {
+        "question": "How many photos were chosen for the exhibition?",
+        "options": [
+          "Fifteen",
+          "Thirty",
+          "Fifty",
+          "One hundred"
+        ],
+        "answerIndex": 2,
+        "explanation": "The club chose the best fifty photographs for a public exhibition in the school library."
+      }
+    ],
+    "funPrompt": "If you had one photograph to take today, what would you point the camera at?"
+  },
+  {
+    "id": 130,
+    "day": 130,
+    "title": "A Night at the Observatory",
+    "coverEmoji": "🔭",
+    "category": "Science & Space",
+    "level": "Explorer",
+    "readingTime": "6 mins",
+    "intro": "Jupiter, its four moons and a faint galaxy: a night at an observatory.",
+    "wordCount": 268,
+    "paragraphs": [
+      "Observatories give students a chance to study distant objects under a truly dark sky. Last November, our science club attended an evening session at the Hillcrest Observatory. The telescope stands under a dome that can rotate to follow different parts of the sky.",
+      "Before observing, we covered our phone screens so bright light would not spoil our night vision. As the first stars appeared, we found north using the shape of the Plough.",
+      "Our first target was Jupiter, a large planet surrounded by faint bands of cloud. Four of its moons appeared as tiny points of light in a nearly straight line. We recorded their positions so we could compare them with the next night. Next, the telescope moved to a star cluster in Taurus. Careful focus revealed far more stars than we could see with the naked eye.",
+      "Dr Ahmed explained how astronomers measure colour, brightness and movement to study a star's life. We then observed the Moon, whose craters cast long shadows near the light-dark boundary. Tom sketched the outline of three craters in his notebook. Maya asked why satellites stay in orbit instead of falling to Earth. The guide used a curved track model to explain the balance between speed and gravity.",
+      "Clouds briefly crossed the sky, so we visited the control room. When the clouds moved away, we photographed a faint galaxy beyond our Milky Way. The image needed a long exposure because so little light reached the camera. At midnight, we gathered outside for a final view of the winter sky. The visit showed that patient observation turns faint light into reliable evidence."
+    ],
+    "vocabulary": [
+      {
+        "word": "telescope",
+        "syllables": "te-le-scope",
+        "phonetic": "/ˈtelɪskəʊp/",
+        "definition": "A long tube with lenses or mirrors for looking at distant objects.",
+        "example": "The telescope stands under a dome that can rotate to follow different parts of the sky.",
+        "emoji": "🔭"
+      },
+      {
+        "word": "craters",
+        "syllables": "cra-ters",
+        "phonetic": "/ˈkreɪtəz/",
+        "definition": "Large holes in the ground or on the Moon.",
+        "example": "We then observed the Moon, whose craters cast long shadows near the light-dark boundary.",
+        "emoji": "🌑"
+      },
+      {
+        "word": "galaxy",
+        "syllables": "gal-ax-y",
+        "phonetic": "/ˈɡæləksi/",
+        "definition": "A very large group of stars in space.",
+        "example": "When the clouds moved away, we photographed a faint galaxy beyond our Milky Way.",
+        "emoji": "🌌"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Which planet did they observe first?",
+        "options": [
+          "Mars",
+          "Jupiter",
+          "Saturn",
+          "Venus"
+        ],
+        "answerIndex": 1,
+        "explanation": "Our first target was Jupiter, a large planet surrounded by faint bands of cloud."
+      },
+      {
+        "question": "What did Tom sketch in his notebook?",
+        "options": [
+          "A galaxy",
+          "Three craters",
+          "A star cluster",
+          "The Plough"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tom sketched the outline of three craters in his notebook."
+      },
+      {
+        "question": "Why did they visit the control room?",
+        "options": [
+          "To get warm",
+          "Because clouds crossed the sky",
+          "To have a snack",
+          "To fix the telescope"
+        ],
+        "answerIndex": 1,
+        "explanation": "Clouds briefly crossed the sky, so we visited the control room."
+      }
+    ],
+    "funPrompt": "If you could look at one thing through a telescope tonight, what would it be?"
   }
 ];
 MONTH4_STORIES.forEach(story => { if (!STORIES_DATA.some(e => e.id === story.id)) STORIES_DATA.push(story); });
