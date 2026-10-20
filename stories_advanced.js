@@ -4107,6 +4107,826 @@ const ADVANCED_STORIES = [
       }
     ],
     "funPrompt": "If your class staged a mystery play, what would the detective be like?"
+  },
+  {
+    "id": 551,
+    "day": 51,
+    "track": "advanced",
+    "title": "Restoring a Community Garden",
+    "coverEmoji": "🌻",
+    "category": "Community & Environment",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "A class adopts a forgotten plot and turns weeds, glass and hard soil back into a garden.",
+    "wordCount": 396,
+    "paragraphs": [
+      "A neglected community garden can become a valuable shared space when neighbours work together. Last spring, our class adopted a small plot behind the local health centre. The site had once been colourful, but weeds had covered most of the paths and beds. Ms Patel, the volunteer coordinator, began by explaining our restoration plan. We divided into teams to clear rubbish, repair fences, and prepare each flower bed.",
+      "Everyone wore thick gloves because broken glass was hidden beneath the long grass. Tom used a sturdy rake to gather dry leaves into large compost bags. Maya loosened the hard soil with a fork so rainwater could drain more easily. Another team trimmed a low branch that was blocking the entrance gate. We hoped to raise enough money for seeds by holding a weekend plant sale.",
+      "A local carpenter donated timber and showed us how to repair the damaged benches. By lunchtime, the main path was clear and the garden already looked more welcoming. In the afternoon, we marked a vegetable plot for tomatoes, beans, and courgettes. We removed every deep root carefully so the weeds would not grow back quickly. Ms Patel demonstrated how to mix compost into the soil without harming earthworms.",
+      "The younger pupils planted lavender beside the raised bed near the sunny wall. Lavender attracts bees and provides a pleasant scent throughout the summer. We also installed a water butt to collect rain from the community hall roof. Using stored rainwater reduces waste and protects plants during dry weather. Several residents brought old gardening tools that they no longer needed at home.",
+      "Before leaving, we labelled each row so future volunteers would know what had been planted. The following Saturday, families arrived to help paint signs and spread wood chips. By July, the garden began to produce fresh vegetables for the neighbourhood food bank. Children visited after school to observe insects and learn how compost is formed. The project gave older residents a peaceful place to meet and share gardening advice.",
+      "A nearby library branch offered to host monthly talks on wildlife-friendly planting. Our plant sale raised more than four hundred pounds for future improvements. Working with the soil helped us understand the roots of strong community relationships. The garden now produces food, friendship, and pride in equal measure. Restoring the plot showed that patient teamwork can transform a forgotten corner of a town."
+    ],
+    "vocabulary": [
+      {
+        "word": "plot",
+        "syllables": "plot",
+        "phonetic": "/plɒt/",
+        "definition": "A small area of ground used for growing things.",
+        "example": "Last spring, our class adopted a small plot behind the local health centre.",
+        "emoji": "🌱"
+      },
+      {
+        "word": "bed",
+        "syllables": "bed",
+        "phonetic": "/bed/",
+        "definition": "An area of ground where flowers or vegetables are grown.",
+        "example": "The site had once been colourful, but weeds had covered most of the paths and beds.",
+        "emoji": "🌷"
+      },
+      {
+        "word": "branch",
+        "syllables": "branch",
+        "phonetic": "/brɑːntʃ/",
+        "definition": "A part of a tree that grows out from the trunk.",
+        "example": "Another team trimmed a low branch that was blocking the entrance gate.",
+        "emoji": "🌳"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What did Ms Patel do first?",
+        "options": [
+          "Bought seeds",
+          "Explained the restoration plan",
+          "Painted signs",
+          "Planted tomatoes"
+        ],
+        "answerIndex": 1,
+        "explanation": "Ms Patel, the volunteer coordinator, began by explaining our restoration plan."
+      },
+      {
+        "question": "Why did everyone wear thick gloves?",
+        "options": [
+          "Because it was cold",
+          "Because broken glass was hidden in the grass",
+          "To protect from bees",
+          "To carry tools"
+        ],
+        "answerIndex": 1,
+        "explanation": "Everyone wore thick gloves because broken glass was hidden beneath the long grass."
+      },
+      {
+        "question": "How much did the plant sale raise?",
+        "options": [
+          "One hundred pounds",
+          "Two hundred pounds",
+          "More than four hundred pounds",
+          "One thousand pounds"
+        ],
+        "answerIndex": 2,
+        "explanation": "Our plant sale raised more than four hundred pounds for future improvements."
+      }
+    ],
+    "funPrompt": "What would you plant first in a shared garden, and who would you invite to help?"
+  },
+  {
+    "id": 552,
+    "day": 52,
+    "track": "advanced",
+    "title": "A First-Aid Workshop at School",
+    "coverEmoji": "🩹",
+    "category": "Health & Safety",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "A paramedic teaches students how to check for danger, cool a burn and keep a casualty calm.",
+    "wordCount": 385,
+    "paragraphs": [
+      "Basic first-aid knowledge can help students respond calmly when an accident occurs. Last Friday, a qualified paramedic named Ms Green visited our school gymnasium. She placed training equipment on a table and introduced the aims of the workshop. First, she reminded us to check for danger before approaching an injured person. Students should call an adult or the emergency services whenever an injury appears serious.",
+      "Ms Green demonstrated how to speak clearly and provide an accurate location by phone. We then practised supporting a pretend injured arm without moving it unnecessarily. Maya learned how to secure a clean bandage without making it uncomfortably tight. The paramedic explained that minor cuts should be treated with clean hands and sterile materials. Applying gentle pressure can help control bleeding while professional help is arranged.",
+      "Next, we discussed burns caused by hot liquids, flames, or electrical equipment. A fresh burn should be cooled under clean running water as soon as possible. Ms Green warned that a frightening accident may leave a person in shock. Keeping the injured person warm and reassured can be important while help is coming. After the demonstration, we worked in pairs to complete short emergency scenarios.",
+      "One card described a cyclist who had fallen and might have a broken wrist. Tom remembered not to give the cyclist food or drink before medical assessment. Another scenario involved a pupil who felt faint during a crowded assembly. We learned to create space, loosen tight clothing, and monitor the pupil carefully. The trainer corrected our mistakes and praised teams that communicated clearly.",
+      "By the end of the session, everyone could recover the main steps from memory. Ms Green stressed that first aid does not replace treatment by trained medical staff. Correct action can, however, treat a minor problem and prevent it from becoming worse. The realistic exercises gave us a healthy shock without placing anyone in danger. Performing under time pressure also revealed the value of calm leadership.",
+      "Our class created safety posters for laboratories, kitchens, and sports areas. We agreed to take regular breaks during long activities to reduce tiredness and mistakes. The school nurse displayed our posters beside the main reception desk. A month later, students could still recover the correct emergency sequence confidently. The workshop proved that practical knowledge can make a school community safer."
+    ],
+    "vocabulary": [
+      {
+        "word": "bandage",
+        "syllables": "ban-dage",
+        "phonetic": "/ˈbændɪdʒ/",
+        "definition": "A long strip of cloth used to cover a wound.",
+        "example": "Maya learned how to secure a clean bandage without making it uncomfortably tight.",
+        "emoji": "🩹"
+      },
+      {
+        "word": "pressure",
+        "syllables": "pres-sure",
+        "phonetic": "/ˈpreʃə/",
+        "definition": "The force you apply when you press on something.",
+        "example": "Applying gentle pressure can help control bleeding while professional help is arranged.",
+        "emoji": "✋"
+      },
+      {
+        "word": "shock",
+        "syllables": "shock",
+        "phonetic": "/ʃɒk/",
+        "definition": "A serious medical condition caused by injury or fright.",
+        "example": "Ms Green warned that a frightening accident may leave a person in shock.",
+        "emoji": "😨"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What should students check before approaching an injured person?",
+        "options": [
+          "Their phone",
+          "For danger",
+          "Their homework",
+          "The weather"
+        ],
+        "answerIndex": 1,
+        "explanation": "First, she reminded us to check for danger before approaching an injured person."
+      },
+      {
+        "question": "How should a fresh burn be treated?",
+        "options": [
+          "With ice",
+          "Cooled under clean running water",
+          "Covered with butter",
+          "Left alone"
+        ],
+        "answerIndex": 1,
+        "explanation": "A fresh burn should be cooled under clean running water as soon as possible."
+      },
+      {
+        "question": "What did Tom remember about the fallen cyclist?",
+        "options": [
+          "To give him water",
+          "Not to give food or drink before medical assessment",
+          "To move his wrist",
+          "To send him home"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tom remembered not to give the cyclist food or drink before medical assessment."
+      }
+    ],
+    "funPrompt": "If you saw someone fall, what would you do first and who would you call?"
+  },
+  {
+    "id": 553,
+    "day": 53,
+    "track": "advanced",
+    "title": "An Archaeological Dig by the River",
+    "coverEmoji": "🏺",
+    "category": "History & Science",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "Pottery, a bronze coin and burnt grain: how archaeologists read the ground layer by layer.",
+    "wordCount": 399,
+    "paragraphs": [
+      "Archaeology allows students to investigate history through physical evidence rather than imagination alone. During the summer holiday, our history club visited an excavation site beside the River Avon. Dr Lewis, a field archaeologist, welcomed us and described the area's Roman past. Before entering the trench, everyone received gloves, safety instructions, and a small hand tool. The archaeologists had divided the ground into squares marked with string and wooden pegs.",
+      "Each square was photographed before any soil was removed from its surface. We scraped the earth gently because careless digging could destroy fragile evidence. A darker layer of soil indicated where people had once lit fires or stored waste. Maya found several pieces of pottery near the corner of her square. She placed them in a labelled tray instead of trying to wash them immediately.",
+      "Dr Lewis explained that the shape and decoration could reveal how a vessel was used. A specialist would later date the fragments by comparing them with known examples. Nearby, Tom uncovered a small bronze coin coated with green corrosion. The project photographer recorded its exact position before it was lifted. Finding the coin was exciting, but its context made the find scientifically useful.",
+      "At noon, we ate lunch beneath a temporary shelter away from the open trench. The team discussed how floods had changed the course of the river over centuries. After lunch, we entered measurements and observations in the official site record. Accurate notes allow future researchers to check conclusions long after a dig has ended. We also learned how pollen and animal bones can reveal ancient diets and landscapes.",
+      "One soil sample contained burnt grain, suggesting that food had been prepared nearby. Another square revealed the outline of a wooden post from a riverside building. The evidence did not prove every detail, so the archaeologists avoided dramatic claims. Instead, they compared several clues and explained the limits of each interpretation. Before leaving, we helped cover the trench to protect it from overnight rain.",
+      "Dr Lewis showed us a digital model created from hundreds of site photographs. The model allowed viewers to explore the excavation without damaging the ground. Back at school, we prepared a display about the coin, pottery, and environmental samples. The field experience taught us that reliable history depends on careful evidence and honest records. Digging beside the river turned an ordinary patch of soil into a doorway to the past."
+    ],
+    "vocabulary": [
+      {
+        "word": "site",
+        "syllables": "site",
+        "phonetic": "/saɪt/",
+        "definition": "A place where something important happened or is being built or dug.",
+        "example": "During the summer holiday, our history club visited an excavation site beside the River Avon.",
+        "emoji": "⛏️"
+      },
+      {
+        "word": "layer",
+        "syllables": "lay-er",
+        "phonetic": "/ˈleɪə/",
+        "definition": "An amount of a substance that covers a surface.",
+        "example": "A darker layer of soil indicated where people had once lit fires or stored waste.",
+        "emoji": "🥞"
+      },
+      {
+        "word": "date",
+        "syllables": "date",
+        "phonetic": "/deɪt/",
+        "definition": "To find out how old something is.",
+        "example": "A specialist would later date the fragments by comparing them with known examples.",
+        "emoji": "📅"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Who was Dr Lewis?",
+        "options": [
+          "A museum guide",
+          "A field archaeologist",
+          "A history teacher",
+          "A photographer"
+        ],
+        "answerIndex": 1,
+        "explanation": "Dr Lewis, a field archaeologist, welcomed us and described the area's Roman past."
+      },
+      {
+        "question": "What did Maya find near her square?",
+        "options": [
+          "A gold ring",
+          "Pieces of pottery",
+          "A wooden post",
+          "Burnt grain"
+        ],
+        "answerIndex": 1,
+        "explanation": "Maya found several pieces of pottery near the corner of her square."
+      },
+      {
+        "question": "What did one soil sample contain?",
+        "options": [
+          "Burnt grain",
+          "Animal bones",
+          "Pollen only",
+          "Roman coins"
+        ],
+        "answerIndex": 0,
+        "explanation": "One soil sample contained burnt grain, suggesting that food had been prepared nearby."
+      }
+    ],
+    "funPrompt": "If you found an old object in your garden, what would you do with it?"
+  },
+  {
+    "id": 554,
+    "day": 54,
+    "track": "advanced",
+    "title": "The Neighbourhood Food Festival",
+    "coverEmoji": "🍲",
+    "category": "Culture & Community",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "Twelve families, one courtyard and a tasting card: a food festival that builds respect.",
+    "wordCount": 391,
+    "paragraphs": [
+      "Food festivals can introduce neighbours to unfamiliar traditions in a relaxed and welcoming way. Our community centre organised an international food fair on the first Saturday in June. Families from twelve cultural backgrounds volunteered to prepare dishes for the event. The organisers arranged each stand around the central courtyard and provided reusable plates. Maya's family decorated their table with colourful cloth and photographs from Malaysia.",
+      "They planned to serve vegetable curry, coconut rice, and small pandan cakes. Across the courtyard, an Italian family rolled fresh pasta for the main course. A Syrian baker displayed flatbreads covered with herbs, sesame seeds, and olive oil. Visitors received a tasting card that encouraged them to try six different foods. Before the gates opened, the volunteers checked allergy labels and food temperatures carefully.",
+      "Clear information helped people avoid ingredients that might cause a serious reaction. At midday, the mayor welcomed everyone and thanked residents for sharing their skills. A local youth band played lively music while the first guests entered the courtyard. Tom helped at the drinks stand, where he served mint tea and homemade lemonade. He discovered that careful service mattered as much as speed when the queue became long.",
+      "Maya invited an elderly visitor to taste a mild version of the curry. The visitor praised the balanced spices and asked for the family recipe. During the afternoon, cooks demonstrated how to fold dumplings and shape bread dough. Children joined a workshop where they designed paper menus in several languages. A chef explained how one dish can change when ingredients move between countries.",
+      "This exchange showed that food traditions are living practices rather than fixed museum pieces. Judges later selected one savoury dish and one dessert for special community awards. The competition remained friendly because the festival valued participation over victory. When rain began, volunteers quickly moved the outdoor tables beneath covered walkways. No food was wasted because unopened portions were delivered to a local shelter.",
+      "The event raised funds for free cooking classes at the community centre. Several visitors offered to teach a future course on healthy family meals. By evening, every stand had sold out and the courtyard was filled with conversation. The food fair gave residents a genuine taste of the diversity within their own neighbourhood. Sharing a meal proved to be a simple but powerful way to build mutual respect."
+    ],
+    "vocabulary": [
+      {
+        "word": "fair",
+        "syllables": "fair",
+        "phonetic": "/feə/",
+        "definition": "An event where people show and sell goods or food.",
+        "example": "Our community centre organised an international food fair on the first Saturday in June.",
+        "emoji": "🎪"
+      },
+      {
+        "word": "stand",
+        "syllables": "stand",
+        "phonetic": "/stænd/",
+        "definition": "A table or small shop where things are sold at an event.",
+        "example": "The organisers arranged each stand around the central courtyard and provided reusable plates.",
+        "emoji": "🍽️"
+      },
+      {
+        "word": "dish",
+        "syllables": "dish",
+        "phonetic": "/dɪʃ/",
+        "definition": "Food that is prepared in a particular way as part of a meal.",
+        "example": "A chef explained how one dish can change when ingredients move between countries.",
+        "emoji": "🥘"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How many cultural backgrounds took part?",
+        "options": [
+          "Six",
+          "Twelve",
+          "Twenty",
+          "Thirty"
+        ],
+        "answerIndex": 1,
+        "explanation": "Families from twelve cultural backgrounds volunteered to prepare dishes for the event."
+      },
+      {
+        "question": "What did visitors receive?",
+        "options": [
+          "A recipe book",
+          "A tasting card",
+          "A free plate",
+          "A map"
+        ],
+        "answerIndex": 1,
+        "explanation": "Visitors received a tasting card that encouraged them to try six different foods."
+      },
+      {
+        "question": "What happened to unopened food?",
+        "options": [
+          "It was thrown away",
+          "It was delivered to a local shelter",
+          "It was sold the next day",
+          "It was frozen"
+        ],
+        "answerIndex": 1,
+        "explanation": "No food was wasted because unopened portions were delivered to a local shelter."
+      }
+    ],
+    "funPrompt": "Which family dish would you bring to a food festival, and what story would you tell about it?"
+  },
+  {
+    "id": 555,
+    "day": 55,
+    "track": "advanced",
+    "title": "Designing an Accessible Mobile App",
+    "coverEmoji": "📲",
+    "category": "Technology & Society",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "Students design a bus app by asking wheelchair users and people with limited sight what they need.",
+    "wordCount": 381,
+    "paragraphs": [
+      "Accessible technology enables people with different abilities to participate more fully in daily life. Our computing class decided to design a mobile app for the town's bus network. The project began with interviews rather than immediate coding or visual design. Students asked wheelchair users, older passengers, and people with limited sight about their journeys. Many users said that small text and confusing menus made travel information difficult to access.",
+      "Others needed clear audio announcements when they could not read a screen outdoors. Our team created a simple home page with large buttons and strong colour contrast. A voice option could read departure times and directions aloud through headphones. Users could tap one button to report a broken lift or blocked station entrance. The app would then suggest an alternative route with step-free access.",
+      "Maya wrote concise labels so every command was easy to understand. Tom built a prototype that worked on both older and newer mobile phones. During the first test, several participants missed the small settings icon. We increased its size and moved it to a more predictable position on the screen. Another issue appeared when the voice reader pronounced street names incorrectly.",
+      "The team recorded local pronunciations and adjusted the audio database. We also tested the app without colour to ensure that meaning did not depend on red or green alone. Vibration alerts warned passengers when their stop was approaching. All personal location data was stored only with the user's permission. Our teacher explained that privacy is part of responsible product design.",
+      "After each test, we grouped comments into urgent fixes and future improvements. The second prototype allowed users to enlarge text without breaking the page layout. A local accessibility adviser praised our willingness to listen and revise. She reminded us that one design cannot remove every barrier for every person. The transport company agreed to test the app on three busy routes.",
+      "Real passengers reported fewer missed stops and more confidence when changing buses. Our class published the source code so other schools could study the project. The experience showed that inclusive design improves products for many users, not only a small group. Good access begins when designers treat users as partners rather than problems. By combining technical skill with empathy, students can create more useful digital tools."
+    ],
+    "vocabulary": [
+      {
+        "word": "screen",
+        "syllables": "screen",
+        "phonetic": "/skriːn/",
+        "definition": "The flat part of a phone or computer where images and words appear.",
+        "example": "Others needed clear audio announcements when they could not read a screen outdoors.",
+        "emoji": "📱"
+      },
+      {
+        "word": "voice",
+        "syllables": "voice",
+        "phonetic": "/vɔɪs/",
+        "definition": "The sound someone makes when they speak.",
+        "example": "A voice option could read departure times and directions aloud through headphones.",
+        "emoji": "🔊"
+      },
+      {
+        "word": "issue",
+        "syllables": "is-sue",
+        "phonetic": "/ˈɪʃuː/",
+        "definition": "A problem or difficulty.",
+        "example": "Another issue appeared when the voice reader pronounced street names incorrectly.",
+        "emoji": "⚠️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How did the project begin?",
+        "options": [
+          "With coding",
+          "With interviews",
+          "With a design contest",
+          "With a school survey"
+        ],
+        "answerIndex": 1,
+        "explanation": "The project began with interviews rather than immediate coding or visual design."
+      },
+      {
+        "question": "What could the voice option do?",
+        "options": [
+          "Call a taxi",
+          "Read departure times and directions aloud",
+          "Translate into French",
+          "Take photos"
+        ],
+        "answerIndex": 1,
+        "explanation": "A voice option could read departure times and directions aloud through headphones."
+      },
+      {
+        "question": "Why did they test the app without colour?",
+        "options": [
+          "To save battery",
+          "To make sure meaning did not depend on red or green alone",
+          "To make it faster",
+          "To reduce cost"
+        ],
+        "answerIndex": 1,
+        "explanation": "We also tested the app without colour to ensure that meaning did not depend on red or green alone."
+      }
+    ],
+    "funPrompt": "What small design change would make a phone app easier for an older person to use?"
+  },
+  {
+    "id": 556,
+    "day": 56,
+    "track": "advanced",
+    "title": "A Day at the Fire Station",
+    "coverEmoji": "🚒",
+    "category": "Safety & Community",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "A fire station drill shows why crews check equipment, follow orders and never go back for possessions.",
+    "wordCount": 393,
+    "paragraphs": [
+      "Firefighters protect communities through prevention, training, and rapid emergency response. Last Tuesday, our class visited the central fire station for a safety programme. Watch Manager Harris welcomed us beside three red engines in the vehicle bay. He explained that every station receives emergency calls from a regional control room. Firefighters check breathing equipment, radios, and protective clothing at the start of each shift.",
+      "The crew invited us to examine a thermal camera used to locate heat through smoke. We learned that the heavy protective suit includes reflective strips and insulated gloves. Next, a firefighter unrolled a hose and connected it securely to the water supply. A pump on the engine can raise water pressure enough to reach upper floors. The team then performed a drill involving a pretend kitchen fire.",
+      "When the alarm sounded, each crew member moved quickly to an assigned position. One firefighter took charge of the hose while another checked the building plan. The station officer remained outside to track the crew and assess changing risks. Mr Harris stressed that no one should enter a burning building to rescue possessions. People should leave by the safest route, close doors, and call the emergency services.",
+      "We practised crawling beneath harmless stage smoke in a supervised training room. Staying low can reduce exposure to the hottest air and thickest smoke. After the drill, the crew demonstrated how a ladder is secured on uneven ground. They also showed us a cutting tool used after serious road collisions. Modern fire services respond to floods, chemical incidents, and medical emergencies as well as fires.",
+      "At lunchtime, we met the operator who watches several live information screens. She described how accurate details help controllers send the right resources without delay. A sudden test call required the crew to put on their equipment and board an engine. Although the call was part of the exercise, everyone treated it professionally. Before leaving, we checked smoke alarms and planned escape routes for our own homes.",
+      "The firefighters advised families to test each alarm regularly and replace weak batteries. Our class later designed a safety leaflet for elderly residents living alone. The station displayed the leaflets during its public open day. Seeing the crew work together revealed the discipline behind every emergency response. The visit taught us that fire safety begins long before anyone has to make an emergency call."
+    ],
+    "vocabulary": [
+      {
+        "word": "drill",
+        "syllables": "drill",
+        "phonetic": "/drɪl/",
+        "definition": "A practice exercise for an emergency.",
+        "example": "The team then performed a drill involving a pretend kitchen fire.",
+        "emoji": "🔔"
+      },
+      {
+        "word": "alarm",
+        "syllables": "a-larm",
+        "phonetic": "/əˈlɑːm/",
+        "definition": "A loud warning sound or device.",
+        "example": "When the alarm sounded, each crew member moved quickly to an assigned position.",
+        "emoji": "🚨"
+      },
+      {
+        "word": "charge",
+        "syllables": "charge",
+        "phonetic": "/tʃɑːdʒ/",
+        "definition": "To take control of or responsibility for something.",
+        "example": "One firefighter took charge of the hose while another checked the building plan.",
+        "emoji": "🧯"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What is a thermal camera used for?",
+        "options": [
+          "Taking photographs",
+          "Locating heat through smoke",
+          "Measuring wind",
+          "Recording sound"
+        ],
+        "answerIndex": 1,
+        "explanation": "The crew invited us to examine a thermal camera used to locate heat through smoke."
+      },
+      {
+        "question": "What did Mr Harris say people should never do?",
+        "options": [
+          "Close doors",
+          "Enter a burning building to rescue possessions",
+          "Call the emergency services",
+          "Leave by the safest route"
+        ],
+        "answerIndex": 1,
+        "explanation": "Mr Harris stressed that no one should enter a burning building to rescue possessions."
+      },
+      {
+        "question": "What did the class design later?",
+        "options": [
+          "A fire engine model",
+          "A safety leaflet for elderly residents",
+          "A new alarm",
+          "A poster for the station"
+        ],
+        "answerIndex": 1,
+        "explanation": "Our class later designed a safety leaflet for elderly residents living alone."
+      }
+    ],
+    "funPrompt": "What would you check in your own home tonight to make it safer from fire?"
+  },
+  {
+    "id": 557,
+    "day": 57,
+    "track": "advanced",
+    "title": "Producing a School Podcast",
+    "coverEmoji": "🎙️",
+    "category": "Media & Communication",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "A school podcast goes from a clear question and three guests to five hundred plays in a week.",
+    "wordCount": 391,
+    "paragraphs": [
+      "Podcasting gives students a flexible way to research ideas and share voices from their community. Our media club launched a monthly audio programme about school life and local events. Maya volunteered to host the first episode, which focused on teenage reading habits. The production team began by choosing a clear question and identifying suitable guests. We invited a librarian, two pupils, and a children's author to join the discussion.",
+      "Before recording, Tom tested each microphone and reduced the background noise in the room. Soft furnishings helped prevent the speakers' voices from producing a hollow echo. Maya prepared open questions that encouraged detailed answers rather than simple yes-or-no replies. She introduced each guest and explained the purpose of the episode to listeners. During the interview, the author described how childhood memories inspired her latest novel.",
+      "The librarian recommended free digital services for students who could not visit regularly. One pupil argued that graphic novels should receive more attention in English lessons. Maya kept the conversation balanced and invited quieter guests to contribute. After the interview, the team recorded a short review of three new library books. We saved every sound file with a clear name to avoid losing important material.",
+      "Tom used editing software to cut long pauses, repeated phrases, and accidental noises. He added a brief musical theme that the school orchestra had composed for the channel. The final programme lasted twenty minutes and included a written transcript for accessibility. Our teacher checked the episode for factual accuracy, respectful language, and copyright issues. The team obtained permission before using any music or personal story.",
+      "On Friday, we posted the episode on the secure school website. Listeners could follow the podcast channel and send suggestions for future topics. Within a week, the first episode had received more than five hundred plays. Several parents praised the clear sound and the thoughtful range of opinions. The club reviewed anonymous feedback and planned improvements for the next recording.",
+      "A student with hearing loss helped us make the transcript easier to navigate. The next episode will examine how local sports clubs support young people. Maya now feels more confident when speaking, listening, and responding without a script. Producing the podcast showed that careful editing can strengthen a message without changing its meaning. The project turned our media room into a lively channel for informed student conversation."
+    ],
+    "vocabulary": [
+      {
+        "word": "host",
+        "syllables": "host",
+        "phonetic": "/həʊst/",
+        "definition": "To introduce a programme and talk to its guests.",
+        "example": "Maya volunteered to host the first episode, which focused on teenage reading habits.",
+        "emoji": "🎤"
+      },
+      {
+        "word": "record",
+        "syllables": "re-cord",
+        "phonetic": "/rɪˈkɔːd/",
+        "definition": "To store sounds or pictures so they can be listened to later.",
+        "example": "After the interview, the team recorded a short review of three new library books.",
+        "emoji": "⏺️"
+      },
+      {
+        "word": "channel",
+        "syllables": "chan-nel",
+        "phonetic": "/ˈtʃænl/",
+        "definition": "A website or service where audio or video programmes are published.",
+        "example": "He added a brief musical theme that the school orchestra had composed for the channel.",
+        "emoji": "📡"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Who hosted the first episode?",
+        "options": [
+          "Tom",
+          "Maya",
+          "The librarian",
+          "The author"
+        ],
+        "answerIndex": 1,
+        "explanation": "Maya volunteered to host the first episode, which focused on teenage reading habits."
+      },
+      {
+        "question": "How long was the final programme?",
+        "options": [
+          "Ten minutes",
+          "Twenty minutes",
+          "Thirty minutes",
+          "One hour"
+        ],
+        "answerIndex": 1,
+        "explanation": "The final programme lasted twenty minutes and included a written transcript for accessibility."
+      },
+      {
+        "question": "How many plays did the episode get in its first week?",
+        "options": [
+          "Fifty",
+          "One hundred",
+          "More than five hundred",
+          "One thousand"
+        ],
+        "answerIndex": 2,
+        "explanation": "Within a week, the first episode had received more than five hundred plays."
+      }
+    ],
+    "funPrompt": "If you made a podcast about your school, what would your first episode be about?"
+  },
+  {
+    "id": 558,
+    "day": 58,
+    "track": "advanced",
+    "title": "Managing Exam Stress",
+    "coverEmoji": "🧘",
+    "category": "Health & Wellbeing",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "A school counsellor explains why short sessions, real breaks and asking for help beat last-minute panic.",
+    "wordCount": 402,
+    "paragraphs": [
+      "Exams can create pressure, but healthy preparation helps students remain focused and confident. Two months before the final tests, our school counsellor held a workshop on managing stress. She began by explaining that a moderate level of concern can motivate useful action. Problems arise when worry prevents sleep, concentration, or normal daily activities. Students listed common warning signs, including headaches, irritability, and constant tiredness.",
+      "The counsellor asked us to compare these signs with our usual behaviour rather than diagnose ourselves. Each pupil created a realistic revision plan with short sessions and specific goals. Dividing a large subject into smaller tasks can make progress easier to see. Tom decided to take a five-minute break after every forty minutes of concentrated study. During each break, he stretches, drinks water, or looks away from the screen.",
+      "Maya uses a simple breathing exercise to calm her mind before difficult practice papers. She also keeps her phone outside the room to reduce unnecessary interruptions. Regular meals provide steady energy and protect students from sudden changes in mood. Physical activity can improve sleep and give the brain a valuable rest from revision. Our teacher reminded us that studying all night usually reduces accuracy the next day.",
+      "A balanced timetable should include schoolwork, exercise, meals, and time with friends. Students were encouraged to support one another without comparing every test score. Helpful support involves listening calmly rather than dismissing another person's feelings. The workshop also challenged the belief that one examination determines an entire future. Results matter, but they are only one part of a student's wider development.",
+      "When pressure becomes overwhelming, pupils should speak to a trusted adult or health professional. Asking for help is a responsible response, not evidence of weakness. In the following weeks, Tom followed his plan and adjusted it when tasks took longer than expected. Maya kept one evening free each week so her mind could recover fully. Both students noticed that consistent revision created more confidence than last-minute panic.",
+      "On the morning of the first exam, they arrived early and avoided anxious conversations outside the hall. They read each question carefully, managed their time, and checked their work at the end. After the paper, they took a proper rest before preparing for the next subject. Healthy routines cannot remove every worry, but they can restore a sense of balance. Learning to manage stress is a lifelong skill that supports both achievement and well-being."
+    ],
+    "vocabulary": [
+      {
+        "word": "pressure",
+        "syllables": "pres-sure",
+        "phonetic": "/ˈpreʃə/",
+        "definition": "A feeling of worry caused by something important or difficult.",
+        "example": "Exams can create pressure, but healthy preparation helps students remain focused and confident.",
+        "emoji": "😰"
+      },
+      {
+        "word": "break",
+        "syllables": "break",
+        "phonetic": "/breɪk/",
+        "definition": "A short period when you stop working and rest.",
+        "example": "Tom decided to take a five-minute break after every forty minutes of concentrated study.",
+        "emoji": "⏸️"
+      },
+      {
+        "word": "balance",
+        "syllables": "bal-ance",
+        "phonetic": "/ˈbæləns/",
+        "definition": "A steady and sensible mixture of different parts of your life.",
+        "example": "Healthy routines cannot remove every worry, but they can restore a sense of balance.",
+        "emoji": "⚖️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How long does Tom study before taking a break?",
+        "options": [
+          "Twenty minutes",
+          "Thirty minutes",
+          "Forty minutes",
+          "One hour"
+        ],
+        "answerIndex": 2,
+        "explanation": "Tom decided to take a five-minute break after every forty minutes of concentrated study."
+      },
+      {
+        "question": "What does Maya do before difficult practice papers?",
+        "options": [
+          "Drinks coffee",
+          "Uses a breathing exercise",
+          "Runs outside",
+          "Listens to music"
+        ],
+        "answerIndex": 1,
+        "explanation": "Maya uses a simple breathing exercise to calm her mind before difficult practice papers."
+      },
+      {
+        "question": "What should pupils do when pressure feels overwhelming?",
+        "options": [
+          "Study all night",
+          "Speak to a trusted adult or health professional",
+          "Keep it secret",
+          "Skip meals"
+        ],
+        "answerIndex": 1,
+        "explanation": "When pressure becomes overwhelming, pupils should speak to a trusted adult or health professional."
+      }
+    ],
+    "funPrompt": "What is one small thing you could do this week to feel calmer about school?"
+  },
+  {
+    "id": 559,
+    "day": 59,
+    "track": "advanced",
+    "title": "Launching a Student Social Enterprise",
+    "coverEmoji": "♻️",
+    "category": "Money & Society",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "A class turns unwanted fabric into lunch bags, reuses the profit and gives eight hundred pounds away.",
+    "wordCount": 387,
+    "paragraphs": [
+      "A social enterprise uses business methods to address a community or environmental need. Our economics class decided to create reusable lunch bags from unwanted fabric. The idea combined practical sewing skills with a plan to reduce disposable packaging. Before investing any capital, we surveyed pupils about size, colour, and price preferences. The survey showed a clear market for durable bags costing less than ten pounds.",
+      "Maya prepared a budget covering fabric, thread, labels, and online payment fees. A local tailor donated offcuts and taught volunteers how to cut material safely. Students worked in teams responsible for design, production, marketing, and finance. Each bag carried a label explaining that part of the profit would support the food bank. Our first production run created fifty bags in four simple designs.",
+      "Tom photographed the products and opened a secure sales account on the school website. Customers could choose delivery to a classroom or collection from the library desk. The launch attracted strong interest because the bags were useful and reasonably priced. Within three days, every item had sold and several customers requested new colours. The finance team recorded each sale and checked the account balance every afternoon.",
+      "We calculated that the first batch produced a modest return after all costs were paid. Half of the profit was reinvested, while the remainder went to the food bank. The class agreed to share responsibility rather than give one student complete control. Weekly meetings allowed each team to report problems and suggest improvements. When a supplier raised its prices, Maya compared three alternative sources.",
+      "The group rejected cheaper fabric that was likely to tear after repeated use. Protecting product quality was essential for maintaining customer trust. We later introduced a repair service that extended the life of damaged bags. This service reduced waste and gave sewing students more advanced practice. At the end of term, the enterprise had donated eight hundred pounds to local families.",
+      "It had also prevented hundreds of disposable plastic bags from entering the waste stream. Several pupils developed an interest in ethical business and sustainable design careers. The final accounts were published openly so students could evaluate the project's impact. Our return was measured not only in money but also in skills, confidence, and community benefit. The enterprise proved that responsible trade can create both economic and social value."
+    ],
+    "vocabulary": [
+      {
+        "word": "capital",
+        "syllables": "cap-i-tal",
+        "phonetic": "/ˈkæpɪtl/",
+        "definition": "Money that is used to start or run a business.",
+        "example": "Before investing any capital, we surveyed pupils about size, colour, and price preferences.",
+        "emoji": "💵"
+      },
+      {
+        "word": "market",
+        "syllables": "mar-ket",
+        "phonetic": "/ˈmɑːkɪt/",
+        "definition": "The demand for a product, or the people who might buy it.",
+        "example": "The survey showed a clear market for durable bags costing less than ten pounds.",
+        "emoji": "📊"
+      },
+      {
+        "word": "share",
+        "syllables": "share",
+        "phonetic": "/ʃeə/",
+        "definition": "To divide something among several people, or to use it together.",
+        "example": "The class agreed to share responsibility rather than give one student complete control.",
+        "emoji": "🤝"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What product did the class make?",
+        "options": [
+          "Paper notebooks",
+          "Reusable lunch bags from unwanted fabric",
+          "Recycled pens",
+          "Cotton T-shirts"
+        ],
+        "answerIndex": 1,
+        "explanation": "Our economics class decided to create reusable lunch bags from unwanted fabric."
+      },
+      {
+        "question": "How much had the enterprise donated by the end of term?",
+        "options": [
+          "Two hundred pounds",
+          "Five hundred pounds",
+          "Eight hundred pounds",
+          "One thousand pounds"
+        ],
+        "answerIndex": 2,
+        "explanation": "At the end of term, the enterprise had donated eight hundred pounds to local families."
+      },
+      {
+        "question": "What cheaper material did the group reject?",
+        "options": [
+          "Recycled paper",
+          "Fabric that was likely to tear",
+          "Old curtains",
+          "Cotton offcuts"
+        ],
+        "answerIndex": 1,
+        "explanation": "The group rejected cheaper fabric that was likely to tear after repeated use."
+      }
+    ],
+    "funPrompt": "If your class started a small business to help others, what would you make or sell?"
+  },
+  {
+    "id": 560,
+    "day": 60,
+    "track": "advanced",
+    "title": "A Model United Nations Conference",
+    "coverEmoji": "🌐",
+    "category": "Global Issues & Debate",
+    "level": "Advanced",
+    "readingTime": "6 mins",
+    "intro": "A one-day Model UN on clean water: amendments, abstentions and a resolution that passes by twenty-two votes.",
+    "wordCount": 359,
+    "paragraphs": [
+      "Model United Nations conferences help students practise diplomacy, research, and formal public speaking. This year, our school hosted a one-day conference on access to clean water. Each participant represented a country and researched its geography, economy, and water challenges. Maya served as the chair and opened the meeting with a reminder about respectful debate. Delegates raised their country cards when they wished to take the floor.",
+      "The first speaker described how drought threatened farming communities in her region. Another delegate explained that damaged pipes wasted water in rapidly growing cities. Participants had to distinguish reliable evidence from unsupported online claims. Tom made a point about the need for affordable technology in rural areas. The chair asked him to connect his point more directly to the proposed solution.",
+      "During a short break, delegates formed groups with countries sharing similar concerns. They began to draft a resolution calling for training, investment, and transparent monitoring. Some countries wanted firm targets, while others feared unrealistic financial demands. The groups revised the draft until its language was both ambitious and practical. After lunch, Maya introduced a formal motion to begin discussion of amendments.",
+      "One amendment added support for communities affected by floods as well as drought. Another proposed an independent review of how international funds were spent. Delegates spoke for and against each change before casting their votes. The debate remained energetic, but personal criticism was ruled out of order. Maya used the gavel only when several speakers tried to interrupt at once.",
+      "The final resolution passed with twenty-two votes in favour and four abstentions. Although the document was not legally binding, it reflected genuine negotiation. Students realised that compromise requires careful listening as well as persuasive speech. A visiting diplomat praised the delegates for asking precise questions about implementation. She explained that real international agreements often take years to complete.",
+      "At the closing ceremony, awards recognised research, cooperation, and improvement. Tom received a commendation for responding constructively to opposing points. Maya thanked the organising team, interpreters, and technical volunteers. The conference gave abstract global issues a clear human dimension. By taking the floor responsibly, students learned how informed dialogue can support peaceful solutions."
+    ],
+    "vocabulary": [
+      {
+        "word": "chair",
+        "syllables": "chair",
+        "phonetic": "/tʃeə/",
+        "definition": "The person who leads a meeting or committee.",
+        "example": "Maya served as the chair and opened the meeting with a reminder about respectful debate.",
+        "emoji": "🔨"
+      },
+      {
+        "word": "floor",
+        "syllables": "floor",
+        "phonetic": "/flɔː/",
+        "definition": "The right to speak in a formal meeting.",
+        "example": "Delegates raised their country cards when they wished to take the floor.",
+        "emoji": "🗣️"
+      },
+      {
+        "word": "draft",
+        "syllables": "draft",
+        "phonetic": "/drɑːft/",
+        "definition": "A first version of a document that can be changed later.",
+        "example": "They began to draft a resolution calling for training, investment, and transparent monitoring.",
+        "emoji": "📝"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How many votes were in favour of the final resolution?",
+        "options": [
+          "Twelve",
+          "Twenty-two",
+          "Thirty",
+          "Four"
+        ],
+        "answerIndex": 1,
+        "explanation": "The final resolution passed with twenty-two votes in favour and four abstentions."
+      },
+      {
+        "question": "How many countries abstained?",
+        "options": [
+          "Two",
+          "Four",
+          "Six",
+          "Ten"
+        ],
+        "answerIndex": 1,
+        "explanation": "The final resolution passed with twenty-two votes in favour and four abstentions."
+      },
+      {
+        "question": "What did Tom receive at the closing ceremony?",
+        "options": [
+          "A medal",
+          "A commendation",
+          "A book",
+          "A trophy"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tom received a commendation for responding constructively to opposing points."
+      }
+    ],
+    "funPrompt": "If you represented a country in a Model UN debate, which global problem would you speak about first?"
   }
 ];
 
