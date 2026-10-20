@@ -1500,7 +1500,12 @@ function launchConfetti() {
 }
 
 // ==========================================
-// SHADOWING: read a sentence aloud, get word-level feedback
+// SHADOWING: read a sentence aloud
+//
+// Recording and speech recognition both need the microphone, and on iOS
+// holding the mic twice at once deadlocks the audio session (the page
+// freezes). So they are mutually exclusive: one button scores your reading
+// with recognition, the other just records you for an A/B comparison.
 // ==========================================
 const SHADOW_KEY = STORAGE_PREFIX + "shadow_scores";
 const SHADOW_STOPWORDS = new Set(("a an the and or but if so of to in on at for with from by as " +
@@ -1517,16 +1522,17 @@ const SHADOW_EXPAND = {
 
 let shadowState = {
   p: 0, s: 0, target: "",
-  recording: false,
-  mediaRecorder: null,
-  chunks: [],
-  stream: null,
-  audioEl: null,
-  audioUrl: null,
+  mode: null,          // null | "score" | "record"
   recognition: null,
+  mediaRecorder: null,
+  stream: null,
+  chunks: [],
   finalTranscript: "",
   interimTranscript: "",
-  hardTimer: null
+  audioEl: null,
+  audioUrl: null,
+  watchdog: null,
+  lastInterimAt: 0
 };
 
 function shadowSupported() {
@@ -1563,6 +1569,44 @@ function setShadowStatus(msg) {
   if (el) el.textContent = msg;
 }
 
+function resetShadowButtons() {
+  const scoreBtn = document.getElementById("shadowScoreBtn");
+  const recBtn = document.getElementById("shadowRecordBtn");
+  if (scoreBtn) {
+    scoreBtn.disabled = false;
+    scoreBtn.classList.remove("recording");
+    scoreBtn.textContent = "🎯 跟读评分";
+  }
+  if (recBtn) {
+    recBtn.disabled = false;
+    recBtn.classList.remove("recording");
+    recBtn.textContent = "🎧 录音对比";
+  }
+}
+
+function markShadowBusy(which) {
+  resetShadowButtons();
+  const scoreBtn = document.getElementById("shadowScoreBtn");
+  const recBtn = document.getElementById("shadowRecordBtn");
+  if (which === "score") {
+    if (scoreBtn) { scoreBtn.textContent = "⏹ 停止"; scoreBtn.classList.add("recording"); }
+    if (recBtn) recBtn.disabled = true;
+  } else {
+    if (recBtn) { recBtn.textContent = "⏹ 停止"; recBtn.classList.add("recording"); }
+    if (scoreBtn) scoreBtn.disabled = true;
+  }
+}
+
+function armShadowWatchdog() {
+  clearTimeout(shadowState.watchdog);
+  shadowState.watchdog = setTimeout(() => {
+    if (shadowState.mode) {
+      stopShadowActive();
+      setShadowStatus("这次没成功，再试一次吧。");
+    }
+  }, 16000);
+}
+
 function openShadowPanel(pIdx, sIdx) {
   const story = getStoryById(currentStoryId);
   if (!story) return;
@@ -1570,57 +1614,60 @@ function openShadowPanel(pIdx, sIdx) {
   const text = sentences[sIdx];
   if (!text) return;
 
+  stopShadowActive();
+  cleanupShadowAudio();
+
   shadowState.p = pIdx;
   shadowState.s = sIdx;
   shadowState.target = text;
   shadowState.finalTranscript = "";
   shadowState.interimTranscript = "";
 
-  stopSpeech();
-  cleanupShadowAudio();
-
   const panel = document.getElementById("shadowPanel");
   document.getElementById("shadowTarget").textContent = text;
   document.getElementById("shadowResult").innerHTML = "";
   document.getElementById("shadowReplayBtn").style.display = "none";
-  panel.classList.add("open");
+  if (panel) panel.classList.add("open");
 
-  const best = shadowScores()[shadowKey(pIdx, sIdx)] || 0;
-  if (!shadowSupported()) {
-    setShadowStatus("这个浏览器不能录音，换 Safari 或 Chrome 试试。");
-  } else if (!shadowRecognitionSupported()) {
-    setShadowStatus("可以录音，但这台设备不支持语音识别——只能自己回听对比。");
-  } else {
-    setShadowStatus(best ? "最好成绩 " + "⭐".repeat(best) + " · 再读一次挑战更高" : "先听一遍标准音，然后点「开始跟读」");
+  resetShadowButtons();
+  const scoreBtn = document.getElementById("shadowScoreBtn");
+  const recBtn = document.getElementById("shadowRecordBtn");
+  if (scoreBtn) scoreBtn.disabled = !shadowRecognitionSupported();
+  if (recBtn) recBtn.disabled = !shadowSupported();
+
+  if (!shadowRecognitionSupported() && !shadowSupported()) {
+    setShadowStatus("这个浏览器不能用麦克风，换 Safari 或 Chrome 试试。");
+    return;
   }
-
-  setTimeout(() => {
-    if (document.getElementById("shadowPanel").classList.contains("open")) {
-      speakSentence(pIdx, sIdx);
-    }
-  }, 150);
+  if (!shadowRecognitionSupported()) {
+    setShadowStatus("这台设备不支持语音评分，可以用「录音对比」自己听。");
+  } else {
+    const best = shadowScores()[shadowKey(pIdx, sIdx)] || 0;
+    setShadowStatus(best ? "最好成绩 " + "⭐".repeat(best) : "先听一遍，再点「跟读评分」");
+  }
 }
 
 function closeShadowPanel() {
-  if (shadowState.recording) stopShadowRecording();
+  stopShadowActive();
   cleanupShadowAudio();
   const panel = document.getElementById("shadowPanel");
   if (panel) panel.classList.remove("open");
 }
 
 function shadowPlayTarget() {
-  if (shadowState.recording) stopShadowRecording();
+  if (shadowState.mode) stopShadowActive();
   speakSentence(shadowState.p, shadowState.s);
 }
 
 function shadowReset() {
-  if (shadowState.recording) stopShadowRecording();
+  stopShadowActive();
   cleanupShadowAudio();
   shadowState.finalTranscript = "";
   shadowState.interimTranscript = "";
   document.getElementById("shadowResult").innerHTML = "";
   document.getElementById("shadowReplayBtn").style.display = "none";
-  setShadowStatus("再试一次吧：先听，再读。");
+  resetShadowButtons();
+  setShadowStatus("再试一次：先听，再读。");
 }
 
 function cleanupShadowAudio() {
@@ -1632,81 +1679,54 @@ function cleanupShadowAudio() {
     try { URL.revokeObjectURL(shadowState.audioUrl); } catch (err) {}
     shadowState.audioUrl = null;
   }
+  stopShadowTracks();
+  shadowState.chunks = [];
+}
+
+function stopShadowTracks() {
   if (shadowState.stream) {
     try { shadowState.stream.getTracks().forEach(t => t.stop()); } catch (err) {}
     shadowState.stream = null;
   }
-  shadowState.chunks = [];
 }
 
 function shadowPickMime() {
   if (!window.MediaRecorder) return "";
-  const candidates = ["audio/mp4", "audio/webm", "audio/ogg"];
-  for (const m of candidates) {
+  const list = ["audio/mp4", "audio/webm", "audio/ogg"];
+  for (const m of list) {
     try { if (MediaRecorder.isTypeSupported(m)) return m; } catch (err) {}
   }
   return "";
 }
 
-async function shadowToggleRecord() {
-  if (shadowState.recording) { stopShadowRecording(); return; }
-  if (!shadowSupported()) { setShadowStatus("这个浏览器不能录音。"); return; }
-
-  // Stop the model voice first, otherwise it gets recorded too.
-  try { window.speechSynthesis.cancel(); } catch (err) {}
-  await new Promise(r => setTimeout(r, 320));
-
-  let stream;
-  try {
-    stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-  } catch (err) {
-    setShadowStatus("没有拿到麦克风权限。请在 Safari 里允许本网站使用麦克风后重试。");
+// --- mode 1: recognition scoring (microphone belongs to the recogniser) ---
+function startShadowScore() {
+  if (shadowState.mode === "score") { stopShadowActive(); return; }
+  if (shadowState.mode) stopShadowActive();
+  if (!shadowRecognitionSupported()) {
+    setShadowStatus("这台设备不支持语音评分，请用「录音对比」。");
     return;
   }
 
-  shadowState.stream = stream;
-  shadowState.chunks = [];
+  try { window.speechSynthesis.cancel(); } catch (err) {}
+
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  let rec;
+  try { rec = new SR(); } catch (err) {
+    setShadowStatus("语音识别启动失败。");
+    return;
+  }
+  rec.lang = "en-US";
+  rec.continuous = false;
+  rec.interimResults = true;
+  rec.maxAlternatives = 1;
+
   shadowState.finalTranscript = "";
   shadowState.interimTranscript = "";
+  shadowState.mode = "score";
 
-  const mime = shadowPickMime();
-  try {
-    shadowState.mediaRecorder = mime
-      ? new MediaRecorder(stream, { mimeType: mime })
-      : new MediaRecorder(stream);
-  } catch (err) {
-    setShadowStatus("录音启动失败，请重试。");
-    cleanupShadowAudio();
-    return;
-  }
-
-  shadowState.mediaRecorder.ondataavailable = (e) => {
-    if (e.data && e.data.size) shadowState.chunks.push(e.data);
-  };
-  shadowState.mediaRecorder.onstop = finalizeShadowRecording;
-  shadowState.mediaRecorder.start();
-
-  shadowState.recording = true;
-  const micBtn = document.getElementById("shadowMicBtn");
-  micBtn.textContent = "⏹ 停止";
-  micBtn.classList.add("recording");
-  setShadowStatus("正在听… 请大声读这句话");
-
-  startShadowRecognition();
-  shadowState.hardTimer = setTimeout(() => { if (shadowState.recording) stopShadowRecording(); }, 15000);
-}
-
-function startShadowRecognition() {
-  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-  if (!SR) return;
-  try {
-    const rec = new SR();
-    rec.lang = "en-US";
-    rec.continuous = false;
-    rec.interimResults = true;
-    rec.maxAlternatives = 1;
-
-    rec.onresult = (ev) => {
+  rec.onresult = (ev) => {
+    try {
       let interim = "";
       for (let i = ev.resultIndex; i < ev.results.length; i++) {
         const r = ev.results[i];
@@ -1714,68 +1734,159 @@ function startShadowRecognition() {
         else interim += r[0].transcript;
       }
       shadowState.interimTranscript = interim;
-      const shown = (shadowState.finalTranscript + interim).trim();
-      if (shown) setShadowStatus("听到：" + shown);
-    };
-
-    rec.onerror = (e) => {
-      if (e.error === "no-speech") setShadowStatus("没有听到声音，靠近一点再读一次？");
-      else if (e.error === "not-allowed" || e.error === "service-not-allowed") setShadowStatus("语音识别被拒绝，请在设置里允许麦克风与语音识别。");
-      else setShadowStatus("识别出错：" + e.error);
-    };
-
-    rec.onend = () => {
-      if (shadowState.recording) {
-        setTimeout(() => { if (shadowState.recording) stopShadowRecording(); }, 400);
+      const now = Date.now();
+      if (now - shadowState.lastInterimAt > 300) {
+        shadowState.lastInterimAt = now;
+        const shown = (shadowState.finalTranscript + interim).trim();
+        if (shown) setShadowStatus("听到：" + shown);
       }
-    };
+    } catch (err) {}
+  };
 
-    shadowState.recognition = rec;
-    rec.start();
+  rec.onerror = (e) => {
+    const msg = e && e.error === "no-speech" ? "没有听到声音，靠近一点再读。"
+      : (e && (e.error === "not-allowed" || e.error === "service-not-allowed")) ? "麦克风或语音识别被拒绝，请在设置里允许。"
+      : "识别出错，再试一次。";
+    finishShadowScore(msg);
+  };
+
+  rec.onend = () => { finishShadowScore(); };
+
+  shadowState.recognition = rec;
+  markShadowBusy("score");
+  setShadowStatus("请读这句话…");
+  armShadowWatchdog();
+  try { rec.start(); } catch (err) { finishShadowScore("识别没能启动，再试一次。"); }
+}
+
+function finishShadowScore(overrideMsg) {
+  const rec = shadowState.recognition;
+  shadowState.recognition = null;
+  if (rec) {
+    try { rec.onresult = null; rec.onerror = null; rec.onend = null; rec.stop(); } catch (err) {}
+  }
+  const wasScoring = shadowState.mode === "score";
+  shadowState.mode = null;
+  clearTimeout(shadowState.watchdog);
+  resetShadowButtons();
+  if (!wasScoring) return;
+
+  if (overrideMsg) { setShadowStatus(overrideMsg); return; }
+  const heard = (shadowState.finalTranscript || shadowState.interimTranscript || "").trim();
+  if (!heard) { setShadowStatus("没有识别到内容。先点「听标准音」，再读一遍。"); return; }
+  evaluateShadow(heard);
+}
+
+// --- mode 2: plain recording for A/B comparison ---
+async function startShadowRecord() {
+  if (shadowState.mode === "record") { stopShadowActive(); return; }
+  if (shadowState.mode) stopShadowActive();
+  if (!shadowSupported()) {
+    setShadowStatus("这个浏览器不能录音。");
+    return;
+  }
+
+  try { window.speechSynthesis.cancel(); } catch (err) {}
+  await new Promise(r => setTimeout(r, 320));
+
+  let stream;
+  try {
+    stream = await navigator.mediaDevices.getUserMedia({ audio: true });
   } catch (err) {
-    shadowState.recognition = null;
+    setShadowStatus("没有拿到麦克风权限，请在 Safari 设置里允许后重试。");
+    return;
+  }
+
+  shadowState.stream = stream;
+  shadowState.chunks = [];
+  shadowState.mode = "record";
+
+  const mime = shadowPickMime();
+  let mr;
+  try {
+    mr = mime ? new MediaRecorder(stream, { mimeType: mime }) : new MediaRecorder(stream);
+  } catch (err) {
+    shadowState.mode = null;
+    stopShadowTracks();
+    setShadowStatus("录音启动失败，再试一次。");
+    return;
+  }
+
+  mr.ondataavailable = (e) => {
+    try { if (e.data && e.data.size) shadowState.chunks.push(e.data); } catch (err) {}
+  };
+  mr.onstop = () => {
+    try {
+      // Release the mic only after the recorder has finished flushing,
+      // otherwise iOS can wedge the audio session.
+      stopShadowTracks();
+      finalizeShadowRecording();
+    } catch (err) {
+      setShadowStatus("录音处理失败，再试一次。");
+    } finally {
+      shadowState.mode = null;
+      clearTimeout(shadowState.watchdog);
+      resetShadowButtons();
+    }
+  };
+
+  shadowState.mediaRecorder = mr;
+  markShadowBusy("record");
+  setShadowStatus("正在录音… 读完点「停止」");
+  armShadowWatchdog();
+  try { mr.start(); } catch (err) {
+    shadowState.mode = null;
+    stopShadowTracks();
+    resetShadowButtons();
+    setShadowStatus("录音没能启动，再试一次。");
   }
 }
 
-function stopShadowRecording() {
-  if (!shadowState.recording) return;
-  shadowState.recording = false;
-  clearTimeout(shadowState.hardTimer);
+function stopShadowActive() {
+  clearTimeout(shadowState.watchdog);
 
-  if (shadowState.recognition) {
-    try { shadowState.recognition.stop(); } catch (err) {}
-    shadowState.recognition = null;
+  if (shadowState.mode === "score") {
+    finishShadowScore();
+    return;
   }
-  if (shadowState.mediaRecorder && shadowState.mediaRecorder.state !== "inactive") {
-    try { shadowState.mediaRecorder.stop(); } catch (err) {}
+  if (shadowState.mode === "record") {
+    const mr = shadowState.mediaRecorder;
+    shadowState.mediaRecorder = null;
+    shadowState.mode = null;
+    if (mr && mr.state !== "inactive") {
+      try { mr.stop(); } catch (err) { stopShadowTracks(); resetShadowButtons(); }
+    } else {
+      stopShadowTracks();
+      resetShadowButtons();
+    }
+    return;
   }
-  if (shadowState.stream) {
-    try { shadowState.stream.getTracks().forEach(t => t.stop()); } catch (err) {}
-    shadowState.stream = null;
-  }
-
-  const micBtn = document.getElementById("shadowMicBtn");
-  micBtn.textContent = "🎤 开始跟读";
-  micBtn.classList.remove("recording");
+  shadowState.mode = null;
+  shadowState.mediaRecorder = null;
+  shadowState.recognition = null;
+  stopShadowTracks();
+  resetShadowButtons();
 }
 
 function finalizeShadowRecording() {
-  if (shadowState.chunks.length) {
+  if (!shadowState.chunks.length) {
+    setShadowStatus("没有录到声音，再试一次（读完记得点「停止」）。");
+    return;
+  }
+  try {
     const type = shadowState.chunks[0].type || "audio/mp4";
     const blob = new Blob(shadowState.chunks, { type: type });
     if (shadowState.audioUrl) { try { URL.revokeObjectURL(shadowState.audioUrl); } catch (err) {} }
     shadowState.audioUrl = URL.createObjectURL(blob);
-    document.getElementById("shadowReplayBtn").style.display = "inline-flex";
+    const replayBtn = document.getElementById("shadowReplayBtn");
+    if (replayBtn) replayBtn.style.display = "inline-flex";
+    setShadowStatus("录好了。点「听我的」，和标准音对比一下。");
+  } catch (err) {
+    setShadowStatus("录音保存失败，再试一次。");
   }
-
-  const heard = (shadowState.finalTranscript || shadowState.interimTranscript || "").trim();
-  if (!heard) {
-    setShadowStatus("没有识别到内容。先点「听标准音」，再大声读一遍。");
-    return;
-  }
-  evaluateShadow(heard);
 }
 
+// --- comparison helpers ---
 function shadowNormalize(text) {
   return String(text || "")
     .toLowerCase()
@@ -1793,8 +1904,8 @@ function shadowLev(a, b) {
   if (a === b) return 0;
   if (Math.abs(a.length - b.length) > 2) return 9;
   const m = a.length, n = b.length;
-  const prev = new Array(n + 1);
-  const cur = new Array(n + 1);
+  let prev = new Array(n + 1);
+  let cur = new Array(n + 1);
   for (let j = 0; j <= n; j++) prev[j] = j;
   for (let i = 1; i <= m; i++) {
     cur[0] = i;
@@ -1802,13 +1913,13 @@ function shadowLev(a, b) {
       const cost = a[i - 1] === b[j - 1] ? 0 : 1;
       cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + cost);
     }
-    for (let j = 0; j <= n; j++) prev[j] = cur[j];
+    const t = prev; prev = cur; cur = t;
   }
   return prev[n];
 }
 
-// Strip common English inflections so "walked / walking / walks" all count as
-// "walk", while genuinely different words (quiet / quite) stay different.
+// Strip English inflections so walked / walking / walks all count as "walk",
+// while genuinely different words (quiet / quite) stay different.
 function shadowStem(w) {
   let x = String(w || "");
   if (x.length > 4 && /ies$/.test(x)) return x.slice(0, -3) + "y";
@@ -1867,71 +1978,69 @@ function alignShadowWords(target, heard) {
 }
 
 function evaluateShadow(heard) {
-  const targetWords = shadowNormalize(shadowState.target);
-  const heardWords = shadowNormalize(heard);
-  if (!targetWords.length) return;
+  try {
+    const targetWords = shadowNormalize(shadowState.target);
+    const heardWords = shadowNormalize(heard);
+    if (!targetWords.length) return;
 
-  const ops = alignShadowWords(targetWords, heardWords);
-  let contentMatched = 0, contentTotal = 0, minor = 0, miss = 0, wrong = 0;
+    const ops = alignShadowWords(targetWords, heardWords);
+    let contentMatched = 0, contentTotal = 0, minor = 0, miss = 0, wrong = 0;
 
-  const decorated = ops.map((o) => {
-    if (o.type === "extra") return null;
+    const decorated = ops.map((o) => {
+      if (o.type === "extra") return null;
+      const isStop = SHADOW_STOPWORDS.has(o.target);
+      if (!isStop) contentTotal++;
 
-    const isStop = SHADOW_STOPWORDS.has(o.target);
-    if (!isStop) contentTotal++;
+      const isMatch = o.type === "match" || (o.type === "sub" && shadowSameWord(o.target, o.heard));
+      if (isMatch) {
+        if (!isStop) contentMatched++;
+        return { level: "ok", target: o.target };
+      }
+      if (isStop) { minor++; return { level: "minor", target: o.target }; }
+      if (o.type === "miss") { miss++; return { level: "miss", target: o.target }; }
+      wrong++;
+      return { level: "wrong", target: o.target, heard: o.heard };
+    }).filter(Boolean);
 
-    // A word counts as correct when it matches exactly, or when the recogniser
-    // simply heard an inflected form of it (walked / walk, carried / carry).
-    const isMatch = o.type === "match" ||
-      (o.type === "sub" && shadowSameWord(o.target, o.heard));
+    const ratio = contentTotal ? contentMatched / contentTotal : 1;
+    const stars = ratio >= 0.85 ? 3 : ratio >= 0.6 ? 2 : ratio >= 0.3 ? 1 : 0;
 
-    if (isMatch) {
-      if (!isStop) contentMatched++;
-      return { level: "ok", target: o.target };
+    const words = decorated.map((d) => {
+      const title = d.level === "wrong" ? " 读成了「" + d.heard + "」" : (d.level === "miss" ? " 漏读了" : "");
+      return '<span class="shadow-word shadow-' + d.level + '" title="' + shadowEscape(title) + '">' +
+        shadowEscape(d.target) + "</span>";
+    }).join(" ");
+
+    const hint = stars === 3 ? "Perfect! 读得很清楚。"
+      : stars === 2 ? "Good! 标出的词再读清楚一点。"
+      : stars === 1 ? "差不多，先听一遍标准音再读。"
+      : "别急，跟着标准音慢慢读。";
+
+    const box = document.getElementById("shadowResult");
+    if (box) {
+      box.innerHTML =
+        '<div class="shadow-stars">' + (stars ? "⭐".repeat(stars) : "·") + "</div>" +
+        '<div class="shadow-words">' + words + "</div>" +
+        '<div class="shadow-hint">' + hint + "</div>";
     }
 
-    // Function words are shown in yellow as a hint, but never cost a star.
-    if (isStop) {
-      minor++;
-      return { level: "minor", target: o.target };
-    }
-    if (o.type === "miss") {
-      miss++;
-      return { level: "miss", target: o.target };
-    }
-    wrong++;
-    return { level: "wrong", target: o.target, heard: o.heard };
-  }).filter(Boolean);
-
-  const total = Math.max(1, decorated.length);
-  const ratio = contentTotal ? contentMatched / contentTotal : 1;
-  const stars = ratio >= 0.85 ? 3 : ratio >= 0.6 ? 2 : ratio >= 0.3 ? 1 : 0;
-
-  const words = decorated.map((d) => {
-    const title = d.level === "wrong" ? " 读成了「" + d.heard + "」" : (d.level === "miss" ? " 漏读了" : "");
-    return '<span class="shadow-word shadow-' + d.level + '" title="' + shadowEscape(title) + '">' +
-      shadowEscape(d.target) + "</span>";
-  }).join(" ");
-
-  const hint = stars === 3 ? "Perfect! 读得很清楚。"
-    : stars === 2 ? "Good! 黄色的词再读清楚一点。"
-    : stars === 1 ? "差不多，先听一遍标准音再读。"
-    : "别急，跟着标准音慢慢读。";
-
-  document.getElementById("shadowResult").innerHTML =
-    '<div class="shadow-stars">' + (stars ? "⭐".repeat(stars) : "·") + "</div>" +
-    '<div class="shadow-words">' + words + "</div>" +
-    '<div class="shadow-hint">' + hint + "</div>";
-
-  setShadowStatus("实词读对 " + contentMatched + " / " + Math.max(1, contentTotal) + " 个" + (miss + wrong ? "，标出的词再试一次" : ""));
-  if (stars) saveShadowScore(stars);
+    setShadowStatus("实词读对 " + contentMatched + " / " + Math.max(1, contentTotal) + " 个" +
+      (miss + wrong ? "，标出的词再试一次" : ""));
+    if (stars) saveShadowScore(stars);
+  } catch (err) {
+    setShadowStatus("评分出错，再试一次。");
+  }
 }
 
 function shadowPlayMine() {
   if (!shadowState.audioUrl) return;
-  if (shadowState.audioEl) { try { shadowState.audioEl.pause(); } catch (err) {} }
-  const a = new Audio(shadowState.audioUrl);
-  shadowState.audioEl = a;
-  const p = a.play();
-  if (p && p.catch) p.catch(() => setShadowStatus("回放失败，可能是录音为空。"));
+  try {
+    if (shadowState.audioEl) { try { shadowState.audioEl.pause(); } catch (err) {} }
+    const a = new Audio(shadowState.audioUrl);
+    shadowState.audioEl = a;
+    const p = a.play();
+    if (p && p.catch) p.catch(() => setShadowStatus("回放失败，可能没录到声音。"));
+  } catch (err) {
+    setShadowStatus("回放失败。");
+  }
 }
