@@ -2586,7 +2586,7 @@ const MONTH3_STORIES = [
     ],
     "quiz": [
       {
-        "question": "How far did Tom jog each morning?",
+        "question": "How far did Tom jog on his morning run?",
         "options": [
           "One kilometre",
           "Two kilometres",
@@ -3041,7 +3041,7 @@ const MONTH3_STORIES = [
     "intro": "A rainy commute nearly ruins Sarah's job interview, but she refuses to give up.",
     "wordCount": 247,
     "paragraphs": [
-      "It was raining hard when Sarah left the railway station on Tuesday. Sarah opened her umbrella, but the wind almost turned it inside out. She ran to a bus shelter to keep dry. The screen said the next bus was twenty minutes late.",
+      "It was raining hard when Sarah left the railway station on Tuesday. She opened her umbrella, but the wind almost turned it inside out. She ran to a bus shelter to keep dry. The screen said the next bus was twenty minutes late.",
       "A traffic jam had formed because workers were repairing a sewer. Sarah decided that waiting in the cold was a waste of time. She looked at her watch. She had only thirty minutes before her job interview.",
       "Sarah opened a map app on her phone to find another way. It showed an underground station two blocks away. While crossing the road, she stepped into a deep puddle.",
       "But she stayed calm and entered the warm metro station. She tapped her travel card on the scanner and went through the gate. The train arrived in two minutes, and she got on. The carriage was crowded, but a young man kindly gave her his seat. Sarah thanked him and sat down to review her notes.",
@@ -3054,7 +3054,7 @@ const MONTH3_STORIES = [
         "syllables": "um-brel-la",
         "phonetic": "/ʌmˈbrelə/",
         "definition": "A thing you hold over your head to keep off rain.",
-        "example": "Sarah opened her umbrella, but the wind almost turned it inside out.",
+        "example": "She opened her umbrella, but the wind almost turned it inside out.",
         "emoji": "☂️"
       },
       {
