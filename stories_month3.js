@@ -1228,6 +1228,412 @@ const MONTH3_STORIES = [
       }
     ],
     "funPrompt": "If you walked around your own town with a historian, which building would you ask about first?"
+  },
+  {
+    "id": 76,
+    "day": 76,
+    "title": "A Visit to the Local Medical Clinic",
+    "coverEmoji": "🏥",
+    "category": "Health & Wellbeing",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "Leo has a fever and a sore throat, and learns why antibiotics are not always the answer.",
+    "wordCount": 242,
+    "paragraphs": [
+      "One morning, Leo had a high fever and a dry cough. His mother made a doctor's appointment. They walked to the local health clinic. The receptionist checked Leo's details and gave him a form. Leo completed it and sat down in the waiting room. A friendly nurse called his name.",
+      "First, the nurse measured his blood pressure. Then she used a thermometer to check his temperature. It showed thirty-eight degrees.",
+      "Dr Evans came in with a smile and asked where it hurt. Leo said he had a sore throat and a bad headache.",
+      "The doctor looked at his throat with a small stick. She listened to his chest and lungs with a stethoscope. She said he had a common viral flu, not a serious bacterial illness.",
+      "The doctor explained that antibiotics would not cure a virus, so he did not need them. Instead, she wrote a prescription for fever medicine and throat lozenges. She told Leo to take two tablets every eight hours after meals. She also told him to rest and drink hot tea with honey. She said he should not do hard exercise until he felt better.",
+      "On the way home, they visited the pharmacy. The chemist explained the dose and put a label on the bottle.",
+      "At home, Leo put on comfortable pyjamas and lay under a warm duvet. His mother brought chicken soup and orange juice. Soon Leo felt better. Following the doctor's advice helped him recover quickly."
+    ],
+    "vocabulary": [
+      {
+        "word": "appointment",
+        "syllables": "ap-point-ment",
+        "phonetic": "/əˈpɔɪntmənt/",
+        "definition": "An arranged time to meet someone, such as a doctor.",
+        "example": "His mother made a doctor's appointment.",
+        "emoji": "🗓️"
+      },
+      {
+        "word": "thermometer",
+        "syllables": "ther-mom-e-ter",
+        "phonetic": "/θəˈmɒmɪtə/",
+        "definition": "A tool that measures temperature.",
+        "example": "Then she used a thermometer to check his temperature.",
+        "emoji": "🌡️"
+      },
+      {
+        "word": "prescription",
+        "syllables": "pre-scrip-tion",
+        "phonetic": "/prɪˈskrɪpʃn/",
+        "definition": "A written note from a doctor that lets you get medicine.",
+        "example": "Instead, she wrote a prescription for fever medicine and throat lozenges.",
+        "emoji": "💊"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What was Leo's temperature?",
+        "options": [
+          "Thirty-six degrees",
+          "Thirty-seven degrees",
+          "Thirty-eight degrees",
+          "Forty degrees"
+        ],
+        "answerIndex": 2,
+        "explanation": "It showed thirty-eight degrees."
+      },
+      {
+        "question": "Why did Leo not need antibiotics?",
+        "options": [
+          "They cost too much",
+          "He had a viral illness, not a bacterial one",
+          "He was too young",
+          "He had no sore throat"
+        ],
+        "answerIndex": 1,
+        "explanation": "She said he had a common viral flu, not a serious bacterial illness."
+      },
+      {
+        "question": "How often did Leo take the tablets?",
+        "options": [
+          "Every four hours",
+          "Every eight hours",
+          "Once a day",
+          "Every two hours"
+        ],
+        "answerIndex": 1,
+        "explanation": "She told Leo to take two tablets every eight hours after meals."
+      }
+    ],
+    "funPrompt": "When you are ill, what helps you feel better besides medicine?"
+  },
+  {
+    "id": 77,
+    "day": 77,
+    "title": "Applying for a Summer Job",
+    "coverEmoji": "💼",
+    "category": "Jobs & Society",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "Maya writes a CV, goes to an interview and gets her first summer job.",
+    "wordCount": 246,
+    "paragraphs": [
+      "With the long summer holiday coming, Maya decided to find a part-time job. She looked at a recruitment website with jobs for students. A seaside hotel was advertising a weekend customer service assistant. The job needed good people skills, basic computer skills and good English.",
+      "Maya updated her CV with her school results and activities. She wrote a letter explaining why she was suitable. Before sending, she asked her English teacher to check the spelling and grammar.",
+      "Two days later, Maya got an email inviting her to an interview. On Friday morning, she wore a smart dark suit and clean shoes. She arrived at the hotel reception fifteen minutes early. The human resources manager welcomed her with a firm handshake.",
+      "The manager asked Maya to describe a difficult situation she had handled. Maya described how she organised a school charity sale. She answered each question clearly and politely.",
+      "The interviewer was impressed by her attitude and communication. He explained the job: answering phone calls and greeting guests. The hotel offered a good hourly pay, flexible hours and free meals. He asked if she could work on public holidays. Maya said she was happy to take on any duty. At the end, the manager offered her the job on the spot.",
+      "Maya was delighted and thanked him. On Monday, she signed a standard contract. The hotel gave all new staff a two-day training programme. Having a real job taught Maya the value of hard work and independence."
+    ],
+    "vocabulary": [
+      {
+        "word": "CV",
+        "syllables": "CV",
+        "phonetic": "/ˌsiː ˈviː/",
+        "definition": "A short written record of your education and work experience.",
+        "example": "Maya updated her CV with her school results and activities.",
+        "emoji": "📄"
+      },
+      {
+        "word": "interview",
+        "syllables": "in-ter-view",
+        "phonetic": "/ˈɪntəvjuː/",
+        "definition": "A meeting where someone asks you questions for a job.",
+        "example": "Two days later, Maya got an email inviting her to an interview.",
+        "emoji": "🗣️"
+      },
+      {
+        "word": "contract",
+        "syllables": "con-tract",
+        "phonetic": "/ˈkɒntrækt/",
+        "definition": "A written agreement between an employer and a worker.",
+        "example": "On Monday, she signed a standard contract.",
+        "emoji": "✍️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What job was the hotel advertising?",
+        "options": [
+          "A chef",
+          "A weekend customer service assistant",
+          "A swimming teacher",
+          "A cleaner"
+        ],
+        "answerIndex": 1,
+        "explanation": "A seaside hotel was advertising a weekend customer service assistant."
+      },
+      {
+        "question": "What did Maya describe in the interview?",
+        "options": [
+          "Her holiday plans",
+          "A school charity sale she organised",
+          "Her favourite teacher",
+          "A book she read"
+        ],
+        "answerIndex": 1,
+        "explanation": "Maya described how she organised a school charity sale and managed the money carefully."
+      },
+      {
+        "question": "When did she sign the contract?",
+        "options": [
+          "On Friday",
+          "On Monday",
+          "Two days later",
+          "After training"
+        ],
+        "answerIndex": 1,
+        "explanation": "On Monday, she signed a standard contract."
+      }
+    ],
+    "funPrompt": "What job would you like to try for one summer, and what would you want to learn?"
+  },
+  {
+    "id": 78,
+    "day": 78,
+    "title": "The World of Musical Instruments",
+    "coverEmoji": "🎻",
+    "category": "Arts & Performance",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "A school music project introduces strings, wind, brass and percussion — and a patient conductor.",
+    "wordCount": 245,
+    "paragraphs": [
+      "Last term, our school music department started an instrument project. The music teacher introduced the four main families of orchestra instruments.",
+      "First, he showed the string family: the violin, viola, cello and double bass. He said strings make sound when a horsehair bow is pulled across them.",
+      "Leo chose the acoustic guitar because he loved folk and rock music. His teacher showed him how to press the metal frets with his fingertips. At first his fingers hurt, but soon they grew hard skin. He learned to read notes on the five lines of the staff. Practising thirty minutes a day helped him play difficult chords.",
+      "Next, the class learned about wind instruments, like the flute, clarinet and saxophone. Playing them needs careful control of breath. In the brass section, the trumpet made a bright sound. The percussion section was popular with students who had a good sense of rhythm. Sam enjoyed the snare drum and learned to keep a steady beat.",
+      "Every Friday, all the young musicians met for an orchestra rehearsal. The conductor stood on a wooden podium with a thin white baton. He raised his arms, called for silence and gave the downbeat. If someone made a mistake, he stopped to correct the bar.",
+      "At the end of term, the orchestra gave a concert in the town hall. When the last chord sounded, the hall erupted in applause. Playing in an orchestra taught the students that each person must serve the whole group."
+    ],
+    "vocabulary": [
+      {
+        "word": "frets",
+        "syllables": "frets",
+        "phonetic": "/frets/",
+        "definition": "The metal bars on the neck of a guitar.",
+        "example": "His teacher showed him how to press the metal frets with his fingertips.",
+        "emoji": "🎸"
+      },
+      {
+        "word": "baton",
+        "syllables": "bat-on",
+        "phonetic": "/ˈbætɒn/",
+        "definition": "A thin stick a conductor uses to direct musicians.",
+        "example": "The conductor stood on a wooden podium with a thin white baton.",
+        "emoji": "🎼"
+      },
+      {
+        "word": "chord",
+        "syllables": "chord",
+        "phonetic": "/kɔːd/",
+        "definition": "Several musical notes played together.",
+        "example": "When the last chord sounded, the hall erupted in applause.",
+        "emoji": "🎵"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How do string instruments make sound?",
+        "options": [
+          "By blowing",
+          "When a bow is pulled across the strings",
+          "By pressing keys",
+          "By shaking"
+        ],
+        "answerIndex": 1,
+        "explanation": "He said strings make sound when a horsehair bow is pulled across them."
+      },
+      {
+        "question": "How long did Leo practise each day?",
+        "options": [
+          "Ten minutes",
+          "Twenty minutes",
+          "Thirty minutes",
+          "One hour"
+        ],
+        "answerIndex": 2,
+        "explanation": "Practising thirty minutes a day helped him play difficult chords."
+      },
+      {
+        "question": "Who stopped the orchestra to correct a mistake?",
+        "options": [
+          "Leo",
+          "The conductor",
+          "Sam",
+          "The music teacher"
+        ],
+        "answerIndex": 1,
+        "explanation": "If someone made a mistake, he stopped to correct the bar."
+      }
+    ],
+    "funPrompt": "Which instrument would you like to learn, and what music would you play first?"
+  },
+  {
+    "id": 79,
+    "day": 79,
+    "title": "Digital Communication and Social Media",
+    "coverEmoji": "📱",
+    "category": "Science & Technology",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "A computer science lesson on privacy, passwords and screen time changes Tom's evenings.",
+    "wordCount": 241,
+    "paragraphs": [
+      "The internet has changed how teenagers talk and connect. Today almost every student has a smartphone. Social media lets people share photos and chat in real time. Emma made a blog about her landscape photography. She uploads photos of the coast and writes short captions. Her classmates leave comments and 'like' her posts.",
+      "But our computer science teacher warned us about privacy. She said that once something is online, it is hard to delete. Students should never share their home address or phone number. Strong passwords are important to stop other people using your account.",
+      "A good password should have capital letters, numbers and symbols. The teacher also warned about viruses and fake links. We should never open unknown email attachments. She also talked about online kindness. Cyberbullying and unkind posts can hurt people badly. We should treat others online with the same respect as in real life.",
+      "Another problem is screen addiction. Too many hours on a phone can hurt your eyes and sleep. Tom realised he spent over four hours on games every evening. He set a strict screen time limit on his phone. When the alarm rang after sixty minutes, he turned off the screen. Instead of chatting online, he invited friends to play football outside. He felt happier and fitter.",
+      "The internet is a powerful tool for learning. Technology is neutral; how we use it matters. Our school created a 'Digital Wellness Week' to teach healthy habits."
+    ],
+    "vocabulary": [
+      {
+        "word": "privacy",
+        "syllables": "pri-va-cy",
+        "phonetic": "/ˈprɪvəsi/",
+        "definition": "The right to keep your personal information secret.",
+        "example": "But our computer science teacher warned us about privacy.",
+        "emoji": "🔒"
+      },
+      {
+        "word": "passwords",
+        "syllables": "pass-words",
+        "phonetic": "/ˈpɑːswɜːdz/",
+        "definition": "Secret words or letters you use to enter an account.",
+        "example": "Strong passwords are important to stop other people using your account.",
+        "emoji": "🔑"
+      },
+      {
+        "word": "addiction",
+        "syllables": "ad-dic-tion",
+        "phonetic": "/əˈdɪkʃn/",
+        "definition": "Being unable to stop doing something, even when it is harmful.",
+        "example": "Another problem is screen addiction.",
+        "emoji": "📵"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What did Emma make?",
+        "options": [
+          "A video game",
+          "A blog about landscape photography",
+          "A chat group",
+          "An online shop"
+        ],
+        "answerIndex": 1,
+        "explanation": "Emma made a blog about her landscape photography."
+      },
+      {
+        "question": "What should a strong password contain?",
+        "options": [
+          "Only small letters",
+          "Your birthday",
+          "Capital letters, numbers and symbols",
+          "Your pet's name"
+        ],
+        "answerIndex": 2,
+        "explanation": "A good password should have capital letters, numbers and symbols."
+      },
+      {
+        "question": "How long did Tom spend on games each evening?",
+        "options": [
+          "One hour",
+          "Two hours",
+          "Over four hours",
+          "Ten minutes"
+        ],
+        "answerIndex": 2,
+        "explanation": "Tom realised he spent over four hours on games every evening."
+      }
+    ],
+    "funPrompt": "What rule would you set for your own screen time, and what would you do instead?"
+  },
+  {
+    "id": 80,
+    "day": 80,
+    "title": "A Trip to the Natural History Museum",
+    "coverEmoji": "🦕",
+    "category": "Science & History",
+    "level": "Explorer",
+    "readingTime": "5 mins",
+    "intro": "Dinosaurs, a meteorite you can touch, and a planetarium sky: a journey through deep time.",
+    "wordCount": 243,
+    "paragraphs": [
+      "Last Saturday, our school went to the National Museum of Natural History. We travelled by coach and arrived at ten o'clock. The museum was a huge old building with tall stone arches. At the entrance, guards checked our bags. Our guide, Mr Davies, gave each pupil a guidebook and an activity sheet.",
+      "We started in the dinosaur hall. In the middle stood the enormous skeleton of a Diplodocus. Its long neck and tail stretched across the hall. Mr Davies said these huge plant-eaters lived millions of years ago.",
+      "Tom used his tablet to scan a QR code. A 3D animation showed how prehistoric animals hunted.",
+      "Next, we visited the biodiversity gallery. We saw colourful birds, big African mammals and rare insects. A researcher talked about extinction and why we are losing species. She said farming and cutting down forests harm nature.",
+      "In the mineral hall, we saw precious stones, crystals and gold. A big meteorite that fell from space caught everyone's attention. Visitors could touch the heavy dark stone. It felt cold and metallic.",
+      "At noon, we ate our packed lunches in the museum café. In the afternoon, we went to the digital planetarium. The domed ceiling became a night sky full of stars and galaxies. The astronomer explained how our solar system formed.",
+      "Before leaving, Leo bought a book about fossils. The trip was a journey through time. It showed us the history of our planet and why we must protect it."
+    ],
+    "vocabulary": [
+      {
+        "word": "skeleton",
+        "syllables": "skel-e-ton",
+        "phonetic": "/ˈskelɪtn/",
+        "definition": "The bones that make up the body of a person or animal.",
+        "example": "In the middle stood the enormous skeleton of a Diplodocus.",
+        "emoji": "🦴"
+      },
+      {
+        "word": "meteorite",
+        "syllables": "me-te-or-ite",
+        "phonetic": "/ˈmiːtiəraɪt/",
+        "definition": "A rock from space that lands on Earth.",
+        "example": "A big meteorite that fell from space caught everyone's attention.",
+        "emoji": "☄️"
+      },
+      {
+        "word": "fossils",
+        "syllables": "fos-sils",
+        "phonetic": "/ˈfɒslz/",
+        "definition": "Old bones or plants turned to stone over a very long time.",
+        "example": "Before leaving, Leo bought a book about fossils.",
+        "emoji": "🦕"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Which dinosaur skeleton stood in the hall?",
+        "options": [
+          "A T-Rex",
+          "A Diplodocus",
+          "A Triceratops",
+          "A Stegosaurus"
+        ],
+        "answerIndex": 1,
+        "explanation": "In the middle stood the enormous skeleton of a Diplodocus."
+      },
+      {
+        "question": "What could visitors touch?",
+        "options": [
+          "A dinosaur bone",
+          "A big meteorite",
+          "A gold nugget",
+          "A live reptile"
+        ],
+        "answerIndex": 1,
+        "explanation": "Visitors could touch the heavy dark stone."
+      },
+      {
+        "question": "What did the planetarium show?",
+        "options": [
+          "A film about dinosaurs",
+          "A night sky with stars and galaxies",
+          "A talk about insects",
+          "A model of the museum"
+        ],
+        "answerIndex": 1,
+        "explanation": "The domed ceiling became a night sky full of stars and galaxies."
+      }
+    ],
+    "funPrompt": "Which museum would you most like to visit, and what would you look for first?"
   }
 ];
 
