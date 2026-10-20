@@ -2124,7 +2124,8 @@ function openFullRead() {
   fullReadBuildTargets(story);
 
   const panel = document.getElementById("fullReadPanel");
-  if (panel) panel.classList.add("open");
+  if (panel) { panel.classList.add("open"); panel.classList.remove("compact"); }
+  document.body.classList.remove("fullread-active");
 
   const titleEl = document.getElementById("fullReadTitle");
   if (titleEl) titleEl.textContent = story.title || "";
@@ -2170,7 +2171,8 @@ function fullReadReset() {
 function closeFullRead() {
   fullReadReset();
   const panel = document.getElementById("fullReadPanel");
-  if (panel) panel.classList.remove("open");
+  if (panel) { panel.classList.remove("open"); panel.classList.remove("compact"); }
+  document.body.classList.remove("fullread-active");
 }
 
 function startFullRead() {
@@ -2192,6 +2194,11 @@ function startFullRead() {
 
   const live = document.getElementById("fullReadLive");
   if (live) { live.textContent = ""; live.classList.add("listening"); }
+
+  const panel = document.getElementById("fullReadPanel");
+  if (panel) panel.classList.add("compact");
+  document.body.classList.add("fullread-active");
+  try { window.scrollTo({ top: 0, behavior: "smooth" }); } catch (err) {}
 
   fullReadSetStatus("正在听… 一直读下去，读完点「结束并评估」");
   fullReadStartTimer();
@@ -2311,6 +2318,10 @@ function finishFullRead() {
   fullRead.active = false;
   clearInterval(fullRead.uiTimer);
   fullReadStopListening();
+
+  const panel = document.getElementById("fullReadPanel");
+  if (panel) panel.classList.remove("compact");
+  document.body.classList.remove("fullread-active");
 
   const heard = (fullRead.transcript + " " + fullRead.interim).trim();
   const stopBtn = document.getElementById("fullReadStopBtn");
