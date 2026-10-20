@@ -1694,3 +1694,29 @@ body.theme-soft-night .fullread-live {
 body.fullread-active {
   padding-bottom: 12rem;
 }
+
+/* Tappable words inside the shadowing dialog */
+.shadow-word-click {
+  cursor: pointer;
+  border-radius: 0.3rem;
+  padding: 0.05rem 0.14rem;
+  transition: background-color 0.15s ease, color 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.shadow-word-click:hover,
+.shadow-word-click:active {
+  background: #DBEAFE;
+  color: #1E40AF;
+}
+
+.shadow-word[data-w] {
+  cursor: pointer;
+}
+
+.shadow-tip {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  margin: -0.55rem 0 0.85rem;
+}
