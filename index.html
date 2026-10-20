@@ -101,6 +101,11 @@
               <button class="btn btn-outline btn-sm" onclick="repeatCurrentSentence()" title="Repeat this sentence">🔁 重听</button>
               <button class="btn btn-outline btn-sm" onclick="playNextSentence()" title="Next sentence">⏭</button>
             </div>
+
+            <!-- Whole-story reading assessment -->
+            <button class="btn btn-outline btn-sm" onclick="openFullRead()" title="Read the whole story aloud and get a report">
+              📖 全文跟读
+            </button>
             
             <!-- Speed Toggle for ESL (Slow / Normal) -->
             <div class="speed-toggle" title="Reading audio speed">
@@ -453,6 +458,37 @@
       </div>
       <div class="shadow-status" id="shadowStatus"></div>
       <div class="shadow-result" id="shadowResult"></div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       FULL-STORY READING ASSESSMENT (continuous read-aloud)
+       ========================================== -->
+  <div class="shadow-panel" id="fullReadPanel" onclick="if (event.target === this) closeFullRead();">
+    <div class="shadow-inner">
+      <div class="shadow-head">
+        <strong>📖 全文朗读评估</strong>
+        <button class="shadow-close" onclick="closeFullRead()" aria-label="Close">✕</button>
+      </div>
+
+      <div class="fullread-meta">
+        <span id="fullReadTitle"></span>
+        <span id="fullReadTimer">00:00 · 0 词</span>
+      </div>
+
+      <div class="fullread-live" id="fullReadLive">
+        点「开始朗读」，然后从头到尾把整篇读出来。读的过程中可以停顿，识别会自动接着听。
+      </div>
+
+      <div class="shadow-controls">
+        <button class="btn btn-primary btn-sm" id="fullReadStartBtn" onclick="startFullRead()">▶︎ 开始朗读</button>
+        <button class="btn btn-primary btn-sm" id="fullReadResumeBtn" onclick="resumeFullRead()" style="display:none;">▶︎ 继续</button>
+        <button class="btn btn-outline btn-sm" id="fullReadStopBtn" onclick="finishFullRead()" style="display:none;">⏹ 结束并评估</button>
+        <button class="btn btn-outline btn-sm" onclick="closeFullRead()">关闭</button>
+      </div>
+
+      <div class="shadow-status" id="fullReadStatus"></div>
+      <div class="shadow-result" id="fullReadReport"></div>
     </div>
   </div>
 
