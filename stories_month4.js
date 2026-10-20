@@ -2516,12 +2516,12 @@ const MONTH4_STORIES = [
     "level": "Explorer",
     "readingTime": "6 mins",
     "intro": "A routine dental visit: a check-up, a polish and a new toothbrush on the way out.",
-    "wordCount": 276,
+    "wordCount": 275,
     "paragraphs": [
       "Maintaining good oral hygiene is essential for dental health and a confident smile. Last Tuesday morning, Emma went to the community dental clinic for her routine check-up. The receptionist checked her patient records and asked her to sit in the waiting room. A friendly dental nurse called her name and took her into the sanitised examination room. Emma sat in the adjustable chair and put her bag on the floor.",
       "Dr Taylor greeted her warmly and adjusted the bright overhead lamp. He asked whether she had felt any toothache or gum sensitivity recently. Emma said her teeth felt comfortable, but she wanted a professional clean anyway. The dentist used a small silver mirror and a pointed metal probe to check her teeth. He looked carefully at each molar for hidden cavities or enamel damage.",
       "Luckily, her teeth and gums were in excellent condition with no signs of decay. Dr Taylor praised Emma for keeping up her daily brushing and flossing. He reminded her that brushing twice a day with fluoride toothpaste protects against oral disease.",
-      "Next, the dental hygienist polished Emma's teeth to remove surface stains. She used a rotating soft brush and a mint-flavoured paste. The cleaning was completely painless and lasted less than thirty minutes. Before leaving, the receptionist gave Emma a free toothbrush and a sample tube of toothpaste. Emma booked her next six-month appointment before leaving.",
+      "Next, the dental hygienist polished Emma's teeth to remove surface stains. She used a rotating soft brush and a mint-flavoured paste. The cleaning was completely painless and lasted less than thirty minutes. Before leaving, the receptionist gave Emma a free toothbrush and a sample tube of toothpaste. Emma also booked her next six-month appointment.",
       "Regular check-ups catch minor problems before they become painful. In the evening, she ate a healthy dinner of vegetables, chicken and rice. Afterwards, she brushed her teeth for two full minutes with an electric toothbrush. She also flossed between her molars to remove tiny food particles."
     ],
     "vocabulary": [
@@ -2560,7 +2560,7 @@ const MONTH4_STORIES = [
           "Every two years"
         ],
         "answerIndex": 1,
-        "explanation": "Emma booked her next six-month appointment before leaving."
+        "explanation": "Emma also booked her next six-month appointment."
       },
       {
         "question": "What did the dentist check each molar for?",
