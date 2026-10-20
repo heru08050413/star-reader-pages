@@ -5747,6 +5747,826 @@ const ADVANCED_STORIES = [
       }
     ],
     "funPrompt": "If you could look at one thing through a telescope tonight, what would it be?"
+  },
+  {
+    "id": 571,
+    "day": 71,
+    "track": "advanced",
+    "title": "Preparing for a School Exam",
+    "coverEmoji": "📝",
+    "category": "School & Study",
+    "level": "Advanced",
+    "readingTime": "8 mins",
+    "intro": "A revision timetable, a study group and a deep breath before the exam booklet opens.",
+    "wordCount": 422,
+    "paragraphs": [
+      "Preparing for important school examinations requires strict discipline and a well-structured study plan. Last month, our headteacher announced that final exams would commence in the coming period. Tom realised he needed to revise several challenging mathematics and science subjects thoroughly. He opened his academic diary and drafted a realistic revision timetable to manage his time. Every evening after dinner, he spent two hours reviewing textbook chapters and key notes.",
+      "He sat at his wooden bedroom desk, turned on his reading lamp, and pushed his phone away. Minimizing digital distractions helps students maintain deep focus and improves memory retention. When he encountered a difficult physics formula, he consulted his classroom teacher for help. The teacher explained the complex concept patiently and provided several illustrative examples. Tom recorded the extra explanations carefully in his spiral-bound notebook for future reference.",
+      "On weekends, he formed a study group with his close classmates in the municipal library. They quizzed each other on vocabulary, grammar rules, and historical events. Practising past examination papers helped them become familiar with standard question formats. They learned how to allocate their time wisely during examinations to avoid running out of time. Alongside academic revision, maintaining physical health is crucial for peak cognitive performance.",
+      "Tom made sure to get eight hours of deep sleep every night instead of staying up late. Eating nutritious meals and drinking plenty of water kept his mind sharp and energetic. On the morning of the mathematics exam, he arrived at the examination hall ahead of schedule. The chief invigilator distributed question papers and instructed students to check their details. Tom took a deep breath to settle his nerves before opening the examination booklet.",
+      "He read through all the questions carefully before writing his answers in black ink. He managed his time efficiently, completing the difficult calculus section with minutes to spare. After checking his answers for careless errors, he handed his paper in to the invigilator. Stepping outside into the bright sunlight, he felt a tremendous wave of relief. Successful examination results are the direct reward of consistent hard work and careful preparation.",
+      "Cultivating effective study habits builds academic confidence and sets a solid foundation for future success. Tom celebrated the end of exams by playing an afternoon football match with his friends. Relaxing outdoors restored his physical energy and cleared his mind after weeks of intense revision. He looked forward to receiving his final grade report and enjoying the long summer holidays. Academic achievements inspire young learners to set higher personal goals for the following school year."
+    ],
+    "vocabulary": [
+      {
+        "word": "subjects",
+        "syllables": "sub-jects",
+        "phonetic": "/ˈsʌbdʒɪkts/",
+        "definition": "Areas of knowledge that you study at school.",
+        "example": "Tom realised he needed to revise several challenging mathematics and science subjects thoroughly.",
+        "emoji": "📚"
+      },
+      {
+        "word": "papers",
+        "syllables": "pa-pers",
+        "phonetic": "/ˈpeɪpəz/",
+        "definition": "The printed sheets of questions used in an examination.",
+        "example": "Practising past examination papers helped them become familiar with standard question formats.",
+        "emoji": "📄"
+      },
+      {
+        "word": "invigilator",
+        "syllables": "in-vig-i-la-tor",
+        "phonetic": "/ɪnˈvɪdʒɪleɪtə/",
+        "definition": "A person who watches students during an examination.",
+        "example": "The chief invigilator distributed question papers and instructed students to check their details.",
+        "emoji": "🧑‍🏫"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How long did Tom revise every evening?",
+        "options": [
+          "One hour",
+          "Two hours",
+          "Three hours",
+          "Thirty minutes"
+        ],
+        "answerIndex": 1,
+        "explanation": "Every evening after dinner, he spent two hours reviewing textbook chapters and key notes."
+      },
+      {
+        "question": "How much sleep did Tom make sure to get?",
+        "options": [
+          "Six hours",
+          "Seven hours",
+          "Eight hours",
+          "Ten hours"
+        ],
+        "answerIndex": 2,
+        "explanation": "Tom made sure to get eight hours of deep sleep every night instead of staying up late."
+      },
+      {
+        "question": "What did Tom do before opening the examination booklet?",
+        "options": [
+          "Asked a question",
+          "Took a deep breath",
+          "Sharpened his pencil",
+          "Read the invigilator's notes"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tom took a deep breath to settle his nerves before opening the examination booklet."
+      }
+    ],
+    "funPrompt": "What is your best way to remember something difficult before a test?"
+  },
+  {
+    "id": 572,
+    "day": 72,
+    "track": "advanced",
+    "title": "A Visit to the Local Dental Clinic",
+    "coverEmoji": "🦷",
+    "category": "Health & Wellbeing",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "A routine dental visit: a check-up, a polish and a new toothbrush on the way out.",
+    "wordCount": 411,
+    "paragraphs": [
+      "Maintaining proper oral hygiene is essential for dental health and a confident smile. Last Tuesday morning, Emma visited the community dental clinic for her routine check- up. The receptionist verified her patient records and asked her to take a seat in the waiting room. A friendly dental nurse called her name and escorted her into the sanitized examination room. Emma sat down on the adjustable reclining dental chair and placed her handbag on the floor.",
+      "Dr. Taylor greeted her warmly and adjusted the bright overhead examination lamp. He asked whether she had experienced any toothache or gum sensitivity in recent weeks. Emma replied that her teeth felt comfortable, but she wanted a professional cleaning anyway. The dentist used a small silver mirror and a pointed metal probe to inspect her teeth. He carefully checked each molar for hidden signs of cavities or enamel damage.",
+      "Fortunately, her teeth and gums were in excellent condition with zero signs of decay. Dr. Taylor praised Emma for maintaining diligent daily brushing and flossing habits. He reminded her that brushing twice daily with fluoride toothpaste protects against oral diseases. He also advised her to limit sugary snacks and fizzy drinks between main meals. Next, the dental hygienist performed a professional polishing procedure to remove surface stains.",
+      "Using a rotating soft brush and mint-flavoured paste, she polished Emma's teeth until they shone. The cleaning session was completely painless and lasted less than thirty minutes. Before leaving, the receptionist handed Emma a complimentary toothbrush and a sample toothpaste tube. Emma scheduled her next six-month dental appointment with the receptionist before departing. Walking out into the bright sunshine, she felt relieved and completely satisfied.",
+      "Regular dental check-ups help detect minor issues before they develop into painful medical problems. Teaching children proper oral care establishes healthy lifelong routines that prevent future suffering. Emma returned home and resumed her normal afternoon study and reading schedule. In the evening, she ate a nutritious dinner of steamed vegetables, grilled chicken, and rice. Afterwards, she brushed her teeth thoroughly for two full minutes using an electric toothbrush.",
+      "She flossed between her molars to remove any remaining microscopic food particles. Taking good care of one's physical body is a fundamental responsibility requiring daily attention. Emma felt proud of her healthy smile and committed to maintaining her excellent dental routine. Healthcare professionals work tirelessly to promote public wellness and preventative medicine. Visiting the dental clinic regularly is a small price to pay for lifelong physical well-being."
+    ],
+    "vocabulary": [
+      {
+        "word": "check-up",
+        "syllables": "check-up",
+        "phonetic": "/ˈtʃekʌp/",
+        "definition": "A medical examination to make sure you are healthy.",
+        "example": "Last Tuesday morning, Emma visited the community dental clinic for her routine check- up.",
+        "emoji": "🗒️"
+      },
+      {
+        "word": "probe",
+        "syllables": "probe",
+        "phonetic": "/prəʊb/",
+        "definition": "A thin tool that a dentist uses to examine teeth.",
+        "example": "The dentist used a small silver mirror and a pointed metal probe to inspect her teeth.",
+        "emoji": "🔧"
+      },
+      {
+        "word": "decay",
+        "syllables": "de-cay",
+        "phonetic": "/dɪˈkeɪ/",
+        "definition": "Damage to teeth caused by bacteria.",
+        "example": "Fortunately, her teeth and gums were in excellent condition with zero signs of decay.",
+        "emoji": "🦠"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How often does Emma visit the dental clinic?",
+        "options": [
+          "Every three months",
+          "Every six months",
+          "Once a year",
+          "Every two years"
+        ],
+        "answerIndex": 1,
+        "explanation": "Emma scheduled her next six-month dental appointment with the receptionist before departing."
+      },
+      {
+        "question": "What did the dentist check each molar for?",
+        "options": [
+          "Size",
+          "Hidden cavities or enamel damage",
+          "Colour",
+          "Braces"
+        ],
+        "answerIndex": 1,
+        "explanation": "He carefully checked each molar for hidden signs of cavities or enamel damage."
+      },
+      {
+        "question": "How long did the cleaning last?",
+        "options": [
+          "Ten minutes",
+          "Less than thirty minutes",
+          "One hour",
+          "Two hours"
+        ],
+        "answerIndex": 1,
+        "explanation": "The cleaning session was completely painless and lasted less than thirty minutes."
+      }
+    ],
+    "funPrompt": "What would you tell a friend who is nervous about visiting the dentist?"
+  },
+  {
+    "id": 573,
+    "day": 73,
+    "track": "advanced",
+    "title": "A Weekend at the Farm",
+    "coverEmoji": "🚜",
+    "category": "Nature & Science",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "A geography trip to an organic farm: insects instead of pesticides and a fifteen-kilogram crate of apples.",
+    "wordCount": 392,
+    "paragraphs": [
+      "Experiencing traditional agricultural life offers urban teenagers a refreshing break from city routines. Last weekend, our school geography club visited a family-run organic farm in the countryside. The friendly farm owner, Mr. Higgins, met our group at the wooden entrance gate. He began the tour by explaining how sustainable farming methods protect the local environment. Unlike conventional industrial farms, this organic facility uses zero chemical pesticides.",
+      "Instead, natural predatory insects are encouraged to control unwanted crop pests. We walked across expansive green pastures where dairy cattle and sheep grazed freely. Mr. Higgins explained that providing animals with open grazing space is vital for their health. Next, we visited the large computer-controlled glass greenhouses. Inside, vibrant red tomatoes, crisp cucumbers, and fresh strawberries grew in neat rows.",
+      "The greenhouse utilizes a smart irrigation system that delivers precise amounts of water. Soil moisture sensors measure moisture levels and prevent any wasteful overuse of liquid nutrients. Energy for the heating pumps and automated ventilation is generated by rooftop solar panels. The farmer demonstrated how agricultural crop residues are recycled into rich organic compost. Nothing goes to waste, creating a closed and environmentally responsible production cycle.",
+      "In the farm workshop, workers were busy grading and packaging freshly picked produce. Emma was invited to weigh a wooden crate of crisp apples on a digital industrial scale. The weight measured exactly fifteen kilograms, which was the standard shipment unit. The farm sells its goods directly to local markets and school canteens across the district. Supplying food locally drastically reduces transportation pollution and fuel consumption.",
+      "At lunchtime, the farmer treated our entire class to a delicious farm-to-table meal. We enjoyed crusty homemade bread, organic cheese, and freshly squeezed apple juice. The simple food tasted exceptionally rich, sweet, and full of natural flavour. During the meal, students asked insightful questions about soil management and career paths. Mr. Higgins explained that modern agriculture requires skilled agronomists, data analysts, and engineers.",
+      "He encouraged interested students to study environmental biology or agricultural science at university. Before departing, each student received a small potted herb plant as a learning gift. We thanked the Higgins family warmly for their exceptional hospitality and educational lecture. The field trip helped us understand where our food comes from and how it is grown. Sustainable farming plays a crucial role in safeguarding global food security and our planet's future."
+    ],
+    "vocabulary": [
+      {
+        "word": "produce",
+        "syllables": "pro-duce",
+        "phonetic": "/ˈprɒdjuːs/",
+        "definition": "Fruit and vegetables grown for sale, especially on a farm.",
+        "example": "In the farm workshop, workers were busy grading and packaging freshly picked produce.",
+        "emoji": "🥕"
+      },
+      {
+        "word": "scale",
+        "syllables": "scale",
+        "phonetic": "/skeɪl/",
+        "definition": "A machine used for weighing things.",
+        "example": "Emma was invited to weigh a wooden crate of crisp apples on a digital industrial scale.",
+        "emoji": "⚖️"
+      },
+      {
+        "word": "soil",
+        "syllables": "soil",
+        "phonetic": "/sɔɪl/",
+        "definition": "The top layer of earth in which plants grow.",
+        "example": "Soil moisture sensors measure moisture levels and prevent any wasteful overuse of liquid nutrients.",
+        "emoji": "🪴"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How does this farm control pests?",
+        "options": [
+          "With chemical pesticides",
+          "By encouraging natural predatory insects",
+          "With plastic netting",
+          "By removing all insects"
+        ],
+        "answerIndex": 1,
+        "explanation": "Instead, natural predatory insects are encouraged to control unwanted crop pests."
+      },
+      {
+        "question": "How much did the crate of apples weigh?",
+        "options": [
+          "Five kilograms",
+          "Ten kilograms",
+          "Fifteen kilograms",
+          "Twenty kilograms"
+        ],
+        "answerIndex": 2,
+        "explanation": "The weight measured exactly fifteen kilograms, which was the standard shipment unit."
+      },
+      {
+        "question": "Where does the farm sell its food?",
+        "options": [
+          "Only overseas",
+          "Directly to local markets and school canteens",
+          "Only online",
+          "To supermarkets in the capital"
+        ],
+        "answerIndex": 1,
+        "explanation": "The farm sells its goods directly to local markets and school canteens across the district."
+      }
+    ],
+    "funPrompt": "Which job on an organic farm would you most like to try for a day?"
+  },
+  {
+    "id": 574,
+    "day": 74,
+    "track": "advanced",
+    "title": "Delivering Emergency Supplies After a Flood",
+    "coverEmoji": "🆘",
+    "category": "Community & Safety",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "After three days of rain a river bursts its banks, and volunteers learn that accuracy saves lives.",
+    "wordCount": 382,
+    "paragraphs": [
+      "Severe flooding can isolate communities and disrupt essential services within a few hours. After three days of heavy rain, the River Lark burst its banks near a small village. Emergency teams closed unsafe roads and moved residents from low-lying homes. Our youth volunteer group offered to help organise relief supplies at the town hall. The coordinator divided the hall into areas for drinking water, food, blankets, and hygiene products.",
+      "Every donated item was checked, counted, and entered on a digital supply list. Volunteers rejected opened food and damaged electrical equipment for safety reasons. Maya packed family boxes containing bottled water, cereal, soap, and clean towels. Tom labelled each box with its contents, weight, and intended destination. A map showed which routes remained open and which bridges had been closed.",
+      "The fastest route was not always the safest because strong currents crossed several roads. Rescue officers used high vehicles to deliver supplies to the edge of the flooded area. From there, trained crews carried lighter packages by boat. A temporary distribution point was established on the dry bank beside the village church. Residents signed for medicines so staff could maintain an accurate record.",
+      "The local pharmacy supplied replacement prescriptions after confirming patient details. Mobile phone charging stations helped families contact relatives and receive official updates. A volunteer electrician took charge of checking each station before public use. By evening, the first delivery had reached every household cut off by water. The next morning, volunteers prepared cleaning kits for homes that were becoming accessible.",
+      "Health officers warned residents not to touch floodwater without protective clothing. Contaminated water may carry harmful bacteria, chemicals, or sharp hidden objects. The relief centre also provided quiet space for children and older residents. Local cooks prepared hot meals while social workers listened to families' concerns. As the river level fell, engineers inspected roads, power lines, and the damaged bank.",
+      "Some families could return home, but others required temporary accommodation for several weeks. Donations continued to arrive, so the supply team adjusted its list to prevent unnecessary waste. Clear records allowed the coordinator to send resources where they were most urgently needed. The emergency revealed how careful planning supports courage and goodwill during a crisis. Our volunteers learned that effective relief depends on safety, accuracy, and respect for affected people."
+    ],
+    "vocabulary": [
+      {
+        "word": "relief",
+        "syllables": "re-lief",
+        "phonetic": "/rɪˈliːf/",
+        "definition": "Help given to people in a difficult situation.",
+        "example": "Our youth volunteer group offered to help organise relief supplies at the town hall.",
+        "emoji": "🎁"
+      },
+      {
+        "word": "supply",
+        "syllables": "sup-ply",
+        "phonetic": "/səˈplaɪ/",
+        "definition": "An amount of something that is available to be used.",
+        "example": "Every donated item was checked, counted, and entered on a digital supply list.",
+        "emoji": "📦"
+      },
+      {
+        "word": "route",
+        "syllables": "route",
+        "phonetic": "/ruːt/",
+        "definition": "The way from one place to another.",
+        "example": "The fastest route was not always the safest because strong currents crossed several roads.",
+        "emoji": "🗺️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Which river burst its banks?",
+        "options": [
+          "The Thames",
+          "The River Lark",
+          "The Severn",
+          "The Avon"
+        ],
+        "answerIndex": 1,
+        "explanation": "After three days of heavy rain, the River Lark burst its banks near a small village."
+      },
+      {
+        "question": "What did volunteers reject for safety reasons?",
+        "options": [
+          "Blankets",
+          "Opened food and damaged electrical equipment",
+          "Bottled water",
+          "Soap"
+        ],
+        "answerIndex": 1,
+        "explanation": "Volunteers rejected opened food and damaged electrical equipment for safety reasons."
+      },
+      {
+        "question": "Who checked the phone charging stations?",
+        "options": [
+          "A teacher",
+          "A volunteer electrician",
+          "The coordinator",
+          "A rescue officer"
+        ],
+        "answerIndex": 1,
+        "explanation": "A volunteer electrician took charge of checking each station before public use."
+      }
+    ],
+    "funPrompt": "If your town had to help a flooded village, what would you put in a family box?"
+  },
+  {
+    "id": 575,
+    "day": 75,
+    "track": "advanced",
+    "title": "A School Art Exhibition",
+    "coverEmoji": "🖌️",
+    "category": "Arts & Culture",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "A spring art show: a colourful sunset canvas, a charcoal portrait and a crowd at the doors.",
+    "wordCount": 411,
+    "paragraphs": [
+      "Annual school art exhibitions provide talented students with an inspiring platform to display their creativity. Last month, our secondary school art department hosted a grand spring painting show. Over fifty student artists gathered in the school exhibition hall to arrange their framed artworks. The gallery showcased diverse artistic mediums, including oil paintings, watercolours, charcoal sketches, and sculptures. Maya displayed a vibrant landscape canvas capturing a colourful sunset over a coastal village.",
+      "Leo presented a detailed charcoal portrait of an ancient literary hero. Their strict art teacher, Mr. Vance, walked around the hall offering constructive criticism and praise. He reminded students that artistic expression requires patience, observational skill, and emotional depth. On opening night, an enthusiastic crowd of parents, teachers, and pupils filled the auditorium. The headteacher delivered a warm welcome speech praising the students' dedication and hard work.",
+      "As the exhibition doors opened, visitors stepped inside to admire the stunning visual displays. Soft spotlight illumination highlighted the rich textures and bold brushstrokes of each painting. Maya answered questions from curious visitors about her choice of warm colour palettes. She explained that warm shades convey a feeling of joyful optimism and peaceful tranquillity. During the evening, student volunteers served fruit punch and biscuits in the foyer area.",
+      "Many parents complimented the professional layout of the gallery and the impressive artistic talent. A local community newspaper reporter took several photographs and conducted brief student interviews. He published an article praising the school art exhibition as a triumph for youth cultural education. Participating in public art shows teaches students self-confidence and effective public communication. It fosters an appreciation for aesthetic beauty and cultural diversity across school communities.",
+      "The memorable evening left every student feeling inspired, proud, and encouraged. They packed their unsold artwork carefully after the show, already anticipating next year's festival. Art enriches human lives and bridges emotional divides across diverse global cultures. Our school celebrated the exhibition's immense success with a joyous gathering in the canteen on Monday. Tom felt inspired to enrol in an advanced digital design workshop during the upcoming term.",
+      "Learning new creative techniques expands students' horizons and prepares them for future design careers. Visual arts empower young people to communicate complex ideas without relying solely on words. School exhibitions transform ordinary classrooms into vibrant hubs of cultural appreciation and inspiration. Parents and teachers left the gallery with a profound respect for student artistic achievements. Creativity remains one of the most valuable lifelong assets any young person can possess."
+    ],
+    "vocabulary": [
+      {
+        "word": "show",
+        "syllables": "show",
+        "phonetic": "/ʃəʊ/",
+        "definition": "An exhibition or public display of things.",
+        "example": "Last month, our secondary school art department hosted a grand spring painting show.",
+        "emoji": "🖼️"
+      },
+      {
+        "word": "criticism",
+        "syllables": "crit-i-cism",
+        "phonetic": "/ˈkrɪtɪsɪzəm/",
+        "definition": "Remarks that judge whether something is good or bad.",
+        "example": "Their strict art teacher, Mr. Vance, walked around the hall offering constructive criticism and praise.",
+        "emoji": "💬"
+      },
+      {
+        "word": "displays",
+        "syllables": "dis-plays",
+        "phonetic": "/dɪˈspleɪz/",
+        "definition": "Arrangements of things so that people can see them.",
+        "example": "As the exhibition doors opened, visitors stepped inside to admire the stunning visual displays.",
+        "emoji": "🎨"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How many student artists took part?",
+        "options": [
+          "Over twenty",
+          "Over fifty",
+          "Over one hundred",
+          "Ten"
+        ],
+        "answerIndex": 1,
+        "explanation": "Over fifty student artists gathered in the school exhibition hall to arrange their framed artworks."
+      },
+      {
+        "question": "What did Maya display?",
+        "options": [
+          "A charcoal portrait",
+          "A vibrant landscape canvas of a coastal sunset",
+          "A sculpture",
+          "A photograph"
+        ],
+        "answerIndex": 1,
+        "explanation": "Maya displayed a vibrant landscape canvas capturing a colourful sunset over a coastal village."
+      },
+      {
+        "question": "What did the local reporter do?",
+        "options": [
+          "Bought a painting",
+          "Took photographs and interviewed students",
+          "Judged the show",
+          "Taught a class"
+        ],
+        "answerIndex": 1,
+        "explanation": "A local community newspaper reporter took several photographs and conducted brief student interviews."
+      }
+    ],
+    "funPrompt": "If you made a picture for a school show, what would you draw and why?"
+  },
+  {
+    "id": 576,
+    "day": 76,
+    "track": "advanced",
+    "title": "A Visit to a Historical Castle",
+    "coverEmoji": "🏰",
+    "category": "History & Culture",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "A castle built in the eleventh century: ramparts, dungeons and an eagle on a gloved hand.",
+    "wordCount": 399,
+    "paragraphs": [
+      "Exploring medieval castles provides students with a tangible connection to European history. Last Thursday, our history class took an educational field excursion to historic Warwick Castle. The magnificent stone fortress was originally constructed during the eleventh century. Our tour guide, an experienced historian named Dr Evans, met us at the main gatehouse entrance. He distributed printed map brochures showing the layout of defensive towers and royal courtyards.",
+      "We began our walk along the elevated stone ramparts, which offered a panoramic view of the river. Dr Evans pointed out how thick defensive walls protected medieval lords from hostile armies. Next, we descended spiral stone staircases to explore the dark subterranean dungeons. Iron bars, heavy wooden doors, and suits of antique armour lined the stone corridors. The guide explained that medieval knights wore heavy metal armour to defend themselves in battle.",
+      "In the grand banquet hall, a massive stone fireplace dominated the northern wall. Long oak dining tables were set with imitation silver goblets and decorative ceramic plates. We imagined lively royal banquets accompanied by medieval musicians playing harps and lutes. Outside in the inner courtyard, a professional falconry team demonstrated trained birds of prey. A magnificent golden eagle soared gracefully across the sky before landing on the falconer's glove.",
+      "The audience applauded enthusiastically at the breathtaking aerial display of hunting skills. In the afternoon, we explored the beautifully manicured Victorian rose gardens. Colourful flower beds and ancient weeping willow trees created a remarkably peaceful atmosphere. Tom took several high-definition photographs with his digital camera for our class presentation. Reviewing historic sites makes textbook history lessons far more vivid and memorable.",
+      "Preserving ancient architectural monuments requires substantial financial investment and ongoing public care. Learning about historical roots deepens our appreciation of cultural diversity and civic heritage. Before catching the coach home, we bought souvenir postcards at the castle gift shop. The educational excursion concluded successfully as the students boarded the bus parked outside the gates. On the journey back, everyone chatted animatedly about their favourite medieval weapons and stories.",
+      "History teaches us how past societies overcame immense challenges through courage and perseverance. Understanding ancient civilizations broadens young minds and fosters a profound global perspective. Our school plans to organise another archaeological field trip during the autumn term. Students looked forward to exploring more historic landmarks across the British Isles. Experiencing history firsthand transforms passive textbook reading into an unforgettable personal adventure."
+    ],
+    "vocabulary": [
+      {
+        "word": "century",
+        "syllables": "cen-tu-ry",
+        "phonetic": "/ˈsentʃəri/",
+        "definition": "A period of one hundred years.",
+        "example": "The magnificent stone fortress was originally constructed during the eleventh century.",
+        "emoji": "📜"
+      },
+      {
+        "word": "view",
+        "syllables": "view",
+        "phonetic": "/vjuː/",
+        "definition": "What you can see from a particular place.",
+        "example": "We began our walk along the elevated stone ramparts, which offered a panoramic view of the river.",
+        "emoji": "🌄"
+      },
+      {
+        "word": "glove",
+        "syllables": "glove",
+        "phonetic": "/ɡlʌv/",
+        "definition": "A piece of clothing that covers your hand.",
+        "example": "A magnificent golden eagle soared gracefully across the sky before landing on the falconer's glove.",
+        "emoji": "🧤"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "When was the castle built?",
+        "options": [
+          "The ninth century",
+          "The eleventh century",
+          "The fourteenth century",
+          "The nineteenth century"
+        ],
+        "answerIndex": 1,
+        "explanation": "The magnificent stone fortress was originally constructed during the eleventh century."
+      },
+      {
+        "question": "Which bird did the falconry team show?",
+        "options": [
+          "A hawk",
+          "A golden eagle",
+          "An owl",
+          "A falcon"
+        ],
+        "answerIndex": 1,
+        "explanation": "A magnificent golden eagle soared gracefully across the sky before landing on the falconer's glove."
+      },
+      {
+        "question": "What did they buy at the gift shop?",
+        "options": [
+          "A sword",
+          "Souvenir postcards",
+          "A hat",
+          "A model castle"
+        ],
+        "answerIndex": 1,
+        "explanation": "Before catching the coach home, we bought souvenir postcards at the castle gift shop."
+      }
+    ],
+    "funPrompt": "If you could ask a medieval knight one question, what would it be?"
+  },
+  {
+    "id": 577,
+    "day": 77,
+    "track": "advanced",
+    "title": "A Career in Journalism",
+    "coverEmoji": "📰",
+    "category": "Jobs & Media",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "A reporter's fifteen-year career: facts, deadlines and a microphone in the school hall.",
+    "wordCount": 405,
+    "paragraphs": [
+      "Professional journalism plays an indispensable role in maintaining an informed and democratic society. Last Wednesday, our school careers advisor invited a senior newspaper reporter to give a lecture. Ms. Rachel Vance walked into the crowded school hall wearing a smart business suit. She began her presentation by sharing thrilling stories from her fifteen-year reporting career. She explained that investigative journalism requires relentless curiosity, honesty, and integrity.",
+      "Reporters must verify facts meticulously through multiple reliable sources before publishing news articles. Spreading unverified rumours or fake news damages public trust and professional reputation. Ms Vance described her typical working day, which often begins early in the newsroom office. The chief editor reviews top headlines and assigns breaking news stories to reporting staff. Rachel was once assigned to investigate a major public transport strike in the city centre.",
+      "She grabbed her digital voice recorder, checked her notebook, and headed out into the street. She interviewed trade union representatives, government press secretaries, and ordinary commuters. Listening attentively and asking precise questions ensures that news coverage remains balanced and objective. Back at her desk, she had to draft a comprehensive six-hundred-word article before the strict deadline. In addition to print reporting, modern journalists frequently produce digital audio podcasts and video reports.",
+      "Speaking clearly into studio microphones helps journalists connect directly with online audiences. Tom raised his hand to ask what academic subjects aspiring reporters should study at university. Ms Vance recommended studying English literature, modern history, political science, and mass media. She advised students to practise writing daily journal entries and school magazine articles. Following the lecture, several students examined professional recording equipment set up near the stage.",
+      "Tom tested a digital microphone, speaking a short mock news broadcast into the device. He found the broadcasting experience exhilarating and thoroughly engaging. The inspiring talk opened students' eyes to the profound impact of professional journalism. Reporting important events gives citizens the knowledge required to participate actively in civic life. Our school media club decided to launch a weekly digital news blog starting next month.",
+      "Tom and Emma volunteered to serve as student reporters for the school web publication. They looked forward to interviewing teachers, reporting sports matches, and writing school event reviews. Everyone left the hall feeling motivated to pursue excellence in writing and media communication. Mastering effective communication equips modern students with powerful tools for professional success. Truthful reporting remains the cornerstone of a free, open, and progressive global civilization."
+    ],
+    "vocabulary": [
+      {
+        "word": "suit",
+        "syllables": "suit",
+        "phonetic": "/suːt/",
+        "definition": "A jacket and trousers made of the same cloth.",
+        "example": "Ms. Rachel Vance walked into the crowded school hall wearing a smart business suit.",
+        "emoji": "👔"
+      },
+      {
+        "word": "staff",
+        "syllables": "staff",
+        "phonetic": "/stɑːf/",
+        "definition": "All the people who work for an organisation.",
+        "example": "The chief editor reviews top headlines and assigns breaking news stories to reporting staff.",
+        "emoji": "👥"
+      },
+      {
+        "word": "deadline",
+        "syllables": "dead-line",
+        "phonetic": "/ˈdedlaɪn/",
+        "definition": "A time by which something must be finished.",
+        "example": "She had to draft a comprehensive six-hundred-word article before the strict deadline.",
+        "emoji": "⏰"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How long has Rachel been reporting?",
+        "options": [
+          "Five years",
+          "Ten years",
+          "Fifteen years",
+          "Twenty years"
+        ],
+        "answerIndex": 2,
+        "explanation": "She began her presentation by sharing thrilling stories from her fifteen-year reporting career."
+      },
+      {
+        "question": "Which subjects did she recommend studying?",
+        "options": [
+          "Only English",
+          "English literature, modern history, political science and mass media",
+          "Mathematics and physics",
+          "Art and music"
+        ],
+        "answerIndex": 1,
+        "explanation": "Ms Vance recommended studying English literature, modern history, political science, and mass media."
+      },
+      {
+        "question": "What did the school media club decide to do?",
+        "options": [
+          "Start a radio station",
+          "Launch a weekly digital news blog",
+          "Print a newspaper",
+          "Film a documentary"
+        ],
+        "answerIndex": 1,
+        "explanation": "Our school media club decided to launch a weekly digital news blog starting next month."
+      }
+    ],
+    "funPrompt": "If you reported one school story this week, what would it be?"
+  },
+  {
+    "id": 578,
+    "day": 78,
+    "track": "advanced",
+    "title": "A Weekend Camping Adventure",
+    "coverEmoji": "🏕️",
+    "category": "Nature & Adventure",
+    "level": "Advanced",
+    "readingTime": "8 mins",
+    "intro": "A forest campsite by a lake: a tent, a campfire and a spotless clearing when they leave.",
+    "wordCount": 425,
+    "paragraphs": [
+      "Escaping urban noise for a weekend wilderness camping trip is an unbeatable way to enjoy nature. Last Friday afternoon, Mark and his older brother packed their heavy camping gear into the car. They made sure to include a durable waterproof tent, warm sleeping bags, and a camping stove. The weather forecast predicted clear skies and gentle southwesterly breezes across the hills. They drove for two hours before arriving at an authorized forest campsite near a clear lake.",
+      "The site was surrounded by ancient pine trees and overlooked a tranquil mountain valley. After paying registration fees at the ranger station, they selected a flat grassy pitch. Working in coordination, they unpacked the tent poles and drove metal pegs deep. They stretched the nylon fabric tightly and secured guy lines against unexpected wind gusts. Inside the tent, they laid out thick foam sleeping mats and warm fleece blankets.",
+      "Next, Mark collected dry twigs and fallen branches to prepare a small campfire for cooking. His brother struck a waterproof match to ignite the dry kindling inside a stone ring. Bright orange flames crackled warmly, casting a flickering glow over surrounding tents. They boiled a metal kettle of fresh spring water for hot chocolate and instant soup. Eating simple hot food outdoors under the open sky tasted remarkably delicious.",
+      "As dusk fell, millions of twinkling stars emerged across the clear night sky. Sitting by the glowing embers, they shared amusing stories and listened to distant owl calls. The quiet nocturnal atmosphere provided total relief from urban noise and daily stress. Around ten o’clock, they extinguished the campfire with water to ensure safety. They crawled into their warm sleeping bags and fell asleep to the soothing sound of silence.",
+      "At sunrise, they woke up early to catch the breathtaking sunrise over the misty water. A family of wild ducks glided gracefully near the calm shoreline searching for morning food. Mark took several high-resolution photographs with his digital camera to document the scenery. After eating a hearty breakfast of boiled eggs and toast, they packed their equipment away. They collected all their litter in rubbish bags to protect the pristine wildlife habitat.",
+      "Leaving natural areas clean and unpolluted is a fundamental duty for every responsible camper. They dismantled the tent, rolled up their sleeping mats, and loaded the car boot. Before departing, the park ranger thanked them warmly for keeping their campsite spotless. The weekend camping adventure refreshed their minds and deepened their appreciation for the outdoors. Both brothers agreed that returning to simple wilderness living was a truly rewarding experience."
+    ],
+    "vocabulary": [
+      {
+        "word": "gear",
+        "syllables": "gear",
+        "phonetic": "/ɡɪə/",
+        "definition": "The equipment you need for an activity.",
+        "example": "Last Friday afternoon, Mark and his older brother packed their heavy camping gear into the car.",
+        "emoji": "🎒"
+      },
+      {
+        "word": "pitch",
+        "syllables": "pitch",
+        "phonetic": "/pɪtʃ/",
+        "definition": "A place where you put up a tent.",
+        "example": "After paying registration fees at the ranger station, they selected a flat grassy pitch.",
+        "emoji": "⛺"
+      },
+      {
+        "word": "spotless",
+        "syllables": "spot-less",
+        "phonetic": "/ˈspɒtləs/",
+        "definition": "Completely clean.",
+        "example": "Before departing, the park ranger thanked them warmly for keeping their campsite spotless.",
+        "emoji": "✨"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How long did they drive?",
+        "options": [
+          "One hour",
+          "Two hours",
+          "Three hours",
+          "Four hours"
+        ],
+        "answerIndex": 1,
+        "explanation": "They drove for two hours before arriving at an authorized forest campsite near a clear lake."
+      },
+      {
+        "question": "What did they use to light the fire?",
+        "options": [
+          "A lighter",
+          "A waterproof match",
+          "A torch",
+          "A candle"
+        ],
+        "answerIndex": 1,
+        "explanation": "His brother struck a waterproof match to ignite the dry kindling inside a stone ring."
+      },
+      {
+        "question": "What did the ranger thank them for?",
+        "options": [
+          "Helping other campers",
+          "Keeping the campsite spotless",
+          "Reporting a fire",
+          "Fixing the path"
+        ],
+        "answerIndex": 1,
+        "explanation": "Before departing, the park ranger thanked them warmly for keeping their campsite spotless."
+      }
+    ],
+    "funPrompt": "What would make a camping trip feel successful to you?"
+  },
+  {
+    "id": 579,
+    "day": 79,
+    "track": "advanced",
+    "title": "Planning a Charity Concert Budget",
+    "coverEmoji": "🎶",
+    "category": "Money & Community",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "A student concert budget: sponsorship, an emergency reserve and three thousand pounds for charity.",
+    "wordCount": 397,
+    "paragraphs": [
+      "A successful charity event needs careful budgeting as well as enthusiasm and creative ideas. Our student council planned an evening concert to raise funds for a children's hospice. The school hall was free, but lighting, security, printing, and insurance still created costs. Maya opened a project account and recorded every expected payment in a spreadsheet. The team estimated income from ticket sales, refreshments, and local sponsorship.",
+      "They kept a cautious balance between affordable tickets and the need to cover expenses. A music shop offered free equipment in return for its name appearing on the programme. The council accepted the offer only after checking that the conditions were appropriate for a school event. Tom contacted three printing companies and requested a written price for five hundred programmes. Comparing quotations prevented the team from accepting the first offer without question.",
+      "The organisers also set aside a small emergency reserve for unexpected repairs or fees. They agreed that unused money from the reserve would return to the charity fund. Ticket payments were processed through the school's secure online system. Each transaction created a digital record that could be matched with the project account. A local business donated two hundred pounds but did not ask for control over the programme.",
+      "The finance teacher explained the difference between a donation and a commercial sponsorship agreement. During rehearsals, a broken cable required immediate replacement from the emergency reserve. Maya added a note beside the expense explaining why it had been necessary. On the night of the concert, volunteers checked tickets and counted cash in pairs. No student carried a large amount of money alone or took it home.",
+      "The audience filled the hall, and refreshment sales exceeded the original estimate. After the final performance, the team paid every invoice and calculated the remaining balance. The concert had raised more than three thousand pounds after all expenses. The council transferred the money directly to the hospice's official bank account. A public summary listed income, costs, and the final donation without revealing private details.",
+      "This transparency protected trust among students, families, sponsors, and the charity. The hospice later sent a thank-you note describing how the donation would support family care. Students developed an interest in responsible fundraising and financial management. The project's greatest return was the combination of practical learning and meaningful community help. Careful accounts ensured that every pound raised reached its intended purpose."
+    ],
+    "vocabulary": [
+      {
+        "word": "account",
+        "syllables": "ac-count",
+        "phonetic": "/əˈkaʊnt/",
+        "definition": "A record of money that is kept for a particular purpose.",
+        "example": "Maya opened a project account and recorded every expected payment in a spreadsheet.",
+        "emoji": "🏦"
+      },
+      {
+        "word": "balance",
+        "syllables": "bal-ance",
+        "phonetic": "/ˈbæləns/",
+        "definition": "A sensible mixture of two different things.",
+        "example": "They kept a cautious balance between affordable tickets and the need to cover expenses.",
+        "emoji": "⚖️"
+      },
+      {
+        "word": "note",
+        "syllables": "note",
+        "phonetic": "/nəʊt/",
+        "definition": "A short written comment or explanation.",
+        "example": "Maya added a note beside the expense explaining why it had been necessary.",
+        "emoji": "🗒️"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "How much did the concert raise after expenses?",
+        "options": [
+          "Five hundred pounds",
+          "One thousand pounds",
+          "More than three thousand pounds",
+          "Ten thousand pounds"
+        ],
+        "answerIndex": 2,
+        "explanation": "The concert had raised more than three thousand pounds after all expenses."
+      },
+      {
+        "question": "How much did a local business donate?",
+        "options": [
+          "Fifty pounds",
+          "One hundred pounds",
+          "Two hundred pounds",
+          "Five hundred pounds"
+        ],
+        "answerIndex": 2,
+        "explanation": "A local business donated two hundred pounds but did not ask for control over the programme."
+      },
+      {
+        "question": "What had to be paid for from the emergency reserve?",
+        "options": [
+          "Extra programmes",
+          "A broken cable",
+          "More tickets",
+          "New chairs"
+        ],
+        "answerIndex": 1,
+        "explanation": "During rehearsals, a broken cable required immediate replacement from the emergency reserve."
+      }
+    ],
+    "funPrompt": "If your class organised a concert for charity, what would you spend money on first?"
+  },
+  {
+    "id": 580,
+    "day": 80,
+    "track": "advanced",
+    "title": "Opening a School Makerspace",
+    "coverEmoji": "🛠️",
+    "category": "Design & Teamwork",
+    "level": "Advanced",
+    "readingTime": "7 mins",
+    "intro": "An unused storeroom becomes a makerspace where failure is treated as useful evidence.",
+    "wordCount": 384,
+    "paragraphs": [
+      "A makerspace gives students a safe place to design, build, test, and improve practical ideas. Our school converted an unused storeroom into a shared workshop for creative projects. The technology teacher asked students to help plan the layout before any equipment arrived. We placed sturdy workbenches near the centre and kept clear routes to both exits. Lockable cabinets stored sharp tools, batteries, adhesives, and delicate electronic parts.",
+      "Every tool received a label showing its purpose, safety rules, and correct storage position. A coloured floor line marked the area where protective glasses were always required. The school installed a ventilation unit beside the soldering bench. Students completed a safety induction before booking time in the workshop. The first group designed a simple model bridge using card, wooden sticks, and string.",
+      "They tested the model by adding small weights one at a time. When one joint failed, the team examined the break and reinforced the weak connection. Another group used a three-dimensional printer to produce a replacement handle for a cupboard. The printer built the object in thin layers according to a digital design file. Students learned that accurate measurements save material and reduce printing time.",
+      "Maya created a tool board so missing equipment could be noticed immediately. Tom programmed a small sensor to switch off lights when the space was empty. The energy-saving device became the first permanent invention made in the room. Teachers from art, science, and computing began to share the workshop for joint projects. An art class built moving sculptures, while science pupils tested lightweight wind turbines.",
+      "The makerspace also hosted a repair afternoon for broken toys and household objects. Volunteers repaired loose wires, replaced simple parts, and explained when an item was unsafe to fix. Repairing existing products reduced waste and showed how objects are assembled. Students kept a project record containing sketches, test results, and design changes. The record helped later teams avoid repeating the same unsuccessful attempts.",
+      "A local engineer visited monthly to review complex designs and discuss career paths. She praised students who tested patiently and changed their ideas after failure. At the opening exhibition, families explored models, repaired objects, and energy-saving devices. The new workshop made practical learning more visible across the whole school. By treating failure as useful evidence, the makerspace encouraged curiosity, resilience, and cooperation."
+    ],
+    "vocabulary": [
+      {
+        "word": "workshop",
+        "syllables": "work-shop",
+        "phonetic": "/ˈwɜːkʃɒp/",
+        "definition": "A room or building where things are made or repaired.",
+        "example": "Our school converted an unused storeroom into a shared workshop for creative projects.",
+        "emoji": "🔧"
+      },
+      {
+        "word": "tool",
+        "syllables": "tool",
+        "phonetic": "/tuːl/",
+        "definition": "An object you hold and use to do a job.",
+        "example": "Every tool received a label showing its purpose, safety rules, and correct storage position.",
+        "emoji": "🪛"
+      },
+      {
+        "word": "model",
+        "syllables": "mod-el",
+        "phonetic": "/ˈmɒdl/",
+        "definition": "A small copy of something, often used for testing.",
+        "example": "The first group designed a simple model bridge using card, wooden sticks, and string.",
+        "emoji": "🌉"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "What was the unused storeroom turned into?",
+        "options": [
+          "A library",
+          "A shared workshop",
+          "A canteen",
+          "A music room"
+        ],
+        "answerIndex": 1,
+        "explanation": "Our school converted an unused storeroom into a shared workshop for creative projects."
+      },
+      {
+        "question": "What did Tom program the sensor to do?",
+        "options": [
+          "Open the door",
+          "Switch off lights when the space was empty",
+          "Count tools",
+          "Print labels"
+        ],
+        "answerIndex": 1,
+        "explanation": "Tom programmed a small sensor to switch off lights when the space was empty."
+      },
+      {
+        "question": "What did the 3D printer make?",
+        "options": [
+          "A bridge model",
+          "A replacement handle for a cupboard",
+          "A toy car",
+          "A tool board"
+        ],
+        "answerIndex": 1,
+        "explanation": "Another group used a three-dimensional printer to produce a replacement handle for a cupboard."
+      }
+    ],
+    "funPrompt": "What would you make first if your school had a makerspace?"
   }
 ];
 
