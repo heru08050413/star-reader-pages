@@ -280,9 +280,14 @@ function renderStoryContent(story) {
           openVocabModal(vData);
         };
       } else {
-        span.title = `Click for meaning of "${cleanWord}"`;
+        span.title = `Tap to hear "${cleanWord}" · double-tap for meaning`;
         span.onclick = (e) => {
           e.stopPropagation();
+          speakWord(cleanWord);
+        };
+        span.ondblclick = (e) => {
+          e.stopPropagation();
+          e.preventDefault();
           playClickPop();
           handleWordClick(cleanWord);
         };
@@ -537,10 +542,17 @@ function openVocabModal(vData) {
   document.getElementById("modalDefinition").textContent = vData.definition || longmanDefs[0] || "—";
   document.getElementById("modalExample").textContent = vData.example ? `"${vData.example}"` : "";
 
+  // Words looked up on the fly have no "meaning in this story", so hide that block
+  // and show the Longman entry instead.
+  const meaningSection = document.getElementById("modalMeaningSection");
+  if (meaningSection) {
+    meaningSection.style.display = vData.lookupOnly ? "none" : "block";
+  }
+
   const longmanSection = document.getElementById("modalLongmanSection");
   const longmanList = document.getElementById("modalLongman");
   if (longmanSection && longmanList) {
-    if (longmanDefs.length && !vData.lookupOnly) {
+    if (longmanDefs.length) {
       longmanList.innerHTML = longmanDefs.map(d => `<li>${d}</li>`).join("");
       longmanSection.style.display = "block";
     } else {
