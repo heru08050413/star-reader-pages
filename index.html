@@ -452,11 +452,15 @@
       <div class="shadow-tip">点任意单词可以单独听它的发音</div>
       <div class="shadow-controls">
         <button class="btn btn-outline btn-sm" id="shadowListenBtn" onclick="shadowPlayTarget()">🔊 听标准音</button>
-        <button class="btn btn-primary btn-sm" id="shadowScoreBtn" onclick="startShadowScore()">🎯 跟读评分</button>
-        <button class="btn btn-outline btn-sm" id="shadowRecordBtn" onclick="startShadowRecord()">🎧 录音对比</button>
+        <button class="btn btn-primary btn-sm" id="shadowMicBtn" onclick="shadowToggle()">🎤 开始跟读</button>
         <button class="btn btn-outline btn-sm" id="shadowReplayBtn" onclick="shadowPlayMine()" style="display:none;">▶ 听我的</button>
         <button class="btn btn-outline btn-sm" onclick="shadowReset()">↺ 重来</button>
       </div>
+
+      <label class="shadow-opt">
+        <input type="checkbox" id="shadowScoringToggle" onchange="shadowSetScoring(this.checked)">
+        <span>同时评分（如果卡顿，取消勾选后只用录音）</span>
+      </label>
       <div class="shadow-status" id="shadowStatus"></div>
       <div class="shadow-result" id="shadowResult"></div>
     </div>
