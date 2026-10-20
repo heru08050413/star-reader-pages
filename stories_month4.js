@@ -1800,7 +1800,7 @@ const MONTH4_STORIES = [
       "The high-speed photocopier jammed halfway through the job, causing a short delay. Sarah calmly opened the machine, removed the trapped paper and started printing again. Her quick problem-solving earned praise from the office supervisor.",
       "At noon, the staff met in the staff room for a well-deserved lunch break. Sarah shared a sandwich and an apple with her friendly colleague Mark.",
       "In the afternoon, Sarah went to a client presentation in the main conference hall. She ran the digital projector and handed out information leaflets. A guest speaker gave an inspiring talk on international market trends. Sarah took detailed notes in her notebook for future use.",
-      "By five o'clock, all her tasks were finished. She packed her case. The office manager thanked her sincerely for her hard work. The internship gave Sarah useful insights into professional life. Working in a team teaches young people the value of teamwork. Punctuality, clear communication and flexibility are key skills for any office job."
+      "By five o'clock, all her tasks were finished. She packed her case. The office manager thanked her sincerely for her hard work. The internship gave Sarah useful insights into professional life. Working in a team teaches young people the value of cooperation. Punctuality, clear communication and flexibility are key skills for any office job."
     ],
     "vocabulary": [
       {
