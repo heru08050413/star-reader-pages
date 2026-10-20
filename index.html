@@ -434,6 +434,27 @@
     </div>
   </div>
 
+  <!-- ==========================================
+       SHADOWING PANEL (read a sentence aloud, get feedback)
+       ========================================== -->
+  <div class="shadow-panel" id="shadowPanel">
+    <div class="shadow-inner">
+      <div class="shadow-head">
+        <strong>🎤 跟读练习</strong>
+        <button class="shadow-close" onclick="closeShadowPanel()" aria-label="Close">✕</button>
+      </div>
+      <div class="shadow-target" id="shadowTarget"></div>
+      <div class="shadow-controls">
+        <button class="btn btn-outline btn-sm" id="shadowListenBtn" onclick="shadowPlayTarget()">🔊 听标准音</button>
+        <button class="btn btn-primary btn-sm" id="shadowMicBtn" onclick="shadowToggleRecord()">🎤 开始跟读</button>
+        <button class="btn btn-outline btn-sm" id="shadowReplayBtn" onclick="shadowPlayMine()" style="display:none;">▶ 听我的</button>
+        <button class="btn btn-outline btn-sm" onclick="shadowReset()">↺ 重来</button>
+      </div>
+      <div class="shadow-status" id="shadowStatus"></div>
+      <div class="shadow-result" id="shadowResult"></div>
+    </div>
+  </div>
+
   <!-- Application Logic -->
   <script src="stories.js"></script>
   <script src="stories_month2.js"></script>
