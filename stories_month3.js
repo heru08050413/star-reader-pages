@@ -14,16 +14,16 @@ const MONTH3_STORIES = [
     "coverEmoji": "🏫",
     "category": "School Life",
     "level": "Explorer",
-    "readingTime": "6 mins",
+    "readingTime": "5 mins",
     "intro": "Leo has a very full school day, from the morning bus to the last bell.",
-    "wordCount": 265,
+    "wordCount": 243,
     "paragraphs": [
-      "Today was a very busy day for Leo at school. He woke up early because he did not want to miss the bus. He got on the bus on time and looked out of the window.",
+      "Today was a very busy day for Leo at school. He woke up early because he did not want to miss the bus. He got on the bus on time.",
       "In the first lesson, the teacher wrote the project aim on the blackboard. Leo listened carefully and took notes in his new notebook. His best friend Sam sat next to him and showed him a funny cartoon. Leo told him to stop because the teacher was strict.",
       "In English class, they read the second act of a famous play. The teacher asked Leo to act as an old hero. At first he felt nervous, but his pronunciation was very good.",
       "When the bell rang, the students went to the playground. Sam's phone battery was dead. He asked Leo where he could charge it. The science club teacher let him use a socket in the lab.",
-      "At noon, everyone had lunch in the canteen. Leo ate soup and salad and drank orange juice. The boys argued about which team would win the football match. Sam thought their school team would win. Leo said the other team's new striker was very fast.",
-      "In the afternoon, the class booked museum tickets online. Leo used the library app on his tablet to find a book. He wanted an encyclopedia, but all copies were out. The librarian told him to download a digital copy.",
+      "At noon, everyone had lunch in the canteen. Leo ate soup and salad and drank orange juice. The boys argued about the football match. Sam thought their school team would win. Leo said the other team's new striker was very fast.",
+      "In the afternoon, the class booked museum tickets online. Leo wanted an encyclopedia, but all copies were out. The librarian told him to download a digital copy.",
       "Before school ended, the headteacher spoke in the hall. She praised the students for their charity work. Leo packed his bag and went home. He felt tired but very happy."
     ],
     "vocabulary": [
@@ -40,7 +40,7 @@ const MONTH3_STORIES = [
         "syllables": "match",
         "phonetic": "/mætʃ/",
         "definition": "A game between two teams or players.",
-        "example": "The boys argued about which team would win the football match.",
+        "example": "The boys argued about the football match.",
         "emoji": "⚽"
       },
       {
@@ -178,17 +178,17 @@ const MONTH3_STORIES = [
     "coverEmoji": "🏔️",
     "category": "Nature & Adventure",
     "level": "Explorer",
-    "readingTime": "6 mins",
+    "readingTime": "5 mins",
     "intro": "Two brothers hike a mountain, see a deer and learn to take care of the wild.",
-    "wordCount": 261,
+    "wordCount": 232,
     "paragraphs": [
       "Early on Sunday morning, Mark and his older brother packed their bags for a mountain walk. They took a tent, warm sleeping bags and a strong torch. They took a bus and reached the green valley at eight o'clock. Mark wore strong boots for the rough ground.",
-      "His brother told him to walk slowly and not get too tired. They walked along a narrow path. Mark stopped to take photos of wild plants. From the cliff, they could see a lake far below.",
+      "They walked along a narrow path. Mark stopped to take photos of wild plants. From the cliff, they could see a lake far below.",
       "Suddenly, they heard a loud crack in the forest. A shy deer came out of the bushes. It looked at them for a moment and then ran away.",
-      "At midday, they reached a rocky flat area and had lunch. They sat on a stone and ate sandwiches and apples. Mark checked his compass to see the right way. His brother explained how old explorers used the sun to find their way. After lunch, they picked up all their rubbish to protect the animals.",
+      "At midday, they reached a rocky flat area and had lunch. They sat on a stone and ate sandwiches and apples. His brother explained how old explorers used the sun to find their way. After lunch, they picked up all their rubbish to protect the animals.",
       "While climbing the highest part, Mark felt pain in his left knee. His brother told him to rest by a big rock. After a short rest, Mark felt better and could walk again.",
       "At the top, they could see the whole valley. Mark felt very proud. The way down was slippery because of small stones.",
-      "In the late afternoon, they came back to a small village. They went into a guesthouse and a friendly host gave them hot tea. Mark wrote about the trip in his diary. Both brothers agreed it was a great weekend."
+      "In the late afternoon, they came back to a small village. They went into a guesthouse and a friendly host gave them hot tea. Both brothers agreed it was a great weekend."
     ],
     "vocabulary": [
       {
