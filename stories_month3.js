@@ -1676,7 +1676,7 @@ const MONTH3_STORIES = [
         "syllables": "con-cierge",
         "phonetic": "/ˈkɒnsieəʒ/",
         "definition": "A hotel worker who helps guests with maps, trips and information.",
-        "example": "The concierge gave us a walking map",
+        "example": "The concierge gave us a walking map and advised us to wear strong boots, because the paths were wet.",
         "emoji": "🛎️"
       }
     ],
@@ -1892,11 +1892,11 @@ const MONTH3_STORIES = [
     "level": "Explorer",
     "readingTime": "5 mins",
     "intro": "A school turns recycling bins, compost and motion sensors into a thirty-percent cut in waste charges.",
-    "wordCount": 248,
+    "wordCount": 247,
     "paragraphs": [
       "Protecting the environment is one of the most important jobs for our society. Every person can help by adopting green habits. Last term, our school started a green campus project. The aim was to cut energy waste and plastic litter. We put colour-coded recycling bins in every room and corridor.",
       "Blue bins were for paper, green for glass and yellow for plastic. Student monitors checked the bins every day to make sure the sorting was correct. Putting food waste with paper was not allowed.",
-      "In the canteen, we replaced plastic forks and cups with metal ones. Students were asked to bring reusable water bottles instead of buying drinks in bottles. The canteen staff began composting fruit and vegetable peelings. The compost was later used in the school garden.",
+      "In the canteen, we replaced plastic forks and cups with metal ones. Students were asked to bring reusable water bottles instead of buying bottled drinks. The canteen staff began composting fruit and vegetable peelings. The compost was later used in the school garden.",
       "To save electricity, classrooms installed motion sensors. When a room was empty for ten minutes, the lights turned off. Teachers reminded students to switch off monitors before leaving.",
       "The school also held a weekly 'Walk to School' challenge. Many pupils cycled or walked together. Leaving cars at home reduced traffic near the school gate.",
       "In art class, students reused old boxes and cans. They made pencil holders and plant pots. A special show displayed these things in the library. Parents came to see the displays and learn tips.",
@@ -1908,7 +1908,7 @@ const MONTH3_STORIES = [
         "syllables": "re-us-a-ble",
         "phonetic": "/ˌriːˈjuːzəbl/",
         "definition": "Something you can use again instead of throwing away.",
-        "example": "Students were asked to bring reusable water bottles instead of buying drinks in bottles.",
+        "example": "Students were asked to bring reusable water bottles instead of buying bottled drinks.",
         "emoji": "🥤"
       },
       {
@@ -1974,7 +1974,7 @@ const MONTH3_STORIES = [
     "level": "Explorer",
     "readingTime": "5 mins",
     "intro": "A harvest festival of giant pumpkins, sheep shearing, folk dancing and a charity auction.",
-    "wordCount": 246,
+    "wordCount": 245,
     "paragraphs": [
       "Every autumn, after the crops are gathered, our county celebrates the Harvest Festival. Farmers and families come to the old market square. The square is decorated with golden wheat, orange pumpkins and paper streamers. In the centre, a wooden stage holds folk musicians and dancers. They play happy tunes on violins, flutes and accordions.",
       "Around the square, stalls sell fresh produce. Visitors can taste sweet apples, wild honey and berry jam. Local bakers show crusty bread, fruit pies and ginger biscuits.",
@@ -1982,7 +1982,7 @@ const MONTH3_STORIES = [
       "Nearby, a petting area lets younger children meet farm animals.",
       "A sheep shearer gives a demonstration. He shows how wool is cut from the sheep with hand shears. He explains that wool is a natural and renewable material. In the craft tent, a woodcarver makes small animals from fallen branches. Visitors can buy wooden bowls, baskets and tablecloths.",
       "At four o'clock, the mayor speaks. She thanks the farming families for their hard work. She says farmers provide the food that keeps society healthy.",
-      "Then a charity auction sells the prize-winning fruits and vegetables. The money goes to the village children's clinic. As evening comes, fairy lights glow over the stalls. A barn dance begins in the community hall. Families walk home under a full harvest moon, full of gratitude."
+      "Then a charity auction sells the prize-winning fruits and vegetables. The money goes to the village children's clinic. As evening comes, fairy lights glow over the stalls. A barn dance begins in the community hall. Families walk home under a full harvest moon, feeling grateful."
     ],
     "vocabulary": [
       {
@@ -2223,7 +2223,7 @@ const MONTH3_STORIES = [
     "intro": "Four hundred kilometres in two hours: a morning on a high-speed train.",
     "wordCount": 241,
     "paragraphs": [
-      "Travelling by high-speed train is one of the best ways to move across land. On Monday morning, Daniel arrived at the busy central station. Daniel looked at the big electronic departures board to find his train. Train G104 to London would leave on time from Platform Nine.",
+      "Travelling by high-speed train is one of the best ways to move across land. On Monday morning, Daniel arrived at the busy central station. He looked at the big electronic departures board to find his train. Train G104 to London would leave on time from Platform Nine.",
       "He touched his mobile ticket on the barrier to enter. On the clean platform, he found carriage four and stepped on board. The carriage was bright, cool and very quiet. Daniel found his reserved window seat and lifted his small suitcase onto the overhead rack. The seat was soft.",
       "At eight o'clock, the train left with barely a sound. Within five minutes, it reached three hundred kilometres per hour. Looking out of the wide window, Daniel watched the city give way to green fields. The train crossed old rivers, went through mountain tunnels and passed quiet villages. Daniel plugged in his laptop and did some homework.",
       "The smooth ride meant he could type without shaking. Halfway through the two-hour journey, a steward pushed a trolley down the aisle. Daniel bought hot black tea and a fresh blueberry muffin. The steward took payment with a small contactless card reader.",
