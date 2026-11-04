@@ -349,7 +349,15 @@ function loadStory(id) {
   saveState();
 
   // Header Elements
-  document.getElementById("readerDayTag").textContent = `Day ${story.day || story.id}`;
+  if (story.track === "nce1") {
+    document.getElementById("readerDayTag").textContent = `📗 NCE 1 • Lesson ${story.lessonNum || (story.day * 2 - 1)}`;
+  } else if (story.track === "nce2") {
+    document.getElementById("readerDayTag").textContent = `📘 NCE 2 • Lesson ${story.day}`;
+  } else if (story.track === "advanced") {
+    document.getElementById("readerDayTag").textContent = `⭐ Adv ${story.day || story.id}`;
+  } else {
+    document.getElementById("readerDayTag").textContent = `Day ${story.day || story.id}`;
+  }
   document.getElementById("readerLevelTag").textContent = story.levelBadge || story.level || "Explorer";
   document.getElementById("readerTimeTag").textContent = `⏱️ ${story.readingTime || "3-5 mins"}`;
   document.getElementById("readerWordCountTag").textContent = `${story.wordCount || 120} words`;
@@ -374,10 +382,20 @@ function loadStory(id) {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
+function extractSpeakerPrefix(text) {
+  const m = String(text || "").match(/^([A-Z0-9][A-Za-z0-9 .'\-]{0,22}):\s+([\s\S]+)$/);
+  if (!m) return { speaker: "", content: String(text || "") };
+  return { speaker: m[1].trim(), content: m[2].trim() };
+}
+
 // Sentences are the unit of playback: one tap = hear that sentence again.
 function splitSentences(text) {
-  return (text.match(/[^.!?]+[.!?]+["'”’]?|[^.!?]+$/g) || [text])
-    .map(s => s.trim())
+  const { content } = extractSpeakerPrefix(text);
+  if (!content) return [];
+  const PLACEHOLDER = "\u0000";
+  const safe = content.replace(/\b(Mr|Mrs|Ms|Dr|Prof|St|No|Jr|Sr|vs|etc)\./gi, `$1${PLACEHOLDER}`);
+  return (safe.match(/[^.!?]+[.!?]+["'”’)\]]*|[^.!?]+$/g) || [safe])
+    .map(s => s.replace(/\u0000/g, ".").trim())
     .filter(Boolean);
 }
 
@@ -385,12 +403,27 @@ function renderStoryContent(story) {
   const container = document.getElementById("storyContentArea");
   container.innerHTML = "";
 
+  if ((story.track === "nce1" || story.track === "nce2") && story.intro) {
+    const guideBox = document.createElement("div");
+    guideBox.className = "nce-guide-box";
+    guideBox.innerHTML = `<div class="nce-guide-title">💡 导读与语法提示 (Reading Guide & Grammar Focus)</div><div class="nce-guide-body">${story.intro.replace(/\n/g, "<br>")}</div>`;
+    container.appendChild(guideBox);
+  }
+
   const vocabWords = (story.vocabulary || []).map(v => v.word.toLowerCase());
 
   story.paragraphs.forEach((pText, pIndex) => {
     const pEl = document.createElement("p");
     pEl.className = "story-paragraph";
     pEl.id = `para-${pIndex}`;
+
+    const { speaker } = extractSpeakerPrefix(pText);
+    if (speaker) {
+      const spBadge = document.createElement("span");
+      spBadge.className = "speaker-badge";
+      spBadge.textContent = `${speaker}:`;
+      pEl.appendChild(spBadge);
+    }
 
     splitSentences(pText).forEach((sentText, sIndex) => {
       const sentEl = document.createElement("span");
@@ -1039,8 +1072,8 @@ function renderStoryLibrary() {
 
   const allStories = getAllStories();
 
-  // Advanced stories live in their own tab; core views only show the daily track
-  const coreStories = allStories.filter(s => s.track !== 'advanced');
+  // Separate tracks (advanced, nce1, nce2) live in their own tabs; core views only show the daily track
+  const coreStories = allStories.filter(s => !s.track);
 
   let filtered = coreStories;
 
@@ -1052,6 +1085,10 @@ function renderStoryLibrary() {
     filtered = coreStories.filter(s => (s.day || s.id) >= 61 && (s.day || s.id) <= 100);
   } else if (currentFilterView === 'month4') {
     filtered = coreStories.filter(s => (s.day || s.id) >= 101 && (s.day || s.id) <= 140);
+  } else if (currentFilterView === 'nce1') {
+    filtered = allStories.filter(s => s.track === 'nce1');
+  } else if (currentFilterView === 'nce2') {
+    filtered = allStories.filter(s => s.track === 'nce2');
   } else if (currentFilterView === 'advanced') {
     filtered = allStories.filter(s => s.track === 'advanced');
   } else if (currentFilterView === 'custom') {
@@ -1093,11 +1130,19 @@ function renderStoryLibrary() {
       navigateToTab("reader");
     };
 
+    const dayBadgeText = story.track === 'nce1'
+      ? `📗 NCE1 • L${story.lessonNum || (story.day * 2 - 1)}`
+      : story.track === 'nce2'
+      ? `📘 NCE2 • L${story.day}`
+      : story.track === 'advanced'
+      ? `⭐ Adv ${story.day || story.id}`
+      : `Day ${story.day || story.id}`;
+
     card.innerHTML = `
       <div class="card-top">
         <span class="card-emoji">${story.coverEmoji || '📖'}</span>
         <div style="display:flex; align-items:center; gap:0.4rem;">
-          <span class="card-day-badge">${story.track === 'advanced' ? '⭐ Adv ' + (story.day || story.id) : 'Day ' + (story.day || story.id)}</span>
+          <span class="card-day-badge">${dayBadgeText}</span>
           ${isCompleted ? '<span class="card-completed-badge" title="Completed">⭐</span>' : ''}
         </div>
       </div>
